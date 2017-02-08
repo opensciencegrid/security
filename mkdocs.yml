@@ -1,0 +1,15 @@
+site_name: OSG Documentation
+site_url: https://opensciencegrid.github.io/security
+repo_url: https://github.com/opensciencegrid/security
+theme: readthedocs
+
+extra_css:
+  - css/extra.css
+
+pages:
+- Home: 'index.md'
+
+markdown_extensions:
+  - admonition
+  - osg_markdown.colors
+
