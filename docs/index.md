@@ -5,7 +5,7 @@
 
 -   Welcome to OSG Security
     -   [Goals and purpose](GoalsPurpose)
-    -   [Security and certificates FAQ](Documentation/OsgFaq\#Security_and_Certificates)
+    -   [Security and certificates FAQ](OSGFAQ)
     -   [Policies and procedures](Documentation.PoliciesProcedures)
     -   [OSG Security Team Blog](http://osgsec.blogspot.com/) - Latest notifications and announcements from the security team
     -   [Team members](SecurityTeamMembers)
