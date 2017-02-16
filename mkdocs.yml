@@ -10,7 +10,7 @@ pages:
 - Home: 'index.md'
 - IncidentDiscoveryReporting: 'IncidentDiscoveryReporting.md'
 - GoalsPurpose: 'GoalsPurpose.md'
-- OSQFAQ: 'OSQFAQ.md'
+- OSQFAQ: 'OSGFAQ.md'
 
 markdown_extensions:
   - admonition
