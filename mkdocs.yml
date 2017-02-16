@@ -8,8 +8,7 @@ extra_css:
 
 pages:
 - Home: 'index.md'
-- Documentation:
-  - IncidentDiscoveryReporting: 'IncidentDiscoveryReporting.md'
+- IncidentDiscoveryReporting: 'IncidentDiscoveryReporting.md'
 
 markdown_extensions:
   - admonition
