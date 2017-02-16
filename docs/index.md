@@ -1,7 +1,7 @@
 # OSG Security
 
 -   URGENT
-    -   [Incident Discovery and Reporting](Documentation.IncidentDiscoveryReporting)
+    -   [Incident Discovery and Reporting](IncidentDiscoveryReporting)
 
 -   Welcome to OSG Security
     -   [Goals and purpose](GoalsPurpose)
