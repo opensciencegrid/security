@@ -9,6 +9,36 @@
             "location": "/#osg-security", 
             "text": "URGENT   Incident Discovery and Reporting     Welcome to OSG Security   Goals and purpose  Security and certificates FAQ  Policies and procedures  OSG Security Team Blog  - Latest notifications and announcements from the security team  Team members  Email lists  Secure Email     Security Awareness for OSG Participants   Security Awareness  User Responsibilities  Site Responsibilities  Best Practices     Certificates   OSG Certificate Service     OSG CA Distribution  Certificate scripts package (doc)     Security Team Protected Working Area    External Working Groups and OSG Representation   Joint Security Policy Group (JSPG)  The Americas Grid PMA (TAGPMA)  International Grid Trust Federation (IGTF)  Middleware Security Working Group (MWSG)  Globus Security Committee  Research and Education Networking Information Sharing and Analysis Center (REN-ISAC)", 
             "title": "OSG Security"
+        }, 
+        {
+            "location": "/IncidentDiscoveryReporting/", 
+            "text": "Incident Discovery and Reporting\n\n\nAbout This Document\n\n\nThis document describes the process of reporting a security incident to the OSG Security Team.\n\n\nReporting a problem\n\n\nIf you suspect a security problem, please \nreport it immediately\n.\n\n\nAlso do NOT forget to report security incidents to your \nlocal/home organization's\n incident response team.\n\n\nPlease promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24*7:\n\n\n\n\nSubmit a Ticket\n\n\nCall the Grid Operations Center (GOC) at +1 317-278-9699.\n\n\nSend email to \n. If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.\n\n\n\n\nPlease include the following information in your report:\n\n\n\n\nYour name:\n\n\nYour email address:\n\n\nYour phone number:\n\n\nAn alternate number such as a cell phone:\n\n\nWhat is your affiliation with the OSG? Which Virtual Organization are you a member of?\n\n\nDid this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have\n\n\nDo you think your your grid identity (certificate and/or proxy) compromised?\n\n\nA description of the incident, including time(s), systems and user accounts involved, and any related event ()\n\n\nAny additional comments or questions you have\n\n\n\n\nThank you for reporting security incidents promptly.\n\n\nWhat to Do After an Incident is Reported\n\n\nAfter reporting an incident, follow \nthe first steps for dealing with an incident\n.\n\n\nComments\n\n\n\n\n--", 
+            "title": "IncidentDiscoveryReporting"
+        }, 
+        {
+            "location": "/IncidentDiscoveryReporting/#incident-discovery-and-reporting", 
+            "text": "", 
+            "title": "Incident Discovery and Reporting"
+        }, 
+        {
+            "location": "/IncidentDiscoveryReporting/#about-this-document", 
+            "text": "This document describes the process of reporting a security incident to the OSG Security Team.", 
+            "title": "About This Document"
+        }, 
+        {
+            "location": "/IncidentDiscoveryReporting/#reporting-a-problem", 
+            "text": "If you suspect a security problem, please  report it immediately .  Also do NOT forget to report security incidents to your  local/home organization's  incident response team.  Please promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24*7:   Submit a Ticket  Call the Grid Operations Center (GOC) at +1 317-278-9699.  Send email to  . If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.   Please include the following information in your report:   Your name:  Your email address:  Your phone number:  An alternate number such as a cell phone:  What is your affiliation with the OSG? Which Virtual Organization are you a member of?  Did this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have  Do you think your your grid identity (certificate and/or proxy) compromised?  A description of the incident, including time(s), systems and user accounts involved, and any related event ()  Any additional comments or questions you have   Thank you for reporting security incidents promptly.", 
+            "title": "Reporting a problem"
+        }, 
+        {
+            "location": "/IncidentDiscoveryReporting/#what-to-do-after-an-incident-is-reported", 
+            "text": "After reporting an incident, follow  the first steps for dealing with an incident .", 
+            "title": "What to Do After an Incident is Reported"
+        }, 
+        {
+            "location": "/IncidentDiscoveryReporting/#comments", 
+            "text": "--", 
+            "title": "Comments"
         }
     ]
 }
