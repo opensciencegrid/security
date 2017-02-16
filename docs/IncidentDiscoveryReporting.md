@@ -38,9 +38,3 @@ What to Do After an Incident is Reported
 
 After reporting an incident, follow [the first steps for dealing with an incident](Documentation.IncidentFirstSteps).
 
-Comments
---------
-
-<span class="twiki-macro COMMENT" type="tableappend"></span>
-
---
