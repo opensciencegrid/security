@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/IncidentDiscoveryReporting/", 
-            "text": "Incident Discovery and Reporting\n\n\nAbout This Document\n\n\nThis document describes the process of reporting a security incident to the OSG Security Team.\n\n\nReporting a problem\n\n\nIf you suspect a security problem, please \nreport it immediately\n.\n\n\nAlso do NOT forget to report security incidents to your \nlocal/home organization's\n incident response team.\n\n\nPlease promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24*7:\n\n\n\n\nSubmit a Ticket\n\n\nCall the Grid Operations Center (GOC) at +1 317-278-9699.\n\n\nSend email to \n. If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.\n\n\n\n\nPlease include the following information in your report:\n\n\n\n\nYour name:\n\n\nYour email address:\n\n\nYour phone number:\n\n\nAn alternate number such as a cell phone:\n\n\nWhat is your affiliation with the OSG? Which Virtual Organization are you a member of?\n\n\nDid this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have\n\n\nDo you think your your grid identity (certificate and/or proxy) compromised?\n\n\nA description of the incident, including time(s), systems and user accounts involved, and any related event ()\n\n\nAny additional comments or questions you have\n\n\n\n\nThank you for reporting security incidents promptly.\n\n\nWhat to Do After an Incident is Reported\n\n\nAfter reporting an incident, follow \nthe first steps for dealing with an incident\n.\n\n\nComments\n\n\n\n\n--", 
+            "text": "Incident Discovery and Reporting\n\n\nAbout This Document\n\n\nThis document describes the process of reporting a security incident to the OSG Security Team.\n\n\nReporting a problem\n\n\nIf you suspect a security problem, please \nreport it immediately\n.\n\n\nAlso do NOT forget to report security incidents to your \nlocal/home organization's\n incident response team.\n\n\nPlease promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24*7:\n\n\n\n\nSubmit a Ticket\n\n\nCall the Grid Operations Center (GOC) at +1 317-278-9699.\n\n\nSend email to \n. If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.\n\n\n\n\nPlease include the following information in your report:\n\n\n\n\nYour name:\n\n\nYour email address:\n\n\nYour phone number:\n\n\nAn alternate number such as a cell phone:\n\n\nWhat is your affiliation with the OSG? Which Virtual Organization are you a member of?\n\n\nDid this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have\n\n\nDo you think your your grid identity (certificate and/or proxy) compromised?\n\n\nA description of the incident, including time(s), systems and user accounts involved, and any related event ()\n\n\nAny additional comments or questions you have\n\n\n\n\nThank you for reporting security incidents promptly.\n\n\nWhat to Do After an Incident is Reported\n\n\nAfter reporting an incident, follow \nthe first steps for dealing with an incident\n.", 
             "title": "IncidentDiscoveryReporting"
         }, 
         {
@@ -34,11 +34,6 @@
             "location": "/IncidentDiscoveryReporting/#what-to-do-after-an-incident-is-reported", 
             "text": "After reporting an incident, follow  the first steps for dealing with an incident .", 
             "title": "What to Do After an Incident is Reported"
-        }, 
-        {
-            "location": "/IncidentDiscoveryReporting/#comments", 
-            "text": "--", 
-            "title": "Comments"
         }
     ]
 }
