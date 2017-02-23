@@ -41,12 +41,12 @@ Getting Started
   
   Applications that require:
   
-    * Input from the user during execution. However, applications of this kind can often be rewritten so as to not require the interaction, or to decrease it to levels where the grid's resources can provide substantial runtime improvements.
-    * A large ammount of inter-process communication between jobs (for example, needing MPI); very few sites are currently MPI-enabled.
-    * Strict schedules and dependencies on external data sources.
-    * Excessive bandwidth between sites.
-    * Firm and nonstandard system dependencies.
-    * Inter-process communication on the grid servers, including complex job flows network ports or protocols that are not disallowed at the grid site. For the most part it is preferable to pre-stage the data at the site rather than pull in large datasets. 
+* Input from the user during execution. However, applications of this kind can often be rewritten so as to not require the interaction, or to decrease it to levels where the grid's resources can provide substantial runtime improvements.
+* A large ammount of inter-process communication between jobs (for example, needing MPI); very few sites are currently MPI-enabled.
+* Strict schedules and dependencies on external data sources.
+* Excessive bandwidth between sites.
+* Firm and nonstandard system dependencies.
+* Inter-process communication on the grid servers, including complex job flows network ports or protocols that are not disallowed at the grid site. For the most part it is preferable to pre-stage the data at the site rather than pull in large datasets. 
     
 (Adapted from Ferreira, et al (2004), [Grid Services Programming and Application Enablement(http://www.redbooks.ibm.com/abstracts/sg246100.html?Open)  pp. 76.)
 
