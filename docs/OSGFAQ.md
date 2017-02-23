@@ -39,7 +39,8 @@ Getting Started
 
 **What application requirements are *NOT* well-suited to the OSG?** 
   
-  Applications that require: 
+  Applications that require:
+  
     * Input from the user during execution. However, applications of this kind can often be rewritten so as to not require the interaction, or to decrease it to levels where the grid's resources can provide substantial runtime improvements.
     * A large ammount of inter-process communication between jobs (for example, needing MPI); very few sites are currently MPI-enabled.
     * Strict schedules and dependencies on external data sources.
