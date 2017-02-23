@@ -8,9 +8,9 @@ extra_css:
 
 pages:
 - Home: 'index.md'
-- IncidentDiscoveryReporting: 'IncidentDiscoveryReporting.md'
-- GoalsPurpose: 'GoalsPurpose.md'
-- OSQFAQ: 'OSQFAQ.md'
+- Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
+- Goals Purpose: 'GoalsPurpose.md'
+- Security & Certification FAQ: 'OSGFAQ.md'
 
 markdown_extensions:
   - admonition
