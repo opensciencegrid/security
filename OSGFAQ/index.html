@@ -137,23 +137,23 @@
               
                 <h1 id="frequently-asked-questions-about-the-open-science-grid">Frequently Asked Questions about the Open Science Grid</h1>
 <h2 id="general-information">General Information</h2>
-<p><strong>What is the Open Science Grid (OSG)?</strong> 
-  -The Open Science Grid brings together a distributed, peta-scale computing and storage resources into a uniform shared cyberinfrastructure for large-scale scientific research. It is built and operated by a consortium of universities, national laboratories, scientific collaborations and software developers. <a href="../Documentation.WhatIsOSG">Read more...</a></p>
-<p><strong>Who funds the OSG?</strong>
-  -The OSG is supported by the National Science Foundation and the U.S. Department of Energy's Office of Science. Funding for work done at sites and by partners comes from a variety of sources specific to that site or organization.    </p>
-<p><strong>Does OSG control the OSG resources?</strong>
-  -No, individual resource owners do.</p>
-<p><strong>What services are available in the OSG?</strong>
-  -Job submission, data transfer and storage, authentication, accounting, monitoring, central information gathering/publishing, web caching (proxy), and more. <a href="../OverviewOfServicesInOSG">Read more...</a>   </p>
-<p><strong>What is the GLUE schema used in OSG?</strong>
-  -The GLUE Schema is an abstract model for Grid resources that can be used in Grid Information Services. <a href="http://forge.gridforum.org/sf/projects/glue-wg">Read more...</a>    </p>
-<p><strong>Who participates in the OSG?</strong>
-  -The Open Science Grid is a collaboration of science researchers, software developers and computing, storage and network providers who come from universities, national laboratories and computing centers. Although based primarily in the United States, the OSG includes participants in other nations. <a href="../Management.OSGMemberOrganizations">Read more...</a></p>
+<p><strong>What is the Open Science Grid (OSG)?</strong></p>
+<p>The Open Science Grid brings together a distributed, peta-scale computing and storage resources into a uniform shared cyberinfrastructure for large-scale scientific research. It is built and operated by a consortium of universities, national laboratories, scientific collaborations and software developers. <a href="../Documentation.WhatIsOSG">Read more...</a></p>
+<p><strong>Who funds the OSG?</strong></p>
+<p>The OSG is supported by the National Science Foundation and the U.S. Department of Energy's Office of Science. Funding for work done at sites and by partners comes from a variety of sources specific to that site or organization.    </p>
+<p><strong>Does OSG control the OSG resources?</strong></p>
+<p>No, individual resource owners do.</p>
+<p><strong>What services are available in the OSG?</strong></p>
+<p>Job submission, data transfer and storage, authentication, accounting, monitoring, central information gathering/publishing, web caching (proxy), and more. <a href="../OverviewOfServicesInOSG">Read more...</a>   </p>
+<p><strong>What is the GLUE schema used in OSG?</strong></p>
+<p>The GLUE Schema is an abstract model for Grid resources that can be used in Grid Information Services. <a href="http://forge.gridforum.org/sf/projects/glue-wg">Read more...</a>    </p>
+<p><strong>Who participates in the OSG?</strong></p>
+<p>The Open Science Grid is a collaboration of science researchers, software developers and computing, storage and network providers who come from universities, national laboratories and computing centers. Although based primarily in the United States, the OSG includes participants in other nations. <a href="../Management.OSGMemberOrganizations">Read more...</a></p>
 <h2 id="getting-started">Getting Started</h2>
-<p><strong>Where can I get funding to convert my applications to parallelism needed on the OSG?</strong>
-  -The OSG can provide assistance with <a href="../Documentation.Release3.WebHome">installation and administration of OSG sites</a>, installation and use of <a href="../Documentation.Release3.InstallOSGClient">client software</a> to run grid jobs on the OSG, and <a href="../Documentation.UserHelp">User Help</a> in enabling your application for the grid. But the OSG does not provide funding for this process.   </p>
-<p><strong>What application requirements are <em>NOT</em> well-suited to the OSG?</strong> 
-  -Applications that require: 
+<p><strong>Where can I get funding to convert my applications to parallelism needed on the OSG?</strong></p>
+<p>The OSG can provide assistance with <a href="../Documentation.Release3.WebHome">installation and administration of OSG sites</a>, installation and use of <a href="../Documentation.Release3.InstallOSGClient">client software</a> to run grid jobs on the OSG, and <a href="../Documentation.UserHelp">User Help</a> in enabling your application for the grid. But the OSG does not provide funding for this process.   </p>
+<p><strong>What application requirements are <em>NOT</em> well-suited to the OSG?</strong> </p>
+<p>Applications that require: 
     * Input from the user during execution. However, applications of this kind can often be rewritten so as to not require the interaction, or to decrease it to levels where the grid's resources can provide substantial runtime improvements.
     * A large ammount of inter-process communication between jobs (for example, needing MPI); very few sites are currently MPI-enabled.
     * Strict schedules and dependencies on external data sources.
@@ -161,132 +161,135 @@
     * Firm and nonstandard system dependencies.
     * Inter-process communication on the grid servers, including complex job flows network ports or protocols that are not disallowed at the grid site. For the most part it is preferable to pre-stage the data at the site rather than pull in large datasets. </p>
 <p>(Adapted from Ferreira, et al (2004), [Grid Services Programming and Application Enablement(http://www.redbooks.ibm.com/abstracts/sg246100.html?Open)  pp. 76.)</p>
-<p><strong>How do I use the OSG resources?</strong>
-  To get started using the OSG infrastructure, you must:
+<p><strong>How do I use the OSG resources?</strong></p>
+<p>To get started using the OSG infrastructure, you must:
     1. Join a <a href="https://twiki.grid.iu.edu/bin/view/Documentation/GlossaryOfTerms#DefsVo">Virtual Organization</a> registered with OSG
     2. Download and install the OSG client software, or the customized version for your Virtual Organization
     3. Enable your appllication for grid computing
     4. Submit your job to a resource available to your Virtual Organization</p>
 <p><a href="../Documentation.Release3.NavUserMain">Read more...</a>   </p>
-<p><strong>Where can I get training on how to use the grid?</strong>
-  -The <a href="../Education.WebHome">Education, Training and Outreach activity</a> offers grid schools and workshops in a variety of locations across the US and abroad. Your group can sponsor a grid school at your facility. The grid school tutorial labs are available online and can be done by individuals on their own, requiring only access to an OSG compute element.   </p>
-<p><strong>How do I port my existing application to work on the OSG resources?</strong>
-  -See links under in <a href="../Documentation.Release3.NavUserResources">User Resources</a> and <a href="../PortingYourApplication">Porting Your Application</a>.   </p>
-<p><strong>Is there a glossary of grid computing terms?</strong> Yes, see the <a href="../GlossaryOfTerms">glossary of OSG terms</a>.   </p>
-<p><strong>How do I get permission to edit information on the Page?</strong>
-  1. <a href="https://github.com/opensciencegrid/secuirty">Fork the repository from GitHub</a>
-  2. Submit a pull request to the repository after making changes</p>
+<p><strong>Where can I get training on how to use the grid?</strong></p>
+<p>The <a href="../Education.WebHome">Education, Training and Outreach activity</a> offers grid schools and workshops in a variety of locations across the US and abroad. Your group can sponsor a grid school at your facility. The grid school tutorial labs are available online and can be done by individuals on their own, requiring only access to an OSG compute element.   </p>
+<p><strong>How do I port my existing application to work on the OSG resources?</strong></p>
+<p>See links under in <a href="../Documentation.Release3.NavUserResources">User Resources</a> and <a href="../PortingYourApplication">Porting Your Application</a>. </p>
+<p><strong>Is there a glossary of grid computing terms?</strong></p>
+<p>Yes, see the <a href="../GlossaryOfTerms">glossary of OSG terms</a>.   </p>
+<p><strong>How do I get permission to edit information on the Page?</strong></p>
+<ol>
+<li><a href="https://github.com/opensciencegrid/secuirty">Fork the repository from GitHub</a></li>
+<li>Submit a pull request to the repository after making changes</li>
+</ol>
 <h2 id="virtual-organizations-vo">Virtual Organizations (VO)</h2>
 <p><strong>What is an OSG Virtual Organization (VO)?</strong>
-  -A Virtual Organization (VO) is collection of persons. Members of a VO may come from many different home institutions in geographically separate places, may have in common only a general interest or goal (e.g., CMS physics analysis), and may communicate and coordinate their work solely through information technology (hence the term virtual). <a href="https://twiki.grid.iu.edu/bin/view/Documentation/GlossaryOfTerms#DefsVo">Read more...</a>    </p>
-<p><strong>Do I have to be part of a VO in order to use or contribute to OSG?</strong>
-  -Yes. Learn more about VOs from <a href="../Documentation.WhatIsVO">the Virtual Organizations page</a>.   </p>
-<p><strong>Where do I find which VOs are already registered with OSG?</strong>
-  -See the <a href="https://oim.grid.iu.edu/oim/vo">current VO list</a>.   </p>
-<p><strong>If I'm not part of a registered VO and my research group can't support a VO, what are my options?</strong>
-  -You may join the VO named (confusingly) "OSG".</p>
-<p><strong>How do I join an OSG Virtual Organization (VO)?</strong> 
-  -Different VOs may have different membership requirements and procedures. You will first need to determine which VO is most appropriate for you to join, then either see that VOs web pages or go to the <a href="https://oim.grid.iu.edu/oim/vo">VO List</a> for links to that VO's membership procedures. <a href="../Documentation.WhatIsVO">Read more...</a>   </p>
-<p><strong>So many acronyms start with "VO"; how do I keep them straight?</strong>
-  -Read <a href="https://twiki.grid.iu.edu/bin/view/Documentation/GlossaryOfTerms#DefsVo">VO</a>.   </p>
-<p><strong>How does a VO fit into the OSG?</strong>
-  -Read <a href="../VOAdminInOsg">How does a VO fit into the OSG?</a>.    </p>
-<p><strong>How do I form a new VO?</strong>
-  -<a href="../UserHelp">Contact User Support</a> if you want to form a new VO.   </p>
+ A Virtual Organization (VO) is collection of persons. Members of a VO may come from many different home institutions in geographically separate places, may have in common only a general interest or goal (e.g., CMS physics analysis), and may communicate and coordinate their work solely through information technology (hence the term virtual). <a href="https://twiki.grid.iu.edu/bin/view/Documentation/GlossaryOfTerms#DefsVo">Read more...</a>    </p>
+<p><strong>Do I have to be part of a VO in order to use or contribute to OSG?</strong></p>
+<p>Yes. Learn more about VOs from <a href="../Documentation.WhatIsVO">the Virtual Organizations page</a>.   </p>
+<p><strong>Where do I find which VOs are already registered with OSG?</strong></p>
+<p>See the <a href="https://oim.grid.iu.edu/oim/vo">current VO list</a>.   </p>
+<p><strong>If I'm not part of a registered VO and my research group can't support a VO, what are my options?</strong></p>
+<p>You may join the VO named (confusingly) "OSG".</p>
+<p><strong>How do I join an OSG Virtual Organization (VO)?</strong> </p>
+<p>Different VOs may have different membership requirements and procedures. You will first need to determine which VO is most appropriate for you to join, then either see that VOs web pages or go to the <a href="https://oim.grid.iu.edu/oim/vo">VO List</a> for links to that VO's membership procedures. <a href="../Documentation.WhatIsVO">Read more...</a>   </p>
+<p><strong>So many acronyms start with "VO"; how do I keep them straight?</strong></p>
+<p>Read <a href="https://twiki.grid.iu.edu/bin/view/Documentation/GlossaryOfTerms#DefsVo">VO</a>.   </p>
+<p><strong>How does a VO fit into the OSG?</strong></p>
+<p>Read <a href="../VOAdminInOsg">How does a VO fit into the OSG?</a>.    </p>
+<p><strong>How do I form a new VO?</strong></p>
+<p><a href="../UserHelp">Contact User Support</a> if you want to form a new VO.   </p>
 <h2 id="getting-support">Getting Support</h2>
-<p><strong>How do I get support for problems I encounter while using OSG resources?</strong>
-  -Users typically get support through contacting your <a href="http://myosg.grid.iu.edu/scsummary?datasource=summary&amp;summary_attrs_showdesc=on&amp;all_scs=on&amp;active=on&amp;active_value=1">VO's support center</a>. Site administrators often use the <em>osg-general</em> and <em>osg-int</em> mailing lists. <a href="../UserHelp">Read more about getting user help and support...</a>    </p>
-<p><strong>What is the Grid Operations Center (GOC)?</strong> 
-  -See <a href="../GocWhatIs">What is the Grid Operations Center (GOC)?</a> or go directly to <a href="http://osggoc.blogspot.com/">Grid Operations Center</a>.   </p>
-<p><strong>What OSG mailing lists should I subscribe to?</strong>
-  -The OSG's mailing lists are categorized and described on the <a href="../ContactsMailingLists">mailing lists</a> page. Some are used to distribute announcements, others to provide discussion forums, activity coordination forums, and so on. We suggest that everyone subscribe to <em>OSG</em>, <em>OSGNEWS</em>, and <em>OSG-GENERAL</em> (all <em>@opensciencegrid.org</em>). Further subscriptions should be based on the types of activities you become involved in.   </p>
+<p><strong>How do I get support for problems I encounter while using OSG resources?</strong></p>
+<p>Users typically get support through contacting your <a href="http://myosg.grid.iu.edu/scsummary?datasource=summary&amp;summary_attrs_showdesc=on&amp;all_scs=on&amp;active=on&amp;active_value=1">VO's support center</a>. Site administrators often use the <em>osg-general</em> and <em>osg-int</em> mailing lists. <a href="../UserHelp">Read more about getting user help and support...</a>    </p>
+<p><strong>What is the Grid Operations Center (GOC)?</strong> </p>
+<p>See <a href="../GocWhatIs">What is the Grid Operations Center (GOC)?</a> or go directly to <a href="http://osggoc.blogspot.com/">Grid Operations Center</a>.   </p>
+<p><strong>What OSG mailing lists should I subscribe to?</strong></p>
+<p>The OSG's mailing lists are categorized and described on the <a href="../ContactsMailingLists">mailing lists</a> page. Some are used to distribute announcements, others to provide discussion forums, activity coordination forums, and so on. We suggest that everyone subscribe to <em>OSG</em>, <em>OSGNEWS</em>, and <em>OSG-GENERAL</em> (all <em>@opensciencegrid.org</em>). Further subscriptions should be based on the types of activities you become involved in.   </p>
 <h2 id="running-jobs">Running Jobs</h2>
-<p><strong>How do I run a job on an OSG resource?</strong> 
-  -This is often specific to your particular VO's policies and procedures. However we provide some links under the heading "End Users (Researchers, application users)" on the <a href="../WebHome">Documentation hub</a> with some OSG-generic information.    </p>
-<p><strong>How can I monitor my OSG work?</strong> 
-  -There are multiple monitoring infrastuctures to provide targeted views of the distributed facility. You can receive periodic reports by subscribing to the <em>osg-ops-status</em> email list (<em>@opensciencegrid.org</em>). Read more information in <a href="../Trash/MonitoringInformation.WebHome">OSG Grid Monitoring</a>.    </p>
-<p><strong>How do I troubleshoot a job that is not running properly?</strong>
-  -OSG has a <a href="../Documentation.Release3.TroubleshootingGuide">Troubleshooting Guide</a> or you can contact <a href="../Documentation.UserHelp">User Help</a>.    </p>
-<p><strong>Can I really run my job on any OSG resource without talking to the site first?</strong>
-  -Almost. You can run your job on any OSG site that allows users from your Virtual Organization. Many sites allow users from all OSG VOs. The VOs allowed to run on each resource can be found in the <a href="https://myosg.grid.iu.edu/rgsummary/index?datasource=summary&amp;summary_attrs_showservice=on&amp;summary_attrs_showrsvstatus=on&amp;summary_attrs_showfqdn=on&amp;summary_attrs_showvomembership=on&amp;gip_status_attrs_showtestresults=on&amp;downtime_attrs_showpast=&amp;account_type=cumulative_hours&amp;ce_account_type=gip_vo&amp;se_account_type=vo_transfer_volume&amp;bdiitree_type=total_jobs&amp;bdii_object=service&amp;bdii_server=is-osg&amp;start_type=7daysago&amp;start_date=02<span style="color:red">2F08</span>2F2012&amp;end_type=now&amp;end_date=02<span style="color:red">2F08</span>2F2012&amp;facility=on&amp;facility_10009=on&amp;gridtype=on&amp;gridtype_1=on&amp;active_value=1&amp;disable_value=1">OSG Resource List</a>.    </p>
-<p><strong>What is the difference between gram2 and gram4 (i.e., between globus-job-run and globusrun-ws)?</strong> 
-According to <a href="http://www.globus.org/">Globus</a></p>
+<p><strong>How do I run a job on an OSG resource?</strong> </p>
+<p>This is often specific to your particular VO's policies and procedures. However we provide some links under the heading "End Users (Researchers, application users)" on the <a href="../WebHome">Documentation hub</a> with some OSG-generic information.    </p>
+<p><strong>How can I monitor my OSG work?</strong> </p>
+<p>There are multiple monitoring infrastuctures to provide targeted views of the distributed facility. You can receive periodic reports by subscribing to the <em>osg-ops-status</em> email list (<em>@opensciencegrid.org</em>). Read more information in <a href="../Trash/MonitoringInformation.WebHome">OSG Grid Monitoring</a>.    </p>
+<p><strong>How do I troubleshoot a job that is not running properly?</strong></p>
+<p>OSG has a <a href="../Documentation.Release3.TroubleshootingGuide">Troubleshooting Guide</a> or you can contact <a href="../Documentation.UserHelp">User Help</a>.    </p>
+<p><strong>Can I really run my job on any OSG resource without talking to the site first?</strong></p>
+<p>Almost. You can run your job on any OSG site that allows users from your Virtual Organization. Many sites allow users from all OSG VOs. The VOs allowed to run on each resource can be found in the <a href="https://myosg.grid.iu.edu/rgsummary/index?datasource=summary&amp;summary_attrs_showservice=on&amp;summary_attrs_showrsvstatus=on&amp;summary_attrs_showfqdn=on&amp;summary_attrs_showvomembership=on&amp;gip_status_attrs_showtestresults=on&amp;downtime_attrs_showpast=&amp;account_type=cumulative_hours&amp;ce_account_type=gip_vo&amp;se_account_type=vo_transfer_volume&amp;bdiitree_type=total_jobs&amp;bdii_object=service&amp;bdii_server=is-osg&amp;start_type=7daysago&amp;start_date=02<span style="color:red">2F08</span>2F2012&amp;end_type=now&amp;end_date=02<span style="color:red">2F08</span>2F2012&amp;facility=on&amp;facility_10009=on&amp;gridtype=on&amp;gridtype_1=on&amp;active_value=1&amp;disable_value=1">OSG Resource List</a>.    </p>
+<p><strong>What is the difference between gram2 and gram4 (i.e., between globus-job-run and globusrun-ws)?</strong> </p>
+<p>According to <a href="http://www.globus.org/">Globus</a></p>
 <blockquote>
 <p>"In WS GRAM, the globusrun-ws command implements the functionality of globusrun using the XML Job Description language in place of the RSL format job description of pre-WS GRAM. It also allows specifying parts of the Job Description with simple command line arguments (for executable and arguments), similar to what one would do with globus-job-run. Like globusrun, the globusrun-ws program supports both the interactive and batch submission of GRAM jobs."
 <a href="http://www.globus.org/toolkit/docs/4.0/execution/wsgram/WS_GRAM_Migrating_Guide.html">Read more...</a>    </p>
 </blockquote>
-<p><strong>What happens if I run a "bazillion squillion" jobs on one site?</strong>
-  -Please don't. If you do, you'll only do it once. Remember the sites control their resources, OSG doesn't. If you make the site administrators angry, their retribution may be visited upon you specifically, or on your entire VO. Then you've got a lot of angry people to deal with. See <a href="../Documentation.GoldenRulesForOSGUsage">Helpful Hints for Running At-Scale on the OSG</a>.</p>
+<p><strong>What happens if I run a "bazillion squillion" jobs on one site?</strong></p>
+<p>Please don't. If you do, you'll only do it once. Remember the sites control their resources, OSG doesn't. If you make the site administrators angry, their retribution may be visited upon you specifically, or on your entire VO. Then you've got a lot of angry people to deal with. See <a href="../Documentation.GoldenRulesForOSGUsage">Helpful Hints for Running At-Scale on the OSG</a>.</p>
 <h2 id="about-osgs-software">About OSG's Software</h2>
-<p><strong>What is the VDT?</strong>
-  -The VDT is the underlying software distribution used by OSG sites and user to provide and access computing and storage across OSG. It attempts to be grid-agnostic and can be used by multiple grids. <a href="http://vdt.cs.wisc.edu/">Read more...</a></p>
-<p><strong>What is the OSG Software Stack? How is it related to the VDT?</strong>
-  -The OSG Software Stack is the subset of the VDT used by OSG sites. It also includes OSG-specific configuration such as hostnames of services running in OSG.</p>
-<p><strong>What is Pacman?</strong>
-  -<a href="http://physics.bu.edu/pacman/">Pacman</a> is the package management tool that was used to install most of the OSG software stack prior to Release3. We now use yum and RPMs. See <a href="../Documentation.Release3.YumRpmBasics">yum and RPM basics</a>.</p>
-<p><strong>Why do you use Pacman instead of RPM?</strong>
-  -Pacman provides some really nice features, such as the ability to install multiple versions at the same time and the ability to install software as non-root. That said, as of the writing of this answer (February 2010), we are working hard on providing the VDT as native packages, both RPM and Debian.   </p>
-<p><strong>How is the OSG software validated before moving a new release to production?</strong>
-  -All OSG software undergoes three levels of testing before releasing it to production. First, the VDT team tests software internally. Second, a small group of sites called the Validation Testbed (or VTB) tests the software. Finally, a larger group of cooperative sites called the Trash/Trash/Integration Testbed (or ITB) do testing along with VOs, who ensure their software continues to work correctly. Only once the ITB has given its stamp of approval can we release the software for production use.</p>
+<p><strong>What is the VDT?</strong></p>
+<p>The VDT is the underlying software distribution used by OSG sites and user to provide and access computing and storage across OSG. It attempts to be grid-agnostic and can be used by multiple grids. <a href="http://vdt.cs.wisc.edu/">Read more...</a></p>
+<p><strong>What is the OSG Software Stack? How is it related to the VDT?</strong></p>
+<p>The OSG Software Stack is the subset of the VDT used by OSG sites. It also includes OSG-specific configuration such as hostnames of services running in OSG.</p>
+<p><strong>What is Pacman?</strong></p>
+<p><a href="http://physics.bu.edu/pacman/">Pacman</a> is the package management tool that was used to install most of the OSG software stack prior to Release3. We now use yum and RPMs. See <a href="../Documentation.Release3.YumRpmBasics">yum and RPM basics</a>.</p>
+<p><strong>Why do you use Pacman instead of RPM?</strong></p>
+<p>Pacman provides some really nice features, such as the ability to install multiple versions at the same time and the ability to install software as non-root. That said, as of the writing of this answer (February 2010), we are working hard on providing the VDT as native packages, both RPM and Debian.   </p>
+<p><strong>How is the OSG software validated before moving a new release to production?</strong></p>
+<p>All OSG software undergoes three levels of testing before releasing it to production. First, the VDT team tests software internally. Second, a small group of sites called the Validation Testbed (or VTB) tests the software. Finally, a larger group of cooperative sites called the Trash/Trash/Integration Testbed (or ITB) do testing along with VOs, who ensure their software continues to work correctly. Only once the ITB has given its stamp of approval can we release the software for production use.</p>
 <h2 id="installation-and-configuration-of-osg-sites">Installation and Configuration of OSG Sites</h2>
-<p><strong>What do I have to have in place before I setup an OSG resource?</strong>
-  -See <a href="../Documentation.Release3.SitePlanning">Site Planning</a>.    </p>
-<p><strong>How do I make my site's resources available to OSG members?</strong>
-  -OSG welcomes new resources! The basic installation of an OSG Compute Element or Storage Element requires that certain sets of hardware be available and configured with the OSG software. You will also need to determine your site's policies for usage. It is best to contact us (see <a href="../ContactsMailingLists">contacts</a> or you can dive into the <a href="../WebHome">documentation</a>.    </p>
-<p><strong>What should I name my OSG resource?</strong>
-  -Each OSG resource needs a unique name by which services and resources may refer to the resource. This name will be displayed on the Site Catalog and used in tables for other monitoring and accounting. See <a href="../ReleaseDocumentation/ResourceName">Resource Name</a>.</p>
-<p><strong>How do I install an OSG compute element?</strong>
-  -The OSG Computer Element (CE) software has several prerequisites for the platform and hardware. You will also need to understand the systems that you will be using for your CE and worker nodes, along with the network and firewall configuration for your site. Start with <a href="../Documentation.Release3.PreparingComputeElement">Preparing Compute Element.</a>    </p>
-<p><strong>What should I install on my site's worker nodes?</strong>
-  -There are a few options. See <a href="../Documentation.Release3.InstallWNClient">Worker Node Client</a>.   </p>
-<p><strong>Do I need to shut down and uninstall my Compute Element (CE) installations before I upgrade them?</strong>
-  -You need to shutdown all services. See <a href="../Documentation.Release3.InstallComputeElement#7_2_Stopping_and_Disabling_Servi">Stopping Services</a>. (Also, see the man page: <code>man vdt-control</code>.)    </p>
-<p><strong>How should I configure local storage on my OSG compute element?</strong>
-  -See <a href="../Documentation.Release3.LocalStorageConfiguration">Local storage configuration</a>. How do I set up a BestMan based Storage Element? Please refer to the instructions on <a href="../Documentation.Release3.InstallOSGBestmanSE">Bestman</a>.</p>
+<p><strong>What do I have to have in place before I setup an OSG resource?</strong></p>
+<p>See <a href="../Documentation.Release3.SitePlanning">Site Planning</a>.    </p>
+<p><strong>How do I make my site's resources available to OSG members?</strong></p>
+<p>OSG welcomes new resources! The basic installation of an OSG Compute Element or Storage Element requires that certain sets of hardware be available and configured with the OSG software. You will also need to determine your site's policies for usage. It is best to contact us (see <a href="../ContactsMailingLists">contacts</a> or you can dive into the <a href="../WebHome">documentation</a>.    </p>
+<p><strong>What should I name my OSG resource?</strong></p>
+<p>Each OSG resource needs a unique name by which services and resources may refer to the resource. This name will be displayed on the Site Catalog and used in tables for other monitoring and accounting. See <a href="../ReleaseDocumentation/ResourceName">Resource Name</a>.</p>
+<p><strong>How do I install an OSG compute element?</strong></p>
+<p>The OSG Computer Element (CE) software has several prerequisites for the platform and hardware. You will also need to understand the systems that you will be using for your CE and worker nodes, along with the network and firewall configuration for your site. Start with <a href="../Documentation.Release3.PreparingComputeElement">Preparing Compute Element.</a>    </p>
+<p><strong>What should I install on my site's worker nodes?</strong></p>
+<p>There are a few options. See <a href="../Documentation.Release3.InstallWNClient">Worker Node Client</a>.   </p>
+<p><strong>Do I need to shut down and uninstall my Compute Element (CE) installations before I upgrade them?</strong></p>
+<p>You need to shutdown all services. See <a href="../Documentation.Release3.InstallComputeElement#7_2_Stopping_and_Disabling_Servi">Stopping Services</a>. (Also, see the man page: <code>man vdt-control</code>.)    </p>
+<p><strong>How should I configure local storage on my OSG compute element?</strong></p>
+<p>See <a href="../Documentation.Release3.LocalStorageConfiguration">Local storage configuration</a>. How do I set up a BestMan based Storage Element? Please refer to the instructions on <a href="../Documentation.Release3.InstallOSGBestmanSE">Bestman</a>.</p>
 <h2 id="administration-of-osg-sites">Administration of OSG Sites</h2>
-<p><strong>How can I ensure that the next release of OSG software will run on my site?</strong>
-  -We encourage you to participate in testing and validating the OSG software prior to its release. To do so, you need to participate in the Trash/Trash/Integration Test Bed (ITB) and attend the weekly integration meetings. For information about the ITB, see What is the integration grid and the Trash/Trash/Integration Contacts.</p>
-<p><strong>How do I troubleshoot the edg-mkgridmap script?</strong>
-  -See the <a href="../Documentation.Release3.TroubleshootingComputeElement#TroubleshootingEdgMkgridmap">Edg Mkgridmap Troubleshooting Guide</a>    </p>
-<p><strong>How do I activate and deactivate my Resource on the OSG?</strong>
-  -See the <a href="../ReleaseDocumentation/ComputeElementPostInstall#Included_topic_Register_Resource">How to register your resource with GOC</a>.    </p>
-<p><strong>How do I authorize users on a compute element?</strong>
-  -OSG supports three of the available GUMS authorization scenarios: Grid3/Local, Compatibility, and Full Privilege. All three use the Virtual Organization Membership Service (VOMS). <a href="../ReleaseDocumentation/AboutAuthorizationForCE">Read more...</a>    </p>
+<p><strong>How can I ensure that the next release of OSG software will run on my site?</strong></p>
+<p>We encourage you to participate in testing and validating the OSG software prior to its release. To do so, you need to participate in the Trash/Trash/Integration Test Bed (ITB) and attend the weekly integration meetings. For information about the ITB, see What is the integration grid and the Trash/Trash/Integration Contacts.</p>
+<p><strong>How do I troubleshoot the edg-mkgridmap script?</strong></p>
+<p>See the <a href="../Documentation.Release3.TroubleshootingComputeElement#TroubleshootingEdgMkgridmap">Edg Mkgridmap Troubleshooting Guide</a>    </p>
+<p><strong>How do I activate and deactivate my Resource on the OSG?</strong></p>
+<p>See the <a href="../ReleaseDocumentation/ComputeElementPostInstall#Included_topic_Register_Resource">How to register your resource with GOC</a>.    </p>
+<p><strong>How do I authorize users on a compute element?</strong></p>
+<p>OSG supports three of the available GUMS authorization scenarios: Grid3/Local, Compatibility, and Full Privilege. All three use the Virtual Organization Membership Service (VOMS). <a href="../ReleaseDocumentation/AboutAuthorizationForCE">Read more...</a>    </p>
 <h2 id="security-and-certificates">Security and Certificates</h2>
-<p><strong>What should I do if a security incident occurs?</strong>
-  -If you believe a security incident has occurred with an OSG resource, please go to <a href="../IncidentDiscoveryReporting">Incident Discovery and Reporting</a>, and report it <strong>immediately</strong>.        </p>
-<p><strong>After a security incident, how do I (as a resource admin) ban a suspicious user?</strong> 
-  -Currently, OSG software stack does not provide any banning tool. The security team is working to provide a banning tool this year. However, there are a few effective alternatives.</p>
-<p>-First, if the suspicious user's certificate is revoked (this quite often happens in incidents), make sure that you have updated CRL lists from that CA. You can manually download the CRLs or run fetch-crl script provided by VDT. This is already installed in your VDT stack and typically under your installation directory. Once downloaded the CRLs will most likely be located in /etc/grid-security/certificates. This will ensure that at the authentication step, the suspicious user would fail and cannot access your grid resources. Of course, you have to ensure that your applications and resources/services also consult the CRLs during the authentication step.</p>
-<p>-If the certificate is not revoked, you can remove the mapping for this user in your GUMS (see GUMS web page <a href="https://www.racf.bnl.gov/Facility/GUMS/1.2/use_configuration.html">https://www.racf.bnl.gov/Facility/GUMS/1.2/use_configuration.html</a>). Once the user's mapping is removed, the user's authorization with your site would fail. However, be careful that every 8 hours or so, your GUMS server synchronizes with VOMS servers. Therefore if the suspicious user is still listed as a member of a VO, your GUMS server would fetch the membership and create a mapping for this user. You can either remove the user's mapping every 8 hours from GUMS or create a special "null" mapping for the user in your GUMS. This null mapping should not be overwritten by the synchronization data.</p>
-<p><strong>What is a grid certificate?</strong>
-  -Grid certificates are ways to prove that you are who you claim to be when you attempt to use an OSG resource. These certificates are issued by a trusted source (e.g., the US Dept. of Energy) and require a password from you. In this way, they are similar to using ID cards such as your driver's license or passport. You must have a currently valid certificate that was issued from an approved Certificate Authority to use OSG resources. <a href="../Documentation.CertificateWhatIs">Read more...</a>    </p>
-<p><strong>How do I get or renew a grid certificate for users of the OSG?</strong>
-  -There is <a href="../Documentation.Release3.CertificateUserGet">How do I get a certificate for the OSG</a>. Contact your Virtual Organization for what certificate authority is used within your group. To renew an unexpired certificate or replace an expired certificate, see <a href="../Documentation/MiscellaneousCertificateTasks">miscellaneous certificate tasks</a>.    </p>
-<p><strong>Can someone reset the password on my certificate key?</strong>
-  -No. You are the only person who knows the password to your keys.   </p>
-<p><strong>What are OSG users' responsibilities in keeping OSG resources secure?</strong>
-  -As an OSG user, you are expected to:
+<p><strong>What should I do if a security incident occurs?</strong></p>
+<p>If you believe a security incident has occurred with an OSG resource, please go to <a href="../IncidentDiscoveryReporting">Incident Discovery and Reporting</a>, and report it <strong>immediately</strong>.        </p>
+<p><strong>After a security incident, how do I (as a resource admin) ban a suspicious user?</strong> </p>
+<p>Currently, OSG software stack does not provide any banning tool. The security team is working to provide a banning tool this year. However, there are a few effective alternatives.</p>
+<p>First, if the suspicious user's certificate is revoked (this quite often happens in incidents), make sure that you have updated CRL lists from that CA. You can manually download the CRLs or run fetch-crl script provided by VDT. This is already installed in your VDT stack and typically under your installation directory. Once downloaded the CRLs will most likely be located in /etc/grid-security/certificates. This will ensure that at the authentication step, the suspicious user would fail and cannot access your grid resources. Of course, you have to ensure that your applications and resources/services also consult the CRLs during the authentication step.</p>
+<p>If the certificate is not revoked, you can remove the mapping for this user in your GUMS (see GUMS web page <a href="https://www.racf.bnl.gov/Facility/GUMS/1.2/use_configuration.html">https://www.racf.bnl.gov/Facility/GUMS/1.2/use_configuration.html</a>). Once the user's mapping is removed, the user's authorization with your site would fail. However, be careful that every 8 hours or so, your GUMS server synchronizes with VOMS servers. Therefore if the suspicious user is still listed as a member of a VO, your GUMS server would fetch the membership and create a mapping for this user. You can either remove the user's mapping every 8 hours from GUMS or create a special "null" mapping for the user in your GUMS. This null mapping should not be overwritten by the synchronization data.</p>
+<p><strong>What is a grid certificate?</strong></p>
+<p>Grid certificates are ways to prove that you are who you claim to be when you attempt to use an OSG resource. These certificates are issued by a trusted source (e.g., the US Dept. of Energy) and require a password from you. In this way, they are similar to using ID cards such as your driver's license or passport. You must have a currently valid certificate that was issued from an approved Certificate Authority to use OSG resources. <a href="../Documentation.CertificateWhatIs">Read more...</a>    </p>
+<p><strong>How do I get or renew a grid certificate for users of the OSG?</strong></p>
+<p>There is <a href="../Documentation.Release3.CertificateUserGet">How do I get a certificate for the OSG</a>. Contact your Virtual Organization for what certificate authority is used within your group. To renew an unexpired certificate or replace an expired certificate, see <a href="../Documentation/MiscellaneousCertificateTasks">miscellaneous certificate tasks</a>.    </p>
+<p><strong>Can someone reset the password on my certificate key?</strong></p>
+<p>No. You are the only person who knows the password to your keys.   </p>
+<p><strong>What are OSG users' responsibilities in keeping OSG resources secure?</strong></p>
+<p>As an OSG user, you are expected to:
     * Protect your grid identity token
     * Abide by the policies and procedures of your Virtual Organization (VO)
     * Report any known or suspected security breach
 <a href="../Documentation.SecuritySiteResponsibilities">Read more...</a>    </p>
-<p><strong>What are OSG resource administrators' and VO administrators' responsibilities in keeping OSG secure?</strong> 
-  -As an admin, you are expected to:
+<p><strong>What are OSG resource administrators' and VO administrators' responsibilities in keeping OSG secure?</strong> </p>
+<p>As an admin, you are expected to:
     * Protect all grid identity tokens (personal, host, service)
     * Follow the <a href="../Documentation.Release3.WebHome">instructions for installing and configuring OSG software</a>
     * Abide by the policies and procedures of your Virtual Organization (VO)
     * Report any known or suspected security breach
 <a href="../Documentation/SecuritySiteResponsibilities">Read more...</a>    </p>
-<p><strong>What do I do if my root certificate expires?</strong>
-  -You can fetch the new certificate, if available and import it into your trusted root CA directories. Please make sure that that you download the Digicert root and intermediate CA certs that are needed to add to the OS X Keychain (for example) or to the trusted issuer stores in the various browsers from <a href="http://www.digicert-grid.com/">here</a>. See <a href="../Documentation/CertificateGetWeb#InstallCaCert">Install CA certificates in the browser</a> for the entire procedure.</p>
-<p>-If there is no new certificate, then you can remove the expired certificate from trusted CA directory. Since the CA is no longer serving, you do not trust the certificates issued by this CA.</p>
-<p><strong>How do I update my GUMS service template?</strong>
-  -This is discussed in <a href="../ReleaseDocumentation/InstallConfigureAndManageGUMS">Installing and Configuring GUMS</a>. You will use the <code>gums-create-config</code> script.    </p>
-<p><strong>How do I update my CA trusted directories?</strong>
-  -There is a package to automatically update the trusted CA certificates begining with VDT 1.8 (OSG 0.8). See http://vdt.cs.wisc.edu/releases/2.0.0/certificate_authorities.html#vdt-update-certs</p>
-<p><strong>My web browser does not trust the OSG CA?</strong>
-  -See <a href="../Documentation/CertificateGetWeb#InstallCaCert">Install CA certificates in the browser</a> for a procedure to solve this problem.</p>
+<p><strong>What do I do if my root certificate expires?</strong></p>
+<p>You can fetch the new certificate, if available and import it into your trusted root CA directories. Please make sure that that you download the Digicert root and intermediate CA certs that are needed to add to the OS X Keychain (for example) or to the trusted issuer stores in the various browsers from <a href="http://www.digicert-grid.com/">here</a>. See <a href="../Documentation/CertificateGetWeb#InstallCaCert">Install CA certificates in the browser</a> for the entire procedure.</p>
+<p>If there is no new certificate, then you can remove the expired certificate from trusted CA directory. Since the CA is no longer serving, you do not trust the certificates issued by this CA.</p>
+<p><strong>How do I update my GUMS service template?</strong></p>
+<p>This is discussed in <a href="../ReleaseDocumentation/InstallConfigureAndManageGUMS">Installing and Configuring GUMS</a>. You will use the <code>gums-create-config</code> script.    </p>
+<p><strong>How do I update my CA trusted directories?</strong></p>
+<p>There is a package to automatically update the trusted CA certificates begining with VDT 1.8 (OSG 0.8). See http://vdt.cs.wisc.edu/releases/2.0.0/certificate_authorities.html#vdt-update-certs</p>
+<p><strong>My web browser does not trust the OSG CA?</strong></p>
+<p>See <a href="../Documentation/CertificateGetWeb#InstallCaCert">Install CA certificates in the browser</a> for a procedure to solve this problem.</p>
               
             </div>
           </div>
