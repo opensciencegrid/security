@@ -6,7 +6,7 @@
 -   Welcome to OSG Security
     -   [Goals and purpose](GoalsPurpose)
     -   [Security and certificates FAQ](OSGFAQ)
-    -   [Policies and procedures](Documentation.PoliciesProcedures)
+    -   [Policies and procedures](PoliciesProcedures)
     -   [OSG Security Team Blog](http://osgsec.blogspot.com/) - Latest notifications and announcements from the security team
     -   [Team members](SecurityTeamMembers)
     -   [Email lists](EmailLists)
@@ -20,9 +20,6 @@
 
 -   Certificates
     -   [OSG Certificate Service](OSGCertificateService)
-
-    <!-- -->
-
     -   [OSG CA Distribution](Documentation.CaDistribution)
     -   [Certificate scripts package (doc)](Documentation.Release3.InstallCertScripts)
 

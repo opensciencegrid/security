@@ -11,6 +11,7 @@ pages:
 - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
 - Goals Purpose: 'GoalsPurpose.md'
 - Security & Certification FAQ: 'OSGFAQ.md'
+- Policies & Procedures: 'PoliciesProcedures.md'
 
 markdown_extensions:
   - admonition
