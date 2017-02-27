@@ -152,18 +152,28 @@
         }, 
         {
             "location": "/SecurityTeamMembers/", 
-            "text": "Security Team\n\n\nMine Altunay is the OSG Security Officer with responsibility for development and execution of the OSG cyber security plan. Jim Barlow is the Deputy Security Officer. Alain Deximo is responsible for the DOE Grids Registration Authority (RA) function for OSG.\n\n\nYou can reach them at:\n\n\nMine Altunay\n-   maltunay@fnal.gov\n-   +1 630-840-6490\n-   \nPGP Key\n\n-   \nATTACHURL\n/DOEGrids_2013_Cert_Only\">DOEGrids Cert\n\n\n\n\nDave Dykstra\n-   dwd@fnal.gov\n-   +1 (630) 840-3227\n\n\nJeny Teheran\n-   jteheran@fnal.gov\n-   +1 (630) 840-5634\n\n\nAnand Padmanabhan\n-   apadmana@uiuc.edu\n-   +1 217 244 9315\n-   \nPGP key\n\n-   \nDOE certificate\n\n\n\n\nSecurity Team's PGP key\n\n\nYou should only trust email signed by \nSecurity Team's PGP key\n or by individual team member's keys. If you do not know how to verify PGP keys, please check out our \nstep-by-step instructions\n.", 
+            "text": "Security Team\n\n\nMine Altunay is the OSG Security Officer with responsibility for development and execution of the OSG cyber security plan. Jim Barlow is the Deputy Security Officer. Alain Deximo is responsible for the DOE Grids Registration Authority (RA) function for OSG.\n\n\nYou can reach them at:\n\n\nMine Altunay\n-   maltunay@fnal.gov\n-   +1 630-840-6490\n-   \nPGP Key\n\n-   \nDOEGrids Cert\n\n\n\n\nDave Dykstra\n-   dwd@fnal.gov\n-   +1 (630) 840-3227\n\n\nJeny Teheran\n-   jteheran@fnal.gov\n-   +1 (630) 840-5634\n\n\nAnand Padmanabhan\n-   apadmana@uiuc.edu\n-   +1 217 244 9315\n-   \nPGP key\n\n-   \nDOE certificate\n\n\n\n\nSecurity Team's PGP key\n\n\nYou should only trust email signed by \nSecurity Team's PGP key\n or by individual team member's keys. If you do not know how to verify PGP keys, please check out our \nstep-by-step instructions\n.", 
             "title": "Team Members"
         }, 
         {
             "location": "/SecurityTeamMembers/#security-team", 
-            "text": "Mine Altunay is the OSG Security Officer with responsibility for development and execution of the OSG cyber security plan. Jim Barlow is the Deputy Security Officer. Alain Deximo is responsible for the DOE Grids Registration Authority (RA) function for OSG.  You can reach them at:  Mine Altunay\n-   maltunay@fnal.gov\n-   +1 630-840-6490\n-    PGP Key \n-    ATTACHURL /DOEGrids_2013_Cert_Only\">DOEGrids Cert   Dave Dykstra\n-   dwd@fnal.gov\n-   +1 (630) 840-3227  Jeny Teheran\n-   jteheran@fnal.gov\n-   +1 (630) 840-5634  Anand Padmanabhan\n-   apadmana@uiuc.edu\n-   +1 217 244 9315\n-    PGP key \n-    DOE certificate", 
+            "text": "Mine Altunay is the OSG Security Officer with responsibility for development and execution of the OSG cyber security plan. Jim Barlow is the Deputy Security Officer. Alain Deximo is responsible for the DOE Grids Registration Authority (RA) function for OSG.  You can reach them at:  Mine Altunay\n-   maltunay@fnal.gov\n-   +1 630-840-6490\n-    PGP Key \n-    DOEGrids Cert   Dave Dykstra\n-   dwd@fnal.gov\n-   +1 (630) 840-3227  Jeny Teheran\n-   jteheran@fnal.gov\n-   +1 (630) 840-5634  Anand Padmanabhan\n-   apadmana@uiuc.edu\n-   +1 217 244 9315\n-    PGP key \n-    DOE certificate", 
             "title": "Security Team"
         }, 
         {
             "location": "/SecurityTeamMembers/#security-teams-pgp-key", 
             "text": "You should only trust email signed by  Security Team's PGP key  or by individual team member's keys. If you do not know how to verify PGP keys, please check out our  step-by-step instructions .", 
             "title": "Security Team's PGP key"
+        }, 
+        {
+            "location": "/EmailLists/", 
+            "text": "Security Team Email Lists\n\n\nThe following addresses are open for use by all OSG members, partners, and collaborators:\n\n\n is the standard email address open to the OSG public \nfor reporting of security incidents. Mail to \n is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.\n\n\nThe following addresses are for internal use by OSG staff:\n\n\n is for internal discussions among OSG security team members.\n\n\nSee \nConsortium Mailing Lists\n for a full listing of OSG mailing lists.", 
+            "title": "Email Lists"
+        }, 
+        {
+            "location": "/EmailLists/#security-team-email-lists", 
+            "text": "The following addresses are open for use by all OSG members, partners, and collaborators:   is the standard email address open to the OSG public  for reporting of security incidents. Mail to   is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.  The following addresses are for internal use by OSG staff:   is for internal discussions among OSG security team members.  See  Consortium Mailing Lists  for a full listing of OSG mailing lists.", 
+            "title": "Security Team Email Lists"
         }
     ]
 }
