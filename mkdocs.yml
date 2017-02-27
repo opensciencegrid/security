@@ -13,6 +13,7 @@ pages:
 - Security & Certification FAQ: 'OSGFAQ.md'
 - Policies & Procedures: 'PoliciesProcedures.md'
 - Team Members: 'SecurityTeamMembers.md'
+- Email Lists: 'EmailLists.md'
 
 markdown_extensions:
   - admonition
