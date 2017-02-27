@@ -10,7 +10,8 @@ Mine Altunay
 -   +1 630-840-6490
 -   [PGP Key](https://twiki.grid.iu.edu/bin/edit/MineAltunay_maltunayfnal/gov_0x3C0319E5_pub/Asc?topicparent=Security.SecurityTeamMembers)
 -   [DOEGrids Cert](%ATTACHURL%/DOEGrids_2013_Cert_Only)
-![Alt text](/img/altunay.jpg)
+
+![Alt text](/img/altunay.jpg =100x139)
 
 Dave Dykstra
 -   dwd@fnal.gov
@@ -25,7 +26,8 @@ Anand Padmanabhan
 -   +1 217 244 9315
 -   [PGP key](http://www.cigi.uiuc.edu/anand/publickeys/pgp.asc)
 -   [DOE certificate](http://www.cigi.uiuc.edu/anand/publickeys/doecert)
-![Alt text](/img/AnandPadmanabhan.jpg)
+
+![Alt text](/img/AnandPadmanabhan.jpg =120x125)
 
 Security Team's PGP key
 -----------------------
