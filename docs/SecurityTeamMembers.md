@@ -11,7 +11,7 @@ Mine Altunay
 -   [PGP Key](https://twiki.grid.iu.edu/bin/edit/MineAltunay_maltunayfnal/gov_0x3C0319E5_pub/Asc?topicparent=Security.SecurityTeamMembers)
 -   [DOEGrids Cert](%ATTACHURL%/DOEGrids_2013_Cert_Only)
 
-<img src="/img/altunay.jpg" alt="Altunay" width='100' height='139'>
+<img src="img/altunay.jpg" alt="Altunay" width='100' height='139'/>
 
 Dave Dykstra
 -   dwd@fnal.gov
@@ -27,7 +27,7 @@ Anand Padmanabhan
 -   [PGP key](http://www.cigi.uiuc.edu/anand/publickeys/pgp.asc)
 -   [DOE certificate](http://www.cigi.uiuc.edu/anand/publickeys/doecert)
 
-<img src="/img/AnandPadmanabhan.jpg" alt="Anand" width="120" height="125")
+<img src="img/AnandPadmanabhan.jpg" alt="Anand" width="120" height="125"/>
 
 Security Team's PGP key
 -----------------------
