@@ -12,6 +12,7 @@ pages:
 - Goals Purpose: 'GoalsPurpose.md'
 - Security & Certification FAQ: 'OSGFAQ.md'
 - Policies & Procedures: 'PoliciesProcedures.md'
+- Team Members: 'SecurityTeamMembers.md'
 
 markdown_extensions:
   - admonition
