@@ -167,12 +167,12 @@
         }, 
         {
             "location": "/EmailLists/", 
-            "text": "Security Team Email Lists\n\n\nThe following addresses are open for use by all OSG members, partners, and collaborators:\n\n\n is the standard email address open to the OSG public \nfor reporting of security incidents. Mail to \n is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.\n\n\nThe following addresses are for internal use by OSG staff:\n\n\n is for internal discussions among OSG security team members.\n\n\nSee \nConsortium Mailing Lists\n for a full listing of OSG mailing lists.", 
+            "text": "Security Team Email Lists\n\n\nThe following addresses are open for use by all OSG members, partners, and collaborators:\n\n\n is the standard email address open to the OSG public for reporting of security incidents. Mail to \n is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.\n\n\nThe following addresses are for internal use by OSG staff:\n\n\n is for internal discussions among OSG security team members.\n\n\nSee \nConsortium Mailing Lists\n for a full listing of OSG mailing lists.", 
             "title": "Email Lists"
         }, 
         {
             "location": "/EmailLists/#security-team-email-lists", 
-            "text": "The following addresses are open for use by all OSG members, partners, and collaborators:   is the standard email address open to the OSG public  for reporting of security incidents. Mail to   is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.  The following addresses are for internal use by OSG staff:   is for internal discussions among OSG security team members.  See  Consortium Mailing Lists  for a full listing of OSG mailing lists.", 
+            "text": "The following addresses are open for use by all OSG members, partners, and collaborators:   is the standard email address open to the OSG public for reporting of security incidents. Mail to   is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.  The following addresses are for internal use by OSG staff:   is for internal discussions among OSG security team members.  See  Consortium Mailing Lists  for a full listing of OSG mailing lists.", 
             "title": "Security Team Email Lists"
         }
     ]
