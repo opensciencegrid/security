@@ -20,6 +20,7 @@ pages:
 - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
 - Best Practices: 'SecurityBestPractices.md'
 - OSG Certificate Service: 'OSGCertificateService.md'
+- OSG CA Distribution: 'CaDistribution.md'
 
 markdown_extensions:
   - admonition
