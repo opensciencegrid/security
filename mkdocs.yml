@@ -16,6 +16,7 @@ pages:
 - Email Lists: 'EmailLists.md'
 - Secure Email: 'SecureEmail.md'
 - Security Awareness For The OSG: 'SecurityAwarenessForTheOSG.md'
+- Security User Responsibilities: 'SecurityUserResponsibilities.md'
 
 markdown_extensions:
   - admonition
