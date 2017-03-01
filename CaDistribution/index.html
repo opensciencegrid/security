@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Goals Purpose - OSG Documentation</title>
+  <title>OSG CA Distribution - OSG Documentation</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Goals Purpose";
-    var mkdocs_page_input_path = "GoalsPurpose.md";
-    var mkdocs_page_url = "/GoalsPurpose/";
+    var mkdocs_page_name = "OSG CA Distribution";
+    var mkdocs_page_input_path = "CaDistribution.md";
+    var mkdocs_page_url = "/CaDistribution/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -62,15 +62,8 @@
 <li>
           
             <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Goals Purpose</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#security-team-goals-and-purpose">Security Team Goals and Purpose</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../GoalsPurpose/">Goals Purpose</a>
         
     </li>
 <li>
@@ -146,8 +139,23 @@
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../CaDistribution/">OSG CA Distribution</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">OSG CA Distribution</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#osg-certificate-authority-distribution">OSG Certificate Authority Distribution</a></li>
+                
+                    <li><a class="toctree-l4" href="#about-this-document">About This Document</a></li>
+                
+                    <li><a class="toctree-l4" href="#contents">Contents</a></li>
+                
+                    <li><a class="toctree-l4" href="#news">News</a></li>
+                
+                    <li><a class="toctree-l4" href="#references">References</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
@@ -181,10 +189,10 @@
     
       
     
-    <li>Goals Purpose</li>
+    <li>OSG CA Distribution</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/opensciencegrid/security/edit/master/docs/GoalsPurpose.md"
+        <a href="https://github.com/opensciencegrid/security/edit/master/docs/CaDistribution.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -194,18 +202,45 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="security-team-goals-and-purpose">Security Team Goals and Purpose</h2>
-<p>The OSG security team's goal is to provide a security framework that enables science and promotes autonomous and open science collaboration among VOs, sites, and software providers. Keeping the balance between the openness, which is necessary for science, and the security is at the core of our work. We achieve our goals by providing:</p>
+                <h1 id="osg-certificate-authority-distribution"><strong>OSG Certificate Authority Distribution</strong></h1>
+<h2 id="about-this-document">About This Document</h2>
+<p>The OSG Certificate Authority Distribution contains information about Certificate Authorities (CAs) in use in OSG.</p>
+<h2 id="contents">Contents</h2>
+<p>The OSG CA Distribution contains:</p>
 <ul>
-<li>
-<p><strong>operational security:</strong> keeping an active dialogue with our members; evaluating the security of our software stack and releasing timely patches for identified vulnerabilities; observing the practices of our VOs and sites, and sending alerts when we detect abnormalities; continually performing fire drills to measure readiness and security awareness</p>
-</li>
-<li>
-<p><strong>interoperability with other grids:</strong> working with JSPG and IGTF to develop common security policies; participating into EGEE's operational security and incident response teams.</p>
-</li>
-<li>
-<p><strong>education:</strong> security training of our members; teaching best practices, and learning from our users about difficulties of security practices</p>
-</li>
+<li><a href="http://dist.eugridpma.info/distribution/igtf/current/">IGTF Distribution of Authority Root Certificates</a> (CAs accredited by the <a href="http://igtf.net/">International Grid Trust Federation</a>)</li>
+<li><a href="http://tg-ca.purdue.teragrid.org:8080/ejbca/">Purdue TeraGrid CA</a></li>
+</ul>
+<p>For additional details, see the <a href="http://software.grid.iu.edu/pacman/cadist/">distribution site</a> and <a href="http://software.grid.iu.edu/pacman/cadist/CHANGES">change log</a>.</p>
+<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/Release3/InstallCertAuth">CA Certificate Installation and Update</a> provides you with details of various options to install the Certificate Authority (CA) certificates and have up-to-date certificate revocation list (CRL) using OSG RPMs.</p>
+<h2 id="news">News</h2>
+<p>Effective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package version 1.15.</p>
+<ul>
+<li>FNAL KCA (e1fce4e9)</li>
+</ul>
+<p>Beginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at <a href="http://software-itb.grid.iu.edu/">http://software-itb.grid.iu.edu/</a>.</p>
+<p><em>Production services on OSG should <strong>NOT</strong> install (or reference via yum or apt) the ITB version of the CA distribution since it may, at times, contain an untrustworthy CA certificate for testing purposes</em></p>
+<p>Effective March 10, 2009, the OSG Security Team has removed the following unused non-IGTF CAs from the OSG CA distribution:</p>
+<ul>
+<li>PSC Kerberos CA (290a3b29)</li>
+<li>PSC Root CA (9b88e95b)</li>
+<li>PSC Hosts CA (acc06fda)</li>
+<li>SDSC (3deda549)</li>
+<li>NPACI (b89793e4)</li>
+<li>TACC (9a1da9f9)</li>
+<li>old NCSA CA (4a6cd8b1)</li>
+</ul>
+<p>If you are aware of any use of these CAs in OSG, so that they should continue to be included in the OSG CA distribution, please notify <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;">&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;</a> immediately.</p>
+<p>See also:</p>
+<ul>
+<li><a href="http://listserv.fnal.gov/scripts/wa.exe?A2=ind0902&amp;L=tg-security&amp;T=0&amp;P=67">email announcement</a></li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="http://software.grid.iu.edu/pacman/cadist/">OSG CA Certificates Hosted By GOC</a></li>
+<li><a href="http://yum.grid.iu.edu/">OSG GOC Yum Repository</a></li>
+<li><a href="http://vdt.cs.wisc.edu/certificate_authorities.html">CA Certificates in the VDT</a></li>
+<li><a href="http://security.teragrid.org/TG-CAs.html">TeraGrid Approved CAs</a></li>
 </ul>
               
             </div>
@@ -214,10 +249,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../OSGFAQ/" class="btn btn-neutral float-right" title="Security & Certification FAQ">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../InstallCertScripts/" class="btn btn-neutral float-right" title="Install Cert Scripts">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../IncidentDiscoveryReporting/" class="btn btn-neutral" title="Incident Discovery Reporting"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../OSGCertificateService/" class="btn btn-neutral" title="OSG Certificate Service"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -245,10 +280,10 @@
           <a href="https://github.com/opensciencegrid/security" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../IncidentDiscoveryReporting/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../OSGCertificateService/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../OSGFAQ/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../InstallCertScripts/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

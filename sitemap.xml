@@ -105,4 +105,20 @@
     </url>
     
 
+    
+    <url>
+     <loc>https://opensciencegrid.github.io/security/CaDistribution/</loc>
+     <lastmod>2017-03-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://opensciencegrid.github.io/security/InstallCertScripts/</loc>
+     <lastmod>2017-03-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
 </urlset>

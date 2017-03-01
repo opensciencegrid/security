@@ -469,6 +469,51 @@
             "location": "/OSGCertificateService/#osg-contact-information", 
             "text": "The CP/CPS is managed by OSG Security Officer and can be reached at:  Mine Altunay \nOSG Security Officer\nP.O Box 500\nFermilab, Batavia, IL 60510\n630-840-6490\nosg-security-team AT opensciencegrid.org\nmaltunay AT fnal.gov  For any support problems, fault reporting and inquiries, please contact the Grid Operations Center at  goc@opensciencegrid.org\n+1 317-278-9699  -- Main.MineAltunay - 19 May 2015", 
             "title": "OSG Contact Information"
+        }, 
+        {
+            "location": "/CaDistribution/", 
+            "text": "OSG Certificate Authority Distribution\n\n\nAbout This Document\n\n\nThe OSG Certificate Authority Distribution contains information about Certificate Authorities (CAs) in use in OSG.\n\n\nContents\n\n\nThe OSG CA Distribution contains:\n\n\n\n\nIGTF Distribution of Authority Root Certificates\n (CAs accredited by the \nInternational Grid Trust Federation\n)\n\n\nPurdue TeraGrid CA\n\n\n\n\nFor additional details, see the \ndistribution site\n and \nchange log\n.\n\n\nCA Certificate Installation and Update\n provides you with details of various options to install the Certificate Authority (CA) certificates and have up-to-date certificate revocation list (CRL) using OSG RPMs.\n\n\nNews\n\n\nEffective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package version 1.15.\n\n\n\n\nFNAL KCA (e1fce4e9)\n\n\n\n\nBeginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at \nhttp://software-itb.grid.iu.edu/\n.\n\n\nProduction services on OSG should \nNOT\n install (or reference via yum or apt) the ITB version of the CA distribution since it may, at times, contain an untrustworthy CA certificate for testing purposes\n\n\nEffective March 10, 2009, the OSG Security Team has removed the following unused non-IGTF CAs from the OSG CA distribution:\n\n\n\n\nPSC Kerberos CA (290a3b29)\n\n\nPSC Root CA (9b88e95b)\n\n\nPSC Hosts CA (acc06fda)\n\n\nSDSC (3deda549)\n\n\nNPACI (b89793e4)\n\n\nTACC (9a1da9f9)\n\n\nold NCSA CA (4a6cd8b1)\n\n\n\n\nIf you are aware of any use of these CAs in OSG, so that they should continue to be included in the OSG CA distribution, please notify \n immediately.\n\n\nSee also:\n\n\n\n\nemail announcement\n\n\n\n\nReferences\n\n\n\n\nOSG CA Certificates Hosted By GOC\n\n\nOSG GOC Yum Repository\n\n\nCA Certificates in the VDT\n\n\nTeraGrid Approved CAs", 
+            "title": "OSG CA Distribution"
+        }, 
+        {
+            "location": "/CaDistribution/#osg-certificate-authority-distribution", 
+            "text": "", 
+            "title": "OSG Certificate Authority Distribution"
+        }, 
+        {
+            "location": "/CaDistribution/#about-this-document", 
+            "text": "The OSG Certificate Authority Distribution contains information about Certificate Authorities (CAs) in use in OSG.", 
+            "title": "About This Document"
+        }, 
+        {
+            "location": "/CaDistribution/#contents", 
+            "text": "The OSG CA Distribution contains:   IGTF Distribution of Authority Root Certificates  (CAs accredited by the  International Grid Trust Federation )  Purdue TeraGrid CA   For additional details, see the  distribution site  and  change log .  CA Certificate Installation and Update  provides you with details of various options to install the Certificate Authority (CA) certificates and have up-to-date certificate revocation list (CRL) using OSG RPMs.", 
+            "title": "Contents"
+        }, 
+        {
+            "location": "/CaDistribution/#news", 
+            "text": "Effective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package version 1.15.   FNAL KCA (e1fce4e9)   Beginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at  http://software-itb.grid.iu.edu/ .  Production services on OSG should  NOT  install (or reference via yum or apt) the ITB version of the CA distribution since it may, at times, contain an untrustworthy CA certificate for testing purposes  Effective March 10, 2009, the OSG Security Team has removed the following unused non-IGTF CAs from the OSG CA distribution:   PSC Kerberos CA (290a3b29)  PSC Root CA (9b88e95b)  PSC Hosts CA (acc06fda)  SDSC (3deda549)  NPACI (b89793e4)  TACC (9a1da9f9)  old NCSA CA (4a6cd8b1)   If you are aware of any use of these CAs in OSG, so that they should continue to be included in the OSG CA distribution, please notify   immediately.  See also:   email announcement", 
+            "title": "News"
+        }, 
+        {
+            "location": "/CaDistribution/#references", 
+            "text": "OSG CA Certificates Hosted By GOC  OSG GOC Yum Repository  CA Certificates in the VDT  TeraGrid Approved CAs", 
+            "title": "References"
+        }, 
+        {
+            "location": "/InstallCertScripts/", 
+            "text": "Tools for Managing Host and Service Certificates\n\n\nThis document used to contain information about a set of tools for requesting and downloading host and service certificates from the DOEGrids CA website. OSG no longer uses certificates from DOEGrids, and the new tools that work with the current OSG certificate provider are located via the following link:\n\n\nOSG PKI Command-Line Clients", 
+            "title": "Install Cert Scripts"
+        }, 
+        {
+            "location": "/InstallCertScripts/#tools-for-managing-host-and-service-certificates", 
+            "text": "This document used to contain information about a set of tools for requesting and downloading host and service certificates from the DOEGrids CA website. OSG no longer uses certificates from DOEGrids, and the new tools that work with the current OSG certificate provider are located via the following link:", 
+            "title": "Tools for Managing Host and Service Certificates"
+        }, 
+        {
+            "location": "/InstallCertScripts/#osg-pki-command-line-clients", 
+            "text": "", 
+            "title": "OSG PKI Command-Line Clients"
         }
     ]
 }
