@@ -13,15 +13,15 @@
     -   [Secure Email](SecureEmail)
 
 -   Security Awareness for OSG Participants
-    -   [Security Awareness](Documentation.SecurityAwarenessForTheOSG)
-    -   [User Responsibilities](Documentation.SecurityUserResponsibilities)
-    -   [Site Responsibilities](Documentation.SecuritySiteResponsibilities)
-    -   [Best Practices](Documentation.SecurityBestPractices)
+    -   [Security Awareness](SecurityAwarenessForTheOSG)
+    -   [User Responsibilities](SecurityUserResponsibilities)
+    -   [Site Responsibilities](SecuritySiteResponsibilities)
+    -   [Best Practices](SecurityBestPractices)
 
 -   Certificates
     -   [OSG Certificate Service](OSGCertificateService)
-    -   [OSG CA Distribution](Documentation.CaDistribution)
-    -   [Certificate scripts package (doc)](Documentation.Release3.InstallCertScripts)
+    -   [OSG CA Distribution](CaDistribution)
+    -   [Certificate scripts package (doc)](Release3.InstallCertScripts)
 
 -   [Security Team Protected Working Area](SecurityTeam/WebHome)
 
