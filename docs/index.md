@@ -23,7 +23,7 @@
     -   [OSG CA Distribution](CaDistribution)
     -   [Certificate scripts package (doc)](InstallCertScripts)
 
--   [Security Team Protected Working Area](SecurityTeam/WebHome)
+-   [Security Team Protected Working Area](https://twiki.grid.iu.edu/bin/view/SecurityTeam/WebHome)
 
 -   External Working Groups and OSG Representation
     -   [Joint Security Policy Group (JSPG)](http://www.jspg.org/)
