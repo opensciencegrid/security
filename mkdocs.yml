@@ -14,6 +14,7 @@ pages:
 - Policies & Procedures: 'PoliciesProcedures.md'
 - Team Members: 'SecurityTeamMembers.md'
 - Email Lists: 'EmailLists.md'
+- Secure Email: 'SecureEmail.md'
 
 markdown_extensions:
   - admonition

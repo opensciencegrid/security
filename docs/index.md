@@ -10,7 +10,7 @@
     -   [OSG Security Team Blog](http://osgsec.blogspot.com/) - Latest notifications and announcements from the security team
     -   [Team members](SecurityTeamMembers)
     -   [Email lists](EmailLists)
-    -   [Secure Email](Documentation.SecureEmail)
+    -   [Secure Email](SecureEmail)
 
 -   Security Awareness for OSG Participants
     -   [Security Awareness](Documentation.SecurityAwarenessForTheOSG)
