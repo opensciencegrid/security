@@ -21,7 +21,7 @@
 -   Certificates
     -   [OSG Certificate Service](OSGCertificateService)
     -   [OSG CA Distribution](CaDistribution)
-    -   [Certificate scripts package (doc)](Release3.InstallCertScripts)
+    -   [Certificate scripts package (doc)](InstallCertScripts)
 
 -   [Security Team Protected Working Area](SecurityTeam/WebHome)
 

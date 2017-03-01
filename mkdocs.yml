@@ -21,6 +21,7 @@ pages:
 - Best Practices: 'SecurityBestPractices.md'
 - OSG Certificate Service: 'OSGCertificateService.md'
 - OSG CA Distribution: 'CaDistribution.md'
+- Install Cert Scripts: 'InstallCertScripts.md'
 
 markdown_extensions:
   - admonition
