@@ -174,6 +174,66 @@
             "location": "/EmailLists/#security-team-email-lists", 
             "text": "The following addresses are open for use by all OSG members, partners, and collaborators:   is the standard email address open to the OSG public for reporting of security incidents. Mail to   is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.  The following addresses are for internal use by OSG staff:   is for internal discussions among OSG security team members.  See  Consortium Mailing Lists  for a full listing of OSG mailing lists.", 
             "title": "Security Team Email Lists"
+        }, 
+        {
+            "location": "/SecureEmail/", 
+            "text": "Secure Email in OSG\n\n\nAbout This Document\n\n\nThis document covers using secure email when communicating with the OSG security team. The OSG Security team encourages the use of secure email communication. All official announcements from the OSG security team will be digitally signed. We encourage you to verify the digital signatures on OSG security announcements. Also when sending sensitive information to the OSG security team, we encourage you to encrypt your messages.\n\n\nNews\n\n\n\n\n2010-01-28: The OSG security team has updated the PGP key for \n.\n\n\n\n\nOSG Security PGP key\n\n\nUser ID: Open Science Grid Security \nsecurity@opensciencegrid.org\n\nKey ID: 7FD42669\nExpires:  \nFingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669\n\n\n\n\nThe team key is available from the \nSecurity Team Members\n page or the \nMIT PGP server\n. PGP software is available from: \nGnuPG\n\n\nVerifying a PGP signature\n\n\n\n\n\n\nInstall \nGnuPG\n if it is not already installed on your computer.\n\n\n\n\n\n\nSave \nosg-security-pubkey.asc\n to a file on your computer.\n\n\n\n\n\n\nImport the \n public key:\n\n\n\n\n\n\n[user@client ~]$ gpg --import \n osg-security-pubkey.asc \ngpg: key 7FD42669: public key \nOpen Science Grid Security \nsecurity@opensciencegrid.org\n imported\ngpg: Total number processed: 1\ngpg:               imported: 1\n\n\n\n\n\n\n\n\nSave the message you want to verify to a file on your system (for example: \nsigned-message.txt\n).\n\n\n\n\n\n\nVerify the message:\n\n\n\n\n\n\n[user@client ~]$ gpg --verify \n signed-message.txt \ngpg: Signature made Tue Apr 14 13:18:26 2010 CDT using DSA key ID 7FD42669\ngpg: Good signature from \nOpen Science Grid Security \nsecurity@opensciencegrid.org\n\n\n\n\n\nTo verify additional messages, only steps 4-5 are required.\n\n\nWhen the \n public key expires, you will need to perform steps 2-3 again for the new public key.\n\n\nEncrypting a PGP message\n\n\n\n\n\n\nInstall \nGnuPG\n if it is not already installed on your computer.\n\n\n\n\n\n\nSave \nosg-security-pubkey.asc\n to a file on your computer.\n\n\n\n\n\n\nImport the \n public key:\n\n\n\n\n\n\n[user@client ~]$ gpg --import \n osg-security-pubkey.asc \ngpg: key 7FD42669: public key \nOpen Science Grid Security \nsecurity@opensciencegrid.org\n imported\ngpg: Total number processed: 1\ngpg:               imported: 1\n\n\n\n\n\n\n\n\nSave the message you want to encrypt to a file on your system named message.txt.\n\n\n\n\n\n\nEncrypt the message:\n\n\n\n\n\n\n[user@client ~]$ gpg --recipient security@opensciencegrid.org -a --encrypt \n message.txt \n encrypted-message.txt\n\n\n\n\n\n\nSend the encrypted-message.txt file in email to \n.\n\n\n\n\nTo encrypt additional messages, only steps 4-6 are required.\n\n\nWhen the \n public key expires, you will need to perform steps 2-3 again for the new public key.\n\n\nOther PGP Clients\n\n\nEnigmail OpenPGP plugin for Thunderbird\n\n\nThe OpenPGP plugin for \nThunderbird\n provides a well integrated user interface for key management and email signing and verification that uses GnuPG underneath.\n\n\nSigning an S/MIME message with your certificate\n\n\nThe following is a command line instruction on how to sign an email with your certificate. Instructions for web clients is below.\n\n\n[user@client ~]$ openssl smime -sign -signer ~/.globus/usercert.pem -inkey ~/.globus/userkey.pem -in message.txt | mail -s \nemail subject\n person@example.com\n\n\n\n\n\n\nmessage.txt - body of the email message\n\n\n~/.globus/usercert.pem, userkey.pem - your personal grid certificate\n\n\n - address where email is to be sent\n\n\n\n\nAlternatively, you can send message.txt as an attachment with nearly any email client. It generally works better to send the signed file as an attachment rather than copying it into the body of the message because various email clients and particularly web interfaces to email often modify the message body and therefore break the digital signature.\n\n\nEmail client instructions\n\n\nWith the diversity of different web and various mail clients it is difficult to keep instructions up-to-date on how to deal with certificates. So below we link to a few different sites that deal in X509 certificates and have good instructions on signing emails, as well as other topics dealing with certificates.\n\n\nThawte's how to sign an email instructions.\n\n\nVerisign certificate instructions.\n\n\nVerifying an S/MIME signed message\n\n\n[user@client ~]$ openssl smime -verify -in message.txt -CApath $X509_CERT_DIR -signer sendercert.pem\n[user@client ~]$ openssl x509 -in sendercert.pem -noout -subject -email -serial -dates\n\n\n\n\n\n\nmessage.txt\n - body of email message received\n\n\nnote that the line beginning \"Content-Type\" and including 'boundary=\"---' must be a single line and not get broken or wrapped.\n\n\n\n\n\n\nsendercert.pem\n - the certificate used by the sender to sign the message, is extracted with the openssl smime command\n\n\nopenssl x5091\n command above will display the subject, email address, serial number and validity dates of the signer's certificate", 
+            "title": "Secure Email"
+        }, 
+        {
+            "location": "/SecureEmail/#secure-email-in-osg", 
+            "text": "", 
+            "title": "Secure Email in OSG"
+        }, 
+        {
+            "location": "/SecureEmail/#about-this-document", 
+            "text": "This document covers using secure email when communicating with the OSG security team. The OSG Security team encourages the use of secure email communication. All official announcements from the OSG security team will be digitally signed. We encourage you to verify the digital signatures on OSG security announcements. Also when sending sensitive information to the OSG security team, we encourage you to encrypt your messages.", 
+            "title": "About This Document"
+        }, 
+        {
+            "location": "/SecureEmail/#news", 
+            "text": "2010-01-28: The OSG security team has updated the PGP key for  .", 
+            "title": "News"
+        }, 
+        {
+            "location": "/SecureEmail/#osg-security-pgp-key", 
+            "text": "User ID: Open Science Grid Security  security@opensciencegrid.org \nKey ID: 7FD42669\nExpires:  \nFingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669  The team key is available from the  Security Team Members  page or the  MIT PGP server . PGP software is available from:  GnuPG", 
+            "title": "OSG Security PGP key"
+        }, 
+        {
+            "location": "/SecureEmail/#verifying-a-pgp-signature", 
+            "text": "Install  GnuPG  if it is not already installed on your computer.    Save  osg-security-pubkey.asc  to a file on your computer.    Import the   public key:    [user@client ~]$ gpg --import   osg-security-pubkey.asc \ngpg: key 7FD42669: public key  Open Science Grid Security  security@opensciencegrid.org  imported\ngpg: Total number processed: 1\ngpg:               imported: 1    Save the message you want to verify to a file on your system (for example:  signed-message.txt ).    Verify the message:    [user@client ~]$ gpg --verify   signed-message.txt \ngpg: Signature made Tue Apr 14 13:18:26 2010 CDT using DSA key ID 7FD42669\ngpg: Good signature from  Open Science Grid Security  security@opensciencegrid.org   To verify additional messages, only steps 4-5 are required.  When the   public key expires, you will need to perform steps 2-3 again for the new public key.", 
+            "title": "Verifying a PGP signature"
+        }, 
+        {
+            "location": "/SecureEmail/#encrypting-a-pgp-message", 
+            "text": "Install  GnuPG  if it is not already installed on your computer.    Save  osg-security-pubkey.asc  to a file on your computer.    Import the   public key:    [user@client ~]$ gpg --import   osg-security-pubkey.asc \ngpg: key 7FD42669: public key  Open Science Grid Security  security@opensciencegrid.org  imported\ngpg: Total number processed: 1\ngpg:               imported: 1    Save the message you want to encrypt to a file on your system named message.txt.    Encrypt the message:    [user@client ~]$ gpg --recipient security@opensciencegrid.org -a --encrypt   message.txt   encrypted-message.txt   Send the encrypted-message.txt file in email to  .   To encrypt additional messages, only steps 4-6 are required.  When the   public key expires, you will need to perform steps 2-3 again for the new public key.", 
+            "title": "Encrypting a PGP message"
+        }, 
+        {
+            "location": "/SecureEmail/#other-pgp-clients", 
+            "text": "", 
+            "title": "Other PGP Clients"
+        }, 
+        {
+            "location": "/SecureEmail/#enigmail-openpgp-plugin-for-thunderbird", 
+            "text": "The OpenPGP plugin for  Thunderbird  provides a well integrated user interface for key management and email signing and verification that uses GnuPG underneath.", 
+            "title": "Enigmail OpenPGP plugin for Thunderbird"
+        }, 
+        {
+            "location": "/SecureEmail/#signing-an-smime-message-with-your-certificate", 
+            "text": "The following is a command line instruction on how to sign an email with your certificate. Instructions for web clients is below.  [user@client ~]$ openssl smime -sign -signer ~/.globus/usercert.pem -inkey ~/.globus/userkey.pem -in message.txt | mail -s  email subject  person@example.com   message.txt - body of the email message  ~/.globus/usercert.pem, userkey.pem - your personal grid certificate   - address where email is to be sent   Alternatively, you can send message.txt as an attachment with nearly any email client. It generally works better to send the signed file as an attachment rather than copying it into the body of the message because various email clients and particularly web interfaces to email often modify the message body and therefore break the digital signature.", 
+            "title": "Signing an S/MIME message with your certificate"
+        }, 
+        {
+            "location": "/SecureEmail/#email-client-instructions", 
+            "text": "With the diversity of different web and various mail clients it is difficult to keep instructions up-to-date on how to deal with certificates. So below we link to a few different sites that deal in X509 certificates and have good instructions on signing emails, as well as other topics dealing with certificates.  Thawte's how to sign an email instructions.  Verisign certificate instructions.", 
+            "title": "Email client instructions"
+        }, 
+        {
+            "location": "/SecureEmail/#verifying-an-smime-signed-message", 
+            "text": "[user@client ~]$ openssl smime -verify -in message.txt -CApath $X509_CERT_DIR -signer sendercert.pem\n[user@client ~]$ openssl x509 -in sendercert.pem -noout -subject -email -serial -dates   message.txt  - body of email message received  note that the line beginning \"Content-Type\" and including 'boundary=\"---' must be a single line and not get broken or wrapped.    sendercert.pem  - the certificate used by the sender to sign the message, is extracted with the openssl smime command  openssl x5091  command above will display the subject, email address, serial number and validity dates of the signer's certificate", 
+            "title": "Verifying an S/MIME signed message"
         }
     ]
 }
