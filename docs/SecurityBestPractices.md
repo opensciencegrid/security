@@ -61,7 +61,7 @@ Security for Application Administrators
 VO Application Administrators are expected to:
 
 -   (**at a bare minimum**) Ensure that their software does not compromise the security of any site upon which it runs;
--   Ensure that the software installation procedures follow all posted OSG security policies and procedures (see the [OSG security pages](Home) for more details);
+-   Ensure that the software installation procedures follow all posted OSG security policies and procedures (see the [OSG security pages](index) for more details);
 -   Ensure that the software installation procedures follow all posted site-specific security policies and procedures for those sites where the software is installed and run (see each site's entry on [MyOSG](http://myosg.grid.iu.edu/));
 -   Ensure that their software and the installation and execution thereof is consistent with the VO's own posted policies, procedures and purpose (which should be posted and up to date on [MyOSG](http://myosg.grid.iu.edu/));
 -   Promptly follow the [incident reporting procedures](IncidentDiscoveryReporting) in the event that a security problem is discovered.

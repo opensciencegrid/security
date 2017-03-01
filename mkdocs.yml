@@ -19,6 +19,7 @@ pages:
 - Security User Responsibilities: 'SecurityUserResponsibilities.md'
 - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
 - Best Practices: 'SecurityBestPractices.md'
+- OSG Certificate Service: 'OSGCertificateService.md'
 
 markdown_extensions:
   - admonition
