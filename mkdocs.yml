@@ -18,6 +18,7 @@ pages:
 - Security Awareness For The OSG: 'SecurityAwarenessForTheOSG.md'
 - Security User Responsibilities: 'SecurityUserResponsibilities.md'
 - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
+- Best Practices: 'SecurityBestPractices.md'
 
 markdown_extensions:
   - admonition
