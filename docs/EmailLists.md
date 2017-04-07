@@ -9,4 +9,4 @@ Security Team Email Lists
 
 **<osg-security-team@opensciencegrid.org>** is for internal discussions among OSG security team members.
 
-See [Consortium Mailing Lists](Documentation.ContactsMailingLists) for a full listing of OSG mailing lists.
+See [Consortium Mailing Lists](https://twiki.grid.iu.edu/bin/view/Documentation/ContactsMailingLists) for a full listing of OSG mailing lists.
