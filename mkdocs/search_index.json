@@ -499,6 +499,21 @@
             "location": "/CaDistribution/#references", 
             "text": "OSG CA Certificates Hosted By GOC  OSG GOC Yum Repository  CA Certificates in the VDT  TeraGrid Approved CAs", 
             "title": "References"
+        }, 
+        {
+            "location": "/InstallCertScripts/", 
+            "text": "Tools for Managing Host and Service Certificates\n\n\nThis document used to contain information about a set of tools for requesting and downloading host and service certificates from the DOEGrids CA website. OSG no longer uses certificates from DOEGrids, and the new tools that work with the current OSG certificate provider are located via the following link:\n\n\nOSG PKI Command-Line Clients", 
+            "title": "Install Cert Scripts"
+        }, 
+        {
+            "location": "/InstallCertScripts/#tools-for-managing-host-and-service-certificates", 
+            "text": "This document used to contain information about a set of tools for requesting and downloading host and service certificates from the DOEGrids CA website. OSG no longer uses certificates from DOEGrids, and the new tools that work with the current OSG certificate provider are located via the following link:", 
+            "title": "Tools for Managing Host and Service Certificates"
+        }, 
+        {
+            "location": "/InstallCertScripts/#osg-pki-command-line-clients", 
+            "text": "", 
+            "title": "OSG PKI Command-Line Clients"
         }
     ]
 }
