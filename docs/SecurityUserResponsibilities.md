@@ -28,7 +28,7 @@ To protect your private key, please follow these security guidelines with respec
 
 You may also keep a copy of your certificate and private key in your web browser. Here, too, the private key must be encrypted using the features of your browser for encrypting keys and passwords. For Mozilla Firefox this is called the Master Password of the Software Security Device.
 
-If your private key is compromised, please revoke your certificate immediately and get a new one (see [How do I get or renew a PKI Personal Certificate?](Documentation.CertificateUserGet)). If your VO does not provide instructions on revoking your certificate, then contact the registration authority (RA) that issued the certificate, or directly contact the certificate authority (CA) that issued it.
+If your private key is compromised, please revoke your certificate immediately and get a new one (see [How do I get or renew a PKI Personal Certificate?](https://twiki.grid.iu.edu/bin/view/Documentation/CertificateUserGet)). If your VO does not provide instructions on revoking your certificate, then contact the registration authority (RA) that issued the certificate, or directly contact the certificate authority (CA) that issued it.
 
 Abiding by the policies of your VO
 ----------------------------------
