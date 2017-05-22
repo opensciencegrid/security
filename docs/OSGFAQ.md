@@ -7,7 +7,7 @@ General Information
 
 **What is the Open Science Grid (OSG)?**
 
-  The Open Science Grid brings together a distributed, peta-scale computing and storage resources into a uniform shared cyberinfrastructure for large-scale scientific research. It is built and operated by a consortium of universities, national laboratories, scientific collaborations and software developers. [Read more...](Documentation.WhatIsOSG)
+  The Open Science Grid brings together a distributed, peta-scale computing and storage resources into a uniform shared cyberinfrastructure for large-scale scientific research. It is built and operated by a consortium of universities, national laboratories, scientific collaborations and software developers. [Read more...](https://twiki.grid.iu.edu/bin/view/Documentation/WhatIsOSG)
 
 **Who funds the OSG?**
 
@@ -27,7 +27,7 @@ General Information
 
 **Who participates in the OSG?**
   
-  The Open Science Grid is a collaboration of science researchers, software developers and computing, storage and network providers who come from universities, national laboratories and computing centers. Although based primarily in the United States, the OSG includes participants in other nations. [Read more...](Management.OSGMemberOrganizations)
+  The Open Science Grid is a collaboration of science researchers, software developers and computing, storage and network providers who come from universities, national laboratories and computing centers. Although based primarily in the United States, the OSG includes participants in other nations. [Read more...](https://twiki.grid.iu.edu/bin/view/Management/OSGMemberOrganizations)
 
    
 Getting Started
@@ -35,7 +35,7 @@ Getting Started
 
 **Where can I get funding to convert my applications to parallelism needed on the OSG?**
   
-  The OSG can provide assistance with [installation and administration of OSG sites](Documentation.Release3.WebHome), installation and use of [client software](Documentation.Release3.InstallOSGClient) to run grid jobs on the OSG, and [User Help](Documentation.UserHelp) in enabling your application for the grid. But the OSG does not provide funding for this process.   
+  The OSG can provide assistance with [installation and administration of OSG sites](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/WebHome), installation and use of [client software](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/InstallOSGClient) to run grid jobs on the OSG, and [User Help](https://twiki.grid.iu.edu/bin/view/Documentation/UserHelp) in enabling your application for the grid. But the OSG does not provide funding for this process.   
 
 **What application requirements are *NOT* well-suited to the OSG?** 
   
@@ -58,23 +58,23 @@ Getting Started
     3. Enable your appllication for grid computing
     4. Submit your job to a resource available to your Virtual Organization
 
-[Read more...](Documentation.Release3.NavUserMain)   
+[Read more...](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/NavUserMain)   
 
 **Where can I get training on how to use the grid?**
   
-  The [Education, Training and Outreach activity](Education.WebHome) offers grid schools and workshops in a variety of locations across the US and abroad. Your group can sponsor a grid school at your facility. The grid school tutorial labs are available online and can be done by individuals on their own, requiring only access to an OSG compute element.   
+  The [Education, Training and Outreach activity](https://twiki.grid.iu.edu/bin/view/Education/WebHome) offers grid schools and workshops in a variety of locations across the US and abroad. Your group can sponsor a grid school at your facility. The grid school tutorial labs are available online and can be done by individuals on their own, requiring only access to an OSG compute element.   
 
 **How do I port my existing application to work on the OSG resources?**
   
-  See links under in [User Resources](Documentation.Release3.NavUserResources) and [Porting Your Application](PortingYourApplication). 
+  See links under in [User Resources](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/NavUserResources) and [Porting Your Application](https://twiki.grid.iu.edu/bin/view/Documentation/PortingYourApplication). 
 
 **Is there a glossary of grid computing terms?**
   
-  Yes, see the [glossary of OSG terms](GlossaryOfTerms).   
+  Yes, see the [glossary of OSG terms](https://twiki.grid.iu.edu/bin/view/Documentation/GlossaryOfTerms).   
 
 **How do I get permission to edit information on the Page?**
 
-  1. [Fork the repository from GitHub](https://github.com/opensciencegrid/secuirty)
+  1. [Fork the repository from GitHub](https://twiki.grid.iu.edu/bin/view/TWiki/TWikiRegistration)
   2. Submit a pull request to the repository after making changes
 
 
@@ -86,7 +86,7 @@ Virtual Organizations (VO)
 
 **Do I have to be part of a VO in order to use or contribute to OSG?**
   
-  Yes. Learn more about VOs from [the Virtual Organizations page](Documentation.WhatIsVO).   
+  Yes. Learn more about VOs from [the Virtual Organizations page](https://twiki.grid.iu.edu/bin/view/Documentation/WhatIsVO).   
 
 **Where do I find which VOs are already registered with OSG?**
   
@@ -98,7 +98,7 @@ Virtual Organizations (VO)
 
 **How do I join an OSG Virtual Organization (VO)?** 
   
-  Different VOs may have different membership requirements and procedures. You will first need to determine which VO is most appropriate for you to join, then either see that VOs web pages or go to the [VO List](https://oim.grid.iu.edu/oim/vo) for links to that VO's membership procedures. [Read more...](Documentation.WhatIsVO)   
+  Different VOs may have different membership requirements and procedures. You will first need to determine which VO is most appropriate for you to join, then either see that VOs web pages or go to the [VO List](https://oim.grid.iu.edu/oim/vo) for links to that VO's membership procedures. [Read more...](https://twiki.grid.iu.edu/bin/view/Documentation/WhatIsVO)   
 
 **So many acronyms start with "VO"; how do I keep them straight?**
   
@@ -106,11 +106,11 @@ Virtual Organizations (VO)
 
 **How does a VO fit into the OSG?**
   
-  Read [How does a VO fit into the OSG?](VOAdminInOsg).    
+  Read [How does a VO fit into the OSG?](https://twiki.grid.iu.edu/bin/view/Documentation/VOAdminInOsg).    
 
 **How do I form a new VO?**
   
-  [Contact User Support](UserHelp) if you want to form a new VO.   
+  [Contact User Support](https://twiki.grid.iu.edu/bin/view/Documentation/UserHelp) if you want to form a new VO.   
 
    
 Getting Support
@@ -118,11 +118,11 @@ Getting Support
 
 **How do I get support for problems I encounter while using OSG resources?**
   
-  Users typically get support through contacting your [VO's support center](http://myosg.grid.iu.edu/scsummary?datasource=summary&summary_attrs_showdesc=on&all_scs=on&active=on&active_value=1). Site administrators often use the *osg-general* and *osg-int* mailing lists. [Read more about getting user help and support...](UserHelp)    
+  Users typically get support through contacting your [VO's support center](http://myosg.grid.iu.edu/scsummary?datasource=summary&summary_attrs_showdesc=on&all_scs=on&active=on&active_value=1). Site administrators often use the *osg-general* and *osg-int* mailing lists. [Read more about getting user help and support...](https://twiki.grid.iu.edu/bin/view/Documentation/UserHelp)    
 
 **What is the Grid Operations Center (GOC)?** 
   
-  See [What is the Grid Operations Center (GOC)?](GocWhatIs) or go directly to [Grid Operations Center](http://osggoc.blogspot.com/).   
+  See [What is the Grid Operations Center (GOC)?](https://twiki.grid.iu.edu/bin/view/Documentation/GocWhatIs) or go directly to [Grid Operations Center](http://osggoc.blogspot.com/).   
 
 **What OSG mailing lists should I subscribe to?**
   
@@ -134,7 +134,7 @@ Running Jobs
 
 **How do I run a job on an OSG resource?** 
   
-  This is often specific to your particular VO's policies and procedures. However we provide some links under the heading "End Users (Researchers, application users)" on the [Documentation hub](WebHome) with some OSG-generic information.    
+  This is often specific to your particular VO's policies and procedures. However we provide some links under the heading "End Users (Researchers, application users)" on the [Documentation hub](https://twiki.grid.iu.edu/bin/view/Documentation/WebHome) with some OSG-generic information.    
 
 **How can I monitor my OSG work?** 
   
@@ -142,7 +142,7 @@ Running Jobs
 
 **How do I troubleshoot a job that is not running properly?**
   
-  OSG has a [Troubleshooting Guide](Documentation.Release3.TroubleshootingGuide) or you can contact [User Help](Documentation.UserHelp).    
+  OSG has a [Troubleshooting Guide](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/TroubleshootingGuide) or you can contact [User Help](https://twiki.grid.iu.edu/bin/view/Documentation/UserHelp).    
 
 **Can I really run my job on any OSG resource without talking to the site first?**
   
@@ -156,7 +156,7 @@ According to [Globus](http://www.globus.org/)
 
 **What happens if I run a "bazillion squillion" jobs on one site?**
   
-  Please don't. If you do, you'll only do it once. Remember the sites control their resources, OSG doesn't. If you make the site administrators angry, their retribution may be visited upon you specifically, or on your entire VO. Then you've got a lot of angry people to deal with. See [Helpful Hints for Running At-Scale on the OSG](Documentation.GoldenRulesForOSGUsage).
+  Please don't. If you do, you'll only do it once. Remember the sites control their resources, OSG doesn't. If you make the site administrators angry, their retribution may be visited upon you specifically, or on your entire VO. Then you've got a lot of angry people to deal with. See [Helpful Hints for Running At-Scale on the OSG](https://twiki.grid.iu.edu/bin/view/Documentation/GoldenRulesForOSGUsage).
 
 
 About OSG's Software
@@ -172,7 +172,7 @@ About OSG's Software
 
 **What is Pacman?**
   
-  [Pacman](http://physics.bu.edu/pacman/) is the package management tool that was used to install most of the OSG software stack prior to Release3. We now use yum and RPMs. See [yum and RPM basics](Documentation.Release3.YumRpmBasics).
+  [Pacman](http://physics.bu.edu/pacman/) is the package management tool that was used to install most of the OSG software stack prior to Release3. We now use yum and RPMs. See [yum and RPM basics](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/YumRpmBasics).
 
 **Why do you use Pacman instead of RPM?**
   
@@ -188,31 +188,31 @@ Installation and Configuration of OSG Sites
 
 **What do I have to have in place before I setup an OSG resource?**
   
-  See [Site Planning](Documentation.Release3.SitePlanning).    
+  See [Site Planning](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/SitePlanning).    
 
 **How do I make my site's resources available to OSG members?**
   
-  OSG welcomes new resources! The basic installation of an OSG Compute Element or Storage Element requires that certain sets of hardware be available and configured with the OSG software. You will also need to determine your site's policies for usage. It is best to contact us (see [contacts](ContactsMailingLists) or you can dive into the [documentation](WebHome).    
+  OSG welcomes new resources! The basic installation of an OSG Compute Element or Storage Element requires that certain sets of hardware be available and configured with the OSG software. You will also need to determine your site's policies for usage. It is best to contact us (see [contacts](https://twiki.grid.iu.edu/bin/view/Documentation/ContactsMailingLists) or you can dive into the [documentation](https://twiki.grid.iu.edu/bin/view/Documentation/WebHome).    
 
 **What should I name my OSG resource?**
   
-  Each OSG resource needs a unique name by which services and resources may refer to the resource. This name will be displayed on the Site Catalog and used in tables for other monitoring and accounting. See [Resource Name](ReleaseDocumentation/ResourceName).
+  Each OSG resource needs a unique name by which services and resources may refer to the resource. This name will be displayed on the Site Catalog and used in tables for other monitoring and accounting. See [Resource Name](https://twiki.grid.iu.edu/bin/view/ReleaseDocumentation/ResourceName).
 
 **How do I install an OSG compute element?**
   
-  The OSG Computer Element (CE) software has several prerequisites for the platform and hardware. You will also need to understand the systems that you will be using for your CE and worker nodes, along with the network and firewall configuration for your site. Start with [Preparing Compute Element.](Documentation.Release3.PreparingComputeElement)    
+  The OSG Computer Element (CE) software has several prerequisites for the platform and hardware. You will also need to understand the systems that you will be using for your CE and worker nodes, along with the network and firewall configuration for your site. Start with [Preparing Compute Element.](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/PreparingComputeElement)    
 
 **What should I install on my site's worker nodes?**
   
-  There are a few options. See [Worker Node Client](Documentation.Release3.InstallWNClient).   
+  There are a few options. See [Worker Node Client](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/InstallWNClient).   
 
 **Do I need to shut down and uninstall my Compute Element (CE) installations before I upgrade them?**
   
-  You need to shutdown all services. See [Stopping Services](Documentation.Release3.InstallComputeElement#7_2_Stopping_and_Disabling_Servi). (Also, see the man page: `man vdt-control`.)    
+  You need to shutdown all services. See [Stopping Services](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/InstallComputeElement#7_2_Stopping_and_Disabling_Servi). (Also, see the man page: `man vdt-control`.)    
 
 **How should I configure local storage on my OSG compute element?**
   
-  See [Local storage configuration](Documentation.Release3.LocalStorageConfiguration). How do I set up a BestMan based Storage Element? Please refer to the instructions on [Bestman](Documentation.Release3.InstallOSGBestmanSE).
+  See [Local storage configuration](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/LocalStorageConfiguration). How do I set up a BestMan based Storage Element? Please refer to the instructions on [Bestman](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/InstallOSGBestmanSE).
 
 
 Administration of OSG Sites
@@ -224,7 +224,7 @@ Administration of OSG Sites
 
 **How do I troubleshoot the edg-mkgridmap script?**
   
-  See the [Edg Mkgridmap Troubleshooting Guide](Documentation.Release3.TroubleshootingComputeElement#TroubleshootingEdgMkgridmap)    
+  See the [Edg Mkgridmap Troubleshooting Guide](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/TroubleshootingComputeElement#TroubleshootingEdgMkgridmap)    
 
 **How do I activate and deactivate my Resource on the OSG?**
   
@@ -252,11 +252,11 @@ Security and Certificates
 
 **What is a grid certificate?**
   
-  Grid certificates are ways to prove that you are who you claim to be when you attempt to use an OSG resource. These certificates are issued by a trusted source (e.g., the US Dept. of Energy) and require a password from you. In this way, they are similar to using ID cards such as your driver's license or passport. You must have a currently valid certificate that was issued from an approved Certificate Authority to use OSG resources. [Read more...](Documentation.CertificateWhatIs)    
+  Grid certificates are ways to prove that you are who you claim to be when you attempt to use an OSG resource. These certificates are issued by a trusted source (e.g., the US Dept. of Energy) and require a password from you. In this way, they are similar to using ID cards such as your driver's license or passport. You must have a currently valid certificate that was issued from an approved Certificate Authority to use OSG resources. [Read more...](https://twiki.grid.iu.edu/bin/view/Documentation/CertificateWhatIs)    
 
 **How do I get or renew a grid certificate for users of the OSG?**
   
-  There is [How do I get a certificate for the OSG](Documentation.Release3.CertificateUserGet). Contact your Virtual Organization for what certificate authority is used within your group. To renew an unexpired certificate or replace an expired certificate, see [miscellaneous certificate tasks](Documentation/MiscellaneousCertificateTasks).    
+  There is [How do I get a certificate for the OSG](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/CertificateUserGet). Contact your Virtual Organization for what certificate authority is used within your group. To renew an unexpired certificate or replace an expired certificate, see [miscellaneous certificate tasks](https://twiki.grid.iu.edu/bin/view/Documentation/MiscellaneousCertificateTasks).    
 
 **Can someone reset the password on my certificate key?**
   
@@ -268,20 +268,20 @@ Security and Certificates
     * Protect your grid identity token
     * Abide by the policies and procedures of your Virtual Organization (VO)
     * Report any known or suspected security breach
-[Read more...](Documentation.SecuritySiteResponsibilities)    
+[Read more...](https://twiki.grid.iu.edu/bin/view/Documentation/SecuritySiteResponsibilities)    
 
 **What are OSG resource administrators' and VO administrators' responsibilities in keeping OSG secure?** 
   
   As an admin, you are expected to:
     * Protect all grid identity tokens (personal, host, service)
-    * Follow the [instructions for installing and configuring OSG software](Documentation.Release3.WebHome)
+    * Follow the [instructions for installing and configuring OSG software](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/WebHome)
     * Abide by the policies and procedures of your Virtual Organization (VO)
     * Report any known or suspected security breach
-[Read more...](Documentation/SecuritySiteResponsibilities)    
+[Read more...](https://twiki.grid.iu.edu/bin/view/Documentation/SecuritySiteResponsibilities)    
 
 **What do I do if my root certificate expires?**
   
-  You can fetch the new certificate, if available and import it into your trusted root CA directories. Please make sure that that you download the Digicert root and intermediate CA certs that are needed to add to the OS X Keychain (for example) or to the trusted issuer stores in the various browsers from [here](http://www.digicert-grid.com/). See [Install CA certificates in the browser](Documentation/CertificateGetWeb#InstallCaCert) for the entire procedure.
+  You can fetch the new certificate, if available and import it into your trusted root CA directories. Please make sure that that you download the Digicert root and intermediate CA certs that are needed to add to the OS X Keychain (for example) or to the trusted issuer stores in the various browsers from [here](http://www.digicert-grid.com/). See [Install CA certificates in the browser](https://twiki.grid.iu.edu/bin/view/Documentation/CertificateGetWeb#InstallCaCert) for the entire procedure.
 
   If there is no new certificate, then you can remove the expired certificate from trusted CA directory. Since the CA is no longer serving, you do not trust the certificates issued by this CA.
    
@@ -295,4 +295,4 @@ Security and Certificates
 
 **My web browser does not trust the OSG CA?**
   
-  See [Install CA certificates in the browser](Documentation/CertificateGetWeb#InstallCaCert) for a procedure to solve this problem.
+  See [Install CA certificates in the browser](https://twiki.grid.iu.edu/bin/view/Documentation/CertificateGetWeb#InstallCaCert) for a procedure to solve this problem.
