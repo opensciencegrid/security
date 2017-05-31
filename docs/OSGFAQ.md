@@ -122,7 +122,7 @@ Getting Support
 
 **What OSG mailing lists should I subscribe to?**
   
-  The OSG's mailing lists are categorized and described on the [mailing lists](ContactsMailingLists) page. Some are used to distribute announcements, others to provide discussion forums, activity coordination forums, and so on. We suggest that everyone subscribe to *OSG*, *OSGNEWS*, and *OSG-GENERAL* (all *@opensciencegrid.org*). Further subscriptions should be based on the types of activities you become involved in.   
+  The OSG's mailing lists are categorized and described on the [mailing lists](https://twiki.grid.iu.edu/bin/view/Documentation/ContactsMailingLists) page. Some are used to distribute announcements, others to provide discussion forums, activity coordination forums, and so on. We suggest that everyone subscribe to *OSG*, *OSGNEWS*, and *OSG-GENERAL* (all *@opensciencegrid.org*). Further subscriptions should be based on the types of activities you become involved in.   
 
    
 Running Jobs
