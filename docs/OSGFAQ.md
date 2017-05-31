@@ -283,7 +283,7 @@ Security and Certificates
    
 **How do I update my GUMS service template?**
   
-  This is discussed in [Installing and Configuring GUMS](ReleaseDocumentation/InstallConfigureAndManageGUMS). You will use the `gums-create-config` script.    
+  This is discussed in [Installing and Configuring GUMS](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/InstallGums). You will use the `gums-create-config` script.    
 
 **How do I update my CA trusted directories?**
   
