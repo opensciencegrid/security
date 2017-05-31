@@ -21,10 +21,6 @@ General Information
   
   Job submission, data transfer and storage, authentication, accounting, monitoring, central information gathering/publishing, web caching (proxy), and more. [Read more...](https://twiki.grid.iu.edu/bin/view/ReleaseDocumentation/OverviewOfServicesInOSG)   
 
-**What is the GLUE schema used in OSG?**
-  
-  The GLUE Schema is an abstract model for Grid resources that can be used in Grid Information Services. [Read more...](http://forge.gridforum.org/sf/projects/glue-wg)    
-
 **Who participates in the OSG?**
   
   The Open Science Grid is a collaboration of science researchers, software developers and computing, storage and network providers who come from universities, national laboratories and computing centers. Although based primarily in the United States, the OSG includes participants in other nations. [Read more...](https://twiki.grid.iu.edu/bin/view/Management/OSGMemberOrganizations)
