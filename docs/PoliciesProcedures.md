@@ -11,7 +11,7 @@ OSG Security Policies
 
 OSG security policies should address topics of importance to OSG stakeholders. The policies should be succinct and few.
 
-OSG security policies are developed by the OSG security team, when appropriate in conjunction with Joint Security Policy Group ([JSPG](http://www.jspg.org/)) (see below). The security team develops implementation and assessment procedures concurrently with the policies. Draft policies are approved by the OSG Executive Board and then officially endorsed by the OSG Council according to the [OSG Statement on Agreements and Policies](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=539).
+OSG security policies are developed by the OSG security team, when appropriate in conjunction with Joint Security Policy Group(see below). The security team develops implementation and assessment procedures concurrently with the policies. Draft policies are approved by the OSG Executive Board and then officially endorsed by the OSG Council according to the [OSG Statement on Agreements and Policies](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=539).
 
 See Security.PoliciesProceduresInProgress for a list of security policies and procedures under development.
 
