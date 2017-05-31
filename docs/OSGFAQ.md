@@ -214,10 +214,6 @@ Installation and Configuration of OSG Sites
 Administration of OSG Sites
 ---------------------------
 
-**How can I ensure that the next release of OSG software will run on my site?**
-  
-  We encourage you to participate in testing and validating the OSG software prior to its release. To do so, you need to participate in the Trash/Trash/Integration Test Bed (ITB) and attend the weekly integration meetings. For information about the ITB, see What is the integration grid and the Trash/Trash/Integration Contacts.
-
 **How do I troubleshoot the edg-mkgridmap script?**
   
   See the [Edg Mkgridmap Troubleshooting Guide](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/TroubleshootingComputeElement#TroubleshootingEdgMkgridmap)    
@@ -228,7 +224,7 @@ Administration of OSG Sites
 
 **How do I authorize users on a compute element?**
   
-  OSG supports three of the available GUMS authorization scenarios: Grid3/Local, Compatibility, and Full Privilege. All three use the Virtual Organization Membership Service (VOMS). [Read more...](ReleaseDocumentation/AboutAuthorizationForCE)    
+  OSG supports three of the available GUMS authorization scenarios: Grid3/Local, Compatibility, and Full Privilege. All three use the Virtual Organization Membership Service (VOMS). [Read more...](https://twiki.grid.iu.edu/bin/view/Documentation/UserAuthAndPrivilege)    
 
    
 Security and Certificates
