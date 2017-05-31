@@ -12,7 +12,7 @@ script:
 - git config user.name "Automatic Publish"
 - git config user.email "djw8605@gmail.com"
 - git remote add gh-token "${GH_REF}";
-- if [ "${TRAVIS_PULL_REQUEST}" != "false" ]; then mkdocs -v build; fi
+- if [ "${TRAVIS_PULL_REQUEST}" != "false" ]; then PYTHONPATH=src/ mkdocs -v build; fi
 - if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then git fetch gh-token && git fetch gh-token gh-pages:gh-pages; fi
 - if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then echo "Pushing to github"; PYTHONPATH=src/ mkdocs gh-deploy -v --clean --remote-name gh-token; git push gh-token gh-pages; fi;
 
