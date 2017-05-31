@@ -19,7 +19,7 @@ General Information
 
 **What services are available in the OSG?**
   
-  Job submission, data transfer and storage, authentication, accounting, monitoring, central information gathering/publishing, web caching (proxy), and more. [Read more...](OverviewOfServicesInOSG)   
+  Job submission, data transfer and storage, authentication, accounting, monitoring, central information gathering/publishing, web caching (proxy), and more. [Read more...](https://twiki.grid.iu.edu/bin/view/ReleaseDocumentation/OverviewOfServicesInOSG)   
 
 **What is the GLUE schema used in OSG?**
   
