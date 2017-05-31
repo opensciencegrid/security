@@ -224,7 +224,7 @@ Administration of OSG Sites
 
 **How do I activate and deactivate my Resource on the OSG?**
   
-  See the [How to register your resource with GOC](ReleaseDocumentation/ComputeElementPostInstall#Included_topic_Register_Resource).    
+  See the [How to register your resource with GOC](https://twiki.opensciencegrid.org/bin/view/Documentation/RegisterResourceWithGOC).    
 
 **How do I authorize users on a compute element?**
   
