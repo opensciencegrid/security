@@ -134,7 +134,7 @@ Running Jobs
 
 **How can I monitor my OSG work?** 
   
-  There are multiple monitoring infrastuctures to provide targeted views of the distributed facility. You can receive periodic reports by subscribing to the *osg-ops-status* email list (*@opensciencegrid.org*). Read more information in [OSG Grid Monitoring](Trash/MonitoringInformation.WebHome).    
+  There are multiple monitoring infrastuctures to provide targeted views of the distributed facility. You can receive periodic reports by subscribing to the *osg-ops-status* email list (*@opensciencegrid.org*). Read more information in [GRACC Grid Accounting](https://gracc.opensciencegrid.org/dashboard/db/gracc-home?orgId=1).    
 
 **How do I troubleshoot a job that is not running properly?**
   
@@ -214,10 +214,6 @@ Installation and Configuration of OSG Sites
 Administration of OSG Sites
 ---------------------------
 
-**How can I ensure that the next release of OSG software will run on my site?**
-  
-  We encourage you to participate in testing and validating the OSG software prior to its release. To do so, you need to participate in the Trash/Trash/Integration Test Bed (ITB) and attend the weekly integration meetings. For information about the ITB, see What is the integration grid and the Trash/Trash/Integration Contacts.
-
 **How do I troubleshoot the edg-mkgridmap script?**
   
   See the [Edg Mkgridmap Troubleshooting Guide](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/TroubleshootingComputeElement#TroubleshootingEdgMkgridmap)    
@@ -228,7 +224,7 @@ Administration of OSG Sites
 
 **How do I authorize users on a compute element?**
   
-  OSG supports three of the available GUMS authorization scenarios: Grid3/Local, Compatibility, and Full Privilege. All three use the Virtual Organization Membership Service (VOMS). [Read more...](ReleaseDocumentation/AboutAuthorizationForCE)    
+  OSG supports three of the available GUMS authorization scenarios: Grid3/Local, Compatibility, and Full Privilege. All three use the Virtual Organization Membership Service (VOMS). [Read more...](https://twiki.grid.iu.edu/bin/view/Documentation/UserAuthAndPrivilege)    
 
    
 Security and Certificates

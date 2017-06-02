@@ -11,7 +11,7 @@ OSG Security Policies
 
 OSG security policies should address topics of importance to OSG stakeholders. The policies should be succinct and few.
 
-OSG security policies are developed by the OSG security team, when appropriate in conjunction with Joint Security Policy Group ([JSPG](http://www.jspg.org/)) (see below). The security team develops implementation and assessment procedures concurrently with the policies. Draft policies are approved by the OSG Executive Board and then officially endorsed by the OSG Council according to the [OSG Statement on Agreements and Policies](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=539).
+OSG security policies are developed by the OSG security team, when appropriate in conjunction with Joint Security Policy Group(see below). The security team develops implementation and assessment procedures concurrently with the policies. Draft policies are approved by the OSG Executive Board and then officially endorsed by the OSG Council according to the [OSG Statement on Agreements and Policies](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=539).
 
 See Security.PoliciesProceduresInProgress for a list of security policies and procedures under development.
 
@@ -50,6 +50,7 @@ OSG has the following documented security procedures:
 -   [OSG Registration](https://twiki.grid.iu.edu/bin/view/Operations/OIMRegistrationInstructions)
     -   [VO Registration](https://twiki.grid.iu.edu/bin/view/Operations/SOPVoRegistration-v3)
     -   [Resource Registration](Operations.SOPRsRegistration)
+    -   [OSG Registration Authority](http://www.opensciencegrid.org/ra/) for the DOEGrids PKI
 -   [Software Vulnerability Handling](https://twiki.grid.iu.edu/bin/view/Security/SoftwareVulnerabilityHandling)
 -   [Site/VO Removal](https://twiki.grid.iu.edu/bin/view/Documentation/RemovalProcedure)
 -   [Security Announcements](https://twiki.grid.iu.edu/bin/view/Security/SecurityAnnouncements)
@@ -60,7 +61,7 @@ References and Related Information
 
 ### JSPG
 
-OSG participates in the Joint Security Policy Group ([JSPG](http://www.jspg.org/)), which aims to generate common security policies across [WLCG](http://lcg.web.cern.ch/lcg/), [EGI](http://www.egi.eu/) and other grids such as OSG. The JSPG policies are often defined at a higher level and state common requirements across grids. A JSPG policy is designed to be accompanied by a grid-specific document where the grid defines its own specifics to a JSPG policy. JSPG submits documents to the WLCG MB and EGI TMB for approval. OSG adopts JSPG policies independently and is not required to adopt all JSPG policies. The top level JSPG [Grid Security Policy](https://edms.cern.ch/document/428008) specifies the overall framework that the other JSPG policies fit into. The list of working documents of the JSPG is at (http://www.jspg.org/nonmember/index.php?cd=99).
+OSG participates in the Joint Security Policy Group ([JSPG](http://www.jspg.org/)), which aims to generate common security policies across [WLCG](http://wlcg.web.cern.ch/), [EGI](http://www.egi.eu/) and other grids such as OSG. The JSPG policies are often defined at a higher level and state common requirements across grids. A JSPG policy is designed to be accompanied by a grid-specific document where the grid defines its own specifics to a JSPG policy. JSPG submits documents to the WLCG MB and EGI TMB for approval. OSG adopts JSPG policies independently and is not required to adopt all JSPG policies. The top level JSPG [Grid Security Policy](https://edms.cern.ch/document/428008) specifies the overall framework that the other JSPG policies fit into. The list of working documents of the JSPG is at (http://www.jspg.org/nonmember/index.php?cd=99).
 
 ### IPG
 
