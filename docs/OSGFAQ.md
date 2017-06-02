@@ -134,7 +134,7 @@ Running Jobs
 
 **How can I monitor my OSG work?** 
   
-  There are multiple monitoring infrastuctures to provide targeted views of the distributed facility. You can receive periodic reports by subscribing to the *osg-ops-status* email list (*@opensciencegrid.org*). Read more information in [OSG Grid Monitoring](Trash/MonitoringInformation.WebHome).    
+  There are multiple monitoring infrastuctures to provide targeted views of the distributed facility. You can receive periodic reports by subscribing to the *osg-ops-status* email list (*@opensciencegrid.org*). Read more information in [GRACC Grid Accounting](https://gracc.opensciencegrid.org/dashboard/db/gracc-home?orgId=1).    
 
 **How do I troubleshoot a job that is not running properly?**
   
