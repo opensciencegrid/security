@@ -60,7 +60,7 @@ References and Related Information
 
 ### JSPG
 
-OSG participates in the Joint Security Policy Group ([JSPG](http://www.jspg.org/)), which aims to generate common security policies across [WLCG](http://lcg.web.cern.ch/lcg/), [EGI](http://www.egi.eu/) and other grids such as OSG. The JSPG policies are often defined at a higher level and state common requirements across grids. A JSPG policy is designed to be accompanied by a grid-specific document where the grid defines its own specifics to a JSPG policy. JSPG submits documents to the WLCG MB and EGI TMB for approval. OSG adopts JSPG policies independently and is not required to adopt all JSPG policies. The top level JSPG [Grid Security Policy](https://edms.cern.ch/document/428008) specifies the overall framework that the other JSPG policies fit into. The list of working documents of the JSPG is at (http://www.jspg.org/nonmember/index.php?cd=99).
+OSG participates in the Joint Security Policy Group ([JSPG](http://www.jspg.org/)), which aims to generate common security policies across [WLCG](http://wlcg.web.cern.ch/), [EGI](http://www.egi.eu/) and other grids such as OSG. The JSPG policies are often defined at a higher level and state common requirements across grids. A JSPG policy is designed to be accompanied by a grid-specific document where the grid defines its own specifics to a JSPG policy. JSPG submits documents to the WLCG MB and EGI TMB for approval. OSG adopts JSPG policies independently and is not required to adopt all JSPG policies. The top level JSPG [Grid Security Policy](https://edms.cern.ch/document/428008) specifies the overall framework that the other JSPG policies fit into. The list of working documents of the JSPG is at (http://www.jspg.org/nonmember/index.php?cd=99).
 
 ### IPG
 
