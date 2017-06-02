@@ -148,7 +148,7 @@ There is a section in the [GUMS online documentation](https://www.racf.bnl.gov/F
 Hands-on Training
 -----------------
 
--    [Security Training](https://twiki.grid.iu.edu/bin/edit/Security/SecurityHandsOnTraining?topicparent=Documentation.SecurityBestPractices) (from OSG All Hands Meeting, Baron Rouge, LA, Mar 2, 2009)
+-    Security Training (from OSG All Hands Meeting)
 
 Reference Materials
 -------------------
