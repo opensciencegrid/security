@@ -51,5 +51,5 @@ References
 -   [OSG CA Certificates Hosted By GOC](http://software.grid.iu.edu/pacman/cadist/)
 -   [OSG GOC Yum Repository](http://yum.grid.iu.edu/)
 -   [CA Certificates in the VDT](http://vdt.cs.wisc.edu/certificate_authorities.html)
--   [TeraGrid Approved CAs](http://security.teragrid.org/TG-CAs.html)
+-   [TeraGrid Approved CAs](https://www.xsede.org/home)
 
