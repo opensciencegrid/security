@@ -49,8 +49,7 @@ OSG has the following documented security procedures:
 -   [Secure Email Key Management](https://twiki.grid.iu.edu/bin/view/Documentation/SecureEmail)
 -   [OSG Registration](https://twiki.grid.iu.edu/bin/view/Operations/OIMRegistrationInstructions)
     -   [VO Registration](https://twiki.grid.iu.edu/bin/view/Operations/SOPVoRegistration-v3)
-    -   [Resource Registration](Operations.SOPRsRegistration)
-    -   [OSG Registration Authority](http://www.opensciencegrid.org/ra/) for the DOEGrids PKI
+-   [OSG Registration Authority](http://www.opensciencegrid.org/ra/) for the DOEGrids PKI
 -   [Software Vulnerability Handling](https://twiki.grid.iu.edu/bin/view/Security/SoftwareVulnerabilityHandling)
 -   [Site/VO Removal](https://twiki.grid.iu.edu/bin/view/Documentation/RemovalProcedure)
 -   [Security Announcements](https://twiki.grid.iu.edu/bin/view/Security/SecurityAnnouncements)
