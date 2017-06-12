@@ -12,7 +12,7 @@ Contents
 The OSG CA Distribution contains:
 
 -   [IGTF Distribution of Authority Root Certificates](http://dist.eugridpma.info/distribution/igtf/current/) (CAs accredited by the [International Grid Trust Federation](http://igtf.net/))
--   [Purdue TeraGrid CA](http://tg-ca.purdue.teragrid.org:8080/ejbca/)
+-   [Purdue TeraGrid CA](https://www.rcac.purdue.edu/services/xsede/)
 
 For additional details, see the [distribution site](http://software.grid.iu.edu/pacman/cadist/) and [change log](http://software.grid.iu.edu/pacman/cadist/CHANGES).
 
