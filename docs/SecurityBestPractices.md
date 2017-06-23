@@ -100,7 +100,7 @@ Use firewalls to restrict access to system services:
 
 Firewall resources:
 
--   [VDT and Firewalls](http://vdt.cs.wisc.edu/releases/1.10.1/firewall.html) - lists all ports used with VDT software.
+-   [OSG Services and Firewalls](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/FirewallInformation) - This gives an introduction on Firewalls and how those terms are translated for OSG software.
 -   [iptables](http://www.netfilter.org/projects/iptables/): The command-line program for configuring the Linux firewall.
 
 Another option for blocking hosts is using the [DenyHosts package](http://denyhosts.sourceforge.net/features.html). This package can help protect against the constant SSH brute force attacks. It will watch the system logs and detect when a brute force attack is occurring and then block the offending host in real time. There are many other nice features that [DenyHosts](http://denyhosts.sourceforge.net/features.html) also provides.
