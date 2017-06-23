@@ -63,7 +63,7 @@ OSG participates in the Joint Security Policy Group ([JSPG](http://www.jspg.org/
 
 ### IPG
 
-OSG participates in the Infrastructure Policy Group ([IPG](http://forge.ogf.org/sf/wiki/do/viewPage/projects.ipg/wiki/HomePage)), a forum for the discussion of principles and practices for policies of distributed infrastructures.
+OSG participates in the Infrastructure Policy Group (IPG), a forum for the discussion of principles and practices for policies of distributed infrastructures.
 
 ### WLCG
 
