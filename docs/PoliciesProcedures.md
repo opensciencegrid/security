@@ -67,4 +67,4 @@ OSG participates in the Infrastructure Policy Group ([IPG](http://forge.ogf.org/
 
 ### WLCG
 
-OSG participants who participate in [WLCG](http://lcg.web.cern.ch/lcg/) are also subject to [WLCG/EGEE Security Policies](http://osct.web.cern.ch/osct/policies.html).
+OSG participants who participate in [WLCG](http://wlcg.web.cern.ch/) are also subject to [WLCG/EGEE Security Policies](http://osct.web.cern.ch/osct/policies.html).
