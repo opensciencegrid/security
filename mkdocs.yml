@@ -4,9 +4,6 @@ repo_url: https://github.com/opensciencegrid/security/
 theme: 
   name: readthedocs
 
-extra_css:
-  - css/extra.css
-
 pages:
 - Home: 'index.md'
 - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
