@@ -23,19 +23,19 @@ Please include the following information in your report:
 ## What to do after an incident is reported
 
 !!! note
-If you have not reported the incident to your local security team AND the OSG security team, report the incident now.
+    If you have not reported the incident to your local security team AND the OSG security team, report the incident now.
 
 !!! note
-You will first want to notify your local security contacts. The local security contacts will help with hands-on examination. Then, make sure to report the incident to OSG.
+    You will first want to notify your local security contacts. The local security contacts will help with hands-on examination. Then, make sure to report the incident to OSG.
 
 ### Compromised machine
 If it is initially determined that the machine has been compromised, then here are a couple of steps to take:
 
 !!! note
-Do not turn the machine off. There may be processes and/or live data that an incident responder may want to obtain on the machine.
+    Do not turn the machine off. There may be processes and/or live data that an incident responder may want to obtain on the machine.
 
 !!! note
-Do not delete any files. Do not wipe off and re-install the system.
+    Do not delete any files. Do not wipe off and re-install the system.
 
 Get the machine off the network so it cannot do any more damage. The easiest way to do this will be to unplug the network cable from the machine. If this is a remote machine, or you are not sure where the machine is, then you will likely need to contact the local security or networking group and have them block the machine at the border or at the network jack. Take notes including timestamps of actions performed while investigating and isolating the machine.
 
