@@ -35,14 +35,6 @@
 
     
     <url>
-     <loc>https://opensciencegrid.github.io/security//InstallCertScripts/</loc>
-     <lastmod>2017-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>https://opensciencegrid.github.io/security//OSGFAQ/</loc>
      <lastmod>2017-11-30</lastmod>
      <changefreq>daily</changefreq>
