@@ -36,7 +36,7 @@ Please include the following information in your report:
 
 **<osg-security-team@opensciencegrid.org>** is for internal discussions among OSG security team members.
 
-## Secure email - OSG Security Team PGP key
+## OSG Security Team PGP key
 
 ``` file
 User ID: Open Science Grid Security <security@opensciencegrid.org>
