@@ -6,16 +6,6 @@ The OSG security team's goal is to provide a security framework that enables sci
 
 Our mission is to protect OSG users and resources from security breaches and provide convenient access to OSG resources. 
 
-We achieve our goals by providing:
-
-- Operational Security
- - Assess the security of the software used at OSG.
- - Perform fire drills to measure readiness and security awareness.
-- Interoperability with other e-science infrastructures: IGTF, XSEDE and EGI.
-- Education
- - Conduct security training for our users and teach best security practices.
- - Learn from our users about difficulties of security practices and policies.
-
 ## Reporting a security incident
 
 If you suspect a security problem, please **report it immediately**.
