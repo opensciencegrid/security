@@ -19,7 +19,7 @@
     -   [Best Practices](SecurityBestPractices)
 
 -   Certificates
-    -   [OSG Certificate Service](OSGCertificateService)
+    -   [OSG Certificate Service](OSGCertificateService.md)
     -   [OSG CA Distribution](CaDistribution)
     -   [Certificate scripts package (doc)](InstallCertScripts)
 
