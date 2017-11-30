@@ -10,7 +10,8 @@ Our mission is to protect OSG users and resources from security breaches and pro
 
 If you suspect a security problem, please **report it immediately**.
 
-Also do NOT forget to report security incidents to your **local/home organization's** incident response team.
+!!! note
+    Also do NOT forget to report security incidents to your **local/home organization's** incident response team.
 
 Please promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24\*7:
 
