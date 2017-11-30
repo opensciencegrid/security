@@ -21,6 +21,7 @@ Please include the following information in your report:
 - Any additional comments or questions you have
 
 ## What to do after an incident is Reported
+
 !!! note
 If you have not reported the incident to your local security team AND the OSG security team, report the incident now.
 
