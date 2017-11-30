@@ -6,6 +6,9 @@ The transition from DigiCert CA to CILogon OSG CA was completed on May 31st, 201
 ## What are we using from CILogon?
 Note, we are not using CILogon Basic CA. We are using CILogon HSM which is completely different from CILogon Basic. Note that CILogon has 4 different backend services and they are all different, we are using HSM. If you have a CILogon Basic certificate, you can continue to use that, but when you get a new certificate from OSG, you will get a CILogon HSM, not a CILogon Basic one, so it will be different.
 
+- [How do I get user certificates?](https://opensciencegrid.github.io/docs/security/user-certs/)
+- [How do I get host or server certificates?](https://opensciencegrid.github.io/docs/security/host-certs/)
+
 ## Frequently Asked Questions
 
 ### Does this transition mean that my local site will pay for certificates?
@@ -20,12 +23,3 @@ Yes, you will continue to act as a GridAdmin. Your home institution is not requi
 
 ### Will the new certificates be trusted by browsers so we don't get all sorts of warnings popping up?
 Since the previous one was commercial, they paid money to be accepted by browsers. Warning messages may well pop up.
-
-### Where do I get host or server certificates?
-https://opensciencegrid.github.io/docs/security/host-certs/
-
-### Where do I get user certificates?
-https://opensciencegrid.github.io/docs/security/user-certs/
-
-### Command-line Clients
-No changes here.
