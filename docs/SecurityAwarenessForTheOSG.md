@@ -55,8 +55,3 @@ In addition, the security team develops policies for its members to follow and a
 Finally the security team is responsible for maintaining the operational security in OSG. This includes: keeping up-to-date contact information from the members; ensuring the OSG infrastructure allows secure distributed computing across the member institutions; incident response and mitigation; monitoring the activity across member organizations to detect abnormalities; distributing information/help to its members about vulnerabilities and flaws; scanning and testing running services (bot member services and core assets) to measure their security health.
 
 For more information, review the OSG security Plan and [this presentation](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=573)
-
-Contacts
---------
-
-[OSG Security Email Lists](EmailLists)
