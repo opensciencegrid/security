@@ -120,29 +120,13 @@
             
     <li class="toctree-l2"><a href="#cilogon-osg-ca">CILogon OSG CA</a></li>
     
-
-    <li class="toctree-l2"><a href="#what-are-we-using-from-cilogon">What are we using from CILogon?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#does-this-transition-mean-that-my-local-site-will-pay-for-certificates">Does this transition mean that my local site will pay for certificates?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#what-does-this-transition-mean-for-the-end-user-what-does-the-end-user-need-to-do-to-get-new-certificates">What does this transition mean for the end user? What does the end user need to do to get new certificates?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#i-am-a-gridadminra-agent-will-i-have-the-same-privileges-if-so-will-you-require-anything-from-my-home-institution">I am a GridAdmin/RA Agent. Will I have the same privileges? If so, will you require anything from my home institution?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#will-the-new-certificates-be-trusted-by-browsers-so-we-dont-get-all-sorts-of-warnings-popping-up">Will the new certificates be trusted by browsers so we don't get all sorts of warnings popping up?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#where-do-i-get-host-or-server-certificates">Where do I get host or server certificates?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#where-do-i-get-user-certificates">Where do I get user certificates?</a></li>
-    
-
-    <li class="toctree-l2"><a href="#command-line-clients">Command-line Clients</a></li>
+        <ul>
+        
+            <li><a class="toctree-l3" href="#what-are-we-using-from-cilogon">What are we using from CILogon?</a></li>
+        
+            <li><a class="toctree-l3" href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+        
+        </ul>
     
 
     </ul>
@@ -193,24 +177,25 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="cilogon-osg-ca">CILogon OSG CA</h2>
+                <h1 id="cilogon-osg-ca">CILogon OSG CA</h1>
 <p>Starting June 2016, the CILogon OSG CA is issuing certificates for users, hosts and services for OSG. The CILogon OSG CA is jointly operated with XSEDE. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal, host and service certificates.</p>
 <p>The transition from DigiCert CA to CILogon OSG CA was completed on May 31st, 2016. All user, host and service certificates are issued by CILogon OSG CA. All OSG Virtual Organizations (VOs) were transitioned successfully to CILogon OSG CA. All certificates issued by DigiCert CA will continue to work until its expiration date</p>
 <h2 id="what-are-we-using-from-cilogon">What are we using from CILogon?</h2>
 <p>Note, we are not using CILogon Basic CA. We are using CILogon HSM which is completely different from CILogon Basic. Note that CILogon has 4 different backend services and they are all different, we are using HSM. If you have a CILogon Basic certificate, you can continue to use that, but when you get a new certificate from OSG, you will get a CILogon HSM, not a CILogon Basic one, so it will be different.</p>
-<h2 id="does-this-transition-mean-that-my-local-site-will-pay-for-certificates">Does this transition mean that my local site will pay for certificates?</h2>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="does-this-transition-mean-that-my-local-site-will-pay-for-certificates">Does this transition mean that my local site will pay for certificates?</h3>
 <p>No. No changes to current process with regard to fees.</p>
-<h2 id="what-does-this-transition-mean-for-the-end-user-what-does-the-end-user-need-to-do-to-get-new-certificates">What does this transition mean for the end user? What does the end user need to do to get new certificates?</h2>
+<h3 id="what-does-this-transition-mean-for-the-end-user-what-does-the-end-user-need-to-do-to-get-new-certificates">What does this transition mean for the end user? What does the end user need to do to get new certificates?</h3>
 <p>Once end users' certificates are near expiring, they go to OIM to get a new certificate. The process is the same, but the distinguished name (DN) in the certifcate will be the new provider instead of DigiCert. Users will need to register their new DN with whatever services they access: DocDB?, twiki, etc. Note, the transition team will provide a script to automatically register the new DN with VOMS.</p>
-<h2 id="i-am-a-gridadminra-agent-will-i-have-the-same-privileges-if-so-will-you-require-anything-from-my-home-institution">I am a GridAdmin/RA Agent. Will I have the same privileges? If so, will you require anything from my home institution?</h2>
+<h3 id="i-am-a-gridadminra-agent-will-i-have-the-same-privileges-if-so-will-you-require-anything-from-my-home-institution">I am a GridAdmin/RA Agent. Will I have the same privileges? If so, will you require anything from my home institution?</h3>
 <p>Yes, you will continue to act as a GridAdmin. Your home institution is not required to do anything for you to obtain this privilege.</p>
-<h2 id="will-the-new-certificates-be-trusted-by-browsers-so-we-dont-get-all-sorts-of-warnings-popping-up">Will the new certificates be trusted by browsers so we don't get all sorts of warnings popping up?</h2>
+<h3 id="will-the-new-certificates-be-trusted-by-browsers-so-we-dont-get-all-sorts-of-warnings-popping-up">Will the new certificates be trusted by browsers so we don't get all sorts of warnings popping up?</h3>
 <p>Since the previous one was commercial, they paid money to be accepted by browsers. Warning messages may well pop up.</p>
-<h2 id="where-do-i-get-host-or-server-certificates">Where do I get host or server certificates?</h2>
+<h3 id="where-do-i-get-host-or-server-certificates">Where do I get host or server certificates?</h3>
 <p>https://twiki.opensciencegrid.org/bin/view/Documentation/Release3/GetHostServiceCertificates</p>
-<h2 id="where-do-i-get-user-certificates">Where do I get user certificates?</h2>
+<h3 id="where-do-i-get-user-certificates">Where do I get user certificates?</h3>
 <p>https://twiki.grid.iu.edu/bin/view/Documentation/CertificateGetWeb</p>
-<h2 id="command-line-clients">Command-line Clients</h2>
+<h3 id="command-line-clients">Command-line Clients</h3>
 <p>No changes here.</p>
               
             </div>
