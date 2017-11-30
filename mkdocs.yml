@@ -15,7 +15,7 @@ pages:
 - OSG Security Policies and Procedures:
   - Security Policies: 'OSGSecurityPolicies.md'
   - Security Procedures: 'OSGSecurityProcedures.md'
-    - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
+  - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
 - Integrated security in OSG:
   - Security Awareness For The OSG: 'SecurityAwarenessForTheOSG.md'
   - Security User Responsibilities: 'SecurityUserResponsibilities.md'
