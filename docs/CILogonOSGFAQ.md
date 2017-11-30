@@ -22,10 +22,10 @@ Yes, you will continue to act as a GridAdmin. Your home institution is not requi
 Since the previous one was commercial, they paid money to be accepted by browsers. Warning messages may well pop up.
 
 ### Where do I get host or server certificates?
-https://twiki.opensciencegrid.org/bin/view/Documentation/Release3/GetHostServiceCertificates
+https://opensciencegrid.github.io/docs/security/host-certs/
 
 ### Where do I get user certificates?
-https://twiki.grid.iu.edu/bin/view/Documentation/CertificateGetWeb
+https://opensciencegrid.github.io/docs/security/user-certs/
 
 ### Command-line Clients
 No changes here.
