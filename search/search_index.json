@@ -31,39 +31,144 @@
             "title": "Team members"
         }, 
         {
-            "location": "/IncidentDiscoveryReporting/", 
-            "text": "Incident Discovery and Reporting\n\n\nAbout This Document\n\n\nThis document describes the process of reporting a security incident to the OSG Security Team.\n\n\nReporting a problem\n\n\nIf you suspect a security problem, please \nreport it immediately\n.\n\n\nAlso do NOT forget to report security incidents to your \nlocal/home organization's\n incident response team.\n\n\nPlease promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24*7:\n\n\n\n\nSubmit a Ticket\n\n\nCall the Grid Operations Center (GOC) at +1 317-278-9699.\n\n\nSend email to \n. If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.\n\n\n\n\nPlease include the following information in your report:\n\n\n\n\nYour name:\n\n\nYour email address:\n\n\nYour phone number:\n\n\nAn alternate number such as a cell phone:\n\n\nWhat is your affiliation with the OSG? Which Virtual Organization are you a member of?\n\n\nDid this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have\n\n\nDo you think your your grid identity (certificate and/or proxy) compromised?\n\n\nA description of the incident, including time(s), systems and user accounts involved, and any related event ()\n\n\nAny additional comments or questions you have\n\n\n\n\nThank you for reporting security incidents promptly.\n\n\nWhat to Do After an Incident is Reported\n\n\nAfter reporting an incident, follow \nthe first steps for dealing with an incident\n.", 
-            "title": "Incident Discovery Reporting"
+            "location": "/OSGCertificateService/", 
+            "text": "OSG Certificate Service\n\n\nOSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.\n\n\nThe CILogon OSG Frequently Asked Questions (FAQ)\n\n\nCILogon OSG FAQ\n\n\nThe CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)\n\n\nCILogon OSG CA CP/CPS\n is publicly available.\n\n\nHistory\n\n\nCILogonOSGCPCPS_V1.pdf\n pdf version is also available.\n\n\nCertificate Subscriber Agreement\n\n\nCertificate Subscriber Agreement\n\n\nOSG CILogon CA Essential Information\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCertificate Policy OID\n\n\n1.3.6.1.4.1.34998.1.6.2\n\n\n\n\n\n\nSelf-signed CA Certificate PEM format\n\n\ncilogon-osg.pem\n\n\n\n\n\n\nSelf-signed CA Certificate DER format\n\n\ncilogon-osg.crt\n\n\n\n\n\n\nSelf-signed CA Certificate Human Readable\n\n\nCILogon OSG CA\n\n\n\n\n\n\nSigning Policy File\n\n\ncilogon-osg.signing_policy\n\n\n\n\n\n\nCRL URL File\n\n\ncilogon-osg.crl_url\n\n\n\n\n\n\nINFO File\n\n\ncilogon-osg.info\n\n\n\n\n\n\nCRL File in PEM Format\n\n\ncilogon-osg.r0\n\n\n\n\n\n\nCRL File DER Format\n\n\ncilogon-osg.crl\n\n\n\n\n\n\nSample personal certificate in PEM format\n\n\nuser-sample.pem\n\n\n\n\n\n\nSample personal certificate Human Readable\n\n\nUser Sample Human Readable\n\n\n\n\n\n\nSample host certificate in PEM format\n\n\nhost-sample.pem\n\n\n\n\n\n\nSample host certificate in Human Readable\n\n\nHost Sample HumanReadable\n\n\n\n\n\n\nOpenSSL 1.0 hash value\n\n\n70d35895\n\n\n\n\n\n\nSHA-1 Fingerprint\n\n\n5C:5C:24:5C:2F:05:24:EC:24:45:8D:5B:D8:F2:82:9B:EE:68:22:A8\n\n\n\n\n\n\n\n\nOSG Contact Information\n\n\n\n\nThe CP/CPS is managed by OSG Security Officer and can be reached at:\n\n\nSusan E. Sons\nOSG Security Officer\n2719 E. 10th Street, Suite 231\nBloomington, IN 47408\nOffice: 812-856-2949\nFax: 812-856-7400\n\nosg-security-team AT opensciencegrid.org\nsesons AT iu.edu\n\n\n\n\nFor any support problems, fault reporting and inquiries, please contact the Grid Operations Center at\n\n\ngoc@opensciencegrid.org\n+1 317-278-9699", 
+            "title": "OSG Certificate Service"
         }, 
         {
-            "location": "/IncidentDiscoveryReporting/#incident-discovery-and-reporting", 
+            "location": "/OSGCertificateService/#osg-certificate-service", 
+            "text": "OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.", 
+            "title": "OSG Certificate Service"
+        }, 
+        {
+            "location": "/OSGCertificateService/#the-cilogon-osg-frequently-asked-questions-faq", 
+            "text": "CILogon OSG FAQ", 
+            "title": "The CILogon OSG Frequently Asked Questions (FAQ)"
+        }, 
+        {
+            "location": "/OSGCertificateService/#the-cilogon-osg-ca-certificate-policy-cp-and-certification-practice-statement-cps", 
+            "text": "CILogon OSG CA CP/CPS  is publicly available.", 
+            "title": "The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)"
+        }, 
+        {
+            "location": "/OSGCertificateService/#history", 
+            "text": "CILogonOSGCPCPS_V1.pdf  pdf version is also available.", 
+            "title": "History"
+        }, 
+        {
+            "location": "/OSGCertificateService/#certificate-subscriber-agreement", 
+            "text": "Certificate Subscriber Agreement", 
+            "title": "Certificate Subscriber Agreement"
+        }, 
+        {
+            "location": "/OSGCertificateService/#osg-cilogon-ca-essential-information", 
+            "text": "Certificate Policy OID  1.3.6.1.4.1.34998.1.6.2    Self-signed CA Certificate PEM format  cilogon-osg.pem    Self-signed CA Certificate DER format  cilogon-osg.crt    Self-signed CA Certificate Human Readable  CILogon OSG CA    Signing Policy File  cilogon-osg.signing_policy    CRL URL File  cilogon-osg.crl_url    INFO File  cilogon-osg.info    CRL File in PEM Format  cilogon-osg.r0    CRL File DER Format  cilogon-osg.crl    Sample personal certificate in PEM format  user-sample.pem    Sample personal certificate Human Readable  User Sample Human Readable    Sample host certificate in PEM format  host-sample.pem    Sample host certificate in Human Readable  Host Sample HumanReadable    OpenSSL 1.0 hash value  70d35895    SHA-1 Fingerprint  5C:5C:24:5C:2F:05:24:EC:24:45:8D:5B:D8:F2:82:9B:EE:68:22:A8", 
+            "title": "OSG CILogon CA Essential Information"
+        }, 
+        {
+            "location": "/OSGCertificateService/#osg-contact-information", 
+            "text": "The CP/CPS is managed by OSG Security Officer and can be reached at:  Susan E. Sons\nOSG Security Officer\n2719 E. 10th Street, Suite 231\nBloomington, IN 47408\nOffice: 812-856-2949\nFax: 812-856-7400\n\nosg-security-team AT opensciencegrid.org\nsesons AT iu.edu  For any support problems, fault reporting and inquiries, please contact the Grid Operations Center at  goc@opensciencegrid.org\n+1 317-278-9699", 
+            "title": "OSG Contact Information"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/", 
+            "text": "CILogon OSG CA\n\n\nStarting June 2016, the CILogon OSG CA is issuing certificates for users, hosts and services for OSG. The CILogon OSG CA is jointly operated with XSEDE. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal, host and service certificates.\n\n\nThe transition from DigiCert CA to CILogon OSG CA was completed on May 31st, 2016. All user, host and service certificates are issued by CILogon OSG CA. All OSG Virtual Organizations (VOs) were transitioned successfully to CILogon OSG CA. All certificates issued by DigiCert CA will continue to work until its expiration date\n\n\nWhat are we using from CILogon?\n\n\nNote, we are not using CILogon Basic CA. We are using CILogon HSM which is completely different from CILogon Basic. Note that CILogon has 4 different backend services and they are all different, we are using HSM. If you have a CILogon Basic certificate, you can continue to use that, but when you get a new certificate from OSG, you will get a CILogon HSM, not a CILogon Basic one, so it will be different.\n\n\nFrequently Asked Questions\n\n\nDoes this transition mean that my local site will pay for certificates?\n\n\nNo. No changes to current process with regard to fees.\n\n\nWhat does this transition mean for the end user? What does the end user need to do to get new certificates?\n\n\nOnce end users' certificates are near expiring, they go to OIM to get a new certificate. The process is the same, but the distinguished name (DN) in the certifcate will be the new provider instead of DigiCert. Users will need to register their new DN with whatever services they access: DocDB?, twiki, etc. Note, the transition team will provide a script to automatically register the new DN with VOMS.\n\n\nI am a GridAdmin/RA Agent. Will I have the same privileges? If so, will you require anything from my home institution?\n\n\nYes, you will continue to act as a GridAdmin. Your home institution is not required to do anything for you to obtain this privilege.\n\n\nWill the new certificates be trusted by browsers so we don't get all sorts of warnings popping up?\n\n\nSince the previous one was commercial, they paid money to be accepted by browsers. Warning messages may well pop up.\n\n\nWhere do I get host or server certificates?\n\n\nhttps://twiki.opensciencegrid.org/bin/view/Documentation/Release3/GetHostServiceCertificates\n\n\nWhere do I get user certificates?\n\n\nhttps://twiki.grid.iu.edu/bin/view/Documentation/CertificateGetWeb\n\n\nCommand-line Clients\n\n\nNo changes here.", 
+            "title": "CILogon OSG CA FAQ"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#cilogon-osg-ca", 
+            "text": "Starting June 2016, the CILogon OSG CA is issuing certificates for users, hosts and services for OSG. The CILogon OSG CA is jointly operated with XSEDE. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal, host and service certificates.  The transition from DigiCert CA to CILogon OSG CA was completed on May 31st, 2016. All user, host and service certificates are issued by CILogon OSG CA. All OSG Virtual Organizations (VOs) were transitioned successfully to CILogon OSG CA. All certificates issued by DigiCert CA will continue to work until its expiration date", 
+            "title": "CILogon OSG CA"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#what-are-we-using-from-cilogon", 
+            "text": "Note, we are not using CILogon Basic CA. We are using CILogon HSM which is completely different from CILogon Basic. Note that CILogon has 4 different backend services and they are all different, we are using HSM. If you have a CILogon Basic certificate, you can continue to use that, but when you get a new certificate from OSG, you will get a CILogon HSM, not a CILogon Basic one, so it will be different.", 
+            "title": "What are we using from CILogon?"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#frequently-asked-questions", 
             "text": "", 
-            "title": "Incident Discovery and Reporting"
+            "title": "Frequently Asked Questions"
         }, 
         {
-            "location": "/IncidentDiscoveryReporting/#about-this-document", 
-            "text": "This document describes the process of reporting a security incident to the OSG Security Team.", 
+            "location": "/CILogonOSGFAQ/#does-this-transition-mean-that-my-local-site-will-pay-for-certificates", 
+            "text": "No. No changes to current process with regard to fees.", 
+            "title": "Does this transition mean that my local site will pay for certificates?"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#what-does-this-transition-mean-for-the-end-user-what-does-the-end-user-need-to-do-to-get-new-certificates", 
+            "text": "Once end users' certificates are near expiring, they go to OIM to get a new certificate. The process is the same, but the distinguished name (DN) in the certifcate will be the new provider instead of DigiCert. Users will need to register their new DN with whatever services they access: DocDB?, twiki, etc. Note, the transition team will provide a script to automatically register the new DN with VOMS.", 
+            "title": "What does this transition mean for the end user? What does the end user need to do to get new certificates?"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#i-am-a-gridadminra-agent-will-i-have-the-same-privileges-if-so-will-you-require-anything-from-my-home-institution", 
+            "text": "Yes, you will continue to act as a GridAdmin. Your home institution is not required to do anything for you to obtain this privilege.", 
+            "title": "I am a GridAdmin/RA Agent. Will I have the same privileges? If so, will you require anything from my home institution?"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#will-the-new-certificates-be-trusted-by-browsers-so-we-dont-get-all-sorts-of-warnings-popping-up", 
+            "text": "Since the previous one was commercial, they paid money to be accepted by browsers. Warning messages may well pop up.", 
+            "title": "Will the new certificates be trusted by browsers so we don't get all sorts of warnings popping up?"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#where-do-i-get-host-or-server-certificates", 
+            "text": "https://twiki.opensciencegrid.org/bin/view/Documentation/Release3/GetHostServiceCertificates", 
+            "title": "Where do I get host or server certificates?"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#where-do-i-get-user-certificates", 
+            "text": "https://twiki.grid.iu.edu/bin/view/Documentation/CertificateGetWeb", 
+            "title": "Where do I get user certificates?"
+        }, 
+        {
+            "location": "/CILogonOSGFAQ/#command-line-clients", 
+            "text": "No changes here.", 
+            "title": "Command-line Clients"
+        }, 
+        {
+            "location": "/CaDistribution/", 
+            "text": "OSG Certificate Authority Distribution\n\n\nAbout This Document\n\n\nThe OSG Certificate Authority Distribution contains information about Certificate Authorities (CAs) in use in OSG.\n\n\nContents\n\n\nThe OSG CA Distribution contains:\n\n\n\n\nIGTF Distribution of Authority Root Certificates\n (CAs accredited by the \nInternational Grid Trust Federation\n)\n\n\nPurdue TeraGrid CA\n\n\n\n\nFor additional details, see the \ndistribution site\n and \nchange log\n.\n\n\nCA Certificate Installation and Update\n provides you with details of various options to install the Certificate Authority (CA) certificates and have up-to-date certificate revocation list (CRL) using OSG RPMs.\n\n\nNews\n\n\nEffective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package version 1.15.\n\n\n\n\nFNAL KCA (e1fce4e9)\n\n\n\n\nBeginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at \nhttp://software-itb.grid.iu.edu/\n.\n\n\nProduction services on OSG should \nNOT\n install (or reference via yum or apt) the ITB version of the CA distribution since it may, at times, contain an untrustworthy CA certificate for testing purposes\n\n\nEffective March 10, 2009, the OSG Security Team has removed the following unused non-IGTF CAs from the OSG CA distribution:\n\n\n\n\nPSC Kerberos CA (290a3b29)\n\n\nPSC Root CA (9b88e95b)\n\n\nPSC Hosts CA (acc06fda)\n\n\nSDSC (3deda549)\n\n\nNPACI (b89793e4)\n\n\nTACC (9a1da9f9)\n\n\nold NCSA CA (4a6cd8b1)\n\n\n\n\nIf you are aware of any use of these CAs in OSG, so that they should continue to be included in the OSG CA distribution, please notify \n immediately.\n\n\nSee also:\n\n\n\n\nemail announcement\n\n\n\n\nReferences\n\n\n\n\nOSG CA Certificates Hosted By GOC\n\n\nOSG GOC Yum Repository\n\n\nCA Certificates in the VDT\n\n\nTeraGrid Approved CAs", 
+            "title": "OSG CA Distribution"
+        }, 
+        {
+            "location": "/CaDistribution/#osg-certificate-authority-distribution", 
+            "text": "", 
+            "title": "OSG Certificate Authority Distribution"
+        }, 
+        {
+            "location": "/CaDistribution/#about-this-document", 
+            "text": "The OSG Certificate Authority Distribution contains information about Certificate Authorities (CAs) in use in OSG.", 
             "title": "About This Document"
         }, 
         {
-            "location": "/IncidentDiscoveryReporting/#reporting-a-problem", 
-            "text": "If you suspect a security problem, please  report it immediately .  Also do NOT forget to report security incidents to your  local/home organization's  incident response team.  Please promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24*7:   Submit a Ticket  Call the Grid Operations Center (GOC) at +1 317-278-9699.  Send email to  . If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.   Please include the following information in your report:   Your name:  Your email address:  Your phone number:  An alternate number such as a cell phone:  What is your affiliation with the OSG? Which Virtual Organization are you a member of?  Did this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have  Do you think your your grid identity (certificate and/or proxy) compromised?  A description of the incident, including time(s), systems and user accounts involved, and any related event ()  Any additional comments or questions you have   Thank you for reporting security incidents promptly.", 
-            "title": "Reporting a problem"
+            "location": "/CaDistribution/#contents", 
+            "text": "The OSG CA Distribution contains:   IGTF Distribution of Authority Root Certificates  (CAs accredited by the  International Grid Trust Federation )  Purdue TeraGrid CA   For additional details, see the  distribution site  and  change log .  CA Certificate Installation and Update  provides you with details of various options to install the Certificate Authority (CA) certificates and have up-to-date certificate revocation list (CRL) using OSG RPMs.", 
+            "title": "Contents"
         }, 
         {
-            "location": "/IncidentDiscoveryReporting/#what-to-do-after-an-incident-is-reported", 
-            "text": "After reporting an incident, follow  the first steps for dealing with an incident .", 
-            "title": "What to Do After an Incident is Reported"
+            "location": "/CaDistribution/#news", 
+            "text": "Effective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package version 1.15.   FNAL KCA (e1fce4e9)   Beginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at  http://software-itb.grid.iu.edu/ .  Production services on OSG should  NOT  install (or reference via yum or apt) the ITB version of the CA distribution since it may, at times, contain an untrustworthy CA certificate for testing purposes  Effective March 10, 2009, the OSG Security Team has removed the following unused non-IGTF CAs from the OSG CA distribution:   PSC Kerberos CA (290a3b29)  PSC Root CA (9b88e95b)  PSC Hosts CA (acc06fda)  SDSC (3deda549)  NPACI (b89793e4)  TACC (9a1da9f9)  old NCSA CA (4a6cd8b1)   If you are aware of any use of these CAs in OSG, so that they should continue to be included in the OSG CA distribution, please notify   immediately.  See also:   email announcement", 
+            "title": "News"
         }, 
         {
-            "location": "/GoalsPurpose/", 
-            "text": "Security Team Goals and Purpose\n\n\nThe OSG security team's goal is to provide a security framework that enables science and promotes autonomous and open science collaboration among VOs, sites, and software providers. Keeping the balance between the openness, which is necessary for science, and the security is at the core of our work. We achieve our goals by providing:\n\n\n\n\n\n\noperational security:\n keeping an active dialogue with our members; evaluating the security of our software stack and releasing timely patches for identified vulnerabilities; observing the practices of our VOs and sites, and sending alerts when we detect abnormalities; continually performing fire drills to measure readiness and security awareness\n\n\n\n\n\n\ninteroperability with other grids:\n working with JSPG and IGTF to develop common security policies; participating into EGEE's operational security and incident response teams.\n\n\n\n\n\n\neducation:\n security training of our members; teaching best practices, and learning from our users about difficulties of security practices", 
-            "title": "Goals Purpose"
+            "location": "/CaDistribution/#references", 
+            "text": "OSG CA Certificates Hosted By GOC  OSG GOC Yum Repository  CA Certificates in the VDT  TeraGrid Approved CAs", 
+            "title": "References"
         }, 
         {
-            "location": "/GoalsPurpose/#security-team-goals-and-purpose", 
-            "text": "The OSG security team's goal is to provide a security framework that enables science and promotes autonomous and open science collaboration among VOs, sites, and software providers. Keeping the balance between the openness, which is necessary for science, and the security is at the core of our work. We achieve our goals by providing:    operational security:  keeping an active dialogue with our members; evaluating the security of our software stack and releasing timely patches for identified vulnerabilities; observing the practices of our VOs and sites, and sending alerts when we detect abnormalities; continually performing fire drills to measure readiness and security awareness    interoperability with other grids:  working with JSPG and IGTF to develop common security policies; participating into EGEE's operational security and incident response teams.    education:  security training of our members; teaching best practices, and learning from our users about difficulties of security practices", 
-            "title": "Security Team Goals and Purpose"
+            "location": "/InstallCertScripts/", 
+            "text": "Tools for Managing Host and Service Certificates\n\n\nThis document used to contain information about a set of tools for requesting and downloading host and service certificates from the DOEGrids CA website. OSG no longer uses certificates from DOEGrids, and the new tools that work with the current OSG certificate provider are located via the following link:\n\n\nOSG PKI Command-Line Clients", 
+            "title": "Install Cert Scripts"
+        }, 
+        {
+            "location": "/InstallCertScripts/#tools-for-managing-host-and-service-certificates", 
+            "text": "This document used to contain information about a set of tools for requesting and downloading host and service certificates from the DOEGrids CA website. OSG no longer uses certificates from DOEGrids, and the new tools that work with the current OSG certificate provider are located via the following link:", 
+            "title": "Tools for Managing Host and Service Certificates"
+        }, 
+        {
+            "location": "/InstallCertScripts/#osg-pki-command-line-clients", 
+            "text": "", 
+            "title": "OSG PKI Command-Line Clients"
         }, 
         {
             "location": "/OSGFAQ/", 
@@ -169,91 +274,6 @@
             "location": "/PoliciesProcedures/#wlcg", 
             "text": "OSG participants who participate in  WLCG  are also subject to  WLCG/EGEE Security Policies .", 
             "title": "WLCG"
-        }, 
-        {
-            "location": "/SecurityTeamMembers/", 
-            "text": "Security Team\n\n\nMine Altunay is the OSG Security Officer with responsibility for development and execution of the OSG cyber security plan. Jim Barlow is the Deputy Security Officer. Alain Deximo is responsible for the DOE Grids Registration Authority (RA) function for OSG.\n\n\nYou can reach them at:\n\n\nMine Altunay\n\n\n\n\nmaltunay@fnal.gov\n\n\n(630) 840-6490\n\n\nPGP Key\n\n\nDOEGrids Cert\n\n\n\n\n\n\nDave Dykstra\n\n\n\n\ndwd@fnal.gov\n\n\n(630) 840-3227\n\n\n\n\nJeny Teheran\n\n\n\n\njteheran@fnal.gov\n\n\n(630) 840-5634\n\n\n\n\nAnand Padmanabhan\n\n\n\n\napadmana@uiuc.edu\n\n\n(217) 244-9315\n\n\nPGP key\n\n\nDOE certificate\n\n\n\n\n\n\nSecurity Team's PGP key\n\n\nYou should only trust email signed by \nSecurity Team's PGP key\n or by individual team member's keys. If you do not know how to verify PGP keys, please check out our \nstep-by-step instructions\n.", 
-            "title": "Team Members"
-        }, 
-        {
-            "location": "/SecurityTeamMembers/#security-team", 
-            "text": "Mine Altunay is the OSG Security Officer with responsibility for development and execution of the OSG cyber security plan. Jim Barlow is the Deputy Security Officer. Alain Deximo is responsible for the DOE Grids Registration Authority (RA) function for OSG.  You can reach them at:  Mine Altunay   maltunay@fnal.gov  (630) 840-6490  PGP Key  DOEGrids Cert    Dave Dykstra   dwd@fnal.gov  (630) 840-3227   Jeny Teheran   jteheran@fnal.gov  (630) 840-5634   Anand Padmanabhan   apadmana@uiuc.edu  (217) 244-9315  PGP key  DOE certificate", 
-            "title": "Security Team"
-        }, 
-        {
-            "location": "/SecurityTeamMembers/#security-teams-pgp-key", 
-            "text": "You should only trust email signed by  Security Team's PGP key  or by individual team member's keys. If you do not know how to verify PGP keys, please check out our  step-by-step instructions .", 
-            "title": "Security Team's PGP key"
-        }, 
-        {
-            "location": "/EmailLists/", 
-            "text": "Security Team Email Lists\n\n\nThe following addresses are open for use by all OSG members, partners, and collaborators:\n\n\n is the standard email address open to the OSG public for reporting of security incidents. Mail to \n is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.\n\n\nThe following addresses are for internal use by OSG staff:\n\n\n is for internal discussions among OSG security team members.\n\n\nSee \nConsortium Mailing Lists\n for a full listing of OSG mailing lists.", 
-            "title": "Email Lists"
-        }, 
-        {
-            "location": "/EmailLists/#security-team-email-lists", 
-            "text": "The following addresses are open for use by all OSG members, partners, and collaborators:   is the standard email address open to the OSG public for reporting of security incidents. Mail to   is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.  The following addresses are for internal use by OSG staff:   is for internal discussions among OSG security team members.  See  Consortium Mailing Lists  for a full listing of OSG mailing lists.", 
-            "title": "Security Team Email Lists"
-        }, 
-        {
-            "location": "/SecureEmail/", 
-            "text": "Secure Email in OSG\n\n\nAbout This Document\n\n\nThis document covers using secure email when communicating with the OSG security team. The OSG Security team encourages the use of secure email communication. All official announcements from the OSG security team will be digitally signed. We encourage you to verify the digital signatures on OSG security announcements. Also when sending sensitive information to the OSG security team, we encourage you to encrypt your messages.\n\n\nNews\n\n\n\n\n2010-01-28: The OSG security team has updated the PGP key for \n.\n\n\n\n\nOSG Security PGP key\n\n\nUser ID: Open Science Grid Security \nsecurity@opensciencegrid.org\n\nKey ID: 7FD42669\nExpires:  \nFingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669\n\n\n\n\nThe team key is available from the \nSecurity Team Members\n page or the \nMIT PGP server\n. PGP software is available from: \nGnuPG\n\n\nVerifying a PGP signature\n\n\n\n\n\n\nInstall \nGnuPG\n if it is not already installed on your computer.\n\n\n\n\n\n\nSave \nosg-security-pubkey.asc\n to a file on your computer.\n\n\n\n\n\n\nImport the \n public key:\n\n\n\n\n\n\n[user@client ~]$ gpg --import \n osg-security-pubkey.asc \ngpg: key 7FD42669: public key \nOpen Science Grid Security \nsecurity@opensciencegrid.org\n imported\ngpg: Total number processed: 1\ngpg:               imported: 1\n\n\n\n\n\n\n\n\nSave the message you want to verify to a file on your system (for example: \nsigned-message.txt\n).\n\n\n\n\n\n\nVerify the message:\n\n\n\n\n\n\n[user@client ~]$ gpg --verify \n signed-message.txt \ngpg: Signature made Tue Apr 14 13:18:26 2010 CDT using DSA key ID 7FD42669\ngpg: Good signature from \nOpen Science Grid Security \nsecurity@opensciencegrid.org\n\n\n\n\n\nTo verify additional messages, only steps 4-5 are required.\n\n\nWhen the \n public key expires, you will need to perform steps 2-3 again for the new public key.\n\n\nEncrypting a PGP message\n\n\n\n\n\n\nInstall \nGnuPG\n if it is not already installed on your computer.\n\n\n\n\n\n\nSave \nosg-security-pubkey.asc\n to a file on your computer.\n\n\n\n\n\n\nImport the \n public key:\n\n\n\n\n\n\n[user@client ~]$ gpg --import \n osg-security-pubkey.asc \ngpg: key 7FD42669: public key \nOpen Science Grid Security \nsecurity@opensciencegrid.org\n imported\ngpg: Total number processed: 1\ngpg:               imported: 1\n\n\n\n\n\n\n\n\nSave the message you want to encrypt to a file on your system named message.txt.\n\n\n\n\n\n\nEncrypt the message:\n\n\n\n\n\n\n[user@client ~]$ gpg --recipient security@opensciencegrid.org -a --encrypt \n message.txt \n encrypted-message.txt\n\n\n\n\n\n\nSend the encrypted-message.txt file in email to \n.\n\n\n\n\nTo encrypt additional messages, only steps 4-6 are required.\n\n\nWhen the \n public key expires, you will need to perform steps 2-3 again for the new public key.\n\n\nOther PGP Clients\n\n\nEnigmail OpenPGP plugin for Thunderbird\n\n\nThe OpenPGP plugin for \nThunderbird\n provides a well integrated user interface for key management and email signing and verification that uses GnuPG underneath.\n\n\nSigning an S/MIME message with your certificate\n\n\nThe following is a command line instruction on how to sign an email with your certificate. Instructions for web clients is below.\n\n\n[user@client ~]$ openssl smime -sign -signer ~/.globus/usercert.pem -inkey ~/.globus/userkey.pem -in message.txt | mail -s \nemail subject\n person@example.com\n\n\n\n\n\n\nmessage.txt - body of the email message\n\n\n~/.globus/usercert.pem, userkey.pem - your personal grid certificate\n\n\n - address where email is to be sent\n\n\n\n\nAlternatively, you can send message.txt as an attachment with nearly any email client. It generally works better to send the signed file as an attachment rather than copying it into the body of the message because various email clients and particularly web interfaces to email often modify the message body and therefore break the digital signature.\n\n\nEmail client instructions\n\n\nWith the diversity of different web and various mail clients it is difficult to keep instructions up-to-date on how to deal with certificates. So below we link to a few different sites that deal in X509 certificates and have good instructions on signing emails, as well as other topics dealing with certificates.\n\n\nThawte's how to sign an email instructions.\n\n\nVerisign certificate instructions.\n\n\nVerifying an S/MIME signed message\n\n\n[user@client ~]$ openssl smime -verify -in message.txt -CApath $X509_CERT_DIR -signer sendercert.pem\n[user@client ~]$ openssl x509 -in sendercert.pem -noout -subject -email -serial -dates\n\n\n\n\n\n\nmessage.txt\n - body of email message received\n\n\nnote that the line beginning \"Content-Type\" and including 'boundary=\"---' must be a single line and not get broken or wrapped.\n\n\n\n\n\n\nsendercert.pem\n - the certificate used by the sender to sign the message, is extracted with the openssl smime command\n\n\nopenssl x5091\n command above will display the subject, email address, serial number and validity dates of the signer's certificate", 
-            "title": "Secure Email"
-        }, 
-        {
-            "location": "/SecureEmail/#secure-email-in-osg", 
-            "text": "", 
-            "title": "Secure Email in OSG"
-        }, 
-        {
-            "location": "/SecureEmail/#about-this-document", 
-            "text": "This document covers using secure email when communicating with the OSG security team. The OSG Security team encourages the use of secure email communication. All official announcements from the OSG security team will be digitally signed. We encourage you to verify the digital signatures on OSG security announcements. Also when sending sensitive information to the OSG security team, we encourage you to encrypt your messages.", 
-            "title": "About This Document"
-        }, 
-        {
-            "location": "/SecureEmail/#news", 
-            "text": "2010-01-28: The OSG security team has updated the PGP key for  .", 
-            "title": "News"
-        }, 
-        {
-            "location": "/SecureEmail/#osg-security-pgp-key", 
-            "text": "User ID: Open Science Grid Security  security@opensciencegrid.org \nKey ID: 7FD42669\nExpires:  \nFingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669  The team key is available from the  Security Team Members  page or the  MIT PGP server . PGP software is available from:  GnuPG", 
-            "title": "OSG Security PGP key"
-        }, 
-        {
-            "location": "/SecureEmail/#verifying-a-pgp-signature", 
-            "text": "Install  GnuPG  if it is not already installed on your computer.    Save  osg-security-pubkey.asc  to a file on your computer.    Import the   public key:    [user@client ~]$ gpg --import   osg-security-pubkey.asc \ngpg: key 7FD42669: public key  Open Science Grid Security  security@opensciencegrid.org  imported\ngpg: Total number processed: 1\ngpg:               imported: 1    Save the message you want to verify to a file on your system (for example:  signed-message.txt ).    Verify the message:    [user@client ~]$ gpg --verify   signed-message.txt \ngpg: Signature made Tue Apr 14 13:18:26 2010 CDT using DSA key ID 7FD42669\ngpg: Good signature from  Open Science Grid Security  security@opensciencegrid.org   To verify additional messages, only steps 4-5 are required.  When the   public key expires, you will need to perform steps 2-3 again for the new public key.", 
-            "title": "Verifying a PGP signature"
-        }, 
-        {
-            "location": "/SecureEmail/#encrypting-a-pgp-message", 
-            "text": "Install  GnuPG  if it is not already installed on your computer.    Save  osg-security-pubkey.asc  to a file on your computer.    Import the   public key:    [user@client ~]$ gpg --import   osg-security-pubkey.asc \ngpg: key 7FD42669: public key  Open Science Grid Security  security@opensciencegrid.org  imported\ngpg: Total number processed: 1\ngpg:               imported: 1    Save the message you want to encrypt to a file on your system named message.txt.    Encrypt the message:    [user@client ~]$ gpg --recipient security@opensciencegrid.org -a --encrypt   message.txt   encrypted-message.txt   Send the encrypted-message.txt file in email to  .   To encrypt additional messages, only steps 4-6 are required.  When the   public key expires, you will need to perform steps 2-3 again for the new public key.", 
-            "title": "Encrypting a PGP message"
-        }, 
-        {
-            "location": "/SecureEmail/#other-pgp-clients", 
-            "text": "", 
-            "title": "Other PGP Clients"
-        }, 
-        {
-            "location": "/SecureEmail/#enigmail-openpgp-plugin-for-thunderbird", 
-            "text": "The OpenPGP plugin for  Thunderbird  provides a well integrated user interface for key management and email signing and verification that uses GnuPG underneath.", 
-            "title": "Enigmail OpenPGP plugin for Thunderbird"
-        }, 
-        {
-            "location": "/SecureEmail/#signing-an-smime-message-with-your-certificate", 
-            "text": "The following is a command line instruction on how to sign an email with your certificate. Instructions for web clients is below.  [user@client ~]$ openssl smime -sign -signer ~/.globus/usercert.pem -inkey ~/.globus/userkey.pem -in message.txt | mail -s  email subject  person@example.com   message.txt - body of the email message  ~/.globus/usercert.pem, userkey.pem - your personal grid certificate   - address where email is to be sent   Alternatively, you can send message.txt as an attachment with nearly any email client. It generally works better to send the signed file as an attachment rather than copying it into the body of the message because various email clients and particularly web interfaces to email often modify the message body and therefore break the digital signature.", 
-            "title": "Signing an S/MIME message with your certificate"
-        }, 
-        {
-            "location": "/SecureEmail/#email-client-instructions", 
-            "text": "With the diversity of different web and various mail clients it is difficult to keep instructions up-to-date on how to deal with certificates. So below we link to a few different sites that deal in X509 certificates and have good instructions on signing emails, as well as other topics dealing with certificates.  Thawte's how to sign an email instructions.  Verisign certificate instructions.", 
-            "title": "Email client instructions"
-        }, 
-        {
-            "location": "/SecureEmail/#verifying-an-smime-signed-message", 
-            "text": "[user@client ~]$ openssl smime -verify -in message.txt -CApath $X509_CERT_DIR -signer sendercert.pem\n[user@client ~]$ openssl x509 -in sendercert.pem -noout -subject -email -serial -dates   message.txt  - body of email message received  note that the line beginning \"Content-Type\" and including 'boundary=\"---' must be a single line and not get broken or wrapped.    sendercert.pem  - the certificate used by the sender to sign the message, is extracted with the openssl smime command  openssl x5091  command above will display the subject, email address, serial number and validity dates of the signer's certificate", 
-            "title": "Verifying an S/MIME signed message"
         }, 
         {
             "location": "/SecurityAwarenessForTheOSG/", 
@@ -454,146 +474,6 @@
             "location": "/SecurityBestPractices/#reference-materials", 
             "text": "A How-To Guide for Basic Linux Security  O Reilly - Practical UNIX   Internet Security", 
             "title": "Reference Materials"
-        }, 
-        {
-            "location": "/OSGCertificateService/", 
-            "text": "OSG Certificate Service\n\n\nOSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.\n\n\nThe CILogon OSG Frequently Asked Questions (FAQ)\n\n\nCILogon OSG FAQ\n\n\nThe CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)\n\n\nCILogon OSG CA CP/CPS\n is publicly available.\n\n\nHistory\n\n\nCILogonOSGCPCPS_V1.pdf\n pdf version is also available.\n\n\nCertificate Subscriber Agreement\n\n\nCertificate Subscriber Agreement\n\n\nOSG CILogon CA Essential Information\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCertificate Policy OID\n\n\n1.3.6.1.4.1.34998.1.6.2\n\n\n\n\n\n\nSelf-signed CA Certificate PEM format\n\n\ncilogon-osg.pem\n\n\n\n\n\n\nSelf-signed CA Certificate DER format\n\n\ncilogon-osg.crt\n\n\n\n\n\n\nSelf-signed CA Certificate Human Readable\n\n\nCILogon OSG CA\n\n\n\n\n\n\nSigning Policy File\n\n\ncilogon-osg.signing_policy\n\n\n\n\n\n\nCRL URL File\n\n\ncilogon-osg.crl_url\n\n\n\n\n\n\nINFO File\n\n\ncilogon-osg.info\n\n\n\n\n\n\nCRL File in PEM Format\n\n\ncilogon-osg.r0\n\n\n\n\n\n\nCRL File DER Format\n\n\ncilogon-osg.crl\n\n\n\n\n\n\nSample personal certificate in PEM format\n\n\nuser-sample.pem\n\n\n\n\n\n\nSample personal certificate Human Readable\n\n\nUser Sample Human Readable\n\n\n\n\n\n\nSample host certificate in PEM format\n\n\nhost-sample.pem\n\n\n\n\n\n\nSample host certificate in Human Readable\n\n\nHost Sample HumanReadable\n\n\n\n\n\n\nOpenSSL 1.0 hash value\n\n\n70d35895\n\n\n\n\n\n\nSHA-1 Fingerprint\n\n\n5C:5C:24:5C:2F:05:24:EC:24:45:8D:5B:D8:F2:82:9B:EE:68:22:A8\n\n\n\n\n\n\n\n\nOSG Contact Information\n\n\n\n\nThe CP/CPS is managed by OSG Security Officer and can be reached at:\n\n\nSusan E. Sons\nOSG Security Officer\n2719 E. 10th Street, Suite 231\nBloomington, IN 47408\nOffice: 812-856-2949\nFax: 812-856-7400\n\nosg-security-team AT opensciencegrid.org\nsesons AT iu.edu\n\n\n\n\nFor any support problems, fault reporting and inquiries, please contact the Grid Operations Center at\n\n\ngoc@opensciencegrid.org\n+1 317-278-9699", 
-            "title": "OSG Certificate Service"
-        }, 
-        {
-            "location": "/OSGCertificateService/#osg-certificate-service", 
-            "text": "OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.", 
-            "title": "OSG Certificate Service"
-        }, 
-        {
-            "location": "/OSGCertificateService/#the-cilogon-osg-frequently-asked-questions-faq", 
-            "text": "CILogon OSG FAQ", 
-            "title": "The CILogon OSG Frequently Asked Questions (FAQ)"
-        }, 
-        {
-            "location": "/OSGCertificateService/#the-cilogon-osg-ca-certificate-policy-cp-and-certification-practice-statement-cps", 
-            "text": "CILogon OSG CA CP/CPS  is publicly available.", 
-            "title": "The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)"
-        }, 
-        {
-            "location": "/OSGCertificateService/#history", 
-            "text": "CILogonOSGCPCPS_V1.pdf  pdf version is also available.", 
-            "title": "History"
-        }, 
-        {
-            "location": "/OSGCertificateService/#certificate-subscriber-agreement", 
-            "text": "Certificate Subscriber Agreement", 
-            "title": "Certificate Subscriber Agreement"
-        }, 
-        {
-            "location": "/OSGCertificateService/#osg-cilogon-ca-essential-information", 
-            "text": "Certificate Policy OID  1.3.6.1.4.1.34998.1.6.2    Self-signed CA Certificate PEM format  cilogon-osg.pem    Self-signed CA Certificate DER format  cilogon-osg.crt    Self-signed CA Certificate Human Readable  CILogon OSG CA    Signing Policy File  cilogon-osg.signing_policy    CRL URL File  cilogon-osg.crl_url    INFO File  cilogon-osg.info    CRL File in PEM Format  cilogon-osg.r0    CRL File DER Format  cilogon-osg.crl    Sample personal certificate in PEM format  user-sample.pem    Sample personal certificate Human Readable  User Sample Human Readable    Sample host certificate in PEM format  host-sample.pem    Sample host certificate in Human Readable  Host Sample HumanReadable    OpenSSL 1.0 hash value  70d35895    SHA-1 Fingerprint  5C:5C:24:5C:2F:05:24:EC:24:45:8D:5B:D8:F2:82:9B:EE:68:22:A8", 
-            "title": "OSG CILogon CA Essential Information"
-        }, 
-        {
-            "location": "/OSGCertificateService/#osg-contact-information", 
-            "text": "The CP/CPS is managed by OSG Security Officer and can be reached at:  Susan E. Sons\nOSG Security Officer\n2719 E. 10th Street, Suite 231\nBloomington, IN 47408\nOffice: 812-856-2949\nFax: 812-856-7400\n\nosg-security-team AT opensciencegrid.org\nsesons AT iu.edu  For any support problems, fault reporting and inquiries, please contact the Grid Operations Center at  goc@opensciencegrid.org\n+1 317-278-9699", 
-            "title": "OSG Contact Information"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/", 
-            "text": "CILogon OSG CA\n\n\nStarting June 2016, the CILogon OSG CA is issuing certificates for users, hosts and services for OSG. The CILogon OSG CA is jointly operated with XSEDE. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal, host and service certificates.\n\n\nThe transition from DigiCert CA to CILogon OSG CA was completed on May 31st, 2016. All user, host and service certificates are issued by CILogon OSG CA. All OSG Virtual Organizations (VOs) were transitioned successfully to CILogon OSG CA. All certificates issued by DigiCert CA will continue to work until its expiration date\n\n\nWhat are we using from CILogon?\n\n\nNote, we are not using CILogon Basic CA. We are using CILogon HSM which is completely different from CILogon Basic. Note that CILogon has 4 different backend services and they are all different, we are using HSM. If you have a CILogon Basic certificate, you can continue to use that, but when you get a new certificate from OSG, you will get a CILogon HSM, not a CILogon Basic one, so it will be different.\n\n\nFrequently Asked Questions\n\n\nDoes this transition mean that my local site will pay for certificates?\n\n\nNo. No changes to current process with regard to fees.\n\n\nWhat does this transition mean for the end user? What does the end user need to do to get new certificates?\n\n\nOnce end users' certificates are near expiring, they go to OIM to get a new certificate. The process is the same, but the distinguished name (DN) in the certifcate will be the new provider instead of DigiCert. Users will need to register their new DN with whatever services they access: DocDB?, twiki, etc. Note, the transition team will provide a script to automatically register the new DN with VOMS.\n\n\nI am a GridAdmin/RA Agent. Will I have the same privileges? If so, will you require anything from my home institution?\n\n\nYes, you will continue to act as a GridAdmin. Your home institution is not required to do anything for you to obtain this privilege.\n\n\nWill the new certificates be trusted by browsers so we don't get all sorts of warnings popping up?\n\n\nSince the previous one was commercial, they paid money to be accepted by browsers. Warning messages may well pop up.\n\n\nWhere do I get host or server certificates?\n\n\nhttps://twiki.opensciencegrid.org/bin/view/Documentation/Release3/GetHostServiceCertificates\n\n\nWhere do I get user certificates?\n\n\nhttps://twiki.grid.iu.edu/bin/view/Documentation/CertificateGetWeb\n\n\nCommand-line Clients\n\n\nNo changes here.", 
-            "title": "CILogon OSG CA FAQ"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#cilogon-osg-ca", 
-            "text": "Starting June 2016, the CILogon OSG CA is issuing certificates for users, hosts and services for OSG. The CILogon OSG CA is jointly operated with XSEDE. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal, host and service certificates.  The transition from DigiCert CA to CILogon OSG CA was completed on May 31st, 2016. All user, host and service certificates are issued by CILogon OSG CA. All OSG Virtual Organizations (VOs) were transitioned successfully to CILogon OSG CA. All certificates issued by DigiCert CA will continue to work until its expiration date", 
-            "title": "CILogon OSG CA"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#what-are-we-using-from-cilogon", 
-            "text": "Note, we are not using CILogon Basic CA. We are using CILogon HSM which is completely different from CILogon Basic. Note that CILogon has 4 different backend services and they are all different, we are using HSM. If you have a CILogon Basic certificate, you can continue to use that, but when you get a new certificate from OSG, you will get a CILogon HSM, not a CILogon Basic one, so it will be different.", 
-            "title": "What are we using from CILogon?"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#frequently-asked-questions", 
-            "text": "", 
-            "title": "Frequently Asked Questions"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#does-this-transition-mean-that-my-local-site-will-pay-for-certificates", 
-            "text": "No. No changes to current process with regard to fees.", 
-            "title": "Does this transition mean that my local site will pay for certificates?"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#what-does-this-transition-mean-for-the-end-user-what-does-the-end-user-need-to-do-to-get-new-certificates", 
-            "text": "Once end users' certificates are near expiring, they go to OIM to get a new certificate. The process is the same, but the distinguished name (DN) in the certifcate will be the new provider instead of DigiCert. Users will need to register their new DN with whatever services they access: DocDB?, twiki, etc. Note, the transition team will provide a script to automatically register the new DN with VOMS.", 
-            "title": "What does this transition mean for the end user? What does the end user need to do to get new certificates?"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#i-am-a-gridadminra-agent-will-i-have-the-same-privileges-if-so-will-you-require-anything-from-my-home-institution", 
-            "text": "Yes, you will continue to act as a GridAdmin. Your home institution is not required to do anything for you to obtain this privilege.", 
-            "title": "I am a GridAdmin/RA Agent. Will I have the same privileges? If so, will you require anything from my home institution?"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#will-the-new-certificates-be-trusted-by-browsers-so-we-dont-get-all-sorts-of-warnings-popping-up", 
-            "text": "Since the previous one was commercial, they paid money to be accepted by browsers. Warning messages may well pop up.", 
-            "title": "Will the new certificates be trusted by browsers so we don't get all sorts of warnings popping up?"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#where-do-i-get-host-or-server-certificates", 
-            "text": "https://twiki.opensciencegrid.org/bin/view/Documentation/Release3/GetHostServiceCertificates", 
-            "title": "Where do I get host or server certificates?"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#where-do-i-get-user-certificates", 
-            "text": "https://twiki.grid.iu.edu/bin/view/Documentation/CertificateGetWeb", 
-            "title": "Where do I get user certificates?"
-        }, 
-        {
-            "location": "/CILogonOSGFAQ/#command-line-clients", 
-            "text": "No changes here.", 
-            "title": "Command-line Clients"
-        }, 
-        {
-            "location": "/CaDistribution/", 
-            "text": "OSG Certificate Authority Distribution\n\n\nAbout This Document\n\n\nThe OSG Certificate Authority Distribution contains information about Certificate Authorities (CAs) in use in OSG.\n\n\nContents\n\n\nThe OSG CA Distribution contains:\n\n\n\n\nIGTF Distribution of Authority Root Certificates\n (CAs accredited by the \nInternational Grid Trust Federation\n)\n\n\nPurdue TeraGrid CA\n\n\n\n\nFor additional details, see the \ndistribution site\n and \nchange log\n.\n\n\nCA Certificate Installation and Update\n provides you with details of various options to install the Certificate Authority (CA) certificates and have up-to-date certificate revocation list (CRL) using OSG RPMs.\n\n\nNews\n\n\nEffective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package version 1.15.\n\n\n\n\nFNAL KCA (e1fce4e9)\n\n\n\n\nBeginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at \nhttp://software-itb.grid.iu.edu/\n.\n\n\nProduction services on OSG should \nNOT\n install (or reference via yum or apt) the ITB version of the CA distribution since it may, at times, contain an untrustworthy CA certificate for testing purposes\n\n\nEffective March 10, 2009, the OSG Security Team has removed the following unused non-IGTF CAs from the OSG CA distribution:\n\n\n\n\nPSC Kerberos CA (290a3b29)\n\n\nPSC Root CA (9b88e95b)\n\n\nPSC Hosts CA (acc06fda)\n\n\nSDSC (3deda549)\n\n\nNPACI (b89793e4)\n\n\nTACC (9a1da9f9)\n\n\nold NCSA CA (4a6cd8b1)\n\n\n\n\nIf you are aware of any use of these CAs in OSG, so that they should continue to be included in the OSG CA distribution, please notify \n immediately.\n\n\nSee also:\n\n\n\n\nemail announcement\n\n\n\n\nReferences\n\n\n\n\nOSG CA Certificates Hosted By GOC\n\n\nOSG GOC Yum Repository\n\n\nCA Certificates in the VDT\n\n\nTeraGrid Approved CAs", 
-            "title": "OSG CA Distribution"
-        }, 
-        {
-            "location": "/CaDistribution/#osg-certificate-authority-distribution", 
-            "text": "", 
-            "title": "OSG Certificate Authority Distribution"
-        }, 
-        {
-            "location": "/CaDistribution/#about-this-document", 
-            "text": "The OSG Certificate Authority Distribution contains information about Certificate Authorities (CAs) in use in OSG.", 
-            "title": "About This Document"
-        }, 
-        {
-            "location": "/CaDistribution/#contents", 
-            "text": "The OSG CA Distribution contains:   IGTF Distribution of Authority Root Certificates  (CAs accredited by the  International Grid Trust Federation )  Purdue TeraGrid CA   For additional details, see the  distribution site  and  change log .  CA Certificate Installation and Update  provides you with details of various options to install the Certificate Authority (CA) certificates and have up-to-date certificate revocation list (CRL) using OSG RPMs.", 
-            "title": "Contents"
-        }, 
-        {
-            "location": "/CaDistribution/#news", 
-            "text": "Effective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package version 1.15.   FNAL KCA (e1fce4e9)   Beginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at  http://software-itb.grid.iu.edu/ .  Production services on OSG should  NOT  install (or reference via yum or apt) the ITB version of the CA distribution since it may, at times, contain an untrustworthy CA certificate for testing purposes  Effective March 10, 2009, the OSG Security Team has removed the following unused non-IGTF CAs from the OSG CA distribution:   PSC Kerberos CA (290a3b29)  PSC Root CA (9b88e95b)  PSC Hosts CA (acc06fda)  SDSC (3deda549)  NPACI (b89793e4)  TACC (9a1da9f9)  old NCSA CA (4a6cd8b1)   If you are aware of any use of these CAs in OSG, so that they should continue to be included in the OSG CA distribution, please notify   immediately.  See also:   email announcement", 
-            "title": "News"
-        }, 
-        {
-            "location": "/CaDistribution/#references", 
-            "text": "OSG CA Certificates Hosted By GOC  OSG GOC Yum Repository  CA Certificates in the VDT  TeraGrid Approved CAs", 
-            "title": "References"
-        }, 
-        {
-            "location": "/InstallCertScripts/", 
-            "text": "Tools for Managing Host and Service Certificates\n\n\nThis document used to contain information about a set of tools for requesting and downloading host and service certificates from the DOEGrids CA website. OSG no longer uses certificates from DOEGrids, and the new tools that work with the current OSG certificate provider are located via the following link:\n\n\nOSG PKI Command-Line Clients", 
-            "title": "Install Cert Scripts"
-        }, 
-        {
-            "location": "/InstallCertScripts/#tools-for-managing-host-and-service-certificates", 
-            "text": "This document used to contain information about a set of tools for requesting and downloading host and service certificates from the DOEGrids CA website. OSG no longer uses certificates from DOEGrids, and the new tools that work with the current OSG certificate provider are located via the following link:", 
-            "title": "Tools for Managing Host and Service Certificates"
-        }, 
-        {
-            "location": "/InstallCertScripts/#osg-pki-command-line-clients", 
-            "text": "", 
-            "title": "OSG PKI Command-Line Clients"
         }
     ]
 }
