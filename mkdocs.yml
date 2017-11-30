@@ -9,21 +9,16 @@ extra_css:
 
 pages:
 - Home: 'index.md'
-- Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
-- Goals Purpose: 'GoalsPurpose.md'
-- Security & Certification FAQ: 'OSGFAQ.md'
-- Policies & Procedures: 'PoliciesProcedures.md'
-- Team Members: 'SecurityTeamMembers.md'
-- Email Lists: 'EmailLists.md'
-- Secure Email: 'SecureEmail.md'
-- Security Awareness For The OSG: 'SecurityAwarenessForTheOSG.md'
-- Security User Responsibilities: 'SecurityUserResponsibilities.md'
-- Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
-- Best Practices: 'SecurityBestPractices.md'
 - OSG Certificate Service: 'OSGCertificateService.md'
 - CILogon OSG CA FAQ: 'CILogonOSGFAQ.md'
 - OSG CA Distribution: 'CaDistribution.md'
 - Install Cert Scripts: 'InstallCertScripts.md'
+- Security & Certification FAQ: 'OSGFAQ.md'
+- Policies & Procedures: 'PoliciesProcedures.md'
+- Security Awareness For The OSG: 'SecurityAwarenessForTheOSG.md'
+- Security User Responsibilities: 'SecurityUserResponsibilities.md'
+- Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
+- Best Practices: 'SecurityBestPractices.md'
 
 markdown_extensions:
   - admonition
