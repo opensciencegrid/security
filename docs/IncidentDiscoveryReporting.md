@@ -20,7 +20,7 @@ Please include the following information in your report:
 - Do you think your grid identity (certificate and/or proxy) is compromised?
 - Any additional comments or questions you have
 
-## What to do after an incident is Reported
+## What to do after an incident is reported
 
 !!! note
 If you have not reported the incident to your local security team AND the OSG security team, report the incident now.
