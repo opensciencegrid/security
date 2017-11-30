@@ -9,7 +9,7 @@ extra_css:
 
 pages:
 - Home: 'index.md'
-- OSG Certificate Service: 'OSGCertificateService.md'
+- CILogon OSG CA: 'OSGCertificateService.md'
 - CILogon OSG CA FAQ: 'CILogonOSGFAQ.md'
 - OSG CA Distribution: 'CaDistribution.md'
 - Install Cert Scripts: 'InstallCertScripts.md'
