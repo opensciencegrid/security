@@ -1,14 +1,6 @@
-**Incident Discovery and Reporting**
-====================================
+# Incident Discovery and Reporting
 
-About This Document
--------------------
-
-This document describes the process of reporting a security incident to the OSG Security Team.
-
-Reporting a problem
--------------------
-
+## Reporting a problem
 If you suspect a security problem, please **report it immediately**.
 
 Also do NOT forget to report security incidents to your **local/home organization's** incident response team.
@@ -21,20 +13,18 @@ Please promptly report security incidents involving OSG resources using any of t
 
 Please include the following information in your report:
 
--   Your name:
--   Your email address:
--   Your phone number:
--   An alternate number such as a cell phone:
--   What is your affiliation with the OSG? Which Virtual Organization are you a member of?
--   Did this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have
--   Do you think your your grid identity (certificate and/or proxy) compromised?
--   A description of the incident, including time(s), systems and user accounts involved, and any related event ()
--   Any additional comments or questions you have
+-   Your name, email address, phone number.
+- A description of the incident, including time(s), systems and user accounts involved, and any related event.
+- What is your affiliation with the OSG? Which Virtual Organization are you a member of?
+- Did this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have
+- Do you think your grid identity (certificate and/or proxy) is compromised?
+- Any additional comments or questions you have
 
-Thank you for reporting security incidents promptly.
+## What to do after an incident is Reported
+!!! note
+If you have not reported the incident to your local security team AND the OSG security team, report the incident now.
 
-What to Do After an Incident is Reported
-----------------------------------------
+!!! note
+You will first want to notify your local security contacts. The local security contacts will help with hands-on examination. Then, make sure to report the incident to OSG.
 
-After reporting an incident, follow [the first steps for dealing with an incident](https://twiki.grid.iu.edu/bin/view/Documentation/IncidentFirstSteps).
 
