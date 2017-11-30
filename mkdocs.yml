@@ -9,19 +9,20 @@ extra_css:
 
 pages:
 - Home: 'index.md'
-- CILogon OSG CA: 'OSGCertificateService.md'
-- CILogon OSG CA FAQ: 'CILogonOSGFAQ.md'
-- OSG CA Distribution: 'CaDistribution.md'
-- OSG Security Policies and Procedures:
+- CILogon OSG CA:
+  - CILogon OSG CA: 'OSGCertificateService.md'
+  - Frequently Asked Questions (FAQ): 'CILogonOSGFAQ.md'
+- Certificate Authorities (CA) Distribution: 'CaDistribution.md'
+- Security Policies and Procedures:
   - Security Policies: 'OSGSecurityPolicies.md'
   - Security Procedures: 'OSGSecurityProcedures.md'
   - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
-- Integrated security in OSG:
-  - Security Awareness For The OSG: 'SecurityAwarenessForTheOSG.md'
+- Integrated Security for the OSG:
+  - Security Awareness for the OSG: 'SecurityAwarenessForTheOSG.md'
   - Security User Responsibilities: 'SecurityUserResponsibilities.md'
   - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
   - Best Practices: 'SecurityBestPractices.md'
-  - Security in OSG FAQ: 'OSGFAQ.md'
+  - Frequently Asked Questions (FAQ): 'OSGFAQ.md'
 
 markdown_extensions:
   - admonition
