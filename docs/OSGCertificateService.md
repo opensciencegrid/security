@@ -3,7 +3,7 @@
 OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.
 
 ## The CILogon OSG Frequently Asked Questions (FAQ)
-[CILogon OSG FAQ](CILogonOSGFAQ.md)
+[CILogon OSG FAQ](CILogonOSGFAQ)
 
 ## The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)
 [CILogon OSG CA CP/CPS](cilogonosgca/CILogonOSGCPCPS.pdf) is publicly available.
