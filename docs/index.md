@@ -3,7 +3,7 @@
 -   URGENT
     -   [Incident Discovery and Reporting](IncidentDiscoveryReporting)
 
--   Welcome to OSG Security
+Welcome to OSG Security
     -   [Goals and purpose](GoalsPurpose)
     -   [Security and certificates FAQ](OSGFAQ)
     -   [Policies and procedures](PoliciesProcedures)
