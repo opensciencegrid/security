@@ -34,11 +34,19 @@
     
 
     
+        
     <url>
-     <loc>https://opensciencegrid.github.io/security//PoliciesProcedures/</loc>
+     <loc>https://opensciencegrid.github.io/security//OSGSecurityPolicies/</loc>
      <lastmod>2017-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>https://opensciencegrid.github.io/security//OSGSecurityProcedures/</loc>
+     <lastmod>2017-11-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
