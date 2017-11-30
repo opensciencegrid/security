@@ -6,7 +6,7 @@ OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA.
 The CILogon OSG Frequently Asked Questions (FAQ)
 ------------------------------------------------
 
-[CILogon OSG FAQ](CILogonOSGFAQ)
+[CILogon OSG FAQ](cilogonosgca/CILogonOSGFAQ)
 
 The CILogon OSG CA CP/CPS
 -------------------------
@@ -63,4 +63,3 @@ For any support problems, fault reporting and inquiries, please contact the Grid
 goc@opensciencegrid.org
 +1 317-278-9699
 ```
--- Main.MineAltunay - 19 May 2015
