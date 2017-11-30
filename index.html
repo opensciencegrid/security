@@ -55,6 +55,18 @@
             
     <li class="toctree-l2"><a href="#osg-security">OSG Security</a></li>
     
+        <ul>
+        
+            <li><a class="toctree-l3" href="#reporting-a-security-incident">Reporting a security incident</a></li>
+        
+            <li><a class="toctree-l3" href="#mailing-lists">Mailing Lists</a></li>
+        
+            <li><a class="toctree-l3" href="#secure-email-osg-security-team-pgp-key">Secure email - OSG Security Team PGP key</a></li>
+        
+            <li><a class="toctree-l3" href="#team-members">Team members</a></li>
+        
+        </ul>
+    
 
     </ul>
 	    </li>
@@ -170,57 +182,51 @@
             <div class="section">
               
                 <h1 id="osg-security">OSG Security</h1>
-<ul>
-<li>
-<p>URGENT</p>
-<ul>
-<li><a href="./IncidentDiscoveryReporting">Incident Discovery and Reporting</a></li>
-</ul>
-</li>
-<li>
 <p>Welcome to OSG Security</p>
+<p>The OSG security team's goal is to provide a security framework that enables science and promotes autonomous and open science collaboration among Virtual Organizations (VOs), sites, and software providers. Keeping the balance between the openness, which is necessary for science, and the security is at the core of our work. </p>
+<p>Our mission is to protect OSG users and resources from security breaches and provide convenient access to OSG resources. </p>
+<p>We achieve our goals by providing:</p>
 <ul>
-<li><a href="./GoalsPurpose">Goals and purpose</a></li>
-<li><a href="./OSGFAQ">Security and certificates FAQ</a></li>
-<li><a href="./PoliciesProcedures">Policies and procedures</a></li>
-<li><a href="http://osgsec.blogspot.com/">OSG Security Team Blog</a> - Latest notifications and announcements from the security team</li>
-<li><a href="./SecurityTeamMembers">Team members</a></li>
-<li><a href="./EmailLists">Email lists</a></li>
-<li><a href="./SecureEmail">Secure Email</a></li>
+<li>Operational Security</li>
+<li>Assess the security of the software used at OSG.</li>
+<li>Perform fire drills to measure readiness and security awareness.</li>
+<li>Interoperability with other e-science infrastructures: IGTF, XSEDE and EGI.</li>
+<li>Education</li>
+<li>Conduct security training for our users and teach best security practices.</li>
+<li>Learn from our users about difficulties of security practices and policies.</li>
 </ul>
-</li>
-<li>
-<p>Security Awareness for OSG Participants</p>
+<h2 id="reporting-a-security-incident">Reporting a security incident</h2>
+<p>If you suspect a security problem, please <strong>report it immediately</strong>.</p>
+<p>Also do NOT forget to report security incidents to your <strong>local/home organization's</strong> incident response team.</p>
+<p>Please promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24*7:</p>
 <ul>
-<li><a href="./SecurityAwarenessForTheOSG">Security Awareness</a></li>
-<li><a href="./SecurityUserResponsibilities">User Responsibilities</a></li>
-<li><a href="./SecuritySiteResponsibilities">Site Responsibilities</a></li>
-<li><a href="./SecurityBestPractices">Best Practices</a></li>
+<li><a href="https://ticket.grid.iu.edu/goc/security">Submit a Ticket</a></li>
+<li>Call the Grid Operations Center (GOC) at +1 317-278-9699.</li>
+<li>Send email to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;">&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;</a>. If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.</li>
 </ul>
-</li>
-<li>
-<p>Certificates</p>
+<p>Please include the following information in your report:</p>
 <ul>
-<li><a href="./OSGCertificateService">OSG Certificate Service</a></li>
-<li><a href="./CaDistribution">OSG CA Distribution</a></li>
-<li><a href="./InstallCertScripts">Certificate scripts package (doc)</a></li>
+<li>Your name, email address, phone number.</li>
+<li>A description of the incident, including time(s), systems and user accounts involved, and any related event.</li>
+<li>What is your affiliation with the OSG? Which Virtual Organization are you a member of?</li>
+<li>Did this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have</li>
+<li>Do you think your grid identity (certificate and/or proxy) is compromised?</li>
+<li>Any additional comments or questions you have</li>
 </ul>
-</li>
-<li>
-<p><a href="https://twiki.grid.iu.edu/bin/view/SecurityTeam/WebHome">Security Team Protected Working Area</a></p>
-</li>
-<li>
-<p>External Working Groups and OSG Representation</p>
-<ul>
-<li><a href="http://www.jspg.org/">Joint Security Policy Group (JSPG)</a></li>
-<li><a href="http://www.tagpma.org">The Americas Grid PMA (TAGPMA)</a></li>
-<li><a href="http://igtf.net/">International Grid Trust Federation (IGTF)</a></li>
-<li>Middleware Security Working Group (MWSG)</li>
-<li><a href="http://dev.globus.org/wiki/SecurityCommittee/Security_Vulnerability_Handling">Globus Security Committee</a></li>
-<li><a href="http://www.ren-isac.net/">Research and Education Networking Information Sharing and Analysis Center (REN-ISAC)</a></li>
-</ul>
-</li>
-</ul>
+<h2 id="mailing-lists">Mailing Lists</h2>
+<p><em>The following addresses are open for use by all OSG members, partners, and collaborators:</em></p>
+<p><strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;">&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;</a></strong> is the standard email address open to the OSG public for reporting of security incidents. Mail to <strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;">&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;</a></strong> is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.</p>
+<p><em>The following addresses are for internal use by OSG staff:</em></p>
+<p><strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#111;&#115;&#103;&#45;&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#45;&#116;&#101;&#97;&#109;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;">&#111;&#115;&#103;&#45;&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#45;&#116;&#101;&#97;&#109;&#64;&#111;&#112;&#101;&#110;&#115;&#99;&#105;&#101;&#110;&#99;&#101;&#103;&#114;&#105;&#100;&#46;&#111;&#114;&#103;</a></strong> is for internal discussions among OSG security team members.</p>
+<h2 id="secure-email-osg-security-team-pgp-key">Secure email - OSG Security Team PGP key</h2>
+<pre><code class="file">User ID: Open Science Grid Security &lt;security@opensciencegrid.org&gt;
+Key ID: 7FD42669
+Expires:  
+Fingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669
+</code></pre>
+
+<p>The team key is available from the <a href="./SecurityTeamMembers">Security Team Members</a> page or the <a href="http://pgp.mit.edu:11371/pks/lookup?search=security%40opensciencegrid.org&amp;op=index">MIT PGP server</a>. PGP software is available from: <a href="http://www.gnupg.org/">GnuPG</a></p>
+<h2 id="team-members">Team members</h2>
               
             </div>
           </div>
@@ -272,5 +278,5 @@
 
 <!--
 MkDocs version : 0.17.2
-Build Date UTC : 2017-11-30 19:34:37
+Build Date UTC : 2017-11-30 20:10:43
 -->
