@@ -21,6 +21,7 @@ pages:
 - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
 - Best Practices: 'SecurityBestPractices.md'
 - OSG Certificate Service: 'OSGCertificateService.md'
+- CILogon OSG CA FAQ: 'CILogonOSGFAQ.md'
 - OSG CA Distribution: 'CaDistribution.md'
 - Install Cert Scripts: 'InstallCertScripts.md'
 
