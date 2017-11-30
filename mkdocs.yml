@@ -13,7 +13,7 @@ pages:
 - CILogon OSG CA FAQ: 'CILogonOSGFAQ.md'
 - OSG CA Distribution: 'CaDistribution.md'
 - Policies & Procedures: 'PoliciesProcedures.md'
-- Security in OSG
+- Security in OSG:
   - Security Awareness For The OSG: 'SecurityAwarenessForTheOSG.md'
   - Security User Responsibilities: 'SecurityUserResponsibilities.md'
   - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
