@@ -35,14 +35,6 @@
 
     
     <url>
-     <loc>https://opensciencegrid.github.io/security//OSGFAQ/</loc>
-     <lastmod>2017-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>https://opensciencegrid.github.io/security//PoliciesProcedures/</loc>
      <lastmod>2017-11-30</lastmod>
      <changefreq>daily</changefreq>
@@ -50,35 +42,37 @@
     
 
     
+        
     <url>
      <loc>https://opensciencegrid.github.io/security//SecurityAwarenessForTheOSG/</loc>
      <lastmod>2017-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>https://opensciencegrid.github.io/security//SecurityUserResponsibilities/</loc>
      <lastmod>2017-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>https://opensciencegrid.github.io/security//SecuritySiteResponsibilities/</loc>
      <lastmod>2017-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>https://opensciencegrid.github.io/security//SecurityBestPractices/</loc>
      <lastmod>2017-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>https://opensciencegrid.github.io/security//OSGFAQ/</loc>
+     <lastmod>2017-11-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>
