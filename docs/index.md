@@ -1,35 +1,60 @@
 # OSG Security
 
--   URGENT
-    -   [Incident Discovery and Reporting](IncidentDiscoveryReporting)
+Welcome to OSG Security
 
-- Welcome to OSG Security
-    -   [Goals and purpose](GoalsPurpose)
-    -   [Security and certificates FAQ](OSGFAQ)
-    -   [Policies and procedures](PoliciesProcedures)
-    -   [OSG Security Team Blog](http://osgsec.blogspot.com/) - Latest notifications and announcements from the security team
-    -   [Team members](SecurityTeamMembers)
-    -   [Email lists](EmailLists)
-    -   [Secure Email](SecureEmail)
+The OSG security team's goal is to provide a security framework that enables science and promotes autonomous and open science collaboration among Virtual Organizations (VOs), sites, and software providers. Keeping the balance between the openness, which is necessary for science, and the security is at the core of our work. 
 
--   Security Awareness for OSG Participants
-    -   [Security Awareness](SecurityAwarenessForTheOSG)
-    -   [User Responsibilities](SecurityUserResponsibilities)
-    -   [Site Responsibilities](SecuritySiteResponsibilities)
-    -   [Best Practices](SecurityBestPractices)
+Our mission is to protect OSG users and resources from security breaches and provide convenient access to OSG resources. 
 
--   Certificates
-    -   [OSG Certificate Service](OSGCertificateService)
-    -   [OSG CA Distribution](CaDistribution)
-    -   [Certificate scripts package (doc)](InstallCertScripts)
+We achieve our goals by providing:
 
--   [Security Team Protected Working Area](https://twiki.grid.iu.edu/bin/view/SecurityTeam/WebHome)
+- Operational Security
+ - Assess the security of the software used at OSG.
+ - Perform fire drills to measure readiness and security awareness.
+- Interoperability with other e-science infrastructures: IGTF, XSEDE and EGI.
+- Education
+ - Conduct security training for our users and teach best security practices.
+ - Learn from our users about difficulties of security practices and policies.
 
--   External Working Groups and OSG Representation
-    -   [Joint Security Policy Group (JSPG)](http://www.jspg.org/)
-    -   [The Americas Grid PMA (TAGPMA)](http://www.tagpma.org)
-    -   [International Grid Trust Federation (IGTF)](http://igtf.net/)
-    -   Middleware Security Working Group (MWSG)
-    -   [Globus Security Committee](http://dev.globus.org/wiki/SecurityCommittee/Security\_Vulnerability\_Handling)
-    -   [Research and Education Networking Information Sharing and Analysis Center (REN-ISAC)](http://www.ren-isac.net/)
+## Reporting a security incident
 
+If you suspect a security problem, please **report it immediately**.
+
+Also do NOT forget to report security incidents to your **local/home organization's** incident response team.
+
+Please promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24\*7:
+
+-   [Submit a Ticket](https://ticket.grid.iu.edu/goc/security)
+-   Call the Grid Operations Center (GOC) at +1 317-278-9699.
+-   Send email to <security@opensciencegrid.org>. If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.
+
+Please include the following information in your report:
+
+-   Your name, email address, phone number.
+-   A description of the incident, including time(s), systems and user accounts involved, and any related event.
+-   What is your affiliation with the OSG? Which Virtual Organization are you a member of?
+-   Did this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have
+-   Do you think your grid identity (certificate and/or proxy) is compromised?
+-   Any additional comments or questions you have
+
+## Mailing Lists
+*The following addresses are open for use by all OSG members, partners, and collaborators:*
+
+**<security@opensciencegrid.org>** is the standard email address open to the OSG public for reporting of security incidents. Mail to **<security@opensciencegrid.org>** is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.
+
+*The following addresses are for internal use by OSG staff:*
+
+**<osg-security-team@opensciencegrid.org>** is for internal discussions among OSG security team members.
+
+## Secure email - OSG Security Team PGP key
+
+``` file
+User ID: Open Science Grid Security <security@opensciencegrid.org>
+Key ID: 7FD42669
+Expires:  
+Fingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669
+```
+
+The team key is available from the [Security Team Members](SecurityTeamMembers) page or the [MIT PGP server](http://pgp.mit.edu:11371/pks/lookup?search=security%40opensciencegrid.org&op=index). PGP software is available from: [GnuPG](http://www.gnupg.org/)
+
+## Team members
