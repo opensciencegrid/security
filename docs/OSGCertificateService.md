@@ -10,8 +10,8 @@ OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA.
 - [CILogon OSG CA CP/CPS docx version](cilogonosgca/CILogonOSGCPCPS_V2.docx)
 
 ### History
-- [CILogonOSGCPCPS\_V1.pdf](cilogonosgca/CILogonOSGCPCPS_V1.pdf)
-- [CILogon OSG CA CP/CPS docx version](cilogonosgca/ILogonOSGCPCPS_Final_V1.docx)
+- [CILogon OSG CA CP/CPS V1 PDF version](cilogonosgca/CILogonOSGCPCPS_V1.pdf)
+- [CILogon OSG CA CP/CPS V1 docx version](cilogonosgca/ILogonOSGCPCPS_Final_V1.docx)
 
 ## Certificate Subscriber Agreement
 [Certificate Subscriber Agreement](cilogonosgca/IGTF_CERTIFICATE_SUBSCRIBER_AGREEMENT.pdf)
