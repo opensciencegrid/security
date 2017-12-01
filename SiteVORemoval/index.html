@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Security Policies - OSG Documentation</title>
+  <title>Site/VO removal policy - OSG Documentation</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Security Policies";
-    var mkdocs_page_input_path = "OSGSecurityPolicies.md";
-    var mkdocs_page_url = "/OSGSecurityPolicies/";
+    var mkdocs_page_name = "Site/VO removal policy";
+    var mkdocs_page_input_path = "SiteVORemoval.md";
+    var mkdocs_page_url = "/SiteVORemoval/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -77,25 +77,19 @@
 		
     <span class="caption-text">Security Policies and Procedures</span>
     <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../OSGSecurityPolicies/">Security Policies</a>
+                </li>
                 <li class=" current">
                     
-    <a class="current" href="./">Security Policies</a>
+    <a class="current" href="./">Site/VO removal policy</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#osg-security-policies">OSG Security Policies</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#approved-security-policies">Approved Security Policies</a></li>
-        
-        </ul>
+    <li class="toctree-l3"><a href="#security-policy-on-sitevo-removal">Security Policy on Site/VO Removal</a></li>
     
 
     </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../SiteVORemoval/">Site/VO removal policy</a>
                 </li>
                 <li class="">
                     
@@ -161,10 +155,10 @@
         
       
     
-    <li>Security Policies</li>
+    <li>Site/VO removal policy</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/opensciencegrid/security/edit/master/docs/OSGSecurityPolicies.md"
+        <a href="https://github.com/opensciencegrid/security/edit/master/docs/SiteVORemoval.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -174,44 +168,26 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="osg-security-policies">OSG Security Policies</h1>
-<p>OSG security policies should address topics of importance to OSG stakeholders. The policies should be succinct and few.</p>
-<p>OSG security policies are developed by the OSG security team, when appropriate in conjunction with Joint Security Policy Group(see below). The security team develops implementation and assessment procedures concurrently with the policies. Draft policies are approved by the OSG Executive Board and then officially endorsed by the OSG Council according to the <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=539">OSG Statement on Agreements and Policies</a>.</p>
-<p>See Security.PoliciesProceduresInProgress for a list of security policies and procedures under development.</p>
-<h2 id="approved-security-policies">Approved Security Policies</h2>
-<p>The following policies are approved and in effect in OSG:</p>
+                <h1 id="security-policy-on-sitevo-removal">Security Policy on Site/VO Removal</h1>
+<p>This document describes the policy for removing a Virtual Organization (VO) from the OSG.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This policy was approved by the OSG Security Officer (Mine Altunay) on Jun 16 2009. Approved by the OSG Executive Director (Ruth Pordes) on Jul 15 2009.</p>
+</div>
+<p>The interconnected nature of OSG requires that all OSG participants share responsibility for security. The security of each OSG site and VO impacts on the security of other OSG sites and VOs, as well as on partner grids. The <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=86">OSG Grid Acceptable Use Policy</a> and <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=87">Service Agreement</a> specify requirements for OSG participants, including security requirements. Furthermore, every OSG site and VO must register a security contact in the <a href="http://oim.grid.iu.edu/">OSG Information Management System</a> who will be responsive to requests from the OSG Security Officer.</p>
+<p>In the event that a site or VO presents an immediate operational security threat to the grid, the OSG Security Officer may immediately remove the site or VO from the OSG operational infrastructure on a temporary basis while awaiting an Executive Board decision.</p>
+<p>In the event that a site or VO presents a significant and persistent security threat to the grid, the OSG Security Officer may recommend to the Executive Board that the site or VO be removed from the OSG operational infrastructure. The decisions to remove and to later re-instate the site or VO ultimately rest with the Executive Board.</p>
+<p>The OSG Security Officer aims to work collaboratively with sites and VOs to maintain the security of OSG. Removal of a site or VO from the OSG operational infrastructure for security reasons is an option of last resort.</p>
+<p>The OSG Security Officer may initiate removal of a site or VO if one or more of the following criteria are met:</p>
 <ul>
-<li>Grid Acceptable Use: <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=86">OSG Doc 86</a><ul>
-<li>Status: v2.0 approved by OSG EB on Feb-9-2006 and endorsed by OSG Council.</li>
-<li><a href="https://edms.cern.ch/document/428036">JSPG Doc</a> v3.1 approved by WLCG MB on 28-Nov-2005.</li>
-<li>Note: The OSG and JSPG policies are identical.</li>
+<li>The site or VO is repeatedly unresponsive to requests from the Security Officer.</li>
+<li>The site or VO persistently fails to maintain accurate security contact information in OIM.</li>
+<li>The site or VO repeatedly violates security requirements in the <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=86">OSG Grid Acceptable Use Policy</a> or <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=87">Service Agreement</a></li>
+<li>The site or VO has repeatedly caused security incidents to spread as a result of neglect.</li>
 </ul>
-</li>
-<li>Service Agreement: <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=87">OSG Doc 87</a><ul>
-<li>Status: v1.0.4 approved by OSG EB Mar-15-2005 and endorsed by the OSG Council.</li>
-</ul>
-</li>
-<li>Privacy: <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=741">OSG Doc 741</a><ul>
-<li>Status: v3.8 approved by OSG Executive Director on Dec-16-2008.</li>
-</ul>
-</li>
-<li>Certificate Authorities: <a href="http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=752">OSG Doc 752</a><ul>
-<li>Status: v1.0 approved by OSG Facilities Aug-09-2007. v2.2 approved by OSG Executive Director on Dec-16-2008.</li>
-<li><a href="https://edms.cern.ch/document/428038">JSPG Doc</a> v2.5 approved by WLCG and EGEE. v2.8 approved by WLCG MB and EGEE TMB Aug 2008.</li>
-<li>Note: v1.0 of the OSG policy adds operational details to the JSPG policy.</li>
-</ul>
-</li>
-<li><a href="http://www.doegrids.org/Docs/CP-CPS.pdf">DOEGrids Certificate Policy and Certification Practice Statement</a><ul>
-<li>Status: Approved by the <a href="http://www.eugridpma.org/">EUGridPMA</a> and managed by the <a href="http://www.doegrids.org/pages/doegridspma.html">DOE Grids PMA</a>.</li>
-<li>Note: This policy applies to the OSG Registration Authority, its Agents, and OSG members in the role of Subscribers and Relying Parties.</li>
-</ul>
-</li>
-<li><a href="https://twiki.grid.iu.edu/bin/view/ReleaseDocumentation/Removal">Site/VO Removal </a><ul>
-<li>Status: Approved by OSG Executive Director on Jul-15-2009.</li>
-</ul>
-</li>
-<li>Security.LongLivedCerts - Statement on proxies with long lifetimes.</li>
-</ul>
+<p>The Security Officer can be contacted at security@opensciencegrid.org.</p>
+<p>Please see <a href="../SecurityBestPractices">Security Best Practices</a> for security practices recommended by the OSG Security Team.
+The OSG Security Officer will implement this policy according to the [Security Procedures] for Site/VO Removal.</p>
               
             </div>
           </div>
@@ -219,10 +195,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../SiteVORemoval/" class="btn btn-neutral float-right" title="Site/VO removal policy">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../OSGSecurityProcedures/" class="btn btn-neutral float-right" title="Security Procedures">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../CaDistribution/" class="btn btn-neutral" title="Certificate Authorities (CA) Distribution"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../OSGSecurityPolicies/" class="btn btn-neutral" title="Security Policies"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -250,10 +226,10 @@
           <a href="https://github.com/opensciencegrid/security/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../CaDistribution/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../OSGSecurityPolicies/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../SiteVORemoval/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../OSGSecurityProcedures/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

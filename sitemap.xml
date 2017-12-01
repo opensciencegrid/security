@@ -42,6 +42,12 @@
     </url>
         
     <url>
+     <loc>https://opensciencegrid.github.io/security//SiteVORemoval/</loc>
+     <lastmod>2017-12-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://opensciencegrid.github.io/security//OSGSecurityProcedures/</loc>
      <lastmod>2017-12-01</lastmod>
      <changefreq>daily</changefreq>
