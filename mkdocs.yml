@@ -18,6 +18,7 @@ pages:
   - Site/VO Removal Policy: 'SiteVORemovalPolicy.md'
   - OSG Security Procedures: 'OSGSecurityProcedures.md'
   - Site/VO Removal Procedure: 'SiteVORemovalProcedure.md'
+  - Secure Communications in OSG: 'SecureCommunicationsOSG.md'
   - Software Vulnerability Handling: 'SoftwareVulnerabilityHandling.md'
   - Joining/Leaving Security Team: 'JoiningLeavingSecurityTeam.md'
   - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
