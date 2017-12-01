@@ -15,6 +15,7 @@ pages:
 - Certificate Authorities (CA) Distribution: 'CaDistribution.md'
 - Security Policies and Procedures:
   - Security Policies: 'OSGSecurityPolicies.md'
+  - Site/VO removal policy: 'SiteVORemoval.md'
   - Security Procedures: 'OSGSecurityProcedures.md'
   - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
 - Integrated Security for the OSG:
