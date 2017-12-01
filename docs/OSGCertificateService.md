@@ -6,16 +6,17 @@ OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA.
 [CILogon OSG FAQ](CILogonOSGFAQ)
 
 ## The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)
-[CILogon OSG CA CP/CPS](cilogonosgca/CILogonOSGCPCPS.pdf) is publicly available.
+- [CILogon OSG CA CP/CPS PDF version](cilogonosgca/CILogonOSGCPCPS.pdf)
+- [CILogon OSG CA CP/CPS docx version](cilogonosgca/CILogonOSGCPCPS_V2.docx)
 
 ### History
-[CILogonOSGCPCPS\_V1.pdf](cilogonosgca/CILogonOSGCPCPS_V1.pdf) pdf version is also available.
+- [CILogonOSGCPCPS\_V1.pdf](cilogonosgca/CILogonOSGCPCPS_V1.pdf)
+- [CILogon OSG CA CP/CPS docx version](cilogonosgca/ILogonOSGCPCPS_Final_V1.docx)
 
 ## Certificate Subscriber Agreement
 [Certificate Subscriber Agreement](cilogonosgca/IGTF_CERTIFICATE_SUBSCRIBER_AGREEMENT.pdf)
 
 ## OSG CILogon CA Essential Information
-
 |                                            |                                                                       |
 |--------------------------------------------|-----------------------------------------------------------------------|
 | Certificate Policy OID                     | 1.3.6.1.4.1.34998.1.6.2                                               |
