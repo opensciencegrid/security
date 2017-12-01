@@ -1,27 +1,26 @@
-**OSG Certificate Service**
-===========================
+# OSG Certificate Service
 
 OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.
 
-**The CILogon OSG Frequently Asked Questions (FAQ)**
-----------------------------------------------------
+## The CILogon OSG Frequently Asked Questions (FAQ)
+
 [CILogon OSG FAQ](CILogonOSGFAQ)
 
-**The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)**
------------------------------------------------------------------------------------------
+## The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)
+
 - [CILogon OSG CA CP/CPS PDF version](cilogonosgca/CILogonOSGCPCPS.pdf)
 - [CILogon OSG CA CP/CPS docx version](cilogonosgca/CILogonOSGCPCPS_V2.docx)
 
-**History**
+## History
+
 - [CILogon OSG CA CP/CPS V1 PDF version](cilogonosgca/CILogonOSGCPCPS_V1.pdf)
 - [CILogon OSG CA CP/CPS V1 docx version](cilogonosgca/ILogonOSGCPCPS_Final_V1.docx)
 
-**Certificate Subscriber Agreement**
-------------------------------------
+## Certificate Subscriber Agreement
+
 [Certificate Subscriber Agreement](cilogonosgca/IGTF_CERTIFICATE_SUBSCRIBER_AGREEMENT.pdf)
 
-** OSG CILogon CA Essential Information**
------------------------------------------
+## OSG CILogon CA Essential Information
 |                                            |                                                                       |
 |--------------------------------------------|-----------------------------------------------------------------------|
 | Certificate Policy OID                     | 1.3.6.1.4.1.34998.1.6.2                                               |
@@ -40,8 +39,7 @@ OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA.
 | OpenSSL 1.0 hash value                     | 70d35895                                                              |
 | SHA-1 Fingerprint                          | 5C:5C:24:5C:2F:05:24:EC:24:45:8D:5B:D8:F2:82:9B:EE:68:22:A8           |
 
-**OSG Contact Information**
----------------------------
+## OSG Contact Information
 
 The CP/CPS is managed by OSG Security Officer and can be reached at:
 
