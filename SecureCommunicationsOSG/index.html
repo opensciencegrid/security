@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>CILogon OSG CA - OSG Documentation</title>
+  <title>Secure Communications in OSG - OSG Documentation</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "CILogon OSG CA";
-    var mkdocs_page_input_path = "OSGCertificateService.md";
-    var mkdocs_page_url = "/OSGCertificateService/";
+    var mkdocs_page_name = "Secure Communications in OSG";
+    var mkdocs_page_input_path = "SecureCommunicationsOSG.md";
+    var mkdocs_page_url = "/SecureCommunicationsOSG/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -57,31 +57,9 @@
 		
     <span class="caption-text">CILogon OSG CA</span>
     <ul class="subnav">
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">CILogon OSG CA</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#osg-certificate-service">OSG Certificate Service</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#the-cilogon-osg-frequently-asked-questions-faq">The CILogon OSG Frequently Asked Questions (FAQ)</a></li>
-        
-            <li><a class="toctree-l4" href="#the-cilogon-osg-ca-certificate-policy-cp-and-certification-practice-statement-cps">The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)</a></li>
-        
-            <li><a class="toctree-l4" href="#history">History</a></li>
-        
-            <li><a class="toctree-l4" href="#certificate-subscriber-agreement">Certificate Subscriber Agreement</a></li>
-        
-            <li><a class="toctree-l4" href="#osg-cilogon-ca-essential-information">OSG CILogon CA Essential Information</a></li>
-        
-            <li><a class="toctree-l4" href="#osg-contact-information">OSG Contact Information</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../OSGCertificateService/">CILogon OSG CA</a>
                 </li>
                 <li class="">
                     
@@ -115,9 +93,25 @@
                     
     <a class="" href="../SiteVORemovalProcedure/">Site/VO Removal Procedure</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../SecureCommunicationsOSG/">Secure Communications in OSG</a>
+    <a class="current" href="./">Secure Communications in OSG</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#secure-communications-in-osg">Secure communications in OSG</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#osg-security-pgp-key">OSG Security PGP Key</a></li>
+        
+            <li><a class="toctree-l4" href="#generating-a-pgp-signature-for-a-message">Generating a PGP signature for a message</a></li>
+        
+            <li><a class="toctree-l4" href="#verifying-a-pgp-signature">Verifying a PGP signature</a></li>
+        
+        </ul>
+    
+
+    </ul>
                 </li>
                 <li class="">
                     
@@ -183,14 +177,14 @@
     
       
         
-          <li>CILogon OSG CA &raquo;</li>
+          <li>OSG Security Policies & Procedures &raquo;</li>
         
       
     
-    <li>CILogon OSG CA</li>
+    <li>Secure Communications in OSG</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/opensciencegrid/security/edit/master/docs/OSGCertificateService.md"
+        <a href="https://github.com/opensciencegrid/security/edit/master/docs/SecureCommunicationsOSG.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -200,109 +194,38 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="osg-certificate-service">OSG Certificate Service</h1>
-<p>OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.</p>
-<h2 id="the-cilogon-osg-frequently-asked-questions-faq">The CILogon OSG Frequently Asked Questions (FAQ)</h2>
-<p><a href="../CILogonOSGFAQ">CILogon OSG FAQ</a></p>
-<h2 id="the-cilogon-osg-ca-certificate-policy-cp-and-certification-practice-statement-cps">The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)</h2>
-<ul>
-<li><a href="../cilogonosgca/CILogonOSGCPCPS.pdf">CILogon OSG CA CP/CPS PDF version</a></li>
-<li><a href="../cilogonosgca/CILogonOSGCPCPS_V2.docx">CILogon OSG CA CP/CPS docx version</a></li>
-</ul>
-<h2 id="history">History</h2>
-<ul>
-<li><a href="../cilogonosgca/CILogonOSGCPCPS_V1.pdf">CILogon OSG CA CP/CPS V1 PDF version</a></li>
-<li><a href="../cilogonosgca/ILogonOSGCPCPS_Final_V1.docx">CILogon OSG CA CP/CPS V1 docx version</a></li>
-</ul>
-<h2 id="certificate-subscriber-agreement">Certificate Subscriber Agreement</h2>
-<p><a href="../cilogonosgca/IGTF_CERTIFICATE_SUBSCRIBER_AGREEMENT.pdf">Certificate Subscriber Agreement</a></p>
-<h2 id="osg-cilogon-ca-essential-information">OSG CILogon CA Essential Information</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Certificate Policy OID</td>
-<td>1.3.6.1.4.1.34998.1.6.2</td>
-</tr>
-<tr>
-<td>Self-signed CA Certificate PEM format</td>
-<td><a href="../cilogonosgca/cilogon-osg.pem">cilogon-osg.pem</a></td>
-</tr>
-<tr>
-<td>Self-signed CA Certificate DER format</td>
-<td><a href="../cilogonosgca/cilogon-osg.crt">cilogon-osg.crt</a></td>
-</tr>
-<tr>
-<td>Self-signed CA Certificate Human Readable</td>
-<td><a href="../cilogonosgca/out_CilogonOSGRoot">CILogon OSG CA</a></td>
-</tr>
-<tr>
-<td>Signing Policy File</td>
-<td><a href="../cilogonosgca/cilogon-osg.signing_policy">cilogon-osg.signing_policy</a></td>
-</tr>
-<tr>
-<td>CRL URL File</td>
-<td><a href="../cilogonosgca/cilogon-osg.crl_url">cilogon-osg.crl_url</a></td>
-</tr>
-<tr>
-<td>INFO File</td>
-<td><a href="../cilogonosgca/cilogon-osg.info">cilogon-osg.info</a></td>
-</tr>
-<tr>
-<td>CRL File in PEM Format</td>
-<td><a href="http://crl.cilogon.org/cilogon-osg.r0">cilogon-osg.r0</a></td>
-</tr>
-<tr>
-<td>CRL File DER Format</td>
-<td><a href="http://crl.cilogon.org/cilogon-osg.crl">cilogon-osg.crl</a></td>
-</tr>
-<tr>
-<td>Sample personal certificate in PEM format</td>
-<td><a href="../cilogonosgca/user-sample.pem">user-sample.pem</a></td>
-</tr>
-<tr>
-<td>Sample personal certificate Human Readable</td>
-<td><a href="../cilogonosgca/out_sampleUser">User Sample Human Readable</a></td>
-</tr>
-<tr>
-<td>Sample host certificate in PEM format</td>
-<td><a href="../cilogonosgca/host-sample.pem">host-sample.pem</a></td>
-</tr>
-<tr>
-<td>Sample host certificate in Human Readable</td>
-<td><a href="../cilogonosgca/out_sampleHost">Host Sample HumanReadable</a></td>
-</tr>
-<tr>
-<td>OpenSSL 1.0 hash value</td>
-<td>70d35895</td>
-</tr>
-<tr>
-<td>SHA-1 Fingerprint</td>
-<td>5C:5C:24:5C:2F:05:24:EC:24:45:8D:5B:D8:F2:82:9B:EE:68:22:A8</td>
-</tr>
-</tbody>
-</table>
-<h2 id="osg-contact-information">OSG Contact Information</h2>
-<p>The CP/CPS is managed by OSG Security Officer and can be reached at:</p>
-<pre><code>Susan E. Sons
-OSG Security Officer
-2719 E. 10th Street, Suite 231
-Bloomington, IN 47408
-Office: 812-856-2949
-Fax: 812-856-7400
-
-osg-security-team AT opensciencegrid.org
-sesons AT iu.edu
+                <h1 id="secure-communications-in-osg">Secure communications in OSG</h1>
+<p>This document covers using secure email when communicating with the OSG security team. The OSG Security team encourages the use of secure email communication. All official announcements from the OSG security team will be digitally signed. We encourage you to verify the digital signatures on OSG security announcements. Also when sending sensitive information to the OSG security team, we encourage you to encrypt your messages.</p>
+<h2 id="osg-security-pgp-key">OSG Security PGP Key</h2>
+<pre><code class="file">User ID: Open Science Grid Security &lt;security@opensciencegrid.org&gt;
+Key ID: 7FD42669
+Expires:  
+Fingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669
 </code></pre>
 
-<p>For any support problems, fault reporting and inquiries, please contact the Grid Operations Center at</p>
-<pre><code>goc@opensciencegrid.org
-+1 317-278-9699
+<p>The team key is available from the <a href="../SecurityTeamMembers">Security Team Members</a> page or the <a href="http://pgp.mit.edu:11371/pks/lookup?search=security%40opensciencegrid.org&amp;op=index">MIT PGP server</a>. PGP software is available from: <a href="http://www.gnupg.org/">GnuPG</a></p>
+<h2 id="generating-a-pgp-signature-for-a-message">Generating a PGP signature for a message</h2>
+<ol>
+<li>Install <a href="https://www.gnupg.org/">GnuPG</a> if it is not already installed on your computer.</li>
+</ol>
+<h2 id="verifying-a-pgp-signature">Verifying a PGP signature</h2>
+<ol>
+<li>Install <a href="https://www.gnupg.org/">GnuPG</a> if it is not already installed on your computer.</li>
+<li>Save <a href="../pgpkey/osg-security-pubkey.asc">osg-security-pubkey.asc</a> to a file on your computer.</li>
+<li>Import the security@opensciencegrid.org public key:</li>
+</ol>
+<pre><code>[user@client ~]$ gpg --import &lt; osg-security-pubkey.asc 
+gpg: key 7FD42669: public key &quot;Open Science Grid Security &lt;security@opensciencegrid.org&gt;&quot; imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+</code></pre>
+
+<ol>
+<li>Verify the message (saved in signed-message.txt)</li>
+</ol>
+<pre><code>[user@client ~]$ gpg --verify &lt; signed-message.txt 
+gpg: Signature made Tue Apr 14 13:18:26 2010 CDT using DSA key ID 7FD42669
+gpg: Good signature from &quot;Open Science Grid Security &lt;security@opensciencegrid.org&gt;&quot;
 </code></pre>
               
             </div>
@@ -311,10 +234,10 @@ sesons AT iu.edu
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../CILogonOSGFAQ/" class="btn btn-neutral float-right" title="Frequently Asked Questions (FAQ)">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../SoftwareVulnerabilityHandling/" class="btn btn-neutral float-right" title="Software Vulnerability Handling">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../SiteVORemovalProcedure/" class="btn btn-neutral" title="Site/VO Removal Procedure"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -342,10 +265,10 @@ sesons AT iu.edu
           <a href="https://github.com/opensciencegrid/security/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../SiteVORemovalProcedure/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../CILogonOSGFAQ/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../SoftwareVulnerabilityHandling/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

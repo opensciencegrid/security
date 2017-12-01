@@ -60,6 +60,12 @@
     </url>
         
     <url>
+     <loc>https://opensciencegrid.github.io/security//SecureCommunicationsOSG/</loc>
+     <lastmod>2017-12-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://opensciencegrid.github.io/security//SoftwareVulnerabilityHandling/</loc>
      <lastmod>2017-12-01</lastmod>
      <changefreq>daily</changefreq>
