@@ -3,7 +3,7 @@
 OSG has the following documented security procedures:
 
 -   Incident Response Process: already in google drive
--   [Creating CA Distributions](https://twiki.grid.iu.edu/bin/view/SecurityTeam/CreatingCADistributions) and [Adding or Removing CAs](https://twiki.grid.iu.edu/bin/view/SecurityTeam/AddRemoveCA) **Missing in github**
+-   [Creating CA Distributions](https://github.com/opensciencegrid/secteam-tools/tree/master/CA-distribution) and [Adding or Removing CAs](https://twiki.grid.iu.edu/bin/view/SecurityTeam/AddRemoveCA) **Missing in github**
 -   [Secure Email Key Management](https://twiki.grid.iu.edu/bin/view/Documentation/SecureEmail)
 -   [OSG Registration](https://twiki.grid.iu.edu/bin/view/Operations/OIMRegistrationInstructions) **Missing in github, did not find it in https://github.com/opensciencegrid/docs/**
     -   [VO Registration](https://twiki.grid.iu.edu/bin/view/Operations/SOPVoRegistration-v3) **Missing in github, did not find it in https://github.com/opensciencegrid/docs/**
