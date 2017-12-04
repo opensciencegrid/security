@@ -6,20 +6,25 @@ theme:
 
 pages:
 - Home: 'index.md'
-- Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
-- Goals Purpose: 'GoalsPurpose.md'
-- Security & Certification FAQ: 'OSGFAQ.md'
-- Policies & Procedures: 'PoliciesProcedures.md'
-- Team Members: 'SecurityTeamMembers.md'
-- Email Lists: 'EmailLists.md'
-- Secure Email: 'SecureEmail.md'
-- Security Awareness For The OSG: 'SecurityAwarenessForTheOSG.md'
-- Security User Responsibilities: 'SecurityUserResponsibilities.md'
-- Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
-- Best Practices: 'SecurityBestPractices.md'
-- OSG Certificate Service: 'OSGCertificateService.md'
-- OSG CA Distribution: 'CaDistribution.md'
-- Install Cert Scripts: 'InstallCertScripts.md'
+- CILogon OSG CA:
+  - CILogon OSG CA: 'OSGCertificateService.md'
+  - Frequently Asked Questions (FAQ): 'CILogonOSGFAQ.md'
+- Certificate Authorities (CA) Distribution: 'CaDistribution.md'
+- OSG Security Policies & Procedures:
+  - Approved OSG Security Policies: 'OSGSecurityPolicies.md'
+  - Site/VO Removal Policy: 'SiteVORemovalPolicy.md'
+  - OSG Security Procedures: 'OSGSecurityProcedures.md'
+  - Site/VO Removal Procedure: 'SiteVORemovalProcedure.md'
+  - Secure Communications in OSG: 'SecureCommunicationsOSG.md'
+  - Software Vulnerability Handling: 'SoftwareVulnerabilityHandling.md'
+  - Joining/Leaving Security Team: 'JoiningLeavingSecurityTeam.md'
+  - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
+- Integrated Security for the OSG:
+  - Security Awareness for the OSG: 'SecurityAwarenessForTheOSG.md'
+  - Security User Responsibilities: 'SecurityUserResponsibilities.md'
+  - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
+  - Best Practices: 'SecurityBestPractices.md'
+  - Frequently Asked Questions (FAQ): 'OSGFAQ.md'
 
 markdown_extensions:
   - admonition

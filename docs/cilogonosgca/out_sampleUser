@@ -1,0 +1,89 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            01:00:00:01:a0
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: DC=org, DC=cilogon, C=US, O=CILogon, CN=CILogon OSG CA 1
+        Validity
+            Not Before: Mar  4 22:00:25 2015 GMT
+            Not After : Apr  2 22:05:25 2016 GMT
+        Subject: DC=org, DC=cilogon, C=US, O=Open Science Grid, CN=Kevin Hill 816
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:ae:30:4d:90:b1:f5:92:a1:ac:e3:a1:32:6f:c3:
+                    84:d0:e2:9d:3c:a0:c1:d7:85:eb:56:f4:93:2c:08:
+                    31:f1:a0:44:dc:1e:1c:f4:25:d0:df:9e:0b:5c:ad:
+                    3a:ff:0f:ea:fc:b6:fb:f3:ef:d3:1e:9b:27:f6:dc:
+                    6c:fe:83:11:dc:f9:2c:53:74:09:33:12:78:27:5d:
+                    70:c9:32:65:2a:40:21:73:9a:28:fa:1d:1a:f5:58:
+                    c5:a1:6c:fd:8d:d1:0c:63:23:f5:96:01:01:f6:7b:
+                    b7:96:f0:60:70:e5:7a:79:0e:74:60:0e:84:51:9e:
+                    ba:5e:98:75:b7:84:dc:b2:99:51:76:43:a0:50:14:
+                    26:68:5e:33:ec:8a:8e:96:7b:1d:11:bc:cf:c2:4f:
+                    cf:78:c9:b1:99:af:07:b7:fe:05:1d:13:ef:1e:e4:
+                    2b:24:e0:74:20:7e:ae:e8:3a:be:2c:72:6f:78:f0:
+                    2e:37:f2:21:45:a1:d5:a4:c9:b9:05:99:84:06:c7:
+                    93:c5:cf:b8:f1:7d:34:b7:ef:a8:46:90:d5:d7:86:
+                    8d:38:eb:aa:37:20:8a:07:b4:e9:9f:fe:a7:66:8f:
+                    28:8e:8f:3a:81:ac:43:26:3a:6e:e8:b5:f1:87:35:
+                    38:c3:6d:0f:bc:e1:47:fe:52:85:4c:5a:6d:bd:27:
+                    64:b7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment, Data Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, TLS Web Server Authentication
+            X509v3 Certificate Policies: 
+                Policy: 1.3.6.1.4.1.34998.1.6
+
+            X509v3 CRL Distribution Points: 
+                URI:http://crl.cilogon.org/cilogon-osg.crl
+
+            X509v3 Subject Alternative Name: 
+                email:kevinh@fnal.gov
+    Signature Algorithm: sha256WithRSAEncryption
+        13:f3:cd:9a:04:26:45:6a:f7:c2:5e:58:6f:ba:9b:a4:6c:ae:
+        b3:dd:ee:08:e2:fe:34:34:da:ac:36:5e:a5:70:66:e0:a3:d6:
+        c3:1d:e9:59:f1:27:9a:38:bf:91:23:d6:b8:5f:aa:07:a4:fd:
+        5d:ff:62:2a:5d:f0:f1:17:d7:27:71:61:ec:42:11:bb:7a:38:
+        84:ec:01:e0:1d:fc:b1:1a:d6:4b:b4:9d:b1:0f:f9:cb:33:5f:
+        b2:62:10:b1:1e:0a:d1:2a:46:fe:6e:69:0f:17:28:3c:10:aa:
+        f0:c0:79:6f:f3:b5:c7:e4:85:82:ff:28:a7:20:bb:42:d0:56:
+        6e:7a:9f:28:4f:ef:09:72:93:c0:27:21:02:03:4e:7f:dd:70:
+        a9:ee:08:c5:cb:60:71:e1:23:3e:39:6b:9e:e0:ff:a3:e6:a4:
+        5a:81:aa:d5:c0:fe:87:e5:32:79:58:e8:18:62:af:02:7b:11:
+        af:f2:2d:83:d9:bf:b3:75:3e:36:d7:51:63:16:49:e0:dd:b7:
+        9e:91:3c:11:52:ae:65:8a:d5:d4:f7:29:24:28:20:1a:bb:de:
+        a6:3e:12:ad:bc:70:c5:9b:44:d1:50:b0:f0:7a:65:f8:17:40:
+        09:06:af:8d:72:56:35:c0:ef:f5:b2:f9:ca:a8:ed:d9:c2:aa:
+        bd:bf:93:35
+-----BEGIN CERTIFICATE-----
+MIIEBjCCAu6gAwIBAgIFAQAAAaAwDQYJKoZIhvcNAQELBQAwaDETMBEGCgmSJomT
+8ixkARkWA29yZzEXMBUGCgmSJomT8ixkARkWB2NpbG9nb24xCzAJBgNVBAYTAlVT
+MRAwDgYDVQQKEwdDSUxvZ29uMRkwFwYDVQQDExBDSUxvZ29uIE9TRyBDQSAxMB4X
+DTE1MDMwNDIyMDAyNVoXDTE2MDQwMjIyMDUyNVowcDETMBEGCgmSJomT8ixkARkW
+A29yZzEXMBUGCgmSJomT8ixkARkWB2NpbG9nb24xCzAJBgNVBAYTAlVTMRowGAYD
+VQQKExFPcGVuIFNjaWVuY2UgR3JpZDEXMBUGA1UEAxMOS2V2aW4gSGlsbCA4MTYw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCuME2QsfWSoazjoTJvw4TQ
+4p08oMHXhetW9JMsCDHxoETcHhz0JdDfngtcrTr/D+r8tvvz79Memyf23Gz+gxHc
++SxTdAkzEngnXXDJMmUqQCFzmij6HRr1WMWhbP2N0QxjI/WWAQH2e7eW8GBw5Xp5
+DnRgDoRRnrpemHW3hNyymVF2Q6BQFCZoXjPsio6Wex0RvM/CT894ybGZrwe3/gUd
+E+8e5Csk4HQgfq7oOr4scm948C438iFFodWkybkFmYQGx5PFz7jxfTS376hGkNXX
+ho0466o3IIoHtOmf/qdmjyiOjzqBrEMmOm7otfGHNTjDbQ+84Uf+UoVMWm29J2S3
+AgMBAAGjga4wgaswDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCBLAwHQYDVR0l
+BBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBcGA1UdIAQQMA4wDAYKKwYBBAGCkTYB
+BjA3BgNVHR8EMDAuMCygKqAohiZodHRwOi8vY3JsLmNpbG9nb24ub3JnL2NpbG9n
+b24tb3NnLmNybDAaBgNVHREEEzARgQ9rZXZpbmhAZm5hbC5nb3YwDQYJKoZIhvcN
+AQELBQADggEBABPzzZoEJkVq98JeWG+6m6RsrrPd7gji/jQ02qw2XqVwZuCj1sMd
+6VnxJ5o4v5Ej1rhfqgek/V3/Yipd8PEX1ydxYexCEbt6OITsAeAd/LEa1ku0nbEP
++cszX7JiELEeCtEqRv5uaQ8XKDwQqvDAeW/ztcfkhYL/KKcgu0LQVm56nyhP7wly
+k8AnIQIDTn/dcKnuCMXLYHHhIz45a57g/6PmpFqBqtXA/oflMnlY6BhirwJ7Ea/y
+LYPZv7N1PjbXUWMWSeDdt56RPBFSrmWK1dT3KSQoIBq73qY+Eq28cMWbRNFQsPB6
+ZfgXQAkGr41yVjXA7/Wy+cqo7dnCqr2/kzU=
+-----END CERTIFICATE-----
