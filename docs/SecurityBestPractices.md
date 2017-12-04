@@ -27,7 +27,7 @@ Communicate with Security Team
 -   Communication during incident is critical
     -   Emails from/to the security team should be signed
     -   Take actions advised by security team promptly
-    -   Need to send encrypted data. Instructions [here](SecureEmail)
+    -   Need to send encrypted data. Instructions [here](SecureCommunicationsOSG.md)
 -   We work with you to keep your security incident information you send us confidential
     -   We release to OSG site/VO security contacts only as much information as necessary to maintain security
 -   Know your local institutions cyber-security contacts and report incidents to then in addition to OSG security team.
