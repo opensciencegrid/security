@@ -8,7 +8,7 @@ The OSG CA Distribution contains:
 
 -   [IGTF Distribution of Authority Root Certificates](http://dist.eugridpma.info/distribution/igtf/current/) (CAs accredited by the [International Grid Trust Federation](http://igtf.net/))
 
-For additional details, see the [distribution site](http://software.grid.iu.edu/pacman/cadist/) and [change log](http://software.grid.iu.edu/pacman/cadist/CHANGES).
+For additional details, see the [distribution site](http://repo.grid.iu.edu/pacman/cadist/) and [change log](http://repo.grid.iu.edu/pacman/cadist/CHANGES).
 
 [CA Certificate Installation and Update](https://opensciencegrid.github.io/docs/common/ca/) provides you with details of various options to install the Certificate Authority (CA) certificates and have up-to-date certificate revocation list (CRL) using OSG RPMs.
 
