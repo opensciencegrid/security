@@ -58,6 +58,6 @@ sesons AT iu.edu
 For any support problems, fault reporting and inquiries, please contact the Grid Operations Center at
 
 ```
-goc@opensciencegrid.org
+help@opensciencegrid.org
 +1 317-278-9699
 ```
