@@ -201,7 +201,7 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="site-responsibilities-for-security"><strong>Site Responsibilities for Security</strong></h1>
+                <h1 id="site-responsibilities-for-security">Site Responsibilities for Security</h1>
 <h2 id="about-this-document">About This Document</h2>
 <p>This describes the expectations and actions that a site administrator handles regarding security issues as a participant in OSG.</p>
 <h2 id="first-our-osg-security-team-responsibilities-for-sites">First, our (OSG security team) responsibilities for sites</h2>
@@ -215,16 +215,33 @@
 <p>It is expected that the administrative and security contacts for a resource registered with OSG (in OIM) are capable of dealing with the normal system administration and security practices of running a cluster of machines for scientific computing. The security materials provided on the OSG twiki occasionally mention examples of how basic computer security features could be handled but that is not a replacement for formal in-depth training on unix system administration.</p>
 <p>Having said that we know that some small site admins (e.g. Tier-3s) may not have much experience in system level security. We have started collecting some examples in a Documentation.SecurityBestPractices page (which you are welcome to contribute to). If there are particular issues that you would like to learn more about (e.g. firewall configuration, linux updates), we can gladly point you to more specific resources. We may not have the effort to train you on basic security topics, but we will try our best to give you resources and put you in the right direction. Let us know!</p>
 <h2 id="site-security-responsibilities">Site Security Responsibilities</h2>
-<p>The following are the top security items that sites need to follow as members in the OSG. Each of these areas are addressed in more detail in the links below.</p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/OIMSecurityContactInfo">Security contact information in OIM</a></p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/OSGSecurityNotifications">Read Security Notifications from OSG</a></p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/LocalSecurityOfficer">Know your institutional cyber security officer</a></p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/MaintainVOInformation">Maintain up-to-date VO and user access information</a></p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/ReportRespondToSecurityIncidents">Reporting and Responding to Security Incidents</a></p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/RespondToSecurityRequests">Respond to requests from the OSG Security Officer</a></p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/SecureEmail">Communicate Securely</a></p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/FamiliarWithOSGSecuritySite">Be familiar with the OSG Security web site</a></p>
-<p><a href="https://twiki.grid.iu.edu/bin/view/Documentation/Release3/InstallCertAuth#Updating_CAs_CRLs">Maintain up-to-date Trusted CA/CRL information</a></p>
+<p>The following are the top security items that sites need to follow as members in the OSG. </p>
+<h3 id="1-security-contact-information-in-oim">1. Security contact information in OIM</h3>
+<p>Site security contacts can update their contact information from the OSG Information Management (OIM) system by clicking the Profile link at the top. However, you will need a personal X.509 certificate in your web browser in order to register with OIM and for access to update your information. The OSG will do a periodic assessment of the contact information (once a year) to remind users to keep their information up-to-date. But it is expected that people will keep their own information current.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Even if there are no changes to your contact information on your profile page you will still need to update your confirmation date. At the bottom of your profile page there is a "Confirmation" section. You will need to click on the "Update Confirmation Date", and then you MUST also click on the "Submit" button at the bottom in order for the new confirmation date to take affect.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please update OIM and notify the GOC whenever the operations or security contacts for your site changes.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Maintaining valid contact information is 50% of being a GREAT site admin! Seriously. We will send you security patch notices, updates, instructions for risk mitigation, and so on. Without valid contact information your site will not get these important notices. Also, if you become unresponsive to all of our notification attempts, we will start thinking your site is no longer participating in the OSG.</p>
+</div>
+<h3 id="2-read-security-notifications-from-osg">2. Read Security Notifications from OSG</h3>
+<p>OSG sends out security notifications to all security contacts when important events occur, such as a vulnerability notice requiring a software update. If you receive a notice you are expected to read it and the detailed information linked to a GOC ticket (if there is a link).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You will need your personal certificate that is registered with OIM in your browser in order to read the details of the notice in the ticket.</p>
+</div>
+<h3 id="3-know-your-institutional-cyber-security-officer">3. Know your institutional cyber security officer</h3>
+<h3 id="4-maintain-up-to-date-vo-and-user-access-information">4. Maintain up-to-date VO and user access information</h3>
+<h3 id="5-reporting-and-responding-to-security-incidents">5. Reporting and Responding to Security Incidents</h3>
+<h3 id="6-respond-to-requests-from-the-osg-security-officer">6. Respond to requests from the OSG Security Officer</h3>
+<h3 id="7-be-familiar-with-the-osg-security-web-site">7. Be familiar with the OSG Security web site</h3>
+<h3 id="8-maintain-up-to-date-trusted-cacrl-information">8. Maintain up-to-date Trusted CA/CRL information</h3>
               
             </div>
           </div>
