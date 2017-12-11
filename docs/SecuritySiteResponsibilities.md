@@ -19,7 +19,7 @@ If your question is about a suspicious behavior, possibly an incident, then emai
 
 ### How can we help you more effectively?
 
-Don't hesitate to tell us how we can be more effective or to ask a question. You can email <security@opensciencegrid.org> or contract one of the security [team members](SecurityTeamMembers) individually.
+Don't hesitate to tell us how we can be more effective or to ask a question. You can email <security@opensciencegrid.org> or contact one of the security [team members](https://opensciencegrid.github.io/security/#team-members) individually.
 
 Background
 ----------
