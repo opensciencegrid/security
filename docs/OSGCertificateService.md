@@ -8,13 +8,13 @@ OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA.
 
 ## The CILogon OSG CA Certificate Policy (CP) and Certification Practice Statement (CPS)
 
-- [CILogon OSG CA CP/CPS PDF version](cilogonosgca/CILogonOSGCPCPS.pdf)
+- [CILogon OSG CA CP/CPS PDF version](cilogonosgca/CILogonOSGCPCPS_V2.pdf)
 - [CILogon OSG CA CP/CPS docx version](cilogonosgca/CILogonOSGCPCPS_V2.docx)
 
 ## History
 
 - [CILogon OSG CA CP/CPS V1 PDF version](cilogonosgca/CILogonOSGCPCPS_V1.pdf)
-- [CILogon OSG CA CP/CPS V1 docx version](cilogonosgca/ILogonOSGCPCPS_Final_V1.docx)
+- [CILogon OSG CA CP/CPS V1 docx version](cilogonosgca/CILogonOSGCPCPS_Final_V1.docx)
 
 ## Certificate Subscriber Agreement
 
@@ -58,6 +58,6 @@ sesons AT iu.edu
 For any support problems, fault reporting and inquiries, please contact the Grid Operations Center at
 
 ```
-goc@opensciencegrid.org
+help@opensciencegrid.org
 +1 317-278-9699
 ```

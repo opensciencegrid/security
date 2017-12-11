@@ -6,6 +6,7 @@ theme:
 
 pages:
 - Home: 'index.md'
+- Security Team: 'SecurityTeamMembers.md'
 - CILogon OSG CA:
   - CILogon OSG CA: 'OSGCertificateService.md'
   - Frequently Asked Questions (FAQ): 'CILogonOSGFAQ.md'
@@ -23,8 +24,6 @@ pages:
   - Security Awareness for the OSG: 'SecurityAwarenessForTheOSG.md'
   - Security User Responsibilities: 'SecurityUserResponsibilities.md'
   - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
-  - Best Practices: 'SecurityBestPractices.md'
-  - Frequently Asked Questions (FAQ): 'OSGFAQ.md'
 
 markdown_extensions:
   - admonition
