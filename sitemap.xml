@@ -113,18 +113,6 @@
      <changefreq>daily</changefreq>
     </url>
         
-    <url>
-     <loc>https://opensciencegrid.github.io/security//SecurityBestPractices/</loc>
-     <lastmod>2017-12-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://opensciencegrid.github.io/security//OSGFAQ/</loc>
-     <lastmod>2017-12-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
 </urlset>
