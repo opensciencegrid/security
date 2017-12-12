@@ -23,5 +23,5 @@ The OSG Security Officer may initiate removal of a site or VO if one or more of 
 
 The Security Officer can be contacted at security@opensciencegrid.org.
 
-Please see [Security Best Practices](SecurityBestPractices) for security practices recommended by the OSG Security Team.
-The OSG Security Officer will implement this policy according to the [Security Procedures] for Site/VO Removal.
+Please see [Site Responsibilities for Security](SecuritySiteResponsibilities).
+The OSG Security Officer will implement this policy according to the [Security Procedures](SiteVORemovalProcedure) for Site/VO Removal.
