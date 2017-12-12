@@ -17,7 +17,7 @@ Effective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package vers
 
 -   FNAL KCA (e1fce4e9)
 
-Beginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at <http://software-itb.grid.iu.edu/>.
+Beginning in May , 2010 OSG has started to provide a CA distribution for the integration test bed (ITB) separate from the production OSG distribution described below. Information about the ITB release is provided at <http://repo-itb.grid.iu.edu/>.
 
 *Production services on OSG should **NOT** install (or reference via yum or apt) the ITB version of the CA distribution since it may, at times, contain an untrustworthy CA certificate for testing purposes*
 
