@@ -3,7 +3,7 @@
 OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.
 
 ## OSG Information Security Officer’s position paper on the Let’s Encrypt CA for Host Certificate Signing
-- [OSG Information Security Officer’s position paper on the Let’s Encrypt CA for Host Certificate Signing](docs/OSG%20ISO%20pp%20on%20Lets%20Encrypt.pdf)
+- [OSG Information Security Officer’s position paper on the Let’s Encrypt CA for Host Certificate Signing](OSGISOppLetsEncrypt.pdf)
 
 ## The CILogon OSG Frequently Asked Questions (FAQ)
 
