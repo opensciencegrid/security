@@ -11,8 +11,11 @@ Let’s Encrypt, however, does not confirm the organization that is running the 
 
 This is the upcoming change likely to be most relevant to security contacts during the migration. For more details on the migration plan please consult the Service Migration Plan document [1].
 
-More Information:
-[1] https://opensciencegrid.github.io/technology/policy/service-migrations-spring-2018/ 
+References and more information:
+
+[1] https://opensciencegrid.github.io/technology/policy/service-migrations-spring-2018/
+
 [2] https://opensciencegrid.github.io/security/OSGISOppLetsEncrypt.pdf
+
 [3] https://letsencrypt.org/how-it-works/ 
 
