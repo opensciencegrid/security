@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>OSG Security Procedures - OSG Documentation</title>
+  <title>Including Let’s Encrypt signing certificate in OSG CA bundle - OSG Documentation</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,9 +17,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "OSG Security Procedures";
-    var mkdocs_page_input_path = "OSGSecurityProcedures.md";
-    var mkdocs_page_url = "/OSGSecurityProcedures/";
+    var mkdocs_page_name = "Including Let\u2019s Encrypt signing certificate in OSG CA bundle";
+    var mkdocs_page_input_path = "LetsEncryptOSGCAbundle.md";
+    var mkdocs_page_url = "/LetsEncryptOSGCAbundle/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -81,9 +81,15 @@
 		
     <span class="caption-text">OSG Security Policies & Procedures</span>
     <ul class="subnav">
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../LetsEncryptOSGCAbundle/">Including Let’s Encrypt signing certificate in OSG CA bundle</a>
+    <a class="current" href="./">Including Let’s Encrypt signing certificate in OSG CA bundle</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#including-lets-encrypts-signing-certificate-in-osg-ca-bundle">Including Let’s Encrypt’s signing certificate in OSG CA bundle</a></li>
+    
+
+    </ul>
                 </li>
                 <li class="">
                     
@@ -93,21 +99,9 @@
                     
     <a class="" href="../SiteVORemovalPolicy/">Site/VO Removal Policy</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">OSG Security Procedures</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#osg-security-procedures">OSG Security Procedures</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#references-and-related-information-verify-accuracy-of-this-info">References and Related Information (verify accuracy of this info)</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../OSGSecurityProcedures/">OSG Security Procedures</a>
                 </li>
                 <li class="">
                     
@@ -177,10 +171,10 @@
         
       
     
-    <li>OSG Security Procedures</li>
+    <li>Including Let’s Encrypt signing certificate in OSG CA bundle</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/opensciencegrid/security/edit/master/docs/OSGSecurityProcedures.md"
+        <a href="https://github.com/opensciencegrid/security/edit/master/docs/LetsEncryptOSGCAbundle.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -190,28 +184,19 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="osg-security-procedures"><strong>OSG Security Procedures</strong></h1>
-<p>OSG has the following documented security procedures:</p>
-<ul>
-<li>Incident Response Process: already in google drive</li>
-<li><a href="https://github.com/opensciencegrid/secteam-tools/tree/master/CA-distribution">Creating CA Distributions</a> and <a href="https://twiki.grid.iu.edu/bin/view/SecurityTeam/AddRemoveCA">Adding or Removing CAs</a> <strong>Missing in github</strong></li>
-<li><a href="https://twiki.grid.iu.edu/bin/view/Documentation/SecureEmail">Secure Email Key Management</a></li>
-<li><a href="https://twiki.grid.iu.edu/bin/view/Operations/OIMRegistrationInstructions">OSG Registration</a> <strong>Missing in github, did not find it in https://github.com/opensciencegrid/docs/</strong><ul>
-<li><a href="https://twiki.grid.iu.edu/bin/view/Operations/SOPVoRegistration-v3">VO Registration</a> <strong>Missing in github, did not find it in https://github.com/opensciencegrid/docs/</strong></li>
-</ul>
-</li>
-<li><a href="../SoftwareVulnerabilityHandling">Software Vulnerability Handling</a></li>
-<li><a href="../SiteVORemovalProcedure">Site/VO Removal</a></li>
-<li>Security Announcements: already in google drive</li>
-<li><a href="../JoiningLeavingSecurityTeam">Joining/Leaving Security Team</a></li>
-</ul>
-<h2 id="references-and-related-information-verify-accuracy-of-this-info">References and Related Information (verify accuracy of this info)</h2>
-<h3 id="jspg">JSPG</h3>
-<p>OSG participates in the Joint Security Policy Group (<a href="http://www.jspg.org/">JSPG</a>), which aims to generate common security policies across <a href="http://wlcg.web.cern.ch/">WLCG</a>, <a href="http://www.egi.eu/">EGI</a> and other grids such as OSG. The JSPG policies are often defined at a higher level and state common requirements across grids. A JSPG policy is designed to be accompanied by a grid-specific document where the grid defines its own specifics to a JSPG policy. JSPG submits documents to the WLCG MB and EGI TMB for approval. OSG adopts JSPG policies independently and is not required to adopt all JSPG policies. The top level JSPG <a href="https://edms.cern.ch/document/428008">Grid Security Policy</a> specifies the overall framework that the other JSPG policies fit into. The list of working documents of the JSPG is at (http://www.jspg.org/nonmember/index.php?cd=99).</p>
-<h3 id="ipg">IPG</h3>
-<p>OSG participates in the Infrastructure Policy Group (IPG), a forum for the discussion of principles and practices for policies of distributed infrastructures.</p>
-<h3 id="wlcg">WLCG</h3>
-<p>OSG participants who participate in <a href="http://wlcg.web.cern.ch/">WLCG</a> are also subject to <a href="http://osct.web.cern.ch/osct/policies.html">WLCG/EGEE Security Policies</a>.</p>
+                <h1 id="including-lets-encrypts-signing-certificate-in-osg-ca-bundle">Including Let’s Encrypt’s signing certificate in OSG CA bundle</h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This procedure has been added on April 26th, 2018 as part of the OSG Service Migration Plan (see references below)</p>
+</div>
+<p>As a part of the Service Migration Plan [1], we will be adding the Let’s Encrypt root certificate to the OSG CA certificate bundle. The OSG has traditionally included a handful of CAs in addition to the IGTF-Classic (https://www.igtf.net/ap/classic/) Certificate Authorities (CAs) for signing host certificates. These CAs often rely on manual, multi-step processes for signing certificates that add administrative overhead. Many modern operational environments would like to spin up hosts in response to changing user demand but the manual process often proves to be too slow for certificate procurement and revocation. Let’s Encrypt is an automated CA system that relies on a FQDN’s authoritative DNS records to identify and confirm a host’s identity.[3] Let’s Encrypt also provides short-lived certificates in a secure manner with a minimum of overhead and automated renewal.</p>
+<p>Unlike the IGTF-Classic CAs, certificates from Let’s Encrypt will be recognized by your browser and OS by default.</p>
+<p>Let’s Encrypt, however, does not confirm the organization that is running the host in the same manner as the IGTF-Classic CAs; we believe the additional IGTF checks are redundant with the registration and service discovery steps done on the OSG. OSG has separate registration procedures for services on the OSG that verifies the organizations; no access is given solely based on the possession of a host certificate. For more details please consult the OSG Information Security Officer’s position paper on the Let’s Encrypt CA for Host Certificate Signing. [2]</p>
+<p>This is the upcoming change likely to be most relevant to security contacts during the migration. For more details on the migration plan please consult the Service Migration Plan document [1].</p>
+<p>More Information:
+[1] https://opensciencegrid.github.io/technology/policy/service-migrations-spring-2018/ 
+[2] https://opensciencegrid.github.io/security/OSGISOppLetsEncrypt.pdf
+[3] https://letsencrypt.org/how-it-works/ </p>
               
             </div>
           </div>
@@ -219,10 +204,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../SiteVORemovalProcedure/" class="btn btn-neutral float-right" title="Site/VO Removal Procedure">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../OSGSecurityPolicies/" class="btn btn-neutral float-right" title="Approved OSG Security Policies">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../SiteVORemovalPolicy/" class="btn btn-neutral" title="Site/VO Removal Policy"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../CaDistribution/" class="btn btn-neutral" title="Certificate Authorities (CA) Distribution"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -250,10 +235,10 @@
           <a href="https://github.com/opensciencegrid/security/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../SiteVORemovalPolicy/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../CaDistribution/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../SiteVORemovalProcedure/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../OSGSecurityPolicies/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

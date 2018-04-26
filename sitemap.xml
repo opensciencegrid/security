@@ -44,6 +44,12 @@
     
         
     <url>
+     <loc>https://opensciencegrid.github.io/security//LetsEncryptOSGCAbundle/</loc>
+     <lastmod>2018-04-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://opensciencegrid.github.io/security//OSGSecurityPolicies/</loc>
      <lastmod>2018-04-26</lastmod>
      <changefreq>daily</changefreq>
