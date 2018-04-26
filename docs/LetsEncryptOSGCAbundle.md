@@ -1,5 +1,3 @@
-# Including Let’s Encrypt’s signing certificate in OSG CA bundle
-
 !!! note
     This procedure has been added on April 26th, 2018 as part of the OSG Service Migration Plan (see references below)
 
