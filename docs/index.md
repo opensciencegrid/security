@@ -15,7 +15,7 @@ If you suspect a security problem, please **report it immediately**.
 
 Please promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24\*7:
 
--   [Submit a Ticket](https://ticket.grid.iu.edu/goc/security)
+-   [Submit a Ticket](https://ticket.opensciencegrid.org/goc/security)
 -   Call the Grid Operations Center (GOC) at +1 317-278-9699.
 -   Send email to <security@opensciencegrid.org>. If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.
 

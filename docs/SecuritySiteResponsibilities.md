@@ -16,7 +16,7 @@ If your question is about a suspicious behavior, possibly an incident, then emai
 
 ### How can we help you more effectively?
 
-Don't hesitate to tell us how we can be more effective or to ask a question. You can email <security@opensciencegrid.org> or contact one of the security [team members](https://opensciencegrid.github.io/security/#team-members) individually.
+Don't hesitate to tell us how we can be more effective or to ask a question. You can email <security@opensciencegrid.org> or contact one of the security [team members](https://opensciencegrid.org/security/#team-members) individually.
 
 ## Background
 
@@ -85,5 +85,5 @@ Information regarding incident handling, security best practices, awareness trai
 
 The OSG Security team encourages the use of secure email communication. All official announcements from the OSG security team will be digitally signed. We encourage you to verify the digital signatures on OSG security announcements. Also when sending sensitive information to the OSG security team, we encourage you to encrypt your messages. More information [here](SecureCommunicationsOSG)
 
-### 8. [Maintain up-to-date Trusted CA/CRL information](https://opensciencegrid.github.io/docs/common/ca/)
+### 8. [Maintain up-to-date Trusted CA/CRL information](https://opensciencegrid.org/docs/common/ca/)
 

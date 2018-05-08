@@ -1,5 +1,5 @@
 site_name: OSG Documentation
-site_url: https://opensciencegrid.github.io/security/
+site_url: https://opensciencegrid.org/security/
 repo_url: https://github.com/opensciencegrid/security/
 theme: 
   name: readthedocs
