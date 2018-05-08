@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>https://opensciencegrid.github.io/security//</loc>
+     <loc>https://opensciencegrid.org/security//</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,31 +11,7 @@
 
     
     <url>
-     <loc>https://opensciencegrid.github.io/security//SecurityTeamMembers/</loc>
-     <lastmod>2018-05-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-        
-    <url>
-     <loc>https://opensciencegrid.github.io/security//OSGCertificateService/</loc>
-     <lastmod>2018-05-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://opensciencegrid.github.io/security//CILogonOSGFAQ/</loc>
-     <lastmod>2018-05-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-    <url>
-     <loc>https://opensciencegrid.github.io/security//CaDistribution/</loc>
+     <loc>https://opensciencegrid.org/security//SecurityTeamMembers/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -44,55 +20,79 @@
     
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//LetsEncryptOSGCAbundle/</loc>
+     <loc>https://opensciencegrid.org/security//OSGCertificateService/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//OSGSecurityPolicies/</loc>
+     <loc>https://opensciencegrid.org/security//CILogonOSGFAQ/</loc>
+     <lastmod>2018-05-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://opensciencegrid.org/security//CaDistribution/</loc>
+     <lastmod>2018-05-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://opensciencegrid.org/security//LetsEncryptOSGCAbundle/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//SiteVORemovalPolicy/</loc>
+     <loc>https://opensciencegrid.org/security//OSGSecurityPolicies/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//OSGSecurityProcedures/</loc>
+     <loc>https://opensciencegrid.org/security//SiteVORemovalPolicy/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//SiteVORemovalProcedure/</loc>
+     <loc>https://opensciencegrid.org/security//OSGSecurityProcedures/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//SecureCommunicationsOSG/</loc>
+     <loc>https://opensciencegrid.org/security//SiteVORemovalProcedure/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//SoftwareVulnerabilityHandling/</loc>
+     <loc>https://opensciencegrid.org/security//SecureCommunicationsOSG/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//JoiningLeavingSecurityTeam/</loc>
+     <loc>https://opensciencegrid.org/security//SoftwareVulnerabilityHandling/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//IncidentDiscoveryReporting/</loc>
+     <loc>https://opensciencegrid.org/security//JoiningLeavingSecurityTeam/</loc>
+     <lastmod>2018-05-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://opensciencegrid.org/security//IncidentDiscoveryReporting/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -102,19 +102,19 @@
     
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//SecurityAwarenessForTheOSG/</loc>
+     <loc>https://opensciencegrid.org/security//SecurityAwarenessForTheOSG/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//SecurityUserResponsibilities/</loc>
+     <loc>https://opensciencegrid.org/security//SecurityUserResponsibilities/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://opensciencegrid.github.io/security//SecuritySiteResponsibilities/</loc>
+     <loc>https://opensciencegrid.org/security//SecuritySiteResponsibilities/</loc>
      <lastmod>2018-05-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
