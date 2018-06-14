@@ -2,7 +2,8 @@ site_name: OSG Documentation
 site_url: https://opensciencegrid.org/security/
 repo_url: https://github.com/opensciencegrid/security/
 theme: 
-  name: readthedocs
+  name: material
+  custom_dir: osgthedocs
 
 pages:
 - Home: 'index.md'
