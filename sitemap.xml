@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://opensciencegrid.org/security//</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>https://opensciencegrid.org/security//SecurityTeamMembers/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -21,13 +21,13 @@
         
     <url>
      <loc>https://opensciencegrid.org/security//OSGCertificateService/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//CILogonOSGFAQ/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -36,7 +36,7 @@
     
     <url>
      <loc>https://opensciencegrid.org/security//CaDistribution/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -45,55 +45,55 @@
         
     <url>
      <loc>https://opensciencegrid.org/security//LetsEncryptOSGCAbundle/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//OSGSecurityPolicies/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//SiteVORemovalPolicy/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//OSGSecurityProcedures/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//SiteVORemovalProcedure/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//SecureCommunicationsOSG/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//SoftwareVulnerabilityHandling/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//JoiningLeavingSecurityTeam/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//IncidentDiscoveryReporting/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -103,19 +103,19 @@
         
     <url>
      <loc>https://opensciencegrid.org/security//SecurityAwarenessForTheOSG/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//SecurityUserResponsibilities/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://opensciencegrid.org/security//SecuritySiteResponsibilities/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
