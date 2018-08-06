@@ -197,12 +197,12 @@
         }, 
         {
             "location": "/OSGSecurityProcedures/", 
-            "text": "OSG Security Procedures\n\n\nOSG has the following documented security procedures:\n\n\n\n\nIncident Response Process: already in google drive\n\n\nCreating CA Distributions\n and \nAdding or Removing CAs\n \nMissing in github\n\n\nSecure Email Key Management\n\n\nOSG Registration\n \nMissing in github, did not find it in https://github.com/opensciencegrid/docs/\n\n\nVO Registration\n \nMissing in github, did not find it in https://github.com/opensciencegrid/docs/\n\n\n\n\n\n\nSoftware Vulnerability Handling\n\n\nSite/VO Removal\n\n\nSecurity Announcements: already in google drive\n\n\nJoining/Leaving Security Team\n\n\n\n\nReferences and Related Information (verify accuracy of this info)\n\n\nJSPG\n\n\nOSG participates in the Joint Security Policy Group (\nJSPG\n), which aims to generate common security policies across \nWLCG\n, \nEGI\n and other grids such as OSG. The JSPG policies are often defined at a higher level and state common requirements across grids. A JSPG policy is designed to be accompanied by a grid-specific document where the grid defines its own specifics to a JSPG policy. JSPG submits documents to the WLCG MB and EGI TMB for approval. OSG adopts JSPG policies independently and is not required to adopt all JSPG policies. The top level JSPG \nGrid Security Policy\n specifies the overall framework that the other JSPG policies fit into. The list of working documents of the JSPG is at (http://www.jspg.org/nonmember/index.php?cd=99).\n\n\nIPG\n\n\nOSG participates in the Infrastructure Policy Group (IPG), a forum for the discussion of principles and practices for policies of distributed infrastructures.\n\n\nWLCG\n\n\nOSG participants who participate in \nWLCG\n are also subject to \nWLCG/EGEE Security Policies\n.", 
+            "text": "OSG Security Procedures\n\n\nOSG has the following documented security procedures:\n\n\nReferences and Related Information (verify accuracy of this info)\n\n\nWLCG\n\n\nOSG participants who participate in \nWLCG\n are also subject to \nWLCG/EGI Security Policies\n.", 
             "title": "OSG Security Procedures"
         }, 
         {
             "location": "/OSGSecurityProcedures/#osg-security-procedures", 
-            "text": "OSG has the following documented security procedures:   Incident Response Process: already in google drive  Creating CA Distributions  and  Adding or Removing CAs   Missing in github  Secure Email Key Management  OSG Registration   Missing in github, did not find it in https://github.com/opensciencegrid/docs/  VO Registration   Missing in github, did not find it in https://github.com/opensciencegrid/docs/    Software Vulnerability Handling  Site/VO Removal  Security Announcements: already in google drive  Joining/Leaving Security Team", 
+            "text": "OSG has the following documented security procedures:", 
             "title": "OSG Security Procedures"
         }, 
         {
@@ -211,18 +211,8 @@
             "title": "References and Related Information (verify accuracy of this info)"
         }, 
         {
-            "location": "/OSGSecurityProcedures/#jspg", 
-            "text": "OSG participates in the Joint Security Policy Group ( JSPG ), which aims to generate common security policies across  WLCG ,  EGI  and other grids such as OSG. The JSPG policies are often defined at a higher level and state common requirements across grids. A JSPG policy is designed to be accompanied by a grid-specific document where the grid defines its own specifics to a JSPG policy. JSPG submits documents to the WLCG MB and EGI TMB for approval. OSG adopts JSPG policies independently and is not required to adopt all JSPG policies. The top level JSPG  Grid Security Policy  specifies the overall framework that the other JSPG policies fit into. The list of working documents of the JSPG is at (http://www.jspg.org/nonmember/index.php?cd=99).", 
-            "title": "JSPG"
-        }, 
-        {
-            "location": "/OSGSecurityProcedures/#ipg", 
-            "text": "OSG participates in the Infrastructure Policy Group (IPG), a forum for the discussion of principles and practices for policies of distributed infrastructures.", 
-            "title": "IPG"
-        }, 
-        {
             "location": "/OSGSecurityProcedures/#wlcg", 
-            "text": "OSG participants who participate in  WLCG  are also subject to  WLCG/EGEE Security Policies .", 
+            "text": "OSG participants who participate in  WLCG  are also subject to  WLCG/EGI Security Policies .", 
             "title": "WLCG"
         }, 
         {
