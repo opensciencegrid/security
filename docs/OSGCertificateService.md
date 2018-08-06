@@ -1,6 +1,7 @@
 # OSG Certificate Service
 
-!!! danger 
+!!! note
+
     OSG CA stopped issuing certificates on May 31st, 2018. 
     After this date, new certificates from the CILogon OSG CA cannot be requested and therefore will no longer be issued.         All certificates issued by CILogon OSG CA will continue to work until their expiration dates. The CILogon OSG CA will         remain in the IGTF distribution until July 2019. 
 
