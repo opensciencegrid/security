@@ -11,6 +11,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://opensciencegrid.org/security/OSGSecurityAnnouncements/</loc>
+     <lastmod>2018-08-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://opensciencegrid.org/security/OSGCertificateService/</loc>
      <lastmod>2018-08-16</lastmod>
      <changefreq>daily</changefreq>
