@@ -8,6 +8,7 @@ theme:
 pages:
 - Home: 'index.md'
 - Security Team: 'SecurityTeamMembers.md'
+- Security Announcements: 'OSGSecurityAnnouncements.md'
 - CILogon OSG CA:
   - CILogon OSG CA: 'OSGCertificateService.md'
   - Frequently Asked Questions (FAQ): 'CILogonOSGFAQ.md'
