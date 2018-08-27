@@ -1,4 +1,6 @@
-# OSG-SEC-2018-01-10 CPU hardware vulnerabilities [UPDATE]
+# OSG-SEC-2018-01-04 CPU hardware vulnerabilities 
+
+## [UPDATE 2018-01-10]
 
 Dear OSG Security Contacts,
 
