@@ -42,12 +42,12 @@
         }, 
         {
             "location": "/OSGSecurityAnnouncements/", 
-            "text": "OSG Security Announcements\n\n\nAll security announcements related with vulnerabilities are listed here.", 
+            "text": "OSG Security Announcements\n\n\nAll security announcements related with vulnerabilities are listed here.\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nContents/Link\n\n\nRisk\n\n\n\n\n\n\n\n\n\n\n2018-08-17\n\n\nCPU speculative execution vulnerabilities (Foreshadow)\n\n\n[OSG-SEC-2018-08-17] (https://opensciencegrid.org/security/vulns/OSG-SEC-2018-08-17-Foreshadow.md)", 
             "title": "Security Announcements"
         }, 
         {
             "location": "/OSGSecurityAnnouncements/#osg-security-announcements", 
-            "text": "All security announcements related with vulnerabilities are listed here.", 
+            "text": "All security announcements related with vulnerabilities are listed here.     Date  Title  Contents/Link  Risk      2018-08-17  CPU speculative execution vulnerabilities (Foreshadow)  [OSG-SEC-2018-08-17] (https://opensciencegrid.org/security/vulns/OSG-SEC-2018-08-17-Foreshadow.md)", 
             "title": "OSG Security Announcements"
         }, 
         {
