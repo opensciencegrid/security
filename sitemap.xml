@@ -16,6 +16,31 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-08-17-Foreshadow/</loc>
+     <lastmod>2018-08-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/</loc>
+     <lastmod>2018-08-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/</loc>
+     <lastmod>2018-08-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/</loc>
+     <lastmod>2018-08-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/</loc>
+     <lastmod>2018-08-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://opensciencegrid.org/security/OSGCertificateService/</loc>
      <lastmod>2018-08-27</lastmod>
      <changefreq>daily</changefreq>

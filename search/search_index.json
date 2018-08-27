@@ -43,12 +43,172 @@
         {
             "location": "/OSGSecurityAnnouncements/", 
             "text": "OSG Security Announcements\n\n\nAll security announcements related with vulnerabilities are listed here.\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nContents/Link\n\n\nRisk\n\n\n\n\n\n\n\n\n\n\n2018-08-17\n\n\nCPU speculative execution vulnerabilities (Foreshadow)\n\n\nOSG-SEC-2018-08-17\n\n\n\n\n\n\n\n\n2018-05-08\n\n\nCPU speculative execution vulnerabilities (Spectre and Meltdown)\n\n\nOSG-SEC-2018-01-04 UPDATE\n\n\n\n\n\n\n\n\n2018-01-22\n\n\nCPU speculative execution vulnerabilities (Spectre and Meltdown)\n\n\nOSG-SEC-2018-01-04 UPDATE\n\n\n\n\n\n\n\n\n2018-01-10\n\n\nCPU speculative execution vulnerabilities (Spectre and Meltdown)\n\n\nOSG-SEC-2018-01-04 UPDATE\n\n\n\n\n\n\n\n\n2018-01-04\n\n\nCPU speculative execution vulnerabilities (Spectre and Meltdown)\n\n\nOSG-SEC-2018-01-04", 
-            "title": "Security Announcements"
+            "title": "Overview"
         }, 
         {
             "location": "/OSGSecurityAnnouncements/#osg-security-announcements", 
             "text": "All security announcements related with vulnerabilities are listed here.     Date  Title  Contents/Link  Risk      2018-08-17  CPU speculative execution vulnerabilities (Foreshadow)  OSG-SEC-2018-08-17     2018-05-08  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-22  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-10  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-04  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04", 
             "title": "OSG Security Announcements"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-08-17-Foreshadow/", 
+            "text": "OSG-SEC-2018-08-17 CPU speculative execution vulnerabilities (Foreshadow)\n\n\nDear OSG Security Contacts,\n\n\nA new speculative execution-based attack similar to Meltdown and Spectre (CVE-2017-5754 [1]), has been reported in Intel processors. The L1 Terminal Fault (L1TF) also known as Foreshadow allows an attacker to gain access to sensitive data in the memory of any computing device. \n\n\nIMPACTED VERSIONS/ENVIRONMENTS:\n\n\nThese vulnerabilities are present in the hardware and appear to affect all the operating systems running on x86 architectures. RedHat 6 \n 7 and all its derivatives are impacted.\n\n\nACTION RECOMMENDATIONS:\n\n\nOSG Security team advises sites to patch all hosts, prioritizing CEs, submit hosts, and worker nodes ASAP. Patches for these vulnerabilities are expected to affect CPU performance. \n\n\nRedHat have mitigations available for kernel and microcode_ctl in RHEL6, RHEL7. Scientific Linux have mitigations available for kernel in SL6 and SL7.\n\n\nRedHat Linux:\n   - RHEL6: \n- kernel: https://access.redhat.com/errata/RHSA-2018:2390\n- microcode_ctl: https://access.redhat.com/errata/RHEA-2018:2300\n   - RHEL7: \n- kernel: https://access.redhat.com/errata/RHSA-2018:2384\n- microcode_ctl: https://access.redhat.com/errata/RHEA-2018:2299\n\n\nScientific Linux:\n   - SL6 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182390-1/\n   - SL7 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182384-1/\n\n\nThere is a higher concern with virtualized environments. \"..if two virtual machines share a physical core, then the virtual machine using one logical core can potentially spy on the virtual machine using the other logical core.\" [4] . For further mitigation, after installing the updated \nmicrocode_ctl patch, disable hyperthreading on virtual-machine hosts. An alternative is to change the configuration of the virtualized environment to ensure that virtual machines are bound to separate physical cores.\n\n\nNote that existing mitigations and patches for Meltdown are \nnot\n sufficient to protect against this new vulnerability. Some vendors have not released security patches for this vulnerability yet. Pay attention to new releases from your software vendor and patch as soon as the fix(es) become available. \n\n\nHOW IT WORKS:\n\n\nPrivileged memory space can be accessed, exposing sensitive information. Details about the vulnerability and the attack can be found in [3].\n\n\nMORE INFORMATION:\n\n\n[1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ \n[2] https://www.intel.com/content/www/us/en/architecture-and-technology/l1tf.html\n[3] https://access.redhat.com/security/vulnerabilities/L1TF\n[4] https://arstechnica.com/gadgets/2018/08/intels-sgx-blown-wide-open-by-you-guessed-it-a-speculative-execution-attack/ \n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-08-17 Foreshadow"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-08-17-Foreshadow/#osg-sec-2018-08-17-cpu-speculative-execution-vulnerabilities-foreshadow", 
+            "text": "Dear OSG Security Contacts,  A new speculative execution-based attack similar to Meltdown and Spectre (CVE-2017-5754 [1]), has been reported in Intel processors. The L1 Terminal Fault (L1TF) also known as Foreshadow allows an attacker to gain access to sensitive data in the memory of any computing device.", 
+            "title": "OSG-SEC-2018-08-17 CPU speculative execution vulnerabilities (Foreshadow)"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-08-17-Foreshadow/#impacted-versionsenvironments", 
+            "text": "These vulnerabilities are present in the hardware and appear to affect all the operating systems running on x86 architectures. RedHat 6   7 and all its derivatives are impacted.", 
+            "title": "IMPACTED VERSIONS/ENVIRONMENTS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-08-17-Foreshadow/#action-recommendations", 
+            "text": "OSG Security team advises sites to patch all hosts, prioritizing CEs, submit hosts, and worker nodes ASAP. Patches for these vulnerabilities are expected to affect CPU performance.   RedHat have mitigations available for kernel and microcode_ctl in RHEL6, RHEL7. Scientific Linux have mitigations available for kernel in SL6 and SL7.  RedHat Linux:\n   - RHEL6: \n- kernel: https://access.redhat.com/errata/RHSA-2018:2390\n- microcode_ctl: https://access.redhat.com/errata/RHEA-2018:2300\n   - RHEL7: \n- kernel: https://access.redhat.com/errata/RHSA-2018:2384\n- microcode_ctl: https://access.redhat.com/errata/RHEA-2018:2299  Scientific Linux:\n   - SL6 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182390-1/\n   - SL7 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182384-1/  There is a higher concern with virtualized environments. \"..if two virtual machines share a physical core, then the virtual machine using one logical core can potentially spy on the virtual machine using the other logical core.\" [4] . For further mitigation, after installing the updated \nmicrocode_ctl patch, disable hyperthreading on virtual-machine hosts. An alternative is to change the configuration of the virtualized environment to ensure that virtual machines are bound to separate physical cores.  Note that existing mitigations and patches for Meltdown are  not  sufficient to protect against this new vulnerability. Some vendors have not released security patches for this vulnerability yet. Pay attention to new releases from your software vendor and patch as soon as the fix(es) become available.", 
+            "title": "ACTION RECOMMENDATIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-08-17-Foreshadow/#how-it-works", 
+            "text": "Privileged memory space can be accessed, exposing sensitive information. Details about the vulnerability and the attack can be found in [3].", 
+            "title": "HOW IT WORKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-08-17-Foreshadow/#more-information", 
+            "text": "[1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ \n[2] https://www.intel.com/content/www/us/en/architecture-and-technology/l1tf.html\n[3] https://access.redhat.com/security/vulnerabilities/L1TF\n[4] https://arstechnica.com/gadgets/2018/08/intels-sgx-blown-wide-open-by-you-guessed-it-a-speculative-execution-attack/   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "MORE INFORMATION:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/", 
+            "text": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities\n\n\n[UPDATE 2018-05-08]\n\n\nDear OSG Security Contacts,\n\n\nThis is an update of the security announcement about the CPU hardware in modern processors that were reported in the beginning of January and are widely known as Meltdown and Spectre and described in CVE-2017-5754 [1].  An updated kernel is now available for Red Hat Enterprise Linux 7 that fixes another aspect of those issues, and also fixes many other security issues.  The OSG Security team considers applying this update to be IMPORTANT.\n\n\nAFFECTED VERSIONS:\n\n\nEL7 kernel versions prior to 3.10-0-862 are affected.\n\n\nWHAT YOU SHOULD DO:\n\n\nUpdate the kernel using the following command: \n\n\nyum update kernel\n\n\n\nKernel updates are available for the following systems. \n - Red Hat Enterprise Linux 7 [2]\n - Scientific Linux 7 [3] \n - CentOS 7 (in the \u201ccr\u201d yum repo - - use \u201cyum --enablerepo=cr update kernel\u201d) \n\n\nThis should update the kernel to version 3.10.0-862.el7.  The system must be rebooted for this update to take effect.\n\n\nNOTE: this kernel is known to cause problems with ZFS [4]; machines that support ZFS should wait for an updated ZFS release.\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.opensciencegrid.org/35754\n\n\n\n\nREFERENCES:\n\n\n[1] https://access.redhat.com/security/cve/cve-2017-5754 \n[2] https://access.redhat.com/errata/RHSA-2018:1062 \n[3] https://www.scientificlinux.org/category/sl-errata/slsa-20181062-1/ \n[4] https://github.com/zfsonlinux/zfs/issues/7460\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-05-08 Meltdown-Spectre Update"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/#osg-sec-2018-01-04-cpu-hardware-vulnerabilities", 
+            "text": "", 
+            "title": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/#update-2018-05-08", 
+            "text": "Dear OSG Security Contacts,  This is an update of the security announcement about the CPU hardware in modern processors that were reported in the beginning of January and are widely known as Meltdown and Spectre and described in CVE-2017-5754 [1].  An updated kernel is now available for Red Hat Enterprise Linux 7 that fixes another aspect of those issues, and also fixes many other security issues.  The OSG Security team considers applying this update to be IMPORTANT.", 
+            "title": "[UPDATE 2018-05-08]"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/#affected-versions", 
+            "text": "EL7 kernel versions prior to 3.10-0-862 are affected.", 
+            "title": "AFFECTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/#what-you-should-do", 
+            "text": "Update the kernel using the following command:   yum update kernel  Kernel updates are available for the following systems. \n - Red Hat Enterprise Linux 7 [2]\n - Scientific Linux 7 [3] \n - CentOS 7 (in the \u201ccr\u201d yum repo - - use \u201cyum --enablerepo=cr update kernel\u201d)   This should update the kernel to version 3.10.0-862.el7.  The system must be rebooted for this update to take effect.  NOTE: this kernel is known to cause problems with ZFS [4]; machines that support ZFS should wait for an updated ZFS release.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/#related-links", 
+            "text": "https://ticket.opensciencegrid.org/35754", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/#references", 
+            "text": "[1] https://access.redhat.com/security/cve/cve-2017-5754 \n[2] https://access.redhat.com/errata/RHSA-2018:1062 \n[3] https://www.scientificlinux.org/category/sl-errata/slsa-20181062-1/ \n[4] https://github.com/zfsonlinux/zfs/issues/7460  Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/", 
+            "text": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities\n\n\n[UPDATE 2018-01-22]\n\n\nDear OSG Security Contacts,\n\n\nThis is an update of the security announcement about the CPU hardware in modern processors that were reported in the beginning of January and are widely known as Meltdown and Spectre.  Some instability issues were found in the firmware and microcode updates that caused some systems to not boot [1].  Redhat has reverted the updates with newer versions of the linux-firmware and microcode_ctl packages and instead recommends getting microcode updates directly from hardware vendors. \n\n\nWHAT YOU SHOULD DO:\n\n\nApply the reverted patches as needed. Contact your hardware provider for the latest microcode/firmware updates. \n\n\nRedHat Linux:\n- https://access.redhat.com/errata/RHSA-2018:0093\n- https://access.redhat.com/errata/RHSA-2018:0094\n\n\nScientific Linux: \n- https://www.scientificlinux.org/category/sl-errata/slsa-20180093-1/\n- https://www.scientificlinux.org/category/sl-errata/slsa-20180094-1/\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.grid.iu.edu/35754\n\n\n\n\nREFERENCES:\n\n\n[1] https://access.redhat.com/solutions/3315431\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-01-22 Meltdown-Spectre Update"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/#osg-sec-2018-01-04-cpu-hardware-vulnerabilities", 
+            "text": "", 
+            "title": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/#update-2018-01-22", 
+            "text": "Dear OSG Security Contacts,  This is an update of the security announcement about the CPU hardware in modern processors that were reported in the beginning of January and are widely known as Meltdown and Spectre.  Some instability issues were found in the firmware and microcode updates that caused some systems to not boot [1].  Redhat has reverted the updates with newer versions of the linux-firmware and microcode_ctl packages and instead recommends getting microcode updates directly from hardware vendors.", 
+            "title": "[UPDATE 2018-01-22]"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/#what-you-should-do", 
+            "text": "Apply the reverted patches as needed. Contact your hardware provider for the latest microcode/firmware updates.   RedHat Linux:\n- https://access.redhat.com/errata/RHSA-2018:0093\n- https://access.redhat.com/errata/RHSA-2018:0094  Scientific Linux: \n- https://www.scientificlinux.org/category/sl-errata/slsa-20180093-1/\n- https://www.scientificlinux.org/category/sl-errata/slsa-20180094-1/", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/#related-links", 
+            "text": "https://ticket.grid.iu.edu/35754", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/#references", 
+            "text": "[1] https://access.redhat.com/solutions/3315431  Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/", 
+            "text": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities\n\n\n[UPDATE 2018-01-10]\n\n\nDear OSG Security Contacts,\n\n\nThis is an update of the security announcement about the CPU hardware in modern processors that were reported last week and are widely known as Meltdown and Spectre.  There is a new set of patches for those vulnerabilities that are applicable to Virtual Machine hypervisor hosts. \n\n\nWHAT YOU SHOULD DO:\n\n\nRedHat and Scientific Linux have published mitigations for the vulnerabilities in qemu-kvm and libvirt for RHEL6, RHEL7, SL6 and SL7.\n\n\nPlease, \napply these security updates IMMEDIATELY\n on Virtual Machine hypervisor hosts, especially when the hosted Virtual Machines are accessible by many unprivileged users. While some sites may find the performance decreases painful, OSG Security team currently believes the benefits outweigh the costs.\n\n\nOSG Security team advises sites to patch all hypervisor hosts, prioritizing those that host CEs, submit hosts, and worker nodes.\n\n\nRedHat Linux:\n   - RHEL6\n      - qemu-kvm: https://access.redhat.com/errata/RHSA-2018:0024\n      - libvirt: https://access.redhat.com/errata/RHSA-2018:0030\n   - RHEL7\n      - qemu-kvm: https://access.redhat.com/errata/RHSA-2018:0023\n      - libvirt: https://access.redhat.com/errata/RHSA-2018:0029\n\n\nScientific Linux:\n   - SL6\n      - qemu-kvm: http://scientificlinux.org/category/sl-errata/slsa-20180024-1/\n      - libvirt: http://scientificlinux.org/category/sl-errata/slsa-20180030-1/\n   - SL7\n      - qemu-kvm: http://scientificlinux.org/category/sl-errata/slsa-20180023-1/\n      - libvirt: http://scientificlinux.org/category/sl-errata/slsa-20180029-1/\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.grid.iu.edu/35754\n\n\n\n\nREFERENCES:\n\n\n[1] https://access.redhat.com/articles/3307751\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-01-10 Meltdown-Spectre Update"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/#osg-sec-2018-01-04-cpu-hardware-vulnerabilities", 
+            "text": "", 
+            "title": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/#update-2018-01-10", 
+            "text": "Dear OSG Security Contacts,  This is an update of the security announcement about the CPU hardware in modern processors that were reported last week and are widely known as Meltdown and Spectre.  There is a new set of patches for those vulnerabilities that are applicable to Virtual Machine hypervisor hosts.", 
+            "title": "[UPDATE 2018-01-10]"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/#what-you-should-do", 
+            "text": "RedHat and Scientific Linux have published mitigations for the vulnerabilities in qemu-kvm and libvirt for RHEL6, RHEL7, SL6 and SL7.  Please,  apply these security updates IMMEDIATELY  on Virtual Machine hypervisor hosts, especially when the hosted Virtual Machines are accessible by many unprivileged users. While some sites may find the performance decreases painful, OSG Security team currently believes the benefits outweigh the costs.  OSG Security team advises sites to patch all hypervisor hosts, prioritizing those that host CEs, submit hosts, and worker nodes.  RedHat Linux:\n   - RHEL6\n      - qemu-kvm: https://access.redhat.com/errata/RHSA-2018:0024\n      - libvirt: https://access.redhat.com/errata/RHSA-2018:0030\n   - RHEL7\n      - qemu-kvm: https://access.redhat.com/errata/RHSA-2018:0023\n      - libvirt: https://access.redhat.com/errata/RHSA-2018:0029  Scientific Linux:\n   - SL6\n      - qemu-kvm: http://scientificlinux.org/category/sl-errata/slsa-20180024-1/\n      - libvirt: http://scientificlinux.org/category/sl-errata/slsa-20180030-1/\n   - SL7\n      - qemu-kvm: http://scientificlinux.org/category/sl-errata/slsa-20180023-1/\n      - libvirt: http://scientificlinux.org/category/sl-errata/slsa-20180029-1/", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/#related-links", 
+            "text": "https://ticket.grid.iu.edu/35754", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/#references", 
+            "text": "[1] https://access.redhat.com/articles/3307751  Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/", 
+            "text": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities\n\n\nDear OSG Security Contacts,\n\n\nMultiple hardware bugs have been reported in modern processors, particularly in Intel processors; these bugs or design flaws could enable access to sensitive data in the memory of any computing device. Chipmakers Intel, AMD and ARM have reported that their chips are affected at varying degrees by these bugs [1]. \n\n\nTwo attacks, Meltdown [2] and Spectre [3] have been published and are being discussed extensively. The Meltdown exploit has been successfully tested on Intel processors and it is not clear yet whether ARM and AMD processors are also affected. The Spectre attack method can theoretically be performed on any CPU family; working exploits have been demonstrated on at least Intel, AMD, and ARM processor families.\n\n\nThese attacks have been particularly newsworthy as (a) the vulnerability is in a diverse cross-section of hardware, not software and (b) non-trivial performance impact of the mitigation techniques.  However, the severity is comparable to more mundane local privilege exploits against the kernel.\n\n\nIMPACTED VERSIONS:\n\n\nThese vulnerabilities are present in the hardware and appear to affect all operating systems, including Linux.  Available exploits can be performed by an unprivileged process or container against the host kernel and virtual machine against the hypervisor.\n\n\nTo exploit the vulnerabilities, an attacker needs the ability to execute arbitrary unprivileged code.  This privilege is commonly available to authorized users on OSG submit hosts, Computing Elements (CEs), or worker nodes.  No remote exploit is currently known.\n\n\nWHAT ARE THE VULNERABILITIES:\n\n\nThe vulnerabilities are design flaws in the way many modern microprocessor designs have implemented speculative execution of instructions (a commonly used performance optimization) [4]. \n\n\nThe Spectre attack targets the vulnerabilities described in CVE-2017-5715 [5], CVE-2017-5753 [6] and the Meltdown attack, the one described in CVE-2017-5754 [7].\n\n\nWHAT YOU SHOULD DO:\n\n\nThese vulnerabilities are present in the hardware and cannot be entirely fixed by a software update of any operating system.  Mitigations exist that significantly limit the impact and increase the complexity of potential exploits.\n\n\nThe Meltdown vulnerability can be mitigated by available software patches; however, these patches incur a higher performance penalty than most security fixes.  RedHat has provided guidance [8] that HPC-style workflows should expect a 2-5% decrease in throughput; precise impact will depend on the host\u2019s workload.\n\n\nRedHat and Scientific Linux have mitigations available for kernel and microcode_ctl in RHEL6, RHEL7, SL6 and SL7. Additionally, there are updates for linux-firmware in RHEL7 and SL7. \n\n\nPlease, \napply these security updates IMMEDIATELY\n, especially on systems that are accessible by many unprivileged users. While some sites may find the performance decreases painful, OSG Security currently believes the benefits outweigh the costs.\n\n\nOSG Security advises sites to patch all hosts, prioritizing CEs, submit hosts, and worker nodes.\n\n\nRedHat Linux:\n   - RHEL6\n      - kernel: https://access.redhat.com/errata/RHSA-2018:0008\n      - microcode_ctl: https://access.redhat.com/errata/RHSA-2018:0013\n   - RHEL7\n      - kernel: https://access.redhat.com/errata/RHSA-2018:0007\n      - microcode_ctl: https://access.redhat.com/errata/RHSA-2018:0012\n      - linux-firmware: https://access.redhat.com/errata/RHSA-2018:0014\n\n\nScientific Linux:\n   - SL6\n      - kernel: https://www.scientificlinux.org/category/sl-errata/slsa-20180008-1/\n      - microcode_ctl: https://www.scientificlinux.org/category/sl-errata/slsa-20180013-1/\n   - SL7\n      - kernel: https://www.scientificlinux.org/category/sl-errata/slsa-20180007-1/\n      - microcode_ctl: https://www.scientificlinux.org/category/sl-errata/slsa-20180012-1/\n      - linux-firmware: https://www.scientificlinux.org/category/sl-errata/slsa-20180014-1/\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.grid.iu.edu/35754\n\n\n\n\nREFERENCES:\n\n\n[1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ \n[2] https://meltdownattack.com/\n[3] https://spectreattack.com/\n[4] https://access.redhat.com/security/vulnerabilities/speculativeexecution\n[5] https://access.redhat.com/security/cve/CVE-2017-5715\n[6] https://access.redhat.com/security/cve/CVE-2017-5753\n[7] https://access.redhat.com/security/cve/CVE-2017-5754\n[8] https://access.redhat.com/articles/3307751\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-01-04 Meltdown-Spectre Update"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/#osg-sec-2018-01-04-cpu-hardware-vulnerabilities", 
+            "text": "Dear OSG Security Contacts,  Multiple hardware bugs have been reported in modern processors, particularly in Intel processors; these bugs or design flaws could enable access to sensitive data in the memory of any computing device. Chipmakers Intel, AMD and ARM have reported that their chips are affected at varying degrees by these bugs [1].   Two attacks, Meltdown [2] and Spectre [3] have been published and are being discussed extensively. The Meltdown exploit has been successfully tested on Intel processors and it is not clear yet whether ARM and AMD processors are also affected. The Spectre attack method can theoretically be performed on any CPU family; working exploits have been demonstrated on at least Intel, AMD, and ARM processor families.  These attacks have been particularly newsworthy as (a) the vulnerability is in a diverse cross-section of hardware, not software and (b) non-trivial performance impact of the mitigation techniques.  However, the severity is comparable to more mundane local privilege exploits against the kernel.", 
+            "title": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/#impacted-versions", 
+            "text": "These vulnerabilities are present in the hardware and appear to affect all operating systems, including Linux.  Available exploits can be performed by an unprivileged process or container against the host kernel and virtual machine against the hypervisor.  To exploit the vulnerabilities, an attacker needs the ability to execute arbitrary unprivileged code.  This privilege is commonly available to authorized users on OSG submit hosts, Computing Elements (CEs), or worker nodes.  No remote exploit is currently known.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/#what-are-the-vulnerabilities", 
+            "text": "The vulnerabilities are design flaws in the way many modern microprocessor designs have implemented speculative execution of instructions (a commonly used performance optimization) [4].   The Spectre attack targets the vulnerabilities described in CVE-2017-5715 [5], CVE-2017-5753 [6] and the Meltdown attack, the one described in CVE-2017-5754 [7].", 
+            "title": "WHAT ARE THE VULNERABILITIES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/#what-you-should-do", 
+            "text": "These vulnerabilities are present in the hardware and cannot be entirely fixed by a software update of any operating system.  Mitigations exist that significantly limit the impact and increase the complexity of potential exploits.  The Meltdown vulnerability can be mitigated by available software patches; however, these patches incur a higher performance penalty than most security fixes.  RedHat has provided guidance [8] that HPC-style workflows should expect a 2-5% decrease in throughput; precise impact will depend on the host\u2019s workload.  RedHat and Scientific Linux have mitigations available for kernel and microcode_ctl in RHEL6, RHEL7, SL6 and SL7. Additionally, there are updates for linux-firmware in RHEL7 and SL7.   Please,  apply these security updates IMMEDIATELY , especially on systems that are accessible by many unprivileged users. While some sites may find the performance decreases painful, OSG Security currently believes the benefits outweigh the costs.  OSG Security advises sites to patch all hosts, prioritizing CEs, submit hosts, and worker nodes.  RedHat Linux:\n   - RHEL6\n      - kernel: https://access.redhat.com/errata/RHSA-2018:0008\n      - microcode_ctl: https://access.redhat.com/errata/RHSA-2018:0013\n   - RHEL7\n      - kernel: https://access.redhat.com/errata/RHSA-2018:0007\n      - microcode_ctl: https://access.redhat.com/errata/RHSA-2018:0012\n      - linux-firmware: https://access.redhat.com/errata/RHSA-2018:0014  Scientific Linux:\n   - SL6\n      - kernel: https://www.scientificlinux.org/category/sl-errata/slsa-20180008-1/\n      - microcode_ctl: https://www.scientificlinux.org/category/sl-errata/slsa-20180013-1/\n   - SL7\n      - kernel: https://www.scientificlinux.org/category/sl-errata/slsa-20180007-1/\n      - microcode_ctl: https://www.scientificlinux.org/category/sl-errata/slsa-20180012-1/\n      - linux-firmware: https://www.scientificlinux.org/category/sl-errata/slsa-20180014-1/", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/#related-links", 
+            "text": "https://ticket.grid.iu.edu/35754", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/#references", 
+            "text": "[1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ \n[2] https://meltdownattack.com/\n[3] https://spectreattack.com/\n[4] https://access.redhat.com/security/vulnerabilities/speculativeexecution\n[5] https://access.redhat.com/security/cve/CVE-2017-5715\n[6] https://access.redhat.com/security/cve/CVE-2017-5753\n[7] https://access.redhat.com/security/cve/CVE-2017-5754\n[8] https://access.redhat.com/articles/3307751  Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES:"
         }, 
         {
             "location": "/OSGCertificateService/", 
