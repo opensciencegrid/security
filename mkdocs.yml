@@ -9,6 +9,7 @@ pages:
 - Home: 'index.md'
 - Security Team: 'SecurityTeamMembers.md'
 - Security Announcements: 'OSGSecurityAnnouncements.md'
+  - 'OSG-SEC-2018-08-17 Foreshadow': 'vulns/OSG-SEC-2018-08-17-Foreshadow.md'
 - CILogon OSG CA:
   - CILogon OSG CA: 'OSGCertificateService.md'
   - Frequently Asked Questions (FAQ): 'CILogonOSGFAQ.md'
