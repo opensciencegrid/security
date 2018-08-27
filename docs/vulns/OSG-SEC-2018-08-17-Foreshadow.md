@@ -35,10 +35,10 @@ Note that existing mitigations and patches for Meltdown are *not* sufficient to 
 Privileged memory space can be accessed, exposing sensitive information. Details about the vulnerability and the attack can be found in [3].
 
 ## MORE INFORMATION:
-[1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ 
-[2] https://www.intel.com/content/www/us/en/architecture-and-technology/l1tf.html
-[3] https://access.redhat.com/security/vulnerabilities/L1TF
-[4] https://arstechnica.com/gadgets/2018/08/intels-sgx-blown-wide-open-by-you-guessed-it-a-speculative-execution-attack/ 
+* [1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ 
+* [2] https://www.intel.com/content/www/us/en/architecture-and-technology/l1tf.html
+* [3] https://access.redhat.com/security/vulnerabilities/L1TF
+* [4] https://arstechnica.com/gadgets/2018/08/intels-sgx-blown-wide-open-by-you-guessed-it-a-speculative-execution-attack/ 
 
 Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. 
 
