@@ -8,8 +8,14 @@ theme:
 pages:
 - Home: 'index.md'
 - Security Team: 'SecurityTeamMembers.md'
-- Security Announcements: 'OSGSecurityAnnouncements.md'
-  - 'OSG-SEC-2018-08-17 Foreshadow': 'vulns/OSG-SEC-2018-08-17-Foreshadow.md'
+- Security Announcements:
+  - Overview: 'OSGSecurityAnnouncements.md'
+  - Announcement Details:
+    - OSG-SEC-2018-08-17 Foreshadow: 'vulns/OSG-SEC-2018-08-17-Foreshadow.md'
+    - OSG-SEC-2018-05-08 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update.md'
+    - OSG-SEC-2018-01-22 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update.md'
+    - OSG-SEC-2018-01-10 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update.md'
+    - OSG-SEC-2018-01-04 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-01-04-Meltdown-Spectre.md'
 - CILogon OSG CA:
   - CILogon OSG CA: 'OSGCertificateService.md'
   - Frequently Asked Questions (FAQ): 'CILogonOSGFAQ.md'
