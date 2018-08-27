@@ -42,12 +42,12 @@
         }, 
         {
             "location": "/OSGSecurityAnnouncements/", 
-            "text": "OSG Security Announcements\n\n\nAll security announcements related with vulnerabilities are listed here.\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nContents/Link\n\n\nRisk\n\n\n\n\n\n\n\n\n\n\n2018-08-17\n\n\nCPU speculative execution vulnerabilities (Foreshadow)\n\n\nOSG-SEC-2018-08-17", 
+            "text": "OSG Security Announcements\n\n\nAll security announcements related with vulnerabilities are listed here.\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nContents/Link\n\n\nRisk\n\n\n\n\n\n\n\n\n\n\n2018-08-17\n\n\nCPU speculative execution vulnerabilities (Foreshadow)\n\n\nOSG-SEC-2018-08-17\n\n\n\n\n\n\n\n\n2018-05-08\n\n\nCPU speculative execution vulnerabilities (Spectre and Meltdown)\n\n\nOSG-SEC-2018-01-04 UPDATE\n\n\n\n\n\n\n\n\n2018-01-22\n\n\nCPU speculative execution vulnerabilities (Spectre and Meltdown)\n\n\nOSG-SEC-2018-01-04 UPDATE\n\n\n\n\n\n\n\n\n2018-01-10\n\n\nCPU speculative execution vulnerabilities (Spectre and Meltdown)\n\n\nOSG-SEC-2018-01-04 UPDATE\n\n\n\n\n\n\n\n\n2018-01-04\n\n\nCPU speculative execution vulnerabilities (Spectre and Meltdown)\n\n\nOSG-SEC-2018-01-04", 
             "title": "Security Announcements"
         }, 
         {
             "location": "/OSGSecurityAnnouncements/#osg-security-announcements", 
-            "text": "All security announcements related with vulnerabilities are listed here.     Date  Title  Contents/Link  Risk      2018-08-17  CPU speculative execution vulnerabilities (Foreshadow)  OSG-SEC-2018-08-17", 
+            "text": "All security announcements related with vulnerabilities are listed here.     Date  Title  Contents/Link  Risk      2018-08-17  CPU speculative execution vulnerabilities (Foreshadow)  OSG-SEC-2018-08-17     2018-05-08  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-22  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-10  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-04  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04", 
             "title": "OSG Security Announcements"
         }, 
         {
