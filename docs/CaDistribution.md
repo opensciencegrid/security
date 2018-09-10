@@ -14,6 +14,8 @@ For additional details, see the [distribution site](http://repo.opensciencegrid.
 
 In the OSG repositories, there are two different sets of predefined CA certificates: osg-ca-certs and igtf-ca-certs. In the past, these two packages had different content and some unaccredited CA were distributed. As of February 19, 2018, the content of both packages is identical.
 
+In order to enable authentication via CILogon for those who utilize it, as of August 8, 2018 a separate package is being offered which adds the CILogon OpenID Certification Authority Certificate to OSG 3.4. For additional details, see the [release notes for 3.4.16-2] (http://opensciencegrid.org/docs/release/3.4/release-3-4-16-2/). This CA is a separate package that can be installed if desired.
+
 ## News
 Effective 25 June 2010 the old FNAL_KCA has been removed, in OSG CA package version 1.15.
 
