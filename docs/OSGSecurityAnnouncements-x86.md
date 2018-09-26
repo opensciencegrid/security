@@ -1,6 +1,6 @@
-# OSG Security Announcements
+# OSG Security Announcements for vulnerabilities in x86
 
-All security announcements related with vulnerabilities are listed here.
+All security announcements related to x86 vulnerabilities are listed here.
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
