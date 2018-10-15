@@ -10,6 +10,7 @@ pages:
 - Security Team: 'SecurityTeamMembers.md'
 - Security Announcements:
   - Overview: 'OSGSecurityAnnouncements.md'
+  - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
   - Announcement Details:
     - OSG-SEC-2018-08-17 Foreshadow: 'vulns/OSG-SEC-2018-08-17-Foreshadow.md'
     - OSG-SEC-2018-05-08 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update.md'
