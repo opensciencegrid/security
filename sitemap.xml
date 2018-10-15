@@ -16,11 +16,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://opensciencegrid.org/security/OSGSecurityAnnouncements-x86/</loc>
-     <lastmod>2018-10-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-08-17-Foreshadow/</loc>
      <lastmod>2018-10-15</lastmod>
      <changefreq>daily</changefreq>
