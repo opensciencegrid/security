@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://opensciencegrid.org/security/SoftwareVulnerabilityHandling/">
+        <link rel="canonical" href="https://opensciencegrid.org/security/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/">
       
       
       
@@ -33,21 +33,21 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-0.17.5, mkdocs-material-2.9.4">
     
     
       
-        <title>Software Vulnerability Handling - OSG Security</title>
+        <title>OSG-SEC-2018-02-28 Disable weak ciphers in SSL - OSG Security</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
       
       
     
     
-      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
       <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -56,7 +56,7 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
   </head>
@@ -92,7 +92,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#osg-software-vulnerability-notification-handling" tabindex="1" class="md-skip">
+      <a href="#osg-sec-2018-02-28-disable-weak-ciphers-in-ssl" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -118,7 +118,7 @@
                 OSG Security
               </span>
               <span class="md-header-nav__topic">
-                Software Vulnerability Handling
+                OSG-SEC-2018-02-28 Disable weak ciphers in SSL
               </span>
             
           
@@ -235,7 +235,7 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Home" class="md-nav__link">
+    <a href="../.." title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -247,7 +247,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../SecurityTeamMembers/" title="Security Team" class="md-nav__link">
+    <a href="../../SecurityTeamMembers/" title="Security Team" class="md-nav__link">
       Security Team
     </a>
   </li>
@@ -257,10 +257,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Security Announcements
@@ -278,7 +280,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../OSGSecurityAnnouncements/" title="Overview" class="md-nav__link">
+    <a href="../../OSGSecurityAnnouncements/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -290,7 +292,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../OSGSecurityAnnouncements-x86/" title="Overview x86 vulnerabilities" class="md-nav__link">
+    <a href="../../OSGSecurityAnnouncements-x86/" title="Overview x86 vulnerabilities" class="md-nav__link">
       Overview x86 vulnerabilities
     </a>
   </li>
@@ -300,10 +302,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
     
     <label class="md-nav__link" for="nav-3-3">
       Announcement Details
@@ -321,7 +325,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../vulns/OSG-SEC-2018-08-17-Foreshadow/" title="OSG-SEC-2018-08-17 Foreshadow" class="md-nav__link">
+    <a href="../OSG-SEC-2018-08-17-Foreshadow/" title="OSG-SEC-2018-08-17 Foreshadow" class="md-nav__link">
       OSG-SEC-2018-08-17 Foreshadow
     </a>
   </li>
@@ -333,7 +337,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/" title="OSG-SEC-2018-05-08 Meltdown-Spectre Update" class="md-nav__link">
+    <a href="../OSG-SEC-2018-05-08-Meltdown-Spectre-Update/" title="OSG-SEC-2018-05-08 Meltdown-Spectre Update" class="md-nav__link">
       OSG-SEC-2018-05-08 Meltdown-Spectre Update
     </a>
   </li>
@@ -345,7 +349,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/" title="OSG-SEC-2018-03-05 Vulnerability in Singularity" class="md-nav__link">
+    <a href="../OSG-SEC-2018-03-05-Singularity-Vulnerability/" title="OSG-SEC-2018-03-05 Vulnerability in Singularity" class="md-nav__link">
       OSG-SEC-2018-03-05 Vulnerability in Singularity
     </a>
   </li>
@@ -355,11 +359,63 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/" title="OSG-SEC-2018-02-28 Disable weak ciphers in SSL" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        OSG-SEC-2018-02-28 Disable weak ciphers in SSL
+      </label>
+    
+    <a href="./" title="OSG-SEC-2018-02-28 Disable weak ciphers in SSL" class="md-nav__link md-nav__link--active">
       OSG-SEC-2018-02-28 Disable weak ciphers in SSL
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" title="WHAT YOU SHOULD DO:" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-links" title="RELATED LINKS:" class="md-nav__link">
+    RELATED LINKS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" title="REFERENCES" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -369,7 +425,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/" title="OSG-SEC-2018-01-22 Meltdown-Spectre Update" class="md-nav__link">
+    <a href="../OSG-SEC-2018-01-22-Meltdown-Spectre-Update/" title="OSG-SEC-2018-01-22 Meltdown-Spectre Update" class="md-nav__link">
       OSG-SEC-2018-01-22 Meltdown-Spectre Update
     </a>
   </li>
@@ -381,7 +437,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/" title="OSG-SEC-2018-01-10 Meltdown-Spectre Update" class="md-nav__link">
+    <a href="../OSG-SEC-2018-01-10-Meltdown-Spectre-Update/" title="OSG-SEC-2018-01-10 Meltdown-Spectre Update" class="md-nav__link">
       OSG-SEC-2018-01-10 Meltdown-Spectre Update
     </a>
   </li>
@@ -393,7 +449,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/" title="OSG-SEC-2018-01-04 Meltdown-Spectre Update" class="md-nav__link">
+    <a href="../OSG-SEC-2018-01-04-Meltdown-Spectre/" title="OSG-SEC-2018-01-04 Meltdown-Spectre Update" class="md-nav__link">
       OSG-SEC-2018-01-04 Meltdown-Spectre Update
     </a>
   </li>
@@ -434,7 +490,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../OSGCertificateService/" title="CILogon OSG CA" class="md-nav__link">
+    <a href="../../OSGCertificateService/" title="CILogon OSG CA" class="md-nav__link">
       CILogon OSG CA
     </a>
   </li>
@@ -446,7 +502,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../CILogonOSGFAQ/" title="Frequently Asked Questions (FAQ)" class="md-nav__link">
+    <a href="../../CILogonOSGFAQ/" title="Frequently Asked Questions (FAQ)" class="md-nav__link">
       Frequently Asked Questions (FAQ)
     </a>
   </li>
@@ -463,7 +519,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../CaDistribution/" title="Certificate Authorities (CA) Distribution" class="md-nav__link">
+    <a href="../../CaDistribution/" title="Certificate Authorities (CA) Distribution" class="md-nav__link">
       Certificate Authorities (CA) Distribution
     </a>
   </li>
@@ -473,12 +529,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
     <label class="md-nav__link" for="nav-6">
       OSG Security Policies & Procedures
@@ -496,7 +550,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../LetsEncryptOSGCAbundle/" title="Including Let’s Encrypt signing certificate in OSG CA bundle" class="md-nav__link">
+    <a href="../../LetsEncryptOSGCAbundle/" title="Including Let’s Encrypt signing certificate in OSG CA bundle" class="md-nav__link">
       Including Let’s Encrypt signing certificate in OSG CA bundle
     </a>
   </li>
@@ -508,7 +562,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../OSGSecurityPolicies/" title="Approved OSG Security Policies" class="md-nav__link">
+    <a href="../../OSGSecurityPolicies/" title="Approved OSG Security Policies" class="md-nav__link">
       Approved OSG Security Policies
     </a>
   </li>
@@ -520,7 +574,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../SiteVORemovalPolicy/" title="Site/VO Removal Policy" class="md-nav__link">
+    <a href="../../SiteVORemovalPolicy/" title="Site/VO Removal Policy" class="md-nav__link">
       Site/VO Removal Policy
     </a>
   </li>
@@ -532,7 +586,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../OSGSecurityProcedures/" title="OSG Security Procedures" class="md-nav__link">
+    <a href="../../OSGSecurityProcedures/" title="OSG Security Procedures" class="md-nav__link">
       OSG Security Procedures
     </a>
   </li>
@@ -544,7 +598,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../SiteVORemovalProcedure/" title="Site/VO Removal Procedure" class="md-nav__link">
+    <a href="../../SiteVORemovalProcedure/" title="Site/VO Removal Procedure" class="md-nav__link">
       Site/VO Removal Procedure
     </a>
   </li>
@@ -556,7 +610,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../SecureCommunicationsOSG/" title="Secure Communications in OSG" class="md-nav__link">
+    <a href="../../SecureCommunicationsOSG/" title="Secure Communications in OSG" class="md-nav__link">
       Secure Communications in OSG
     </a>
   </li>
@@ -566,90 +620,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Software Vulnerability Handling
-      </label>
-    
-    <a href="./" title="Software Vulnerability Handling" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../SoftwareVulnerabilityHandling/" title="Software Vulnerability Handling" class="md-nav__link">
       Software Vulnerability Handling
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#process" title="Process" class="md-nav__link">
-    Process
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-initial-report" title="1. Initial Report" class="md-nav__link">
-    1. Initial Report
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-triage" title="2. Triage" class="md-nav__link">
-    2. Triage
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-analysis" title="3. Analysis" class="md-nav__link">
-    3. Analysis
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-disclosure" title="4. Disclosure" class="md-nav__link">
-    4. Disclosure
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-closure" title="5. Closure" class="md-nav__link">
-    5. Closure
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -659,7 +634,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../JoiningLeavingSecurityTeam/" title="Joining/Leaving Security Team" class="md-nav__link">
+    <a href="../../JoiningLeavingSecurityTeam/" title="Joining/Leaving Security Team" class="md-nav__link">
       Joining/Leaving Security Team
     </a>
   </li>
@@ -671,7 +646,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../IncidentDiscoveryReporting/" title="Incident Discovery Reporting" class="md-nav__link">
+    <a href="../../IncidentDiscoveryReporting/" title="Incident Discovery Reporting" class="md-nav__link">
       Incident Discovery Reporting
     </a>
   </li>
@@ -707,7 +682,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../SecurityAwarenessForTheOSG/" title="Security Awareness for the OSG" class="md-nav__link">
+    <a href="../../SecurityAwarenessForTheOSG/" title="Security Awareness for the OSG" class="md-nav__link">
       Security Awareness for the OSG
     </a>
   </li>
@@ -719,7 +694,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../SecurityUserResponsibilities/" title="Security User Responsibilities" class="md-nav__link">
+    <a href="../../SecurityUserResponsibilities/" title="Security User Responsibilities" class="md-nav__link">
       Security User Responsibilities
     </a>
   </li>
@@ -731,7 +706,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../SecuritySiteResponsibilities/" title="Security Site Responsibilities" class="md-nav__link">
+    <a href="../../SecuritySiteResponsibilities/" title="Security Site Responsibilities" class="md-nav__link">
       Security Site Responsibilities
     </a>
   </li>
@@ -763,50 +738,23 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#process" title="Process" class="md-nav__link">
-    Process
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-initial-report" title="1. Initial Report" class="md-nav__link">
-    1. Initial Report
+  <a href="#what-you-should-do" title="WHAT YOU SHOULD DO:" class="md-nav__link">
+    WHAT YOU SHOULD DO:
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#2-triage" title="2. Triage" class="md-nav__link">
-    2. Triage
+      
+        <li class="md-nav__item">
+  <a href="#related-links" title="RELATED LINKS:" class="md-nav__link">
+    RELATED LINKS:
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#3-analysis" title="3. Analysis" class="md-nav__link">
-    3. Analysis
+      
+        <li class="md-nav__item">
+  <a href="#references" title="REFERENCES" class="md-nav__link">
+    REFERENCES
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-disclosure" title="4. Disclosure" class="md-nav__link">
-    4. Disclosure
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-closure" title="5. Closure" class="md-nav__link">
-    5. Closure
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -826,52 +774,30 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/SoftwareVulnerabilityHandling.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="osg-software-vulnerability-notification-handling">OSG Software Vulnerability Notification Handling</h1>
-<p>A software vulnerability is a weakness that allows an attacker to violate the integrity of the OSG infrastructure and/or the sites for grid computing. The OSG Software team is the primary group responsible for vulnerability handling in software that is developed and distributed by OSG. As part of the vulnerability handling process, the OSG Security Team performs a vulnerability assessment to determine the actions to take. </p>
-<h2 id="process">Process</h2>
-<p>The OSG Security team is responsible for performing the vulnerability assessment and notifying the OSG stakeholders about software vulnerabilities affecting the OSG infrastructure.</p>
-<h3 id="1-initial-report">1. Initial Report</h3>
+                <h1 id="osg-sec-2018-02-28-disable-weak-ciphers-in-ssl">OSG-SEC-2018-02-28 Disable weak ciphers in SSL</h1>
+<p>Dear OSG Security Contacts,</p>
+<p>This security announcement is informative and the intention is to remind OSG sites administrators to maintain secure configurations in their infrastructure at all times.  </p>
+<p>In SSL and TLS, cipher suites define how secure communication takes place; and your TLS/SSL server always should select actively the best available cipher suite [1]. </p>
+<p>A recently published attack, named ROBOT [2], which targets TLS servers with weak ciphers enabled is just an example of another way that out-of-date cipher configuration can be abused. </p>
+<h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
 <ul>
-<li>The software vulnerability handling process begins when a vulnerability report is acknowledged by members of the OSG Security team,  the OSG Software team  or the GOC staff:</li>
-<li>The members of the OSG Security team actively monitor the mailing lists and other venues for announcements and discussions of vulnerabilities that may impact the software distributed by OSG and the software used at the sites for grid computing and data management. </li>
-<li>The OSG Security team should be alerted via an email or through a GOC ticket indicating it is a security issue and the urgency to resolve. </li>
-<li>OSG members are encouraged to report all security issues, including software vulnerabilities, to security@opensciencegrid.org, goc@opensciencegrid.org. </li>
+<li>Disable weak ciphers in your OpenSSL configurations. We recommend consulting the Mozilla SSL Configuration Generator tool, which for example has good recommendations for Apache httpd on Redhat EL7 [3] and EL6 [4] and derivatives. The “Intermediate” level is sufficient for web servers as long as they don’t have access to any critical data; use “Modern” when you can.  The “Old” level is not acceptable. Although the Mozilla tool doesn’t offer “Modern” as an option for the EL6 Apache version, Redhat has added the support and the “Modern” parameters from EL7 work there (except for the SSLCompression option). </li>
+<li>A good EL6/EL7 tool to check the ciphers accepted by https on a host is “sslscan <host> | grep Accepted”. </li>
 </ul>
-<h3 id="2-triage">2. Triage</h3>
+<h2 id="related-links">RELATED LINKS:</h2>
+<p>https://ticket.opensciencegrid.org/36295 </p>
+<h2 id="references">REFERENCES</h2>
 <ul>
-<li>The OSG Software and Security teams perform triage on discovered vulnerabilities or incoming reports to determine if vulnerability handling is required according to the following priority:</li>
-<li><strong>Priority 1</strong>: The security of services operated by OSG directly (OSG Operations, Glidein Factories), and software developed by OSG.</li>
-<li><strong>Priority 2</strong>: The security of software developed elsewhere which is packaged and distributed by OSG.</li>
-<li><em>BEST EFFORT ONLY</em>: Software issues that may impact large numbers of OSG's resource providers or users in a serious way, but do not fit into either of the priority groups above.</li>
-<li>If the report is valid and it matches the given priorities, the vulnerability assessment procedure must be triggered and a member of the OSG Security team should be assigned as responsible  for leading the process. </li>
-<li>If the report is valid, but it does not match any of the given priorities, the OSG Security team does not trigger the vulnerability assessment procedure. However, if the reporter agrees, the OSG Software team will handle the report as a regular software issue. </li>
-<li>If the report is not valid, no further actions within the OSG Security and OSG Software teams are required. </li>
-<li>If the incoming report is made through a GOC ticket, it must be updated accordingly. Regardless the course of action decided for the report, the reporter must receive an acknowledgment from the OSG Security team through a direct email. Describing the course of action email message is left at OSG Security team discretion.</li>
+<li>[1] https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices</li>
+<li>[2] https://robotattack.org/</li>
+<li>[3] https://mozilla.github.io/server-side-tls/ssl-config-generator/?server=apache-2.4.6&amp;openssl=1.0.2k&amp;profile=modern</li>
+<li>[4] https://mozilla.github.io/server-side-tls/ssl-config-generator/?server=apache-2.2.15&amp;openssl=1.0.1e</li>
 </ul>
-<h3 id="3-analysis">3. Analysis</h3>
-<ul>
-<li>The OSG security team assesses the risk associated with the vulnerability in consultation with the OSG Software team, the relevant software providers and other related parties as appropriate.</li>
-<li>Based on the risk assessment, if a fix is required in the OSG Software stack, the OSG Security team should discuss with OSG Software and Release teams to set a target date. If the fix should come from the software provider, the OSG Security team should work with the software provider to determine when a fix will be available and if there are work-arounds.</li>
-<li>The OSG security team prepares a draft for an advisory, and establishes as needed a grace-period for updates and further analysis. All members of the OSG Security team are asked to review the draft and send feedback. The final revision of the advisory should be approved by the OSG Security Officer.</li>
-</ul>
-<h3 id="4-disclosure">4. Disclosure</h3>
-<ul>
-<li>A security announcement is sent to the VO/Site/SC security contacts. A GOC Security ticket should be created for further discussion about the vulnerability. </li>
-<li>The OSG Security team determines if a private disclosure to OSG security contacts is warranted.</li>
-<li>The OSG Security team may revise the target date for a public disclosure as needed, in consultation with involved parties.</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>For issues that impact peer grids (EGI, WLCG, XSEDE), the OSG Security team makes a private disclosure to the corresponding peer grid contacts.</p>
-</div>
-<h3 id="5-closure">5. Closure</h3>
-<ul>
-<li>The GOC Security tickets are usually closed after 2 weeks. </li>
-<li>If a grace-period has been established and the ticket must remain open, the member of the OSG Security Team leading the process should update the ticket accordingly. </li>
-</ul>
+<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. </p>
+<p>OSG Security Team</p>
                 
                   
                 
@@ -892,7 +818,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../SecureCommunicationsOSG/" title="Secure Communications in OSG" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../OSG-SEC-2018-03-05-Singularity-Vulnerability/" title="OSG-SEC-2018-03-05 Vulnerability in Singularity" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -901,19 +827,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Secure Communications in OSG
+                OSG-SEC-2018-03-05 Vulnerability in Singularity
               </span>
             </div>
           </a>
         
         
-          <a href="../JoiningLeavingSecurityTeam/" title="Joining/Leaving Security Team" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../OSG-SEC-2018-01-22-Meltdown-Spectre-Update/" title="OSG-SEC-2018-01-22 Meltdown-Spectre Update" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Joining/Leaving Security Team
+                OSG-SEC-2018-01-22 Meltdown-Spectre Update
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -943,9 +869,9 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.30f6b8b1.js"></script>
+      <script src="../../assets/javascripts/application.30f6b8b1.js"></script>
       
-      <script>app.initialize({version:"0.17.5",url:{base:".."}})</script>
+      <script>app.initialize({version:"0.17.5",url:{base:"../.."}})</script>
       
     
     

@@ -121,6 +121,66 @@
             "title": "REFERENCES:"
         }, 
         {
+            "location": "/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/", 
+            "text": "OSG-SEC-2018-03-05 Vulnerability in Singularity\n\n\nDear OSG Security Contacts,\n\n\nThere is a new vulnerability in Singularity 2.3.2 that allows code inside the container to escape. \n\n\nIMPACTED VERSIONS:\n\n\nSingularity 2.3.2\n\n\nWHAT IS THE VULNERABILITY:\n\n\nAn open file descriptor to the image directory is passed through to the process running inside the container. With that file descriptor it is easy to escape the container: a program can fchdir() to the file descriptor and run another shell. Then \"cd ..\" out of the container can see, e.g., the host system\u2019s /tmp with other grid users' X.509 proxies, which will be readable if they are owned by the same glidein/pilot. \n\n\nWHAT YOU SHOULD DO:\n\n\nUpdate to the latest version singularity-2.4.2 [1] as soon as possible. Note that there are some command line incompatibilities with version 2.3.2, mostly in the commands related to managing images.\n\n\nRELATED LINK(S):\n\n\nhttps://ticket.opensciencegrid.org/36327 \n\n\nREFERENCE(S):\n\n\n\n\n[1] http://opensciencegrid.github.io/docs/worker-node/install-singularity/\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-03-05 Vulnerability in Singularity"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/#osg-sec-2018-03-05-vulnerability-in-singularity", 
+            "text": "Dear OSG Security Contacts,  There is a new vulnerability in Singularity 2.3.2 that allows code inside the container to escape.", 
+            "title": "OSG-SEC-2018-03-05 Vulnerability in Singularity"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/#impacted-versions", 
+            "text": "Singularity 2.3.2", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/#what-is-the-vulnerability", 
+            "text": "An open file descriptor to the image directory is passed through to the process running inside the container. With that file descriptor it is easy to escape the container: a program can fchdir() to the file descriptor and run another shell. Then \"cd ..\" out of the container can see, e.g., the host system\u2019s /tmp with other grid users' X.509 proxies, which will be readable if they are owned by the same glidein/pilot.", 
+            "title": "WHAT IS THE VULNERABILITY:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/#what-you-should-do", 
+            "text": "Update to the latest version singularity-2.4.2 [1] as soon as possible. Note that there are some command line incompatibilities with version 2.3.2, mostly in the commands related to managing images.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/#related-links", 
+            "text": "https://ticket.opensciencegrid.org/36327", 
+            "title": "RELATED LINK(S):"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/#references", 
+            "text": "[1] http://opensciencegrid.github.io/docs/worker-node/install-singularity/   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCE(S):"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/", 
+            "text": "OSG-SEC-2018-02-28 Disable weak ciphers in SSL\n\n\nDear OSG Security Contacts,\n\n\nThis security announcement is informative and the intention is to remind OSG sites administrators to maintain secure configurations in their infrastructure at all times.  \n\n\nIn SSL and TLS, cipher suites define how secure communication takes place; and your TLS/SSL server always should select actively the best available cipher suite [1]. \n\n\nA recently published attack, named ROBOT [2], which targets TLS servers with weak ciphers enabled is just an example of another way that out-of-date cipher configuration can be abused. \n\n\nWHAT YOU SHOULD DO:\n\n\n\n\nDisable weak ciphers in your OpenSSL configurations. We recommend consulting the Mozilla SSL Configuration Generator tool, which for example has good recommendations for Apache httpd on Redhat EL7 [3] and EL6 [4] and derivatives. The \u201cIntermediate\u201d level is sufficient for web servers as long as they don\u2019t have access to any critical data; use \u201cModern\u201d when you can.  The \u201cOld\u201d level is not acceptable. Although the Mozilla tool doesn\u2019t offer \u201cModern\u201d as an option for the EL6 Apache version, Redhat has added the support and the \u201cModern\u201d parameters from EL7 work there (except for the SSLCompression option). \n\n\nA good EL6/EL7 tool to check the ciphers accepted by https on a host is \u201csslscan \n | grep Accepted\u201d. \n\n\n\n\nRELATED LINKS:\n\n\nhttps://ticket.opensciencegrid.org/36295 \n\n\nREFERENCES\n\n\n\n\n[1] https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices\n\n\n[2] https://robotattack.org/\n\n\n[3] https://mozilla.github.io/server-side-tls/ssl-config-generator/?server=apache-2.4.6\nopenssl=1.0.2k\nprofile=modern\n\n\n[4] https://mozilla.github.io/server-side-tls/ssl-config-generator/?server=apache-2.2.15\nopenssl=1.0.1e\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-02-28 Disable weak ciphers in SSL"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/#osg-sec-2018-02-28-disable-weak-ciphers-in-ssl", 
+            "text": "Dear OSG Security Contacts,  This security announcement is informative and the intention is to remind OSG sites administrators to maintain secure configurations in their infrastructure at all times.    In SSL and TLS, cipher suites define how secure communication takes place; and your TLS/SSL server always should select actively the best available cipher suite [1].   A recently published attack, named ROBOT [2], which targets TLS servers with weak ciphers enabled is just an example of another way that out-of-date cipher configuration can be abused.", 
+            "title": "OSG-SEC-2018-02-28 Disable weak ciphers in SSL"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/#what-you-should-do", 
+            "text": "Disable weak ciphers in your OpenSSL configurations. We recommend consulting the Mozilla SSL Configuration Generator tool, which for example has good recommendations for Apache httpd on Redhat EL7 [3] and EL6 [4] and derivatives. The \u201cIntermediate\u201d level is sufficient for web servers as long as they don\u2019t have access to any critical data; use \u201cModern\u201d when you can.  The \u201cOld\u201d level is not acceptable. Although the Mozilla tool doesn\u2019t offer \u201cModern\u201d as an option for the EL6 Apache version, Redhat has added the support and the \u201cModern\u201d parameters from EL7 work there (except for the SSLCompression option).   A good EL6/EL7 tool to check the ciphers accepted by https on a host is \u201csslscan   | grep Accepted\u201d.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/#related-links", 
+            "text": "https://ticket.opensciencegrid.org/36295", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/#references", 
+            "text": "[1] https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices  [2] https://robotattack.org/  [3] https://mozilla.github.io/server-side-tls/ssl-config-generator/?server=apache-2.4.6 openssl=1.0.2k profile=modern  [4] https://mozilla.github.io/server-side-tls/ssl-config-generator/?server=apache-2.2.15 openssl=1.0.1e   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES"
+        }, 
+        {
             "location": "/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/", 
             "text": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities\n\n\n[UPDATE 2018-01-22]\n\n\nDear OSG Security Contacts,\n\n\nThis is an update of the security announcement about the CPU hardware in modern processors that were reported in the beginning of January and are widely known as Meltdown and Spectre.  Some instability issues were found in the firmware and microcode updates that caused some systems to not boot [1].  Redhat has reverted the updates with newer versions of the linux-firmware and microcode_ctl packages and instead recommends getting microcode updates directly from hardware vendors. \n\n\nWHAT YOU SHOULD DO:\n\n\nApply the reverted patches as needed. Contact your hardware provider for the latest microcode/firmware updates. \n\n\nRedHat Linux:\n- https://access.redhat.com/errata/RHSA-2018:0093\n- https://access.redhat.com/errata/RHSA-2018:0094\n\n\nScientific Linux: \n- https://www.scientificlinux.org/category/sl-errata/slsa-20180093-1/\n- https://www.scientificlinux.org/category/sl-errata/slsa-20180094-1/\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.grid.iu.edu/35754\n\n\n\n\nREFERENCES:\n\n\n[1] https://access.redhat.com/solutions/3315431\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
             "title": "OSG-SEC-2018-01-22 Meltdown-Spectre Update"
