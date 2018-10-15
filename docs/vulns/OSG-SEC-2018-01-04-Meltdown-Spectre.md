@@ -51,14 +51,14 @@ Scientific Linux:
    - https://ticket.grid.iu.edu/35754
 
 ## REFERENCES:
-[1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ 
-[2] https://meltdownattack.com/
-[3] https://spectreattack.com/
-[4] https://access.redhat.com/security/vulnerabilities/speculativeexecution
-[5] https://access.redhat.com/security/cve/CVE-2017-5715
-[6] https://access.redhat.com/security/cve/CVE-2017-5753
-[7] https://access.redhat.com/security/cve/CVE-2017-5754
-[8] https://access.redhat.com/articles/3307751
+- [1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ 
+- [2] https://meltdownattack.com/
+- [3] https://spectreattack.com/
+- [4] https://access.redhat.com/security/vulnerabilities/speculativeexecution
+- [5] https://access.redhat.com/security/cve/CVE-2017-5715
+- [6] https://access.redhat.com/security/cve/CVE-2017-5753
+- [7] https://access.redhat.com/security/cve/CVE-2017-5754
+- [8] https://access.redhat.com/articles/3307751
 
 Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. 
 
