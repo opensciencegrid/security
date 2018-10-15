@@ -48,7 +48,7 @@ Scientific Linux:
       - linux-firmware: https://www.scientificlinux.org/category/sl-errata/slsa-20180014-1/
 
 ## RELATED LINKS:
-   - [https://ticket.grid.iu.edu/35754](https://ticket.grid.iu.edu/35754)
+   - https://ticket.grid.iu.edu/35754
 
 ## REFERENCES:
 - [1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ 
