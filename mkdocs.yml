@@ -14,6 +14,8 @@ pages:
   - Announcement Details:
     - OSG-SEC-2018-08-17 Foreshadow: 'vulns/OSG-SEC-2018-08-17-Foreshadow.md'
     - OSG-SEC-2018-05-08 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update.md'
+    - OSG-SEC-2018-03-05 Vulnerability in Singularity: 'OSG-SEC-2018-03-05-Singularity-Vulnerability.md'
+    - OSG-SEC-2018-02-28 Disable weak ciphers in SSL: 'OSG-SEC-2018-02-28-Weak-SSL-ciphers.md'
     - OSG-SEC-2018-01-22 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update.md'
     - OSG-SEC-2018-01-10 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update.md'
     - OSG-SEC-2018-01-04 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-01-04-Meltdown-Spectre.md'
