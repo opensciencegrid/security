@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://opensciencegrid.org/security/LetsEncryptOSGCAbundle/">
+        <link rel="canonical" href="https://opensciencegrid.org/security/OSGSecurityAnnouncements-x86/">
       
       
       
@@ -38,7 +38,7 @@
     
     
       
-        <title>Including Let’s Encrypt signing certificate in OSG CA bundle - OSG Security</title>
+        <title>Overview x86 vulnerabilities - OSG Security</title>
       
     
     
@@ -92,6 +92,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#osg-security-announcements-for-vulnerabilities-in-x86" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -114,7 +118,7 @@
                 OSG Security
               </span>
               <span class="md-header-nav__topic">
-                Including Let’s Encrypt signing certificate in OSG CA bundle
+                Overview x86 vulnerabilities
               </span>
             
           
@@ -253,10 +257,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Security Announcements
@@ -284,11 +290,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../OSGSecurityAnnouncements-x86/" title="Overview x86 vulnerabilities" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Overview x86 vulnerabilities" class="md-nav__link md-nav__link--active">
       Overview x86 vulnerabilities
     </a>
+    
   </li>
 
         
@@ -445,12 +460,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
     
     <label class="md-nav__link" for="nav-6">
       OSG Security Policies & Procedures
@@ -466,18 +479,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" title="Including Let’s Encrypt signing certificate in OSG CA bundle" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../LetsEncryptOSGCAbundle/" title="Including Let’s Encrypt signing certificate in OSG CA bundle" class="md-nav__link">
       Including Let’s Encrypt signing certificate in OSG CA bundle
     </a>
-    
   </li>
 
         
@@ -649,24 +655,73 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/LetsEncryptOSGCAbundle.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/OSGSecurityAnnouncements-x86.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Including Let’s Encrypt signing certificate in OSG CA bundle</h1>
-                
-                <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This procedure has been added on April 26th, 2018 as part of the OSG Service Migration Plan (see references below)</p>
-</div>
-<p>As a part of the <a href="https://opensciencegrid.org/technology/policy/service-migrations-spring-2018/">Service Migration Plan</a>, we will be adding the Let’s Encrypt root certificate to the OSG CA certificate bundle. The OSG has traditionally included a handful of CAs in addition to the <a href="https://www.igtf.net/ap/classic/">IGTF-Classic</a> Certificate Authorities (CAs) for signing host certificates. These CAs often rely on manual, multi-step processes for signing certificates that add administrative overhead. Many modern operational environments would like to spin up hosts in response to changing user demand but the manual process often proves to be too slow for certificate procurement and revocation. <a href="https://letsencrypt.org/how-it-works/">Let’s Encrypt</a> is an automated CA system that relies on a FQDN’s authoritative DNS records to identify and confirm a host’s identity. Let’s Encrypt also provides short-lived certificates in a secure manner with a minimum of overhead and automated renewal.</p>
-<p>Unlike the IGTF-Classic CAs, certificates from Let’s Encrypt will be recognized by your browser and OS by default.</p>
-<p>Let’s Encrypt, however, does not confirm the organization that is running the host in the same manner as the IGTF-Classic CAs; we believe the additional IGTF checks are redundant with the registration and service discovery steps done on the OSG. OSG has separate registration procedures for services on the OSG that verifies the organizations; no access is given solely based on the possession of a host certificate. For more details please consult the OSG Information Security Officer's <a href="https://opensciencegrid.org/security/OSGISOppLetsEncrypt.pdf">position paper</a> on the Let's Encrypt CA for Host Certificate Signing.</p>
-<p>This is the upcoming change likely to be most relevant to security contacts during the migration. For more details on the migration plan please <a href="https://opensciencegrid.org/technology/policy/service-migrations-spring-2018/">consult the Service Migration Plan document</a>.</p>
+                <h1 id="osg-security-announcements-for-vulnerabilities-in-x86">OSG Security Announcements for vulnerabilities in x86</h1>
+<p>All security announcements related to x86 vulnerabilities are listed here.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Title</th>
+<th>Contents/Link</th>
+<th>Risk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2018-08-17</td>
+<td>CPU speculative execution vulnerabilities (Foreshadow)</td>
+<td><a href="../vulns/OSG-SEC-2018-08-17-Foreshadow/">OSG-SEC-2018-08-17</a></td>
+<td></td>
+</tr>
+<tr>
+<td>2018-05-08</td>
+<td>CPU speculative execution vulnerabilities (Spectre and Meltdown)</td>
+<td><a href="../vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/">OSG-SEC-2018-01-04 UPDATE</a></td>
+<td></td>
+</tr>
+<tr>
+<td>2018-01-22</td>
+<td>CPU speculative execution vulnerabilities (Spectre and Meltdown)</td>
+<td><a href="../vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/">OSG-SEC-2018-01-04 UPDATE</a></td>
+<td></td>
+</tr>
+<tr>
+<td>2018-01-10</td>
+<td>CPU speculative execution vulnerabilities (Spectre and Meltdown)</td>
+<td><a href="../vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/">OSG-SEC-2018-01-04 UPDATE</a></td>
+<td></td>
+</tr>
+<tr>
+<td>2018-01-04</td>
+<td>CPU speculative execution vulnerabilities (Spectre and Meltdown)</td>
+<td><a href="../vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/">OSG-SEC-2018-01-04</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -687,7 +742,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../CaDistribution/" title="Certificate Authorities (CA) Distribution" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../OSGSecurityAnnouncements/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -696,19 +751,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Certificate Authorities (CA) Distribution
+                Overview
               </span>
             </div>
           </a>
         
         
-          <a href="../OSGSecurityPolicies/" title="Approved OSG Security Policies" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../vulns/OSG-SEC-2018-08-17-Foreshadow/" title="OSG-SEC-2018-08-17 Foreshadow" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Approved OSG Security Policies
+                OSG-SEC-2018-08-17 Foreshadow
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

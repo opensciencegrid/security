@@ -290,18 +290,30 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../../OSGSecurityAnnouncements-x86/" title="Overview x86 vulnerabilities" class="md-nav__link">
+      Overview x86 vulnerabilities
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
     
-    <label class="md-nav__link" for="nav-3-2">
+    <label class="md-nav__link" for="nav-3-3">
       Announcement Details
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-2">
+      <label class="md-nav__title" for="nav-3-3">
         Announcement Details
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -757,7 +769,7 @@
                 
                 <h1 id="osg-sec-2018-08-17-cpu-speculative-execution-vulnerabilities-foreshadow">OSG-SEC-2018-08-17 CPU speculative execution vulnerabilities (Foreshadow)</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>A new speculative execution-based attack similar to Meltdown and Spectre (CVE-2017-5754 [1]), has been reported in Intel processors. The L1 Terminal Fault (L1TF) also known as Foreshadow allows an attacker to gain access to sensitive data in the memory of any computing device. </p>
+<p>A new speculative execution-based attack similar to Meltdown and Spectre (CVE-2017-5754 <a href="#more-information">[1]</a>), has been reported in Intel processors. The L1 Terminal Fault (L1TF) also known as Foreshadow allows an attacker to gain access to sensitive data in the memory of any computing device. </p>
 <h2 id="impacted-versionsenvironments">IMPACTED VERSIONS/ENVIRONMENTS:</h2>
 <p>These vulnerabilities are present in the hardware and appear to affect all the operating systems running on x86 architectures. RedHat 6 &amp; 7 and all its derivatives are impacted.</p>
 <h2 id="action-recommendations">ACTION RECOMMENDATIONS:</h2>
@@ -773,11 +785,11 @@
 <p>Scientific Linux:
    - SL6 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182390-1/
    - SL7 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182384-1/</p>
-<p>There is a higher concern with virtualized environments. "..if two virtual machines share a physical core, then the virtual machine using one logical core can potentially spy on the virtual machine using the other logical core." [4] . For further mitigation, after installing the updated 
+<p>There is a higher concern with virtualized environments. "..if two virtual machines share a physical core, then the virtual machine using one logical core can potentially spy on the virtual machine using the other logical core." <a href="https://arstechnica.com/gadgets/2018/08/intels-sgx-blown-wide-open-by-you-guessed-it-a-speculative-execution-attack/">[4]</a> . For further mitigation, after installing the updated 
 microcode_ctl patch, disable hyperthreading on virtual-machine hosts. An alternative is to change the configuration of the virtualized environment to ensure that virtual machines are bound to separate physical cores.</p>
 <p>Note that existing mitigations and patches for Meltdown are <em>not</em> sufficient to protect against this new vulnerability. Some vendors have not released security patches for this vulnerability yet. Pay attention to new releases from your software vendor and patch as soon as the fix(es) become available. </p>
 <h2 id="how-it-works">HOW IT WORKS:</h2>
-<p>Privileged memory space can be accessed, exposing sensitive information. Details about the vulnerability and the attack can be found in [3].</p>
+<p>Privileged memory space can be accessed, exposing sensitive information. Details about the vulnerability and the attack can be found in <a href="https://access.redhat.com/security/vulnerabilities/L1TF">[3]</a>.</p>
 <h2 id="more-information">MORE INFORMATION:</h2>
 <ul>
 <li>[1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ </li>
@@ -807,7 +819,7 @@ microcode_ctl patch, disable hyperthreading on virtual-machine hosts. An alterna
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../OSGSecurityAnnouncements/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../OSGSecurityAnnouncements-x86/" title="Overview x86 vulnerabilities" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -816,7 +828,7 @@ microcode_ctl patch, disable hyperthreading on virtual-machine hosts. An alterna
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Overview
+                Overview x86 vulnerabilities
               </span>
             </div>
           </a>
