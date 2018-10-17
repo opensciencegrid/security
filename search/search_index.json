@@ -42,7 +42,7 @@
         }, 
         {
             "location": "/OSGSecurityAnnouncements/", 
-            "text": "Date\n\n\nTitle\n\n\nContents/Link\n\n\nRisk\n\n\n\n\n\n\n\n\n\n\n2018-03-05\n\n\nVulnerability in Singularity\n\n\nOSG-SEC-2018-03-05\n\n\n\n\n\n\n\n\n2018-02-28\n\n\nDisable weak ciphers in SSL\n\n\nOSG-SEC-2018-02-28", 
+            "text": "Date\n\n\nTitle\n\n\nContents/Link\n\n\nRisk\n\n\n\n\n\n\n\n\n\n\n2018-07-03\n\n\nBLAHP vulnerability\n\n\nOSG-SEC-2018-07-03\n\n\n\n\n\n\n\n\n2018-03-05\n\n\nVulnerability in Singularity\n\n\nOSG-SEC-2018-03-05\n\n\n\n\n\n\n\n\n2018-02-28\n\n\nDisable weak ciphers in SSL\n\n\nOSG-SEC-2018-02-28", 
             "title": "Overview"
         }, 
         {
