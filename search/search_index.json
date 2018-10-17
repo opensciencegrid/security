@@ -86,6 +86,31 @@
             "title": "MORE INFORMATION:"
         }, 
         {
+            "location": "/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/", 
+            "text": "OSG-SEC-2018-07-03 BLAHP vulnerability\n\n\nDear OSG Security Contacts,\n\n\nA new vulnerability has been reported in the Batch Local ASCII Helper Protocol (BLAHP) that allows a local user with HTCondor-CE submission privileges to execute malicious code. This vulnerability is exploitable at sites that run HTCondor-CE in front of non-HTCondor batch systems. By exploiting this vulnerability, an attacker can execute arbitrary code and/or perform a denial of service attack on the running host. OSG security considers patching this vulnerability to be IMPORTANT. This vulnerability was reported by the Center for Trustworthy Scientific Cyberinfrastructure at the University of Wisconsin. \n\n\nImpacted Versions/Environments:\n\n\nAll versions of the BLAHP distributed by the OSG are affected. \n\n\nAction Recommendations:\n\n\nThis vulnerability has been patched in blahp-1.18.37.bosco-1. Sites running previous version of BLAHP should update to the most current version as soon as possible. \n\n\nHow It Works:\n\n\nWhen submitting jobs, a local user can use the arguments attribute of the HTCondor submit description file to include malicious code. The malicious code enclosed is executed when the shell script, called by BLAHP, evaluates the arguments attribute on the CE. Most commands within a HTCondor submit file are input validated by HTCondor itself. But, the arguments line is passed through without change to the output ClassAd. \n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-07-03 BLAHP vulnerability"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/#osg-sec-2018-07-03-blahp-vulnerability", 
+            "text": "Dear OSG Security Contacts,  A new vulnerability has been reported in the Batch Local ASCII Helper Protocol (BLAHP) that allows a local user with HTCondor-CE submission privileges to execute malicious code. This vulnerability is exploitable at sites that run HTCondor-CE in front of non-HTCondor batch systems. By exploiting this vulnerability, an attacker can execute arbitrary code and/or perform a denial of service attack on the running host. OSG security considers patching this vulnerability to be IMPORTANT. This vulnerability was reported by the Center for Trustworthy Scientific Cyberinfrastructure at the University of Wisconsin.", 
+            "title": "OSG-SEC-2018-07-03 BLAHP vulnerability"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/#impacted-versionsenvironments", 
+            "text": "All versions of the BLAHP distributed by the OSG are affected.", 
+            "title": "Impacted Versions/Environments:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/#action-recommendations", 
+            "text": "This vulnerability has been patched in blahp-1.18.37.bosco-1. Sites running previous version of BLAHP should update to the most current version as soon as possible.", 
+            "title": "Action Recommendations:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/#how-it-works", 
+            "text": "When submitting jobs, a local user can use the arguments attribute of the HTCondor submit description file to include malicious code. The malicious code enclosed is executed when the shell script, called by BLAHP, evaluates the arguments attribute on the CE. Most commands within a HTCondor submit file are input validated by HTCondor itself. But, the arguments line is passed through without change to the output ClassAd.   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "How It Works:"
+        }, 
+        {
             "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/", 
             "text": "OSG-SEC-2018-01-04 CPU hardware vulnerabilities\n\n\n[UPDATE 2018-05-08]\n\n\nDear OSG Security Contacts,\n\n\nThis is an update of the security announcement about the CPU hardware in modern processors that were reported in the beginning of January and are widely known as Meltdown and Spectre and described in CVE-2017-5754 \n[1]\n.  An updated kernel is now available for Red Hat Enterprise Linux 7 that fixes another aspect of those issues, and also fixes many other security issues.  The OSG Security team considers applying this update to be IMPORTANT.\n\n\nAFFECTED VERSIONS:\n\n\nEL7 kernel versions prior to 3.10-0-862 are affected.\n\n\nWHAT YOU SHOULD DO:\n\n\nUpdate the kernel using the following command: \n\n\nyum update kernel\n\n\n\nKernel updates are available for the following systems. \n - Red Hat Enterprise Linux 7 [2]\n - Scientific Linux 7 [3] \n - CentOS 7 (in the \u201ccr\u201d yum repo - - use \u201cyum --enablerepo=cr update kernel\u201d) \n\n\nThis should update the kernel to version 3.10.0-862.el7.  The system must be rebooted for this update to take effect.\n\n\nNOTE: this kernel is known to cause problems with ZFS [4]; machines that support ZFS should wait for an updated ZFS release.\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.opensciencegrid.org/35754\n\n\n\n\nREFERENCES:\n\n\n\n\n[1] https://access.redhat.com/security/cve/cve-2017-5754\n\n\n[2] https://access.redhat.com/errata/RHSA-2018:1062 \n\n\n[3] https://www.scientificlinux.org/category/sl-errata/slsa-20181062-1/ \n\n\n[4] https://github.com/zfsonlinux/zfs/issues/7460\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
             "title": "OSG-SEC-2018-05-08 Meltdown-Spectre Update"

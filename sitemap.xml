@@ -26,6 +26,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/</loc>
+     <lastmod>2018-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
