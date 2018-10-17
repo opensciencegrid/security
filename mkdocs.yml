@@ -13,6 +13,7 @@ pages:
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
   - Announcement Details:
     - OSG-SEC-2018-08-17 Foreshadow: 'vulns/OSG-SEC-2018-08-17-Foreshadow.md'
+    - OSG-SEC-2018-07-03 BLAHP vulnerability: 'vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability.md'
     - OSG-SEC-2018-05-08 Meltdown-Spectre Update: 'vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update.md'
     - OSG-SEC-2018-03-05 Vulnerability in Singularity: 'vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability.md'
     - OSG-SEC-2018-02-28 Disable weak ciphers in SSL: 'vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers.md'
