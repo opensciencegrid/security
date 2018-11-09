@@ -16,7 +16,7 @@ Multiple vendors and all SAML-based systems using these vulnerable libraries are
 - Duo Network Gateway before version 1.2.10.
 
 ## WHAT IS THE VULNERABILITY:
-The vulnerability is a flaw in some XML libraries and the way the text is extracted from the XML elements, particularly, when comments are included. In addition, XML canonicalization removes comments as part of signature validation; adding comments to a SAML Response will not invalidate the signature. Now, given that SAML Responses contain strings that identify the authenticating user, an attacker can impersonate a legitimate user and access protected information by modifying the SAML assertion and inserting a comment in the XML element that contains the Subject NameID [2].
+The vulnerability is a flaw in some XML libraries and the way the text is extracted from the XML elements, particularly, when comments are included. In addition, XML canonicalization removes comments as part of signature validation; adding comments to a SAML Response will not invalidate the signature. Now, given that SAML Responses contain strings that identify the authenticating user, an attacker can impersonate a legitimate user and access protected information by modifying the SAML assertion and inserting a comment in the XML element that contains the Subject NameID [1].
 
 The Common Vulnerabilities and Exposures (CVEs) numbers assigned for this vulnerability are listed below:
 
