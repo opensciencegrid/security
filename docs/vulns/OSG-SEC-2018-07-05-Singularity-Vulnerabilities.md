@@ -20,9 +20,9 @@ On EL7 systems, one of the following actions should be applied IMMEDIATELY:
 Report any problems seen to security@opensciencegrid.org.  If no problems are seen with your use cases you may upgrade before the release to the osg yum repository.
 
 ## REFERENCES
-[1] https://github.com/singularityware/singularity/releases/tag/2.5.2
-[2] OSG-SEC-2018-04-30
-[3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12021
+- [1] https://github.com/singularityware/singularity/releases/tag/2.5.2
+- [2] OSG-SEC-2018-04-30
+- [3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12021
 
 Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. 
 
