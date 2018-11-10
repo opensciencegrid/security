@@ -18,8 +18,6 @@ pages:
     - OSG-SEC-2018-09-20 Vulnerability in AFS: 'vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS.md'
     - OSG-SEC-2018-09-06 Vulnerability in Apache Struts: 'vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability.md'  
     - OSG-SEC-2018-08-17 Foreshadow: 'vulns/OSG-SEC-2018-08-17-Foreshadow.md'
-    - OSG-SEC-2018-08-07 Data channel encryption not guaranteed: 'vulns/OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed.md'
-    - OSG-SEC-2018-07-05 Vulnerabilities in Singularity: 'vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities.md'	
     - OSG-SEC-2018-07-03 BLAHP vulnerability: 'vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability.md'
     - OSG-SEC-2018-05-23 CILogon OSG CA service retirement: 'vulns/OSG-SEC-2018-05-23-OSG-CA-service-retirement.md'
     - OSG-SEC-2018-05-18 Multiple EL7 Linux kernel vulnerabilities: 'vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities.md'
