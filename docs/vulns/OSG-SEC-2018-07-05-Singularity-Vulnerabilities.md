@@ -14,7 +14,7 @@ For more details see the singularity-2.5.2 release announcement [1].  Jobs runni
 
 ## WHAT YOU SHOULD DO:
 On EL7 systems, one of the following actions should be applied IMMEDIATELY:
-1. Configure the following workaround: set ‘enable overlay = no’ in /etc/singularity/singularity.conf.  No OSG VO using singularity in production currently requires this feature.  (This may already be disabled because of a workaround for a previous announced vulnerability [2], which was later fixed.)
+1. Configure the following workaround: set `enable overlay = no` in /etc/singularity/singularity.conf.  No OSG VO using singularity in production currently requires this feature.  (This may already be disabled because of a workaround for a previous announced vulnerability [2], which was later fixed.)
 2. Begin testing the latest singularity version 2.5.2-1.osg34 with the following command `yum update --enablerepo=osg-testing singularity-runtime` and if it works for your workflows, install it on all nodes.
  
 Report any problems seen to security@opensciencegrid.org.  If no problems are seen with your use cases you may upgrade before the release to the osg yum repository.
