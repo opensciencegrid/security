@@ -1,9 +1,9 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
-| 2018-10-18  | Vulnerability in Linux kernel's create_elf_tables() function | [OSG-SEC-2018-10-18](/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update.md) |     |
+| 2018-10-18  | Vulnerability in Linux kernel's create_elf_tables() function | [OSG-SEC-2018-10-18 UPDATE](/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update.md) |     |
 | 2018-10-04  | Vulnerability in RedHat Ceph Storage | [OSG-SEC-2018-10-04](/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage.md) |     |
-| 2018-10-02  | Vulnerability in Linux kernel's create_elf_tables() function | [OSG-SEC-2018-10-02 UPDATE](/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel.md) |     |
+| 2018-10-02  | Vulnerability in Linux kernel's create_elf_tables() function | [OSG-SEC-2018-10-02](/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel.md) |     |
 | 2018-09-20  | Vulnerability in AFS | [OSG-SEC-2018-09-20](/vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS.md) |     |
 | 2018-09-06  | Vulnerability in Apache Struts | [OSG-SEC-2018-09-06](/vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability.md) |     |
 | 2018-08-07  | Data channel encryption not guaranteed | [OSG-SEC-2018-08-07](/vulns/OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed.md) |     |
