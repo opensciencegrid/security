@@ -18,7 +18,7 @@
 | 2018-04-17  | Vulnerability in MariaDB MySQL | [OSG-SEC-2018-04-17](/vulns/OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL.md) |     |
 | 2018-04-02  | Critical vulnerability in Singularity | [OSG-SEC-2018-04-02](/vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity.md) |     |
 | 2018-03-27  | Vulnerability in SLURM |[OSG-SEC-2018-03-27](/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability.md) |     |
-| 2018-03-13  | SAML Vulnerabilities affecting multiple implementations | [OSG-SEC-2018-03-13](/vulns/OOSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations.md) |     |
+| 2018-03-13  | SAML Vulnerabilities affecting multiple implementations | [OSG-SEC-2018-03-13](/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations.md) |     |
 | 2018-03-08  | Limiting Singularity image types | [OSG-SEC-2018-03-08](/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types.md) |     | 
 | 2018-03-05  | Vulnerability in Singularity| [OSG-SEC-2018-03-05](/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability.md)|     |
 | 2018-02-28  | Disable weak ciphers in SSL| [OSG-SEC-2018-02-28](/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers.md)|     |
