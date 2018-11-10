@@ -42,7 +42,7 @@
         }, 
         {
             "location": "/OSGSecurityAnnouncements/", 
-            "text": "Date\n\n\nTitle\n\n\nContents/Link\n\n\nRisk\n\n\n\n\n\n\n\n\n\n\n2018-07-03\n\n\nBLAHP vulnerability\n\n\nOSG-SEC-2018-07-03\n\n\n\n\n\n\n\n\n2018-03-05\n\n\nVulnerability in Singularity\n\n\nOSG-SEC-2018-03-05\n\n\n\n\n\n\n\n\n2018-02-28\n\n\nDisable weak ciphers in SSL\n\n\nOSG-SEC-2018-02-28", 
+            "text": "Date\n\n\nTitle\n\n\nContents/Link\n\n\nRisk\n\n\n\n\n\n\n\n\n\n\n2018-10-18\n\n\nVulnerability in Linux kernel's create_elf_tables() function\n\n\nOSG-SEC-2018-10-18\n\n\n\n\n\n\n\n\n2018-10-04\n\n\nVulnerability in RedHat Ceph Storage\n\n\nOSG-SEC-2018-10-04\n\n\n\n\n\n\n\n\n2018-10-02\n\n\nVulnerability in Linux kernel's create_elf_tables() function\n\n\nOSG-SEC-2018-10-02 UPDATE\n\n\n\n\n\n\n\n\n2018-09-20\n\n\nVulnerability in AFS\n\n\nOSG-SEC-2018-09-20\n\n\n\n\n\n\n\n\n2018-09-06\n\n\nVulnerability in Apache Struts\n\n\nOSG-SEC-2018-09-06\n\n\n\n\n\n\n\n\n2018-08-07\n\n\nData channel encryption not guaranteed\n\n\nOSG-SEC-2018-08-07\n\n\n\n\n\n\n\n\n2018-07-05\n\n\nVulnerabilities in Singularity\n\n\nOSG-SEC-2018-07-05\n\n\n\n\n\n\n\n\n2018-07-03\n\n\nBLAHP vulnerability\n\n\nOSG-SEC-2018-07-03\n\n\n\n\n\n\n\n\n2018-05-23\n\n\nCILogon OSG CA service retirement\n\n\nOSG-SEC-2018-05-23\n\n\n\n\n\n\n\n\n2018-05-18\n\n\nMultiple EL7 Linux kernel vulnerabilities\n\n\nOSG-SEC-2018-05-18\n\n\n\n\n\n\n\n\n2018-05-07\n\n\nUnprivileged user namespaces in Singularity\n\n\nOSG-SEC-2018-05-07\n\n\n\n\n\n\n\n\n2018-04-30\n\n\nMultiple vulnerabilities in Singularity\n\n\nOSG-SEC-2018-04-30\n\n\n\n\n\n\n\n\n2018-04-25\n\n\nIncluding Let's Encrypt CA in the OSG CA bundle\n\n\nOSG-SEC-2018-04-25\n\n\n\n\n\n\n\n\n2018-04-19\n\n\nCritical vulnerability in Singularity\n\n\nOSG-SEC-2018-04-19 UPDATE\n\n\n\n\n\n\n\n\n2018-04-17\n\n\nVulnerability in MariaDB MySQL\n\n\nOSG-SEC-2018-04-17\n\n\n\n\n\n\n\n\n2018-04-02\n\n\nCritical vulnerability in Singularity\n\n\nOSG-SEC-2018-04-02\n\n\n\n\n\n\n\n\n2018-03-27\n\n\nVulnerability in SLURM\n\n\nOSG-SEC-2018-03-27\n\n\n\n\n\n\n\n\n2018-03-13\n\n\nSAML Vulnerabilities affecting multiple implementations\n\n\nOSG-SEC-2018-03-13\n\n\n\n\n\n\n\n\n2018-03-08\n\n\nLimiting Singularity image types\n\n\nOSG-SEC-2018-03-08\n\n\n\n\n\n\n\n\n2018-03-05\n\n\nVulnerability in Singularity\n\n\nOSG-SEC-2018-03-05\n\n\n\n\n\n\n\n\n2018-02-28\n\n\nDisable weak ciphers in SSL\n\n\nOSG-SEC-2018-02-28", 
             "title": "Overview"
         }, 
         {
@@ -54,6 +54,141 @@
             "location": "/OSGSecurityAnnouncements-x86/#osg-security-announcements-for-vulnerabilities-in-x86", 
             "text": "All security announcements related to x86 vulnerabilities are listed here.     Date  Title  Contents/Link  Risk      2018-08-17  CPU speculative execution vulnerabilities (Foreshadow)  OSG-SEC-2018-08-17     2018-05-08  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-22  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-10  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04 UPDATE     2018-01-04  CPU speculative execution vulnerabilities (Spectre and Meltdown)  OSG-SEC-2018-01-04", 
             "title": "OSG Security Announcements for vulnerabilities in x86"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update/", 
+            "text": "OSG-SEC-2018-10-18 [UPDATE] Vulnerability in Linux kernel's create_elf_tables() function\n\n\nDear OSG Security Contacts,\n\n\nThis is an update to the prior announcement \"OSG-SEC-2018-10-02 Vulnerability in Linux kernel's create_elf_tables() function\". This fix is only for HTCondor and patches the vulnerability that could potentially allow an attacker to escalate privileges. \n\n\nACTION RECOMMENDATIONS:\n\n\nBefore you proceed further please note that these instructions to set memory limits will kill running jobs, therefore draining is recommended to prevent new jobs from starting.\n\n\n\n\nFor HTCondor v8.6.x+ installed from RPMs or DEBs on RHEL7, Centos7, SL7, Debian, or Ubuntu (running systemd):\n\n\n\n\nAs root run the following commands:\nmkdir /etc/systemd/system/condor.service.d\necho -e '[Service]\\nLimitSTACK=16G\\n' \n \\ /etc/systemd/system/condor.service.d/CVE-2018-14634.conf\nsystemctl restart condor\n\n\n\n\nFor HTCondor v8.6.x+ installed from RPMs on RHEL6, SL6, Centos6 (running init):\n\n\n\n\nAs root run the following commands:\n\n\nsed -i 's/ULIMIT_FLAGS=.*/ULIMIT_FLAGS=\n-Hs 16000000\n/' /etc/sysconfig/condor\nservice condor restart\n\n\n\n\nRecommendations for other affected systems can be found in the original announcement.\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-10-18 Vulnerability in Linux kernel\u2019s create_elf_tables() function Update"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update/#osg-sec-2018-10-18-update-vulnerability-in-linux-kernels-create_elf_tables-function", 
+            "text": "Dear OSG Security Contacts,  This is an update to the prior announcement \"OSG-SEC-2018-10-02 Vulnerability in Linux kernel's create_elf_tables() function\". This fix is only for HTCondor and patches the vulnerability that could potentially allow an attacker to escalate privileges.", 
+            "title": "OSG-SEC-2018-10-18 [UPDATE] Vulnerability in Linux kernel's create_elf_tables() function"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update/#action-recommendations", 
+            "text": "Before you proceed further please note that these instructions to set memory limits will kill running jobs, therefore draining is recommended to prevent new jobs from starting.   For HTCondor v8.6.x+ installed from RPMs or DEBs on RHEL7, Centos7, SL7, Debian, or Ubuntu (running systemd):   As root run the following commands:\nmkdir /etc/systemd/system/condor.service.d\necho -e '[Service]\\nLimitSTACK=16G\\n'   \\ /etc/systemd/system/condor.service.d/CVE-2018-14634.conf\nsystemctl restart condor   For HTCondor v8.6.x+ installed from RPMs on RHEL6, SL6, Centos6 (running init):   As root run the following commands:  sed -i 's/ULIMIT_FLAGS=.*/ULIMIT_FLAGS= -Hs 16000000 /' /etc/sysconfig/condor\nservice condor restart  Recommendations for other affected systems can be found in the original announcement.  Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "ACTION RECOMMENDATIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/", 
+            "text": "OSG-SEC-2018-10-04 Vulnerability in Red Hat Ceph Storage\n\n\nDear OSG Security Contacts,\n\n\nA vulnerability described in CVE-2018-14649 [1] has been reported in RedHat Ceph Storage that could potentially allow an unauthenticated attacker to remotely execute arbitrary code and escalate privileges. OSG security team considers patching this vulnerability to be IMPORTANT. \n\n\nIMPACTED VERSIONS/ENVIRONMENTS:\n\n\nThis issue affects the versions of ceph-iscsi-cli as shipped with Red Hat Ceph Storage 2 and 3. [1] \n\n\nACTION RECOMMENDATIONS:\n\n\nAny site using Red Hat Ceph storage should check whether they are using ceph-iscsi-cli package, and if they are should update urgently.\n\n\nRed Hat Enterprise Linux 7\nRed Hat Ceph Storage 2.5: https://access.redhat.com/errata/RHSA-2018:2837\nRed Hat Ceph Storage 3.1: https://access.redhat.com/errata/RHSA-2018:2838   \n\n\nHOW IT WORKS:\n\n\nIt was found that the rbd-target-api service provided by ceph-iscsi-cli was running in debug mode. An unauthenticated attacker could use this to remotely execute arbitrary code and escalate privileges. [1]\n\n\nMORE INFORMATION:\n\n\n\n\n[1] https://access.redhat.com/security/cve/cve-2018-14649 \n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-10-04 Vulnerability in RedHat Ceph Storage"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/#osg-sec-2018-10-04-vulnerability-in-red-hat-ceph-storage", 
+            "text": "Dear OSG Security Contacts,  A vulnerability described in CVE-2018-14649 [1] has been reported in RedHat Ceph Storage that could potentially allow an unauthenticated attacker to remotely execute arbitrary code and escalate privileges. OSG security team considers patching this vulnerability to be IMPORTANT.", 
+            "title": "OSG-SEC-2018-10-04 Vulnerability in Red Hat Ceph Storage"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/#impacted-versionsenvironments", 
+            "text": "This issue affects the versions of ceph-iscsi-cli as shipped with Red Hat Ceph Storage 2 and 3. [1]", 
+            "title": "IMPACTED VERSIONS/ENVIRONMENTS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/#action-recommendations", 
+            "text": "Any site using Red Hat Ceph storage should check whether they are using ceph-iscsi-cli package, and if they are should update urgently.  Red Hat Enterprise Linux 7\nRed Hat Ceph Storage 2.5: https://access.redhat.com/errata/RHSA-2018:2837\nRed Hat Ceph Storage 3.1: https://access.redhat.com/errata/RHSA-2018:2838", 
+            "title": "ACTION RECOMMENDATIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/#how-it-works", 
+            "text": "It was found that the rbd-target-api service provided by ceph-iscsi-cli was running in debug mode. An unauthenticated attacker could use this to remotely execute arbitrary code and escalate privileges. [1]", 
+            "title": "HOW IT WORKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/#more-information", 
+            "text": "[1] https://access.redhat.com/security/cve/cve-2018-14649    Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "MORE INFORMATION:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/", 
+            "text": "OSG-SEC-2018-10-02 Vulnerability in Linux kernel's create_elf_tables() function\n\n\nDear OSG Security Contacts,\n\n\nA new integer overflow vulnerability described in CVE-2018-14634 [1] has been reported in the Linux kernel's create_elf_tables() function that could potentially allow an attacker to escalate privileges. This vulnerability only applies to systems with more than 32GB of memory and on which users can allocate 32GB. OSG security team considers patching this vulnerability to be IMPORTANT. \n\n\nIMPACTED VERSIONS/ENVIRONMENTS:\n\n\nKernel versions 2.6.x, 3.10.x and 4.14.x. are affected. [1]  \n\n\nACTION RECOMMENDATIONS:\n\n\nPatches are available for the following operating systems and OSG Security team advises sites to apply the patch as soon as possible. Please note that patches are still not available for Red Hat Enterprise Linux 6 and Scientific Linux 6. Please pay attention to vendor advisories for patches to those systems.  \n\n\nRedHat Linux:\n- RHEL7 (kernel): https://access.redhat.com/errata/RHSA-2018:2748 \n\n\nScientific Linux:\n- SL 7 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182748-1/\n\n\nHOW IT WORKS:\n\n\nAn integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. This issue does not affect 32-bit systems as they do not have a large enough memory address space to exploit this flaw. [2]\n\n\nMORE INFORMATION:\n\n\n\n\n[1] http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14634 \n\n\n[2] https://access.redhat.com/security/cve/cve-2018-14634 \n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-10-02 Vulnerability in Linux kernel\u2019s create_elf_tables() function"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/#osg-sec-2018-10-02-vulnerability-in-linux-kernels-create_elf_tables-function", 
+            "text": "Dear OSG Security Contacts,  A new integer overflow vulnerability described in CVE-2018-14634 [1] has been reported in the Linux kernel's create_elf_tables() function that could potentially allow an attacker to escalate privileges. This vulnerability only applies to systems with more than 32GB of memory and on which users can allocate 32GB. OSG security team considers patching this vulnerability to be IMPORTANT.", 
+            "title": "OSG-SEC-2018-10-02 Vulnerability in Linux kernel's create_elf_tables() function"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/#impacted-versionsenvironments", 
+            "text": "Kernel versions 2.6.x, 3.10.x and 4.14.x. are affected. [1]", 
+            "title": "IMPACTED VERSIONS/ENVIRONMENTS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/#action-recommendations", 
+            "text": "Patches are available for the following operating systems and OSG Security team advises sites to apply the patch as soon as possible. Please note that patches are still not available for Red Hat Enterprise Linux 6 and Scientific Linux 6. Please pay attention to vendor advisories for patches to those systems.    RedHat Linux:\n- RHEL7 (kernel): https://access.redhat.com/errata/RHSA-2018:2748   Scientific Linux:\n- SL 7 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182748-1/", 
+            "title": "ACTION RECOMMENDATIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/#how-it-works", 
+            "text": "An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. This issue does not affect 32-bit systems as they do not have a large enough memory address space to exploit this flaw. [2]", 
+            "title": "HOW IT WORKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/#more-information", 
+            "text": "[1] http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14634   [2] https://access.redhat.com/security/cve/cve-2018-14634    Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "MORE INFORMATION:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/", 
+            "text": "OSG-SEC-2018-09-20 Vulnerabilities in AFS\n\n\nDear OSG Security Contacts, \n\n\nThis announcement is for sites that use AFS. \n\n\nThere are three new vulnerabilities described in CVE-2018-16947 [1], CVE-2018-16948 [2], and CVE-2018-16949 [3] which have been reported in AFS that could potentially allow an attacker to modify or delete data within the cells that have the backup tape controller (butc) process, could expose information to an attacker, and could cause a Denial of Service (DoS) attack respectively. OSG security team considers patching these vulnerabilities to be IMPORTANT.     \n\n\nIMPACTED VERSIONS/ENVIRONMENTS:\n\n\nAll releases of OpenAFS server/client prior to 1.6.23 are affected.\nAlso OpenAFS 1.8.0, 1.8.1, and 1.8.1.1 are affected. \n\n\nACTION RECOMMENDATIONS:\n\n\nUpgrade to 1.8.2 or 1.6.23 releases. Please note that it is necessary to restart OpenAFS for the fixes to take effect. [4]\n\n\nHOW IT WORKS:\n\n\nThe backup tape controller process accepts incoming RPCs but does not require (or allow for) authentication of those RPCs. Handling those RPCs results in operations being performed with administrator credentials, including dumping/restoring volume contents and manipulating the backup database. [1] \n\n\nOpenAFS uses the Rx RPC protocol for all remote operations, and uses the rxgen utility to generate the server RPC stubs. Output variables are allocated either on the stack or on the heap, by the RPC handler (for variable-length arrays). Many RPC handlers did not fully initialize these output variables, leaking memory contents to the remote caller for otherwise-successful RPCs. [2] \n\n\nOpenAFS uses the Rx RPC protocol for all remote operations; RPC inputs and outputs are described using the XDR data description language. XDR includes a facility for variable-length (up to 4GB) arrays, optionally subject to a smaller bound on their size. For several RPCs, OpenAFS servers would accept and attempt to unmarshall into memory input arrays up to the full 4GB limit; length and authentication checks in RPC handler functions would be applied only after low-level memory allocation and unmarshalling. This allows unauthenticated attackers to consume large amounts of server memory and network bandwidth, producing service degradation or denial of service to legitimate clients. [3]\n\n\nMORE INFORMATION:\n\n\n\n\n[1] http://www.openafs.org/pages/security/OPENAFS-SA-2018-001.txt\n\n\n[2] http://www.openafs.org/pages/security/OPENAFS-SA-2018-002.txt\n\n\n[3] http://www.openafs.org/pages/security/OPENAFS-SA-2018-003.txt\n\n\n[4] https://www.openafs.org/release/index.html \n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-09-20 Vulnerability in AFS"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/#osg-sec-2018-09-20-vulnerabilities-in-afs", 
+            "text": "Dear OSG Security Contacts,   This announcement is for sites that use AFS.   There are three new vulnerabilities described in CVE-2018-16947 [1], CVE-2018-16948 [2], and CVE-2018-16949 [3] which have been reported in AFS that could potentially allow an attacker to modify or delete data within the cells that have the backup tape controller (butc) process, could expose information to an attacker, and could cause a Denial of Service (DoS) attack respectively. OSG security team considers patching these vulnerabilities to be IMPORTANT.", 
+            "title": "OSG-SEC-2018-09-20 Vulnerabilities in AFS"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/#impacted-versionsenvironments", 
+            "text": "All releases of OpenAFS server/client prior to 1.6.23 are affected.\nAlso OpenAFS 1.8.0, 1.8.1, and 1.8.1.1 are affected.", 
+            "title": "IMPACTED VERSIONS/ENVIRONMENTS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/#action-recommendations", 
+            "text": "Upgrade to 1.8.2 or 1.6.23 releases. Please note that it is necessary to restart OpenAFS for the fixes to take effect. [4]", 
+            "title": "ACTION RECOMMENDATIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/#how-it-works", 
+            "text": "The backup tape controller process accepts incoming RPCs but does not require (or allow for) authentication of those RPCs. Handling those RPCs results in operations being performed with administrator credentials, including dumping/restoring volume contents and manipulating the backup database. [1]   OpenAFS uses the Rx RPC protocol for all remote operations, and uses the rxgen utility to generate the server RPC stubs. Output variables are allocated either on the stack or on the heap, by the RPC handler (for variable-length arrays). Many RPC handlers did not fully initialize these output variables, leaking memory contents to the remote caller for otherwise-successful RPCs. [2]   OpenAFS uses the Rx RPC protocol for all remote operations; RPC inputs and outputs are described using the XDR data description language. XDR includes a facility for variable-length (up to 4GB) arrays, optionally subject to a smaller bound on their size. For several RPCs, OpenAFS servers would accept and attempt to unmarshall into memory input arrays up to the full 4GB limit; length and authentication checks in RPC handler functions would be applied only after low-level memory allocation and unmarshalling. This allows unauthenticated attackers to consume large amounts of server memory and network bandwidth, producing service degradation or denial of service to legitimate clients. [3]", 
+            "title": "HOW IT WORKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/#more-information", 
+            "text": "[1] http://www.openafs.org/pages/security/OPENAFS-SA-2018-001.txt  [2] http://www.openafs.org/pages/security/OPENAFS-SA-2018-002.txt  [3] http://www.openafs.org/pages/security/OPENAFS-SA-2018-003.txt  [4] https://www.openafs.org/release/index.html    Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "MORE INFORMATION:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/", 
+            "text": "OSG-SEC-2018-09-06 Apache Struts Vulnerability\n\n\nDear OSG Security Contacts, \n\n\nThis announcement is for sites that still use VOMS-admin from OSG 3.3. Support for OSG 3.3  ended in May 2018 [1].\n\n\nA new vulnerability, described in CVE-2018-11776 [2] has been reported in Apache Struts 2 that potentially allows an attacker to execute arbitrary code on an impacted server. OSG security team considers patching this vulnerability to be IMPORTANT. \n\n\nPlease note that this is our best-effort announcement notification. The OSG no longer supports VOMS Admin server, therefore our security team strongly recommends retiring any active servers. Please consult the migration documentation for details [3].\n\n\nIMPACTED VERSIONS/ENVIRONMENTS:\n\n\nImpacted version of VOMS Admin server:\nAll the versions of VOMS Admin server distributed by the OSG are affected.\n\n\nImpacted version of Struts: \n- Struts 2.3 - Struts 2.3.34\n- Struts 2.5 - Struts 2.5.16\n\n\nACTION RECOMMENDATIONS:\n\n\nThe OSG no longer supports VOMS Admin server, therefore our security team strongly recommends retiring any active servers. \n\n\nHOW IT WORKS:\n\n\nThis vulnerability allows for remote code execution when namespace values aren't set for a result defined in underlying configurations and, at the same time, its upper action configuration(s) have a wildcard or no namespace. A possibility for remote code execution also exists when using url tags which don\u2019t have values and actions set and, at the same time, its upper action configuration(s) have a wildcard or no namespace. Proof of concept (PoC) of the exploit is publicly available on GitHub [4]. \n\n\nMORE INFORMATION:\n\n\n\n\n[1] https://opensciencegrid.org/technology/policy/release-series/#life-cycle-dates\n\n\n[2] https://nvd.nist.gov/vuln/detail/CVE-2018-11776 \n\n\n[3] https://opensciencegrid.org/technology/policy/voms-admin-retire/\n\n\n[4] https://cwiki.apache.org/confluence/display/WW/S2-057 \n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-09-06 Vulnerability in Apache Struts"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/#osg-sec-2018-09-06-apache-struts-vulnerability", 
+            "text": "Dear OSG Security Contacts,   This announcement is for sites that still use VOMS-admin from OSG 3.3. Support for OSG 3.3  ended in May 2018 [1].  A new vulnerability, described in CVE-2018-11776 [2] has been reported in Apache Struts 2 that potentially allows an attacker to execute arbitrary code on an impacted server. OSG security team considers patching this vulnerability to be IMPORTANT.   Please note that this is our best-effort announcement notification. The OSG no longer supports VOMS Admin server, therefore our security team strongly recommends retiring any active servers. Please consult the migration documentation for details [3].", 
+            "title": "OSG-SEC-2018-09-06 Apache Struts Vulnerability"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/#impacted-versionsenvironments", 
+            "text": "Impacted version of VOMS Admin server:\nAll the versions of VOMS Admin server distributed by the OSG are affected.  Impacted version of Struts: \n- Struts 2.3 - Struts 2.3.34\n- Struts 2.5 - Struts 2.5.16", 
+            "title": "IMPACTED VERSIONS/ENVIRONMENTS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/#action-recommendations", 
+            "text": "The OSG no longer supports VOMS Admin server, therefore our security team strongly recommends retiring any active servers.", 
+            "title": "ACTION RECOMMENDATIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/#how-it-works", 
+            "text": "This vulnerability allows for remote code execution when namespace values aren't set for a result defined in underlying configurations and, at the same time, its upper action configuration(s) have a wildcard or no namespace. A possibility for remote code execution also exists when using url tags which don\u2019t have values and actions set and, at the same time, its upper action configuration(s) have a wildcard or no namespace. Proof of concept (PoC) of the exploit is publicly available on GitHub [4].", 
+            "title": "HOW IT WORKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/#more-information", 
+            "text": "[1] https://opensciencegrid.org/technology/policy/release-series/#life-cycle-dates  [2] https://nvd.nist.gov/vuln/detail/CVE-2018-11776   [3] https://opensciencegrid.org/technology/policy/voms-admin-retire/  [4] https://cwiki.apache.org/confluence/display/WW/S2-057    Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "MORE INFORMATION:"
         }, 
         {
             "location": "/vulns/OSG-SEC-2018-08-17-Foreshadow/", 
@@ -86,6 +221,51 @@
             "title": "MORE INFORMATION:"
         }, 
         {
+            "location": "/vulns/OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed/", 
+            "text": "OSG-SEC-2018-08-07 data-channel encryption not guaranteed\n\n\nDear OSG Security Contacts,\n\n\nThis advisory is intended for VO contacts. \n\n\nIf you need encrypted data transfer, encrypt the data before transmission instead of using GridFTP's built-in data encryption. This is because data-channel encryption is not necessarily guaranteed, even when requested. \n\n\nMORE INFORMATION:\n\n\nhttps://wiki.egi.eu/wiki/SVG:Advisory-SVG-2018-14117\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-08-07 Data channel encryption not guaranteed"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed/#osg-sec-2018-08-07-data-channel-encryption-not-guaranteed", 
+            "text": "Dear OSG Security Contacts,  This advisory is intended for VO contacts.   If you need encrypted data transfer, encrypt the data before transmission instead of using GridFTP's built-in data encryption. This is because data-channel encryption is not necessarily guaranteed, even when requested.", 
+            "title": "OSG-SEC-2018-08-07 data-channel encryption not guaranteed"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed/#more-information", 
+            "text": "https://wiki.egi.eu/wiki/SVG:Advisory-SVG-2018-14117  Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "MORE INFORMATION:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities/", 
+            "text": "OSG-SEC-2018-07-05 Singularity Vulnerabilities\n\n\nDear OSG Security Contacts,\n\n\nHigh-severity vulnerabilities have been publicly reported concerning installations of singularity that support overlayfs, which is the default on EL7.  If overlay is available, a malicious user could exploit this vulnerability to escalate privileges.  OSG security considers this a Critical vulnerability and the impact is high for our infrastructure.  A new version is available in the osg-testing repository and is planned to be released to the osg repository on Friday, July 6, after more extensive testing.  A workaround not requiring an upgrade is outlined below.\n\n\nIMPACTED VERSIONS:\n\n\nEL7 based systems with singularity versions 2.5.1 and earlier with a default configuration are impacted.  EL6 is not affected.\n\n\nWHAT ARE THE VULNERABILITIES:\n\n\nA vulnerability with the singularity mount command enables read access to protected files.  In addition, a race condition allows read access to protected files in the root filesystem with other singularity commands. These can lead to privilege escalation.\n\n\nFor more details see the singularity-2.5.2 release announcement [1].  Jobs running inside of singularity containers are not able to exploit these vulnerabilities. \n\n\nWHAT YOU SHOULD DO:\n\n\nOn EL7 systems, one of the following actions should be applied IMMEDIATELY:\n1. Configure the following workaround: set \nenable overlay = no\n in /etc/singularity/singularity.conf.  No OSG VO using singularity in production currently requires this feature.  (This may already be disabled because of a workaround for a previous announced vulnerability [2], which was later fixed.)\n2. Begin testing the latest singularity version 2.5.2-1.osg34 with the following command \nyum update --enablerepo=osg-testing singularity-runtime\n and if it works for your workflows, install it on all nodes.\n\n\nReport any problems seen to security@opensciencegrid.org.  If no problems are seen with your use cases you may upgrade before the release to the osg yum repository.\n\n\nREFERENCES\n\n\n\n\n[1] https://github.com/singularityware/singularity/releases/tag/2.5.2\n\n\n[2] OSG-SEC-2018-04-30\n\n\n[3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12021\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-07-05 Vulnerabilities in Singularity"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities/#osg-sec-2018-07-05-singularity-vulnerabilities", 
+            "text": "Dear OSG Security Contacts,  High-severity vulnerabilities have been publicly reported concerning installations of singularity that support overlayfs, which is the default on EL7.  If overlay is available, a malicious user could exploit this vulnerability to escalate privileges.  OSG security considers this a Critical vulnerability and the impact is high for our infrastructure.  A new version is available in the osg-testing repository and is planned to be released to the osg repository on Friday, July 6, after more extensive testing.  A workaround not requiring an upgrade is outlined below.", 
+            "title": "OSG-SEC-2018-07-05 Singularity Vulnerabilities"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities/#impacted-versions", 
+            "text": "EL7 based systems with singularity versions 2.5.1 and earlier with a default configuration are impacted.  EL6 is not affected.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities/#what-are-the-vulnerabilities", 
+            "text": "A vulnerability with the singularity mount command enables read access to protected files.  In addition, a race condition allows read access to protected files in the root filesystem with other singularity commands. These can lead to privilege escalation.  For more details see the singularity-2.5.2 release announcement [1].  Jobs running inside of singularity containers are not able to exploit these vulnerabilities.", 
+            "title": "WHAT ARE THE VULNERABILITIES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities/#what-you-should-do", 
+            "text": "On EL7 systems, one of the following actions should be applied IMMEDIATELY:\n1. Configure the following workaround: set  enable overlay = no  in /etc/singularity/singularity.conf.  No OSG VO using singularity in production currently requires this feature.  (This may already be disabled because of a workaround for a previous announced vulnerability [2], which was later fixed.)\n2. Begin testing the latest singularity version 2.5.2-1.osg34 with the following command  yum update --enablerepo=osg-testing singularity-runtime  and if it works for your workflows, install it on all nodes.  Report any problems seen to security@opensciencegrid.org.  If no problems are seen with your use cases you may upgrade before the release to the osg yum repository.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities/#references", 
+            "text": "[1] https://github.com/singularityware/singularity/releases/tag/2.5.2  [2] OSG-SEC-2018-04-30  [3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12021   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES"
+        }, 
+        {
             "location": "/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/", 
             "text": "OSG-SEC-2018-07-03 BLAHP vulnerability\n\n\nDear OSG Security Contacts,\n\n\nA new vulnerability has been reported in the Batch Local ASCII Helper Protocol (BLAHP) that allows a local user with HTCondor-CE submission privileges to execute malicious code. This vulnerability is exploitable at sites that run HTCondor-CE in front of non-HTCondor batch systems. By exploiting this vulnerability, an attacker can execute arbitrary code and/or perform a denial of service attack on the running host. OSG security considers patching this vulnerability to be IMPORTANT. This vulnerability was reported by the Center for Trustworthy Scientific Cyberinfrastructure at the University of Wisconsin. \n\n\nImpacted Versions/Environments:\n\n\nAll versions of the BLAHP distributed by the OSG are affected. \n\n\nAction Recommendations:\n\n\nThis vulnerability has been patched in blahp-1.18.37.bosco-1. Sites running previous version of BLAHP should update to the most current version as soon as possible. \n\n\nHow It Works:\n\n\nWhen submitting jobs, a local user can use the arguments attribute of the HTCondor submit description file to include malicious code. The malicious code enclosed is executed when the shell script, called by BLAHP, evaluates the arguments attribute on the CE. Most commands within a HTCondor submit file are input validated by HTCondor itself. But, the arguments line is passed through without change to the output ClassAd. \n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
             "title": "OSG-SEC-2018-07-03 BLAHP vulnerability"
@@ -109,6 +289,66 @@
             "location": "/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/#how-it-works", 
             "text": "When submitting jobs, a local user can use the arguments attribute of the HTCondor submit description file to include malicious code. The malicious code enclosed is executed when the shell script, called by BLAHP, evaluates the arguments attribute on the CE. Most commands within a HTCondor submit file are input validated by HTCondor itself. But, the arguments line is passed through without change to the output ClassAd.   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
             "title": "How It Works:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-23-OSG-CA-service-retirement/", 
+            "text": "OSG-SEC-2018-05-23 OSG CA service retirement\n\n\nDear OSG users,\n\n\nThis security advisory is INFORMATIONAL for the OSG community.\n\n\nThe OSG Security Team wants to inform you that as part of the OSG Service Migration [1], the CILogon OSG CA service will be retired on May 31st, 2018:\n    -  After this date, new certificates from the CILogon OSG CA cannot be requested and therefore will no longer be issued.\n\n   - All certificates issued by CILogon OSG CA will continue to work until their expiration dates. \n   - The CILogon OSG CA will remain in the IGTF distribution until July 2019. \n\n\nWHAT YOU SHOULD DO?\n\n\n\n\n\n\nGetting user certificates after the CILogon OSG CA retirement:\n\n\n\n\nNon-LHC users can get certificates from the CILogon Basic CA (https://cilogon.org/) using their home institution credentials [1].\n\n\nLHC users should continue to request their user certificates from CERN Grid CA (https://ca.cern.ch/ca/) [2].\n\n\n\n\n\n\n\n\nGetting host and service certificates after the CILogon OSG CA retirement:\n\n\n\n\nEligible institutions can get their host certificates from InCommon Federation certificate service [3].\n\n\nLet\u2019s Encrypt CA (https://letsencrypt.org/how-it-works/) also provides short-lived host certificates in a secure manner with a minimum of overhead and automated renewal [4]. Let's Encrypt CA has been added to the OSG CA certificates bundle [5].  \n\n\n\n\n\n\n\n\nREFERENCES:\n\n\n\n\n[1] https://opensciencegrid.org/technology/policy/service-migrations-spring-2018/\nhttps://opensciencegrid.org/docs/security/user-certs/#getting-a-certificate-from-cilogon\n\n\n[2] https://ca.cern.ch/ca/Help/?kbid=021001\n\n\n[3] https://opensciencegrid.org/docs/security/host-certs/\n\n\n[4] https://opensciencegrid.org/docs/security/host-certs/\n\n\n[5] https://opensciencegrid.org/security/LetsEncryptOSGCAbundle/\n\n\n\n\nRELATED LINKS\n\n\n\n\nhttps://ticket.grid.iu.edu/37926\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org immediately if you have any questions or concerns.\n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-05-23 CILogon OSG CA service retirement"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-23-OSG-CA-service-retirement/#osg-sec-2018-05-23-osg-ca-service-retirement", 
+            "text": "Dear OSG users,  This security advisory is INFORMATIONAL for the OSG community.  The OSG Security Team wants to inform you that as part of the OSG Service Migration [1], the CILogon OSG CA service will be retired on May 31st, 2018:\n    -  After this date, new certificates from the CILogon OSG CA cannot be requested and therefore will no longer be issued. \n   - All certificates issued by CILogon OSG CA will continue to work until their expiration dates. \n   - The CILogon OSG CA will remain in the IGTF distribution until July 2019.", 
+            "title": "OSG-SEC-2018-05-23 OSG CA service retirement"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-23-OSG-CA-service-retirement/#what-you-should-do", 
+            "text": "Getting user certificates after the CILogon OSG CA retirement:   Non-LHC users can get certificates from the CILogon Basic CA (https://cilogon.org/) using their home institution credentials [1].  LHC users should continue to request their user certificates from CERN Grid CA (https://ca.cern.ch/ca/) [2].     Getting host and service certificates after the CILogon OSG CA retirement:   Eligible institutions can get their host certificates from InCommon Federation certificate service [3].  Let\u2019s Encrypt CA (https://letsencrypt.org/how-it-works/) also provides short-lived host certificates in a secure manner with a minimum of overhead and automated renewal [4]. Let's Encrypt CA has been added to the OSG CA certificates bundle [5].", 
+            "title": "WHAT YOU SHOULD DO?"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-23-OSG-CA-service-retirement/#references", 
+            "text": "[1] https://opensciencegrid.org/technology/policy/service-migrations-spring-2018/\nhttps://opensciencegrid.org/docs/security/user-certs/#getting-a-certificate-from-cilogon  [2] https://ca.cern.ch/ca/Help/?kbid=021001  [3] https://opensciencegrid.org/docs/security/host-certs/  [4] https://opensciencegrid.org/docs/security/host-certs/  [5] https://opensciencegrid.org/security/LetsEncryptOSGCAbundle/", 
+            "title": "REFERENCES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-23-OSG-CA-service-retirement/#related-links", 
+            "text": "https://ticket.grid.iu.edu/37926   Please contact the OSG security team at security@opensciencegrid.org immediately if you have any questions or concerns.  OSG Security Team", 
+            "title": "RELATED LINKS"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/", 
+            "text": "OSG-SEC-2018-05-18 Multiple EL7 Linux kernel vulnerabilities\n\n\nDear OSG Security Contacts,\n\n\nA new kernel is available for RHEL7 and its derivatives that patches multiple vulnerabilities.  These include one for unprivileged user namespaces that OSG security previously announced, one that can be used for privilege escalation on KVM virtual machines, and one that can enable an unprivileged user on any machine to cause it to crash. OSG security considers patching these vulnerabilities to be IMPORTANT.\n\n\nIMPACTED VERSIONS:\n\n\nRed Hat Enterprise Linux 7 and its derivatives.\n\n\nWHAT ARE THE VULNERABILITIES:\n\n\n\n\nThe 'use-after-free' vulnerability flaw in XFRM mentioned in a previous announcement (OSG-SEC-2017-12-19) can lead to privilege escalation on systems that have enabled unprivileged user namespaces, if not mitigated by disabling network namespaces [1].\n\n\nA  vulnerability concerning the Linux kernel's KVM hypervisor exception handling can allow an unprivileged guest VM user to crash the guest or, potentially, escalate their privileges in the guest [2].\n\n\nA vulnerability in the Linux kernel exception handling can allow an unprivileged user to crash the system and cause a Denial of Service (DoS) [3].\n\n\n\n\nWHAT YOU SHOULD DO:\n\n\nUpgrade the kernel to version 3.10.0-862.2.3. This is available now in the Scientific Linux 7 \"sl-security\" yum repository and is also available in the CentOS 7 \"cr\" yum repository. Reboot after upgrading. If you had disabled network namespaces as described in the OSG singularity install instructions [4], you may re-enable them.\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.grid.iu.edu/37880\n\n\n\n\nREFERENCES\n\n\n\n\n[1] https://access.redhat.com/security/cve/cve-2017-16939\n\n\n[2] https://access.redhat.com/security/cve/cve-2018-1087\n\n\n[3] https://access.redhat.com/security/cve/cve-2018-8897\n\n\n[4] https://opensciencegrid.org/docs/worker-node/install-singularity/#enabling-singularity-via-oasis\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-05-18 Multiple EL7 Linux kernel vulnerabilities"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/#osg-sec-2018-05-18-multiple-el7-linux-kernel-vulnerabilities", 
+            "text": "Dear OSG Security Contacts,  A new kernel is available for RHEL7 and its derivatives that patches multiple vulnerabilities.  These include one for unprivileged user namespaces that OSG security previously announced, one that can be used for privilege escalation on KVM virtual machines, and one that can enable an unprivileged user on any machine to cause it to crash. OSG security considers patching these vulnerabilities to be IMPORTANT.", 
+            "title": "OSG-SEC-2018-05-18 Multiple EL7 Linux kernel vulnerabilities"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/#impacted-versions", 
+            "text": "Red Hat Enterprise Linux 7 and its derivatives.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/#what-are-the-vulnerabilities", 
+            "text": "The 'use-after-free' vulnerability flaw in XFRM mentioned in a previous announcement (OSG-SEC-2017-12-19) can lead to privilege escalation on systems that have enabled unprivileged user namespaces, if not mitigated by disabling network namespaces [1].  A  vulnerability concerning the Linux kernel's KVM hypervisor exception handling can allow an unprivileged guest VM user to crash the guest or, potentially, escalate their privileges in the guest [2].  A vulnerability in the Linux kernel exception handling can allow an unprivileged user to crash the system and cause a Denial of Service (DoS) [3].", 
+            "title": "WHAT ARE THE VULNERABILITIES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/#what-you-should-do", 
+            "text": "Upgrade the kernel to version 3.10.0-862.2.3. This is available now in the Scientific Linux 7 \"sl-security\" yum repository and is also available in the CentOS 7 \"cr\" yum repository. Reboot after upgrading. If you had disabled network namespaces as described in the OSG singularity install instructions [4], you may re-enable them.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/#related-links", 
+            "text": "https://ticket.grid.iu.edu/37880", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/#references", 
+            "text": "[1] https://access.redhat.com/security/cve/cve-2017-16939  [2] https://access.redhat.com/security/cve/cve-2018-1087  [3] https://access.redhat.com/security/cve/cve-2018-8897  [4] https://opensciencegrid.org/docs/worker-node/install-singularity/#enabling-singularity-via-oasis   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES"
         }, 
         {
             "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/", 
@@ -143,6 +383,271 @@
         {
             "location": "/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/#references", 
             "text": "[1] https://access.redhat.com/security/cve/cve-2017-5754  [2] https://access.redhat.com/errata/RHSA-2018:1062   [3] https://www.scientificlinux.org/category/sl-errata/slsa-20181062-1/   [4] https://github.com/zfsonlinux/zfs/issues/7460   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/", 
+            "text": "OSG-SEC-2018-05-07 Unprivileged User Namespaces vulnerability\n\n\nDear OSG Security Contacts,\n\n\nA vulnerability has been found with the unprivileged user namespaces technology preview feature of RHEL7 that enables privilege escalation. This feature is not enabled by default, but the OSG singularity install instructions [1] explain how to enable the feature in order to run singularity unprivileged.  For those who have enabled this feature, a patch is available and OSG security considers patching this vulnerability to be IMPORTANT.\n\n\nIMPACTED VERSIONS:\n\n\nRed Hat Enterprise Linux and its derivatives, version 7.4 and later\n\n\nWHAT ARE THE VULNERABILITIES:\n\n\nThe realpath() function in glibc has a buffer underflow condition which can be exploited to escalate privileges by means of unprivileged user namespaces and setuid-root system programs linked with glibc.  A public exploit is available for Debian systems which could theoretically be adapted to RHEL.\n\n\nWHAT YOU SHOULD DO:\n\n\nUpgrade glibc on systems that have unprivileged user namespaces enabled, to version glibc-2.17-222.  This version was released by Red Hat with EL7.5, and even though that OS version is not yet released by Scientific Linux the glibc update is available now in the SL7 \"sl-security\" yum repository.  It is also available in the CentOS7 \"cr\" yum repository.\n\n\nRELATED LINKS\n\n\n\n\nhttps://access.redhat.com/security/cve/cve-2018-1000001\n\n\nhttps://access.redhat.com/errata/RHSA-2018:0805\n\n\nhttps://www.scientificlinux.org/category/sl-errata/slsa-20180805-1\nhttps://ticket.opensciencegrid.org/37551\n\n\n\n\nREFERENCES\n\n\n\n\n[1] http://opensciencegrid.github.io/docs/worker-node/install-singularity/#unprivileged-singularity\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.\n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-05-07 Unprivileged user namespaces in Singularity"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/#osg-sec-2018-05-07-unprivileged-user-namespaces-vulnerability", 
+            "text": "Dear OSG Security Contacts,  A vulnerability has been found with the unprivileged user namespaces technology preview feature of RHEL7 that enables privilege escalation. This feature is not enabled by default, but the OSG singularity install instructions [1] explain how to enable the feature in order to run singularity unprivileged.  For those who have enabled this feature, a patch is available and OSG security considers patching this vulnerability to be IMPORTANT.", 
+            "title": "OSG-SEC-2018-05-07 Unprivileged User Namespaces vulnerability"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/#impacted-versions", 
+            "text": "Red Hat Enterprise Linux and its derivatives, version 7.4 and later", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/#what-are-the-vulnerabilities", 
+            "text": "The realpath() function in glibc has a buffer underflow condition which can be exploited to escalate privileges by means of unprivileged user namespaces and setuid-root system programs linked with glibc.  A public exploit is available for Debian systems which could theoretically be adapted to RHEL.", 
+            "title": "WHAT ARE THE VULNERABILITIES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/#what-you-should-do", 
+            "text": "Upgrade glibc on systems that have unprivileged user namespaces enabled, to version glibc-2.17-222.  This version was released by Red Hat with EL7.5, and even though that OS version is not yet released by Scientific Linux the glibc update is available now in the SL7 \"sl-security\" yum repository.  It is also available in the CentOS7 \"cr\" yum repository.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/#related-links", 
+            "text": "https://access.redhat.com/security/cve/cve-2018-1000001  https://access.redhat.com/errata/RHSA-2018:0805  https://www.scientificlinux.org/category/sl-errata/slsa-20180805-1\nhttps://ticket.opensciencegrid.org/37551", 
+            "title": "RELATED LINKS"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/#references", 
+            "text": "[1] http://opensciencegrid.github.io/docs/worker-node/install-singularity/#unprivileged-singularity   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.  OSG Security Team", 
+            "title": "REFERENCES"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/", 
+            "text": "OSG-SEC-2018-04-30 Multiple Singularity Vulnerabilities\n\n\nDear OSG Security Contacts,\n\n\nMultiple vulnerabilities have been publicly reported concerning setuid-root installations of Singularity, including more than one way for a user outside of a container to escalate privileges.  OSG security considers this a Critical vulnerability and the impact is high for our infrastructure.  A new version is available in the osg-development yum repository and it is planned to be released to the osg yum repository in the morning on Tuesday, May 1.\n\n\nIMPACTED VERSIONS:\n\n\nSingularity versions 2.4.6 and earlier are impacted.  Both EL6 and EL7 based systems are impacted.  Installations using unprivileged singularity [1] on EL7 are not affected by these issues.\n\n\nWHAT ARE THE VULNERABILITIES:\n\n\nUnprivileged users who have access to run setuid-root singularity can:\n\n\n\n\ncreate world writable files in root-owned directories on the host system\n\n\ncreate folders outside of the container\n\n\nbypass the \u201cenable overlay = no\u201d option in singularity.conf (EL7 only)\n\n\nexploit buffer overflows\n\n\n\n\nFor more details see the singularity-2.5.0 release announcement [2]. Note especially that jobs running inside of singularity containers are not able to exploit these vulnerabilities.\n\n\nWHAT YOU SHOULD DO:\n\n\nIMMEDIATELY begin testing the latest singularity version with the following command:\n\n\n\n\nyum update --enablerepo=osg-development singularity-runtime\n\n\n\n\nVersion 2.5.0-1.1.osg34 includes a pending pull request [3], and there is one more potential known issue at this time [4] but it is not known to affect OSG use cases.  \n\n\nReport any problems seen to security@opensciencegrid.org.  If no problems are seen with your use cases you may upgrade before the release to the osg yum repository.\n\n\nRELATED LINKS\n\n\n\n\nhttp://opensciencegrid.github.io/docs/worker-node/install-singularity/ - OSG singularity install documentation.\n\n\nhttps://ticket.grid.iu.edu/37322\n\n\n\n\nREFERENCES\n\n\n\n\n[1] http://opensciencegrid.github.io/docs/worker-node/install-singularity/#unprivileged-singularity\n\n\n[2] https://github.com/singularityware/singularity/releases/tag/2.5.0\n\n\n[3] https://github.com/singularityware/singularity/pull/1491\n\n\n[4] https://github.com/singularityware/singularity/pull/1490\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-04-30 Multiple vulnerabilities in Singularity"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/#osg-sec-2018-04-30-multiple-singularity-vulnerabilities", 
+            "text": "Dear OSG Security Contacts,  Multiple vulnerabilities have been publicly reported concerning setuid-root installations of Singularity, including more than one way for a user outside of a container to escalate privileges.  OSG security considers this a Critical vulnerability and the impact is high for our infrastructure.  A new version is available in the osg-development yum repository and it is planned to be released to the osg yum repository in the morning on Tuesday, May 1.", 
+            "title": "OSG-SEC-2018-04-30 Multiple Singularity Vulnerabilities"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/#impacted-versions", 
+            "text": "Singularity versions 2.4.6 and earlier are impacted.  Both EL6 and EL7 based systems are impacted.  Installations using unprivileged singularity [1] on EL7 are not affected by these issues.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/#what-are-the-vulnerabilities", 
+            "text": "Unprivileged users who have access to run setuid-root singularity can:   create world writable files in root-owned directories on the host system  create folders outside of the container  bypass the \u201cenable overlay = no\u201d option in singularity.conf (EL7 only)  exploit buffer overflows   For more details see the singularity-2.5.0 release announcement [2]. Note especially that jobs running inside of singularity containers are not able to exploit these vulnerabilities.", 
+            "title": "WHAT ARE THE VULNERABILITIES:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/#what-you-should-do", 
+            "text": "IMMEDIATELY begin testing the latest singularity version with the following command:   yum update --enablerepo=osg-development singularity-runtime   Version 2.5.0-1.1.osg34 includes a pending pull request [3], and there is one more potential known issue at this time [4] but it is not known to affect OSG use cases.    Report any problems seen to security@opensciencegrid.org.  If no problems are seen with your use cases you may upgrade before the release to the osg yum repository.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/#related-links", 
+            "text": "http://opensciencegrid.github.io/docs/worker-node/install-singularity/ - OSG singularity install documentation.  https://ticket.grid.iu.edu/37322", 
+            "title": "RELATED LINKS"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/#references", 
+            "text": "[1] http://opensciencegrid.github.io/docs/worker-node/install-singularity/#unprivileged-singularity  [2] https://github.com/singularityware/singularity/releases/tag/2.5.0  [3] https://github.com/singularityware/singularity/pull/1491  [4] https://github.com/singularityware/singularity/pull/1490   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-25-Including-Lets-Encrypt-in-OSG-CA-bundle/", 
+            "text": "OSG-SEC-2018-04-25 Including Let\u2019s Encrypt\u2019s signing certificate in OSG CA bundle\n\n\nDear OSG Security Contacts,\n\n\nThis security advisory is INFORMATIONAL for OSG sites. \n\n\nAs a part of the Service Migration Plan [1], we will be adding the Let\u2019s Encrypt root certificate to the OSG CA certificate bundle. The OSG has traditionally included a handful of CAs in addition to the IGTF-Classic (https://www.igtf.net/ap/classic/) Certificate Authorities (CAs) for signing host certificates. These CAs often rely on manual, multi-step processes for signing certificates that add administrative overhead. Many modern operational environments would like to spin up hosts in response to changing user demand but the manual process often proves to be too slow for certificate procurement and revocation. Let\u2019s Encrypt is an automated CA system that relies on a FQDN\u2019s authoritative DNS records to identify and confirm a host\u2019s identity.[3] Let\u2019s Encrypt also provides short-lived certificates in a secure manner with a minimum of overhead and automated renewal.\n\n\nUnlike the IGTF-Classic CAs, certificates from Let\u2019s Encrypt will be recognized by your browser and OS by default.\n\n\nLet\u2019s Encrypt, however, does not confirm the organization that is running the host in the same manner as the IGTF-Classic CAs; we believe the additional IGTF checks are redundant with the registration and service discovery steps done on the OSG. OSG has separate registration procedures for services on the OSG that verifies the organizations; no access is given solely based on the possession of a host certificate. For more details please consult the OSG Information Security Officer\u2019s position paper on the Let\u2019s Encrypt CA for Host Certificate Signing. [2]\n\n\nThis is the upcoming change likely to be most relevant to security contacts during the migration. For more details on the migration plan please consult the Service Migration Plan document. [1] \n\n\nMore Information:\n- [1] https://opensciencegrid.github.io/technology/policy/service-migrations-spring-2018/ \n- [2] https://docs.google.com/document/d/17In575G9PawPzPGnPTSbqpDz2_9KVV3AlMgWNnHVKTQ/edit#\n- [3] https://letsencrypt.org/how-it-works/ \n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.", 
+            "title": "OSG-SEC-2018-04-25 Including Let\u2019s Encrypt CA in the OSG CA bundle"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-25-Including-Lets-Encrypt-in-OSG-CA-bundle/#osg-sec-2018-04-25-including-lets-encrypts-signing-certificate-in-osg-ca-bundle", 
+            "text": "Dear OSG Security Contacts,  This security advisory is INFORMATIONAL for OSG sites.   As a part of the Service Migration Plan [1], we will be adding the Let\u2019s Encrypt root certificate to the OSG CA certificate bundle. The OSG has traditionally included a handful of CAs in addition to the IGTF-Classic (https://www.igtf.net/ap/classic/) Certificate Authorities (CAs) for signing host certificates. These CAs often rely on manual, multi-step processes for signing certificates that add administrative overhead. Many modern operational environments would like to spin up hosts in response to changing user demand but the manual process often proves to be too slow for certificate procurement and revocation. Let\u2019s Encrypt is an automated CA system that relies on a FQDN\u2019s authoritative DNS records to identify and confirm a host\u2019s identity.[3] Let\u2019s Encrypt also provides short-lived certificates in a secure manner with a minimum of overhead and automated renewal.  Unlike the IGTF-Classic CAs, certificates from Let\u2019s Encrypt will be recognized by your browser and OS by default.  Let\u2019s Encrypt, however, does not confirm the organization that is running the host in the same manner as the IGTF-Classic CAs; we believe the additional IGTF checks are redundant with the registration and service discovery steps done on the OSG. OSG has separate registration procedures for services on the OSG that verifies the organizations; no access is given solely based on the possession of a host certificate. For more details please consult the OSG Information Security Officer\u2019s position paper on the Let\u2019s Encrypt CA for Host Certificate Signing. [2]  This is the upcoming change likely to be most relevant to security contacts during the migration. For more details on the migration plan please consult the Service Migration Plan document. [1]   More Information:\n- [1] https://opensciencegrid.github.io/technology/policy/service-migrations-spring-2018/ \n- [2] https://docs.google.com/document/d/17In575G9PawPzPGnPTSbqpDz2_9KVV3AlMgWNnHVKTQ/edit#\n- [3] https://letsencrypt.org/how-it-works/   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.", 
+            "title": "OSG-SEC-2018-04-25 Including Let\u2019s Encrypt\u2019s signing certificate in OSG CA bundle"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-19-Critical-Vulnerability-in-Singularity-Update/", 
+            "text": "OSG-SEC-2018-04-19 [FOLLOW-UP] Critical Vulnerability in Singularity\n\n\nDear OSG Security Contacts,\n\n\nThis is a follow-up to the previously announced Critical vulnerability in singularity. OSG has released a new version singularity-2.4.6 that eliminates the vulnerability.  Note that for the security fix the new version puts a restriction on combinations of options that do bind mounts, and this is known to currently cause CMS jobs to fail.  CMS was notified but hasn\u2019t yet had the resources to change their production pilot scripts, so CMS sites will probably want to wait to do the upgrade until they get a go-ahead from CMS.  Sites that do not upgrade are encouraged to keep the previously announced mitigation in effect until they do upgrade.\n\n\nIMPACTED VERSIONS:\n\n\nAll singularity versions from 2.2.1 and later on RHEL7 and its derivatives are affected.\n\n\nWHAT YOU SHOULD DO:\n\n\n\n\nUpgrade to singularity-2.4.6 or leave the 'enable overlay = no' mitigation in place.  \n\n\nWhen you upgrade, watch for /etc/singularity/singularity.conf.rpmnew and clean it up.\n\n\n\n\nRELATED LINKS:\n- https://ticket.grid.iu.edu/36742\n\n\nOTHER INFORMATION:\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-04-19 Critical vulnerability in Singularity Update"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-19-Critical-Vulnerability-in-Singularity-Update/#osg-sec-2018-04-19-follow-up-critical-vulnerability-in-singularity", 
+            "text": "Dear OSG Security Contacts,  This is a follow-up to the previously announced Critical vulnerability in singularity. OSG has released a new version singularity-2.4.6 that eliminates the vulnerability.  Note that for the security fix the new version puts a restriction on combinations of options that do bind mounts, and this is known to currently cause CMS jobs to fail.  CMS was notified but hasn\u2019t yet had the resources to change their production pilot scripts, so CMS sites will probably want to wait to do the upgrade until they get a go-ahead from CMS.  Sites that do not upgrade are encouraged to keep the previously announced mitigation in effect until they do upgrade.", 
+            "title": "OSG-SEC-2018-04-19 [FOLLOW-UP] Critical Vulnerability in Singularity"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-19-Critical-Vulnerability-in-Singularity-Update/#impacted-versions", 
+            "text": "All singularity versions from 2.2.1 and later on RHEL7 and its derivatives are affected.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-19-Critical-Vulnerability-in-Singularity-Update/#what-you-should-do", 
+            "text": "Upgrade to singularity-2.4.6 or leave the 'enable overlay = no' mitigation in place.    When you upgrade, watch for /etc/singularity/singularity.conf.rpmnew and clean it up.   RELATED LINKS:\n- https://ticket.grid.iu.edu/36742", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-19-Critical-Vulnerability-in-Singularity-Update/#other-information", 
+            "text": "Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "OTHER INFORMATION:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL/", 
+            "text": "OSG-SEC-2018-04-17 Vulnerability in MariaDB MySQL\n\n\nDear OSG Security Contacts,\n\n\nA vulnerability has been reported in the MariaDB MySQL that has been rated as \u2018up to HIGH\u2019 by EGI [1]. This vulnerability described in CVE-2018-2562, allows a low privileged attacker with network access via multiple protocols to compromise a MySQL Server.\n\n\nImpacted Versions/Environments:\n\n\nFollowing versions are affected \n- MariaDB 10.2.12 (prior versions have not been tested)\n- MariaDB 10.1.30 (prior versions have not been tested)\n- MariaDB 10.0.33 (prior versions have not been tested)\n- MariaDB 5.5.58 and prior \n\n\nAction Recommendations:\nSites running MySQL should update to the most current version if they are running distributions where a patch is available. The vulnerability has been patched in the following version of MariaDB. \n- MariaDB 10.2.13 and later [2]\n- MariaDB 10.1.31 and later [3]\n- MariaDB 10.0.34 and later [4] \n- MariaDB 5.5.59 [5] \n\n\nAlso ensure that MySQL is not directly accessible from the network unless it is essential for the application.\n\n\nHow It Works:\n\n\nThis vulnerability allows low privileged attacker with network access via multiple protocols to compromise a MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as unauthorized update, insert or delete access to some of MySQL Server accessible data. \n\n\nRelated Link(s):\n\n\n\n\nhttps://ticket.opensciencegrid.org/37043 \n\n\n\n\nMore Information:\n- [1] https://wiki.egi.eu/wiki/SVG:Advisory-SVG-CVE-2018-2562 \n- [2] https://mariadb.com/kb/en/library/mariadb-102/\n- [3] https://mariadb.com/kb/en/library/mariadb-101/ \n- [4] https://mariadb.com/kb/en/library/mariadb-100/ \n- [5] https://mariadb.com/kb/en/library/mariadb-55/ \n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-04-17 Vulnerability in MariaDB MySQL"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL/#osg-sec-2018-04-17-vulnerability-in-mariadb-mysql", 
+            "text": "Dear OSG Security Contacts,  A vulnerability has been reported in the MariaDB MySQL that has been rated as \u2018up to HIGH\u2019 by EGI [1]. This vulnerability described in CVE-2018-2562, allows a low privileged attacker with network access via multiple protocols to compromise a MySQL Server.", 
+            "title": "OSG-SEC-2018-04-17 Vulnerability in MariaDB MySQL"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL/#impacted-versionsenvironments", 
+            "text": "Following versions are affected \n- MariaDB 10.2.12 (prior versions have not been tested)\n- MariaDB 10.1.30 (prior versions have not been tested)\n- MariaDB 10.0.33 (prior versions have not been tested)\n- MariaDB 5.5.58 and prior   Action Recommendations:\nSites running MySQL should update to the most current version if they are running distributions where a patch is available. The vulnerability has been patched in the following version of MariaDB. \n- MariaDB 10.2.13 and later [2]\n- MariaDB 10.1.31 and later [3]\n- MariaDB 10.0.34 and later [4] \n- MariaDB 5.5.59 [5]   Also ensure that MySQL is not directly accessible from the network unless it is essential for the application.", 
+            "title": "Impacted Versions/Environments:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL/#how-it-works", 
+            "text": "This vulnerability allows low privileged attacker with network access via multiple protocols to compromise a MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as unauthorized update, insert or delete access to some of MySQL Server accessible data.", 
+            "title": "How It Works:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL/#related-links", 
+            "text": "https://ticket.opensciencegrid.org/37043    More Information:\n- [1] https://wiki.egi.eu/wiki/SVG:Advisory-SVG-CVE-2018-2562 \n- [2] https://mariadb.com/kb/en/library/mariadb-102/\n- [3] https://mariadb.com/kb/en/library/mariadb-101/ \n- [4] https://mariadb.com/kb/en/library/mariadb-100/ \n- [5] https://mariadb.com/kb/en/library/mariadb-55/   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "Related Link(s):"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/", 
+            "text": "OSG-SEC-2018-04-02 Critical Vulnerability in Singularity\n\n\nDear OSG Security Contacts,\n\n\nA vulnerability has been reported in Singularity that has been rated as \"Critical\". This vulnerability allows an attacker to create arbitrary world-writable directories and files anywhere outside of a container and in that way obtain root privileges. The vulnerability is in the Singularity 'overlay' option.  The vulnerability does not enable modifying existing files, it just allows creating new directories and files, but that is sufficient for privilege escalation.\n\n\nIMPACTED VERSIONS:\n\n\nAll Singularity versions from 2.2.1 and later on RHEL7 and its derivatives are affected.  All versions of singularity el7 rpms from OSG have the overlay option enabled by default.  The 2.2.1 version from EPEL has the option disabled by default but a system administrator may have enabled it.  RHEL6 and its derivatives are not affected because they do not support OverlayFS.  Non setuid-root installations are also not affected.\n\n\nWHAT YOU SHOULD DO:\n\n\nThere is no patched version yet.  Instead, you should urgently apply the following mitigation:\n\n\nDisable the overlay option by replacing the 'enable overlay' setting in '/etc/singularity/singularity.conf' with 'enable overlay = no'.  The VOs that currently use Singularity in production do not require this option.\n\n\nWe will send another announcement when a new version with a patch is available.\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.grid.iu.edu/36742\n\n\n\n\nOTHER INFORMATION:\n\n\nOSG was alerted about this issue by the EGI Software Vulnerability Group. \n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-04-02 Critical vulnerability in Singularity"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/#osg-sec-2018-04-02-critical-vulnerability-in-singularity", 
+            "text": "Dear OSG Security Contacts,  A vulnerability has been reported in Singularity that has been rated as \"Critical\". This vulnerability allows an attacker to create arbitrary world-writable directories and files anywhere outside of a container and in that way obtain root privileges. The vulnerability is in the Singularity 'overlay' option.  The vulnerability does not enable modifying existing files, it just allows creating new directories and files, but that is sufficient for privilege escalation.", 
+            "title": "OSG-SEC-2018-04-02 Critical Vulnerability in Singularity"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/#impacted-versions", 
+            "text": "All Singularity versions from 2.2.1 and later on RHEL7 and its derivatives are affected.  All versions of singularity el7 rpms from OSG have the overlay option enabled by default.  The 2.2.1 version from EPEL has the option disabled by default but a system administrator may have enabled it.  RHEL6 and its derivatives are not affected because they do not support OverlayFS.  Non setuid-root installations are also not affected.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/#what-you-should-do", 
+            "text": "There is no patched version yet.  Instead, you should urgently apply the following mitigation:  Disable the overlay option by replacing the 'enable overlay' setting in '/etc/singularity/singularity.conf' with 'enable overlay = no'.  The VOs that currently use Singularity in production do not require this option.  We will send another announcement when a new version with a patch is available.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/#related-links", 
+            "text": "https://ticket.grid.iu.edu/36742", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/#other-information", 
+            "text": "OSG was alerted about this issue by the EGI Software Vulnerability Group.   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "OTHER INFORMATION:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/", 
+            "text": "OSG-SEC-2018-03-27 SLURM Vulnerability\n\n\nDear OSG Security Contacts,\n\n\nA critical vulnerability was reported in Slurm which allows SQL injection attacks against the SlurmDBD component and it is described in CVE-2018-7033. \n\n\nIMPACTED VERSIONS:\n\n\nSLURM Versions 17.11.5 and 17.02.10 were released on March 15th 2018 with a fix for the mentioned vulnerability. All previous versions are considered to be vulnerable. \n\n\nWHAT IS THE VULNERABILITY:\n\n\n\"Several issues were discovered with incomplete sanitization of user-provided text strings, which could potentially lead to SQL injection attacks against SlurmDBD itself. Such exploits could lead to a loss of accounting data, or escalation of user privileges on the cluster.\" [1]\n\n\nWHAT YOU SHOULD DO:\n\n\n\n\nSites running SLURM are recommended to update to the most current versions as soon as possible if they have not done so already.\n\n\nAs stated in the security advisory by the software vendor: \"The only safe mitigation, aside from installing these updated versions, is to disable SlurmDBD on your system.\" [1]\n\n\n\n\nRELATED LINKS\n\n\n\n\nhttps://ticket.grid.iu.edu/36596\n\n\n\n\nREFERENCES\n\n\n\n\n[1] https://www.schedmd.com/news.php?id=201#OPT_201\n\n\n\n\nPlease contact the OSG security team [immediately] at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-03-27 Vulnerability in SLURM"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/#osg-sec-2018-03-27-slurm-vulnerability", 
+            "text": "Dear OSG Security Contacts,  A critical vulnerability was reported in Slurm which allows SQL injection attacks against the SlurmDBD component and it is described in CVE-2018-7033.", 
+            "title": "OSG-SEC-2018-03-27 SLURM Vulnerability"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/#impacted-versions", 
+            "text": "SLURM Versions 17.11.5 and 17.02.10 were released on March 15th 2018 with a fix for the mentioned vulnerability. All previous versions are considered to be vulnerable.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/#what-is-the-vulnerability", 
+            "text": "\"Several issues were discovered with incomplete sanitization of user-provided text strings, which could potentially lead to SQL injection attacks against SlurmDBD itself. Such exploits could lead to a loss of accounting data, or escalation of user privileges on the cluster.\" [1]", 
+            "title": "WHAT IS THE VULNERABILITY:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/#what-you-should-do", 
+            "text": "Sites running SLURM are recommended to update to the most current versions as soon as possible if they have not done so already.  As stated in the security advisory by the software vendor: \"The only safe mitigation, aside from installing these updated versions, is to disable SlurmDBD on your system.\" [1]", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/#related-links", 
+            "text": "https://ticket.grid.iu.edu/36596", 
+            "title": "RELATED LINKS"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/#references", 
+            "text": "[1] https://www.schedmd.com/news.php?id=201#OPT_201   Please contact the OSG security team [immediately] at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/", 
+            "text": "OSG-SEC-2018-03-13 SAML Vulnerabilities affecting multiple implementations\n\n\nDear OSG Security Contacts,\n\n\nThis security advisory is INFORMATIONAL.\n\n\nDuoLabs - the research team of Duo Security- has published the details of a new vulnerability that affects SAML-based single-sign-on (SSO) systems. \"This vulnerability can allow an attacker with authenticated access to trick SAML systems into authenticating as a different user without knowledge of the victim user's password.\" [1]\n\n\nIMPACTED VERSIONS:\n\n\nMultiple vendors and all SAML-based systems using these vulnerable libraries are affected by this flaw:\n\n\n\n\nOneLogin python-saml library before v2.4.0.\n\n\nOneLogin ruby-saml library before v1.7.2.\n\n\nClever - saml2-js library from 1.12.3 to 1.12.4 and 2.0.1 to 2.0.2 \n\n\nShibboleth  - XMLTooling library before V1.6.4. \n\n\nDuo Network Gateway before version 1.2.10.\n\n\n\n\nWHAT IS THE VULNERABILITY:\n\n\nThe vulnerability is a flaw in some XML libraries and the way the text is extracted from the XML elements, particularly, when comments are included. In addition, XML canonicalization removes comments as part of signature validation; adding comments to a SAML Response will not invalidate the signature. Now, given that SAML Responses contain strings that identify the authenticating user, an attacker can impersonate a legitimate user and access protected information by modifying the SAML assertion and inserting a comment in the XML element that contains the Subject NameID [1].\n\n\nThe Common Vulnerabilities and Exposures (CVEs) numbers assigned for this vulnerability are listed below:\n\n\n\n\nOneLogin python-saml library: CVE-2017-11427\n\n\nOneLogin ruby-saml library: CVE-2017-11428\n\n\nClever - saml2-js library: CVE-2017-11429\n\n\nShibboleth - XMLTooling library: CVE-2018-0489\n\n\nDuo Network Gateway: CVE-2018-7340\n\n\n\n\nWHAT YOU SHOULD DO:\n\n\nApply updates and security patches for all the affected software to mitigate this vulnerability. Any systems that rely on SAML-based SSO should be patched ASAP:\n\n\n\n\nOneLogin - python-saml https://github.com/onelogin/python-saml/releases\n\n\nOneLogin - ruby-saml: https://github.com/onelogin/ruby-saml/releases\n\n\nClever - saml2-js: https://engineering.clever.com/2018/02/28/clever-saml2-js-and-cve-2017-11429/\n\n\nShibboleth XMLTooling library: https://shibboleth.net/community/advisories/secadv_20180227.txt\n\n\nDuo Network Gateway: https://duo.com/labs/psa/duo-psa-2017-003\n\n\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.grid.iu.edu/36412\n\n\n\n\nREFERENCES\n\n\n\n\n[1] https://duo.com/blog/duo-finds-saml-vulnerabilities-affecting-multiple-implementations\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-03-13 SAML Vulnerabilities affecting multiple implementations"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/#osg-sec-2018-03-13-saml-vulnerabilities-affecting-multiple-implementations", 
+            "text": "Dear OSG Security Contacts,  This security advisory is INFORMATIONAL.  DuoLabs - the research team of Duo Security- has published the details of a new vulnerability that affects SAML-based single-sign-on (SSO) systems. \"This vulnerability can allow an attacker with authenticated access to trick SAML systems into authenticating as a different user without knowledge of the victim user's password.\" [1]", 
+            "title": "OSG-SEC-2018-03-13 SAML Vulnerabilities affecting multiple implementations"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/#impacted-versions", 
+            "text": "Multiple vendors and all SAML-based systems using these vulnerable libraries are affected by this flaw:   OneLogin python-saml library before v2.4.0.  OneLogin ruby-saml library before v1.7.2.  Clever - saml2-js library from 1.12.3 to 1.12.4 and 2.0.1 to 2.0.2   Shibboleth  - XMLTooling library before V1.6.4.   Duo Network Gateway before version 1.2.10.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/#what-is-the-vulnerability", 
+            "text": "The vulnerability is a flaw in some XML libraries and the way the text is extracted from the XML elements, particularly, when comments are included. In addition, XML canonicalization removes comments as part of signature validation; adding comments to a SAML Response will not invalidate the signature. Now, given that SAML Responses contain strings that identify the authenticating user, an attacker can impersonate a legitimate user and access protected information by modifying the SAML assertion and inserting a comment in the XML element that contains the Subject NameID [1].  The Common Vulnerabilities and Exposures (CVEs) numbers assigned for this vulnerability are listed below:   OneLogin python-saml library: CVE-2017-11427  OneLogin ruby-saml library: CVE-2017-11428  Clever - saml2-js library: CVE-2017-11429  Shibboleth - XMLTooling library: CVE-2018-0489  Duo Network Gateway: CVE-2018-7340", 
+            "title": "WHAT IS THE VULNERABILITY:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/#what-you-should-do", 
+            "text": "Apply updates and security patches for all the affected software to mitigate this vulnerability. Any systems that rely on SAML-based SSO should be patched ASAP:   OneLogin - python-saml https://github.com/onelogin/python-saml/releases  OneLogin - ruby-saml: https://github.com/onelogin/ruby-saml/releases  Clever - saml2-js: https://engineering.clever.com/2018/02/28/clever-saml2-js-and-cve-2017-11429/  Shibboleth XMLTooling library: https://shibboleth.net/community/advisories/secadv_20180227.txt  Duo Network Gateway: https://duo.com/labs/psa/duo-psa-2017-003", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/#related-links", 
+            "text": "https://ticket.grid.iu.edu/36412", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/#references", 
+            "text": "[1] https://duo.com/blog/duo-finds-saml-vulnerabilities-affecting-multiple-implementations   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
+            "title": "REFERENCES"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/", 
+            "text": "OSG-SEC-2018-03-08 Limiting Singularity image types\n\n\nDear OSG Security Contacts,\n\n\nThis security advisory is INFORMATIONAL for OSG sites that have installed Singularity. The OSG Security Team would like to inform sites of how they can reduce risk of unknown exploits by disabling unused features.\n\n\nThe default configuration of Singularity allows image types that carry a higher theoretical risk of attack. These image types are not currently used on the OSG, no specific exploit has been found, and we believe that any discovered vulnerability would be patched by RedHat. For those reasons, sites may choose whether or not to protect against the potential vulnerability. This issue has been documented in the OSG singularity install documentation for a few months so you may already be aware of it, but there has been no OSG security announcement about it before now.\n\n\nIMPACTED VERSIONS:\n\n\n\n\nRedHat 6 \n 7 and its derivatives are affected, and all versions of Singularity.\n\n\n\n\nWHAT IS THE POTENTIAL VULNERABILITY:\n\n\nBy default the setuid (RPM) distribution of Singularity allows unprivileged users to mount image files via loopback devices. This carries an inherently higher exposure to potential kernel exploits, as discussed in [1]. There are no known public exploits at this time, but Linux kernel developers are concerned enough to refuse allowing the capability in the kernel. Singularity enables the capability via a setuid-root function.\n\n\nNo OSG VOs require mounting image files via loopback devices with Singularity on worker nodes. They instead use operating system images in directory trees distributed in CVMFS.  However, as sites utilize OSG-provided Singularity for non-OSG use cases, we have not changed the upstream default value. Changing the RPM\u2019s default values could potentially cause problems when upgrading between Singularity versions.\n\n\nSites should balance their understanding of the elevated risk with local use cases when planning any configuration change.\n\n\nWHAT YOU SHOULD DO:\n\n\nRead the \u201cLimiting Image Types\u201d section in the OSG documentation for installing Singularity [2] and decide whether or not to set the number of loopback devices to zero. Note the warning about watching out for singularity.conf.rpmnew after upgrades.\n\n\nSites should also consider limiting their vulnerability further by installing only the singularity-runtime rpm and not the singularity rpm on worker nodes.\n\n\nRELATED LINKS:\n\n\n\n\nhttps://ticket.grid.iu.edu/36388\n\n\n\n\nREFERENCES:\n\n\n\n\n[1] https://lwn.net/Articles/652468/\n\n\n[2] http://opensciencegrid.github.io/docs/worker-node/install-singularity/#limiting-image-types\n\n\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team", 
+            "title": "OSG-SEC-2018-03-08 Limiting Singularity image types"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/#osg-sec-2018-03-08-limiting-singularity-image-types", 
+            "text": "Dear OSG Security Contacts,  This security advisory is INFORMATIONAL for OSG sites that have installed Singularity. The OSG Security Team would like to inform sites of how they can reduce risk of unknown exploits by disabling unused features.  The default configuration of Singularity allows image types that carry a higher theoretical risk of attack. These image types are not currently used on the OSG, no specific exploit has been found, and we believe that any discovered vulnerability would be patched by RedHat. For those reasons, sites may choose whether or not to protect against the potential vulnerability. This issue has been documented in the OSG singularity install documentation for a few months so you may already be aware of it, but there has been no OSG security announcement about it before now.", 
+            "title": "OSG-SEC-2018-03-08 Limiting Singularity image types"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/#impacted-versions", 
+            "text": "RedHat 6   7 and its derivatives are affected, and all versions of Singularity.", 
+            "title": "IMPACTED VERSIONS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/#what-is-the-potential-vulnerability", 
+            "text": "By default the setuid (RPM) distribution of Singularity allows unprivileged users to mount image files via loopback devices. This carries an inherently higher exposure to potential kernel exploits, as discussed in [1]. There are no known public exploits at this time, but Linux kernel developers are concerned enough to refuse allowing the capability in the kernel. Singularity enables the capability via a setuid-root function.  No OSG VOs require mounting image files via loopback devices with Singularity on worker nodes. They instead use operating system images in directory trees distributed in CVMFS.  However, as sites utilize OSG-provided Singularity for non-OSG use cases, we have not changed the upstream default value. Changing the RPM\u2019s default values could potentially cause problems when upgrading between Singularity versions.  Sites should balance their understanding of the elevated risk with local use cases when planning any configuration change.", 
+            "title": "WHAT IS THE POTENTIAL VULNERABILITY:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/#what-you-should-do", 
+            "text": "Read the \u201cLimiting Image Types\u201d section in the OSG documentation for installing Singularity [2] and decide whether or not to set the number of loopback devices to zero. Note the warning about watching out for singularity.conf.rpmnew after upgrades.  Sites should also consider limiting their vulnerability further by installing only the singularity-runtime rpm and not the singularity rpm on worker nodes.", 
+            "title": "WHAT YOU SHOULD DO:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/#related-links", 
+            "text": "https://ticket.grid.iu.edu/36388", 
+            "title": "RELATED LINKS:"
+        }, 
+        {
+            "location": "/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/#references", 
+            "text": "[1] https://lwn.net/Articles/652468/  [2] http://opensciencegrid.github.io/docs/worker-node/install-singularity/#limiting-image-types   Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.   OSG Security Team", 
             "title": "REFERENCES:"
         }, 
         {
