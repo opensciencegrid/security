@@ -12,6 +12,7 @@ pages:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
   - Announcement Details:
+    - OSG-SEC-2018-10-18 Vulnerability in Linux kernel's create_elf_tables() function Update: 'vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update.md'
 - CILogon OSG CA:
   - CILogon OSG CA: 'OSGCertificateService.md'
   - Frequently Asked Questions (FAQ): 'CILogonOSGFAQ.md'
