@@ -21,10 +21,10 @@ OpenAFS uses the Rx RPC protocol for all remote operations, and uses the rxgen u
 OpenAFS uses the Rx RPC protocol for all remote operations; RPC inputs and outputs are described using the XDR data description language. XDR includes a facility for variable-length (up to 4GB) arrays, optionally subject to a smaller bound on their size. For several RPCs, OpenAFS servers would accept and attempt to unmarshall into memory input arrays up to the full 4GB limit; length and authentication checks in RPC handler functions would be applied only after low-level memory allocation and unmarshalling. This allows unauthenticated attackers to consume large amounts of server memory and network bandwidth, producing service degradation or denial of service to legitimate clients. [3]
 
 ## MORE INFORMATION:
-- [1] http://www.openafs.org/pages/security/OPENAFS-SA-2018-001.txt
-- [2] http://www.openafs.org/pages/security/OPENAFS-SA-2018-002.txt
-- [3] http://www.openafs.org/pages/security/OPENAFS-SA-2018-003.txt
-- [4] https://www.openafs.org/release/index.html 
+- [1] <http://www.openafs.org/pages/security/OPENAFS-SA-2018-001.txt>
+- [2] <http://www.openafs.org/pages/security/OPENAFS-SA-2018-002.txt>
+- [3] <http://www.openafs.org/pages/security/OPENAFS-SA-2018-003.txt>
+- [4] >https://www.openafs.org/release/index.html>
 
 Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. 
 
