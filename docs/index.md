@@ -13,12 +13,7 @@ If you suspect a security problem, please **report it immediately**.
 !!! note
     Also do NOT forget to report security incidents to your **local/home organization's** incident response team.
 
-Please promptly report security incidents involving OSG resources using any of the following methods. The phone and email address is monitored 24\*7:
-
--   [Submit a Ticket](https://ticket.opensciencegrid.org/goc/security)
--   Call the Grid Operations Center (GOC) at +1 317-278-9699.
--   Send email to <security@opensciencegrid.org>. If you would like to submit encrypted information, see Documentation.SecureEmail for instructions.
-
+Please promptly report security incidents involving OSG resources via email to  <security@opensciencegrid.org>. 
 Please include the following information in your report:
 
 -   Your name, email address, phone number.
@@ -31,7 +26,7 @@ Please include the following information in your report:
 ## Mailing Lists
 *The following addresses are open for use by all OSG members, partners, and collaborators:*
 
-**<security@opensciencegrid.org>** is the standard email address open to the OSG public for reporting of security incidents. Mail to **<security@opensciencegrid.org>** is received by the OSG Grid Operations Center (GOC). It is monitored 24x7 and filtered for spam or other off-topic content. The GOC acts immediately on all mail incoming to this address.
+**<security@opensciencegrid.org>** is the standard email address open to the OSG public for reporting of security incidents. 
 
 *The following addresses are for internal use by OSG staff:*
 
@@ -54,6 +49,4 @@ The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.o
 
 - OSG Security Officer: Susan Sons sesons AT iu.edu
 - Zalak Shah: zsshah AT iu.edu
-- Dave Dykstra: dwd AT fnal.gov
-- Lisa Giachetti: lisa AT fnal.gov
 - Jeny Teheran: jteheran AT fnal.gov

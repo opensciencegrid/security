@@ -1,6 +1,10 @@
 # OSG Certificate Service
 
-OSG is collaborating with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.
+!!! warning
+    OSG CA stopped issuing certificates on May 31st, 2018. 
+    After this date, new certificates from the CILogon OSG CA cannot be requested and therefore will no longer be issued.         All certificates issued by CILogon OSG CA will continue to work until their expiration dates. The CILogon OSG CA will         remain in the IGTF distribution until July 2019. 
+
+OSG collaborated with XSEDE team to create a new CA service, CILogon OSG CA. Combined with OSG Registration Authority and the OSG Information Management System, the CILogon OSG CA will provide the essential certificate services to the OSG community, including the personal and host/service certificates.
 
 ## OSG Information Security Officer’s position paper on the Let’s Encrypt CA for Host Certificate Signing
 - [OSG Information Security Officer’s position paper on the Let’s Encrypt CA for Host Certificate Signing](OSGISOppLetsEncrypt.pdf)
@@ -61,11 +65,4 @@ Fax: 812-856-7400
 
 osg-security-team AT opensciencegrid.org
 sesons AT iu.edu
-```
-
-For any support problems, fault reporting and inquiries, please contact the Grid Operations Center at
-
-```
-help@opensciencegrid.org
-+1 317-278-9699
 ```
