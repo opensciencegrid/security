@@ -24,7 +24,7 @@ OpenAFS uses the Rx RPC protocol for all remote operations; RPC inputs and outpu
 - [1] <http://www.openafs.org/pages/security/OPENAFS-SA-2018-001.txt>
 - [2] <http://www.openafs.org/pages/security/OPENAFS-SA-2018-002.txt>
 - [3] <http://www.openafs.org/pages/security/OPENAFS-SA-2018-003.txt>
-- [4] >https://www.openafs.org/release/index.html>
+- [4] <https://www.openafs.org/release/index.html>
 
 Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. 
 
