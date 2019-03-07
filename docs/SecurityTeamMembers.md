@@ -6,3 +6,4 @@ The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.o
 - Zalak Shah: zsshah AT iu.edu
 - Dave Dykstra: dwd AT fnal.gov
 - Jeny Teheran: jteheran AT fnal.gov
+- Mike Stanfield: stanfiem AT iu.edu 
