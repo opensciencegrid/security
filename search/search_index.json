@@ -56,6 +56,31 @@
             "title": "OSG Security Announcements for vulnerabilities in x86"
         },
         {
+            "location": "/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity/",
+            "text": "OSG-SEC-2019-05-14 Vulnerability in Singularity\n\n\nDear OSG users,\n\n\nImpacted:  Singularity 3.x.x, all versions\nSeverity:   High\n\n\nThe OSG Security Team wants to inform you that a high severity vulnerability has been announced for privileged installations of all Singularity 3.x.x versions.  A new version with a fix to the vulnerability is being prepared by OSG.  The current primary Singularity version supported by OSG, version 2.6.1, is not vulnerable.  OSG does however support a 3.x.x version in the osg-upcoming yum repository and some sites have installed it.\n\n\nWe will send a follow up announcement when a new version is available, but meanwhile there is a mitigation, below.\n\n\nWHAT YOU SHOULD DO:\n\n\nIf you are using privileged Singularity 3.x.x on a RHEL7-based distribution, while waiting for the new version either downgrade to version 2.6.1 or enable unprivileged Singularity [1] and set \n\n\n    allow setuid = no\n\n\n\n\nin singularity.conf.  \n\n\nIf you are using Singularity 3.x.x on a RHEL6-based distribution, downgrade to version 2.6.1.\n\n\nHOW IT WORKS:\n\n\nA malicious user with local/network access to the host system (e.g. ssh) could exploit this vulnerability due to insecure permissions allowing a user to edit files within /run/singularity/instances/sing/\n/\n. The manipulation of those files can change the behavior of the starter-suid program when instances are joined resulting in potential privilege escalation on the host [2] [3].\n\n\nREFERENCES:\n\n\n[1] https://opensciencegrid.org/docs/worker-node/install-singularity/#enabling-unprivileged-singularity\n\n\n[2] https://github.com/sylabs/singularity/releases/tag/v3.2.0\n\n\n[3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-11328\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.\n\n\nOSG Security Team",
+            "title": "OSG-SEC-2019-05-14 Vulnerability in Singularity"
+        },
+        {
+            "location": "/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity/#osg-sec-2019-05-14-vulnerability-in-singularity",
+            "text": "Dear OSG users,  Impacted:  Singularity 3.x.x, all versions\nSeverity:   High  The OSG Security Team wants to inform you that a high severity vulnerability has been announced for privileged installations of all Singularity 3.x.x versions.  A new version with a fix to the vulnerability is being prepared by OSG.  The current primary Singularity version supported by OSG, version 2.6.1, is not vulnerable.  OSG does however support a 3.x.x version in the osg-upcoming yum repository and some sites have installed it.  We will send a follow up announcement when a new version is available, but meanwhile there is a mitigation, below.",
+            "title": "OSG-SEC-2019-05-14 Vulnerability in Singularity"
+        },
+        {
+            "location": "/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity/#what-you-should-do",
+            "text": "If you are using privileged Singularity 3.x.x on a RHEL7-based distribution, while waiting for the new version either downgrade to version 2.6.1 or enable unprivileged Singularity [1] and set       allow setuid = no  in singularity.conf.    If you are using Singularity 3.x.x on a RHEL6-based distribution, downgrade to version 2.6.1.",
+            "title": "WHAT YOU SHOULD DO:"
+        },
+        {
+            "location": "/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity/#how-it-works",
+            "text": "A malicious user with local/network access to the host system (e.g. ssh) could exploit this vulnerability due to insecure permissions allowing a user to edit files within /run/singularity/instances/sing/ / . The manipulation of those files can change the behavior of the starter-suid program when instances are joined resulting in potential privilege escalation on the host [2] [3].",
+            "title": "HOW IT WORKS:"
+        },
+        {
+            "location": "/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity/#references",
+            "text": "[1] https://opensciencegrid.org/docs/worker-node/install-singularity/#enabling-unprivileged-singularity  [2] https://github.com/sylabs/singularity/releases/tag/v3.2.0  [3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-11328  Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.  OSG Security Team",
+            "title": "REFERENCES:"
+        },
+        {
             "location": "/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update/",
             "text": "OSG-SEC-2018-10-18 [UPDATE] Vulnerability in Linux kernel's create_elf_tables() function\n\n\nDear OSG Security Contacts,\n\n\nThis is an update to the prior announcement \"OSG-SEC-2018-10-02 Vulnerability in Linux kernel's create_elf_tables() function\". This fix is only for HTCondor and patches the vulnerability that could potentially allow an attacker to escalate privileges. \n\n\nACTION RECOMMENDATIONS:\n\n\nBefore you proceed further please note that these instructions to set memory limits will kill running jobs, therefore draining is recommended to prevent new jobs from starting.\n\n\n\n\nFor HTCondor v8.6.x+ installed from RPMs or DEBs on RHEL7, Centos7, SL7, Debian, or Ubuntu (running systemd):\n\n\n\n\nAs root run the following commands:\n\n\n# mkdir /etc/systemd/system/condor.service.d\n# echo -e '[Service]\\nLimitSTACK=16G\\n' > \\ /etc/systemd/system/condor.service.d/CVE-2018-14634.conf\n# systemctl restart condor\n\n\n\n\n\n\nFor HTCondor v8.6.x+ installed from RPMs on RHEL6, SL6, Centos6 (running init):\n\n\n\n\nAs root run the following commands:\n\n\n# sed -i 's/ULIMIT_FLAGS=.*/ULIMIT_FLAGS=\"-Hs 16000000\"/' /etc/sysconfig/condor\n# service condor restart\n\n\n\n\nRecommendations for other affected systems can be found in the original announcement.\n\n\nPlease contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. \n\n\nOSG Security Team",
             "title": "OSG-SEC-2018-10-18 Vulnerability in Linux kernel\u2019s create_elf_tables() function Update"

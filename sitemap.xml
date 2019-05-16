@@ -21,6 +21,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity/</loc>
+     <lastmod>2019-05-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update/</loc>
      <lastmod>2019-05-16</lastmod>
      <changefreq>daily</changefreq>
