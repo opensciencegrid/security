@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2019-05-14  | Vulnerability in Singularity | [OSG-SEC-2019-05-14](/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity.md) |     |
 | 2018-10-18  | Vulnerability in Linux kernel's create_elf_tables() function | [OSG-SEC-2018-10-18 UPDATE](/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update.md) |     |
 | 2018-10-04  | Vulnerability in RedHat Ceph Storage | [OSG-SEC-2018-10-04](/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage.md) |     |
 | 2018-10-02  | Vulnerability in Linux kernel's create_elf_tables() function | [OSG-SEC-2018-10-02](/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel.md) |     |
