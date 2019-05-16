@@ -12,6 +12,7 @@ pages:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
   - Announcement Details:
+    - OSG-SEC-2019-05-14 Vulnerability in Singularity: '/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity.md'
     - OSG-SEC-2018-10-18 Vulnerability in Linux kernel’s create_elf_tables() function Update: 'vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update.md'
     - OSG-SEC-2018-10-04 Vulnerability in RedHat Ceph Storage: 'vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage.md'
     - OSG-SEC-2018-10-02 Vulnerability in Linux kernel’s create_elf_tables() function: 'vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel.md'
