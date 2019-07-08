@@ -13,7 +13,7 @@ pages:
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
   - Announcement Details:
     - OSG-SEC-2019-05-14 Vulnerability in Singularity: 'vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity.md'
-    - OSG-SEC-2018-12-12 Critical vulnerability in Singularity Update 2 'vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update-2.md'
+    - OSG-SEC-2018-12-12 Critical vulnerability in Singularity Update 2: 'vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update-2.md'
     - OSG-SEC-2018-12-12 Critical vulnerability in Singularity Update: 'vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update.md'
     - OSG-SEC-2018-12-12 Critical vulnerability in Singularity: 'vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity.md'
     - OSG-SEC-2018-10-18 Vulnerability in Linux kernel’s create_elf_tables() function Update: 'vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update.md'
