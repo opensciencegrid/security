@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2019-07-25  | Vulnerability in Squid | [OSG-SEC-2019-07-25](/vulns/OSG-SEC-2019-07-25-Vulnerability-in-Squid.md) |     |
 | 2019-07-03  | Critical vulnerability in Singularity Update 2 | [OSG-SEC-2018-12-12 UPDATE 2](/vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update-2.md) |     |
 | 2019-05-14  | Vulnerability in Singularity | [OSG-SEC-2019-05-14](/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity.md) |     |
 | 2018-12-12  | Critical vulnerability in Singularity Update | [OSG-SEC-2018-12-12 UPDATE](/vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update.md) |     |
