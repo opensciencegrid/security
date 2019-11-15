@@ -12,6 +12,7 @@ pages:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
   - Announcement Details:
+    - OSG-SEC-2019-11-15 Vulnerability in Squid UPDATE 2: 'vulns/OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2.md'
     - OSG-SEC-2019-11-11 Vulnerability in Squid UPDATE: 'vulns/OSG-SEC-2019-11-11-Vulnerability-in-Squid-UPDATE.md'
     - OSG-SEC-2019-11-08 Vulnerability in Squid: 'vulns/OSG-SEC-2019-11-08-Vulnerability-in-Squid.md'
     - OSG-SEC-2019-07-25 Vulnerability in Squid: 'vulns/OSG-SEC-2019-07-25-Vulnerability-in-Squid.md'
