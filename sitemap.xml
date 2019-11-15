@@ -21,6 +21,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2/</loc>
+     <lastmod>2019-11-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2019-11-11-Vulnerability-in-Squid-UPDATE/</loc>
      <lastmod>2019-11-15</lastmod>
      <changefreq>daily</changefreq>
