@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2019-11-15  | Vulnerability in Squid UPDATE 2| [OSG-SEC-2019-11-15](/vulns/OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2.md) |     |
 | 2019-11-11  | Vulnerability in Squid UPDATE| [OSG-SEC-2019-11-11](/vulns/OSG-SEC-2019-11-11-Vulnerability-in-Squid-UPDATE.md) |     |
 | 2019-11-08  | Vulnerability in Squid | [OSG-SEC-2019-11-08](/vulns/OSG-SEC-2019-11-08-Vulnerability-in-Squid.md) |     |
 | 2019-07-25  | Vulnerability in Squid | [OSG-SEC-2019-07-25](/vulns/OSG-SEC-2019-07-25-Vulnerability-in-Squid.md) |     |
