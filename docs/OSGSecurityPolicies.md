@@ -8,7 +8,7 @@ OSG security policies are developed by the OSG security team, when appropriate i
 
 The following policies are approved and in effect in OSG:
 
--   [Master Information Security Policy & Procedures](https://github.com/opensciencegrid/security/docs/policy/Master%20Information%20Security%20Policy%20%26%20Procedures%20v1.0.pdf)
+-   [Master Information Security Policy & Procedures](https://github.com/opensciencegrid/security/blob/master/docs/policy/Master%20Information%20Security%20Policy%20%26%20Procedures%20v1.0.pdf)
     - Status: v1.0 Approved by OSG Executive Director on Dec-1-2019
 -   Grid Site Operations Policy approved by OSG Council on 2007
     - [OSG Doc 676](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=676)
@@ -33,10 +33,10 @@ The following policies are approved and in effect in OSG:
     -   Status: v1.0 approved by OSG Facilities Aug-09-2007. v2.2 approved by OSG Executive Director on Dec-16-2008.
     -   [JSPG Doc](https://edms.cern.ch/document/428038) v2.5 approved by WLCG and EGEE. v2.8 approved by WLCG MB and EGEE TMB Aug 2008.
     -   Note: v1.0 of the OSG policy adds operational details to the JSPG policy.
--   [OSG Service Container Security Policy](https://github.com/opensciencegrid/security/docs/policy/OSG%20Service%20Container%20Security%20Policy%20v1.0.pdf)
+-   [OSG Service Container Security Policy](https://github.com/opensciencegrid/security/blob/master/docs/policy/OSG%20Service%20Container%20Security%20Policy%20v1.0.pdf)
     - v1.0 Approved by OSG Executive Director on Dec-1-2019
 -   Security Incident Response Policy
-    - [Incident Response policies and Procedures](https://github.com/opensciencegrid/security/docs/policy/Incident%20Response%20Policies%20and%20Procedures%20v1.0.pdf) 
+    - [Incident Response policies and Procedures](https://github.com/opensciencegrid/security/blob/master/docs/policy/Incident%20Response%20Policies%20and%20Procedures%20v1.0.pdf) 
         - v1.0 Approved by OSG Executive Director on Dec-1-2019
     - [Incident Discovery/Reporting](IncidentDiscoveryReporting)
     - [OSG Doc 875](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=875)
