@@ -26,7 +26,8 @@ Please include the following information in your report:
 ## Mailing Lists
 *The following addresses are open for use by all OSG members, partners, and collaborators:*
 
-**<security@opensciencegrid.org>** is the standard email address open to the OSG public for reporting of security incidents. 
+**<security@opensciencegrid.org>** is the standard email address open to the OSG public for reporting of security incidents.
+**<security-sig@opensciencegrid.org>** is an open security discussion group for **non-sensitive** security topics related to OSG.  You can join this mailing list [here](/docs/fnal-mail-list-join.md). 
 
 *The following addresses are for internal use by OSG staff:*
 
@@ -47,6 +48,8 @@ The team key is available from the [MIT PGP server](http://pgp.mit.edu:11371/pks
 
 The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.org
 
-- OSG Security Officer: Susan Sons sesons AT iu.edu
+- OSG Security Officer: Mike Standfield mstanfiem AT iu.edu
 - Zalak Shah: zsshah AT iu.edu
 - Jeny Teheran: jteheran AT fnal.gov
+- Josh Drake: drakejc AT iu.edu
+- Adrian Crenshaw: adrian AT iu.edu
