@@ -27,7 +27,8 @@ Please include the following information in your report:
 *The following addresses are open for use by all OSG members, partners, and collaborators:*
 
 **<security@opensciencegrid.org>** is the standard email address open to the OSG public for reporting of security incidents.
-**<security-sig@opensciencegrid.org>** is an open security discussion group for **non-sensitive** security topics related to OSG.  You can join this mailing list [here](/docs/fnal-mail-list-join.md). 
+
+**<security-sig@opensciencegrid.org>** is an open security discussion group for **non-sensitive** security topics related to OSG.  You can join this mailing list [here](/fnal-mail-list-join.md). 
 
 *The following addresses are for internal use by OSG staff:*
 
