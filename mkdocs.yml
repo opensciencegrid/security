@@ -60,6 +60,7 @@ pages:
   - Secure Communications in OSG: 'SecureCommunicationsOSG.md'
   - Software Vulnerability Handling: 'SoftwareVulnerabilityHandling.md'
   - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
+  - Joining Security-SIG mailing list: 'fnal-mail-list-join.md'
 - Integrated Security for the OSG:
   - Security Awareness for the OSG: 'SecurityAwarenessForTheOSG.md'
   - Security User Responsibilities: 'SecurityUserResponsibilities.md'

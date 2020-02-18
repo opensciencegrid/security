@@ -1,4 +1,4 @@
-#Joining the Security-SIG Mailing List on FNAL List Serv
+# Joining the Security-SIG Mailing List on FNAL List Serv
 
 ### Creating an FNAL Mail Server Account
 
