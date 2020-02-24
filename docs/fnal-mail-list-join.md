@@ -1,6 +1,14 @@
+# Joining the Security-SIG Mailing List via listserv commands
+
+### Send an email to the listserv from your desired account
+
+From the email address you wish to subscribe with, send an email to **listserv at listserv.fnal.gov**.  Use any subject line you wish and in the message body use only the phrase **"SUB security-sig"**.
+
+After a few moments the listserv will send a confirmation back to the sender, which you may click or follow the instructions on to confirm membership.  A few moments later the final join confirmation should arrive.
+
 # Joining the Security-SIG Mailing List on FNAL List Serv
 
-### Creating an FNAL Mail Server Account
+### Creating an FNAL Mail Server Account via the Web
 
 In order to join a mailing list hosted on FNAL you will need an account on [https://listserv.fnal.gov](https://listserv.fnal.gov). From the site’s main page, click on LISTSERV Password - Create or Reset, then use your desired email address and a secure password to create an account and verify ownership of the email address by visiting the link contained in the confirmation email from FNAL.
 
