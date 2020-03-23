@@ -1,10 +1,10 @@
 **Open Science Grid Master Information Security Policy and Procedures**
 ========================================================================
 
-Version 1.0
+Version 1.0  
 Updated 1 Dec 2019
 
-Authors: Zalak Shah, Mike Stanfield
+Authors: Zalak Shah, Mike Stanfield  
 Information Security Officer: Mike Stanfield
 
 # 1 Introduction
@@ -23,9 +23,9 @@ OSG maintains a position of Information Security Officer (ISO), who reports to t
 
 Contact information for the ISO follows:
 
-ISO: Mike Stanfield
-Email: [stanfiem@iu.edu](mailto:stanfiem@iu.edu)
-Office Phone: 812-856-1385
+ISO: Mike Stanfield  
+Email: [stanfiem@iu.edu](mailto:stanfiem@iu.edu)  
+Office Phone: 812-856-1385  
 OSG Security Team: [security@opensciencegrid.org](mailto:security@opensciencegrid.org)
 
 ### 2.3 Project Personnel and Staff

@@ -1,10 +1,10 @@
 **OSG Incident Response Policies and Procedures*
 ========================================================================
 
-Version 1.0
+Version 1.0  
 Updated 1 Dec 2019
 
-Authors: Zalak Shah
+Authors: Zalak Shah  
 Information Security Officer: Mike Stanfield
 
 ## 1 Introduction and Scope
@@ -41,6 +41,8 @@ The following list includes primary entities involved in incident response and t
 * **OSG Incident Response Team (“IR Team”)**
     * An incident-specific, ad-hoc team formed to handle an incident.
     * Will often include members of Security, Software, Operations and Release teams, but actual composition will vary depending on the nature of each incident.
+
+
 * **OSG Incident Response Lead**
     * Designated Security team member assigned by ISO.
     * Responsibilities:
@@ -51,18 +53,22 @@ The following list includes primary entities involved in incident response and t
         * Ensure that a complete and correct record of the incident is maintained
         * Ensure that a complete and correct IR report is written
     * Authorities:
-        * Act in place of the ISO making cybersecurity risk decisions during an incident if needed when the ISO1 is unavailable.
+        * Act in place of the ISO making cybersecurity risk decisions during an incident if needed when the ISO[^1] is unavailable.
         * Authorize the suspension or removal of any OSG resource, user, service, job, VO, etc. until the incident has been resolved and related issues remediated.
         * Determine what remediations are appropriate to resolve an incident, and oversee the process of incident response.
         * Enlist OSG staff to assist with incident response or join the Incident Responseteam, ideally in coordination with their management.
+
+
 * **OSG Service Owners**
     * Refer to the ​[OSG Service Catalog​](https://docs.google.com/spreadsheets/d/1cIu0YcNAT8Kiy5u2xBz8ZzG2zImVK3pRX9iFHegIjUk/edit#gid=0) for Point of Contact for various OSG services.
     * Responsibilities:
-        * Leads interactions with their campus security and IT staff.
+        * Leads interactions with their campus security and IT staff[^2].
         * Assists the IR team as needed in responding to an incident, for example by retrieving logs from affected systems, or making prescribed changes to remediate vulnerabilities.
     * Authorities:
         * Disconnect the OSG service from the network, ideally in consultation with the OSG ISO and OSG Management.
         * Suspend OSG users and similar entities.
+
+
 * **Resource Provider administrator, VO administrator or security point of contact:**
     * Responsibilities:
         * Work with relevant site’s local security team during an incident, as appropriate.
@@ -71,6 +77,8 @@ The following list includes primary entities involved in incident response and t
         * Remove the resource center or VO from OSG if it may be harming OSG or OSG users/resources as a result of an ongoing security incident.
     * Authorities: 
         * Request to the OSG ISO or IR Lead to approve the reconnection of the resource center or VO to OSG after issues related to a security incident have been remediated.
+
+
 * **OSG ISO** (Stanfield, IU):
     * Backups, in order of preference:
         * Zalak Shah, IU
@@ -82,12 +90,17 @@ The following list includes primary entities involved in incident response and t
         * Ensures appropriate communication with other institutions’ Security Offices if needed.
     * Authorities:
         * Declares a security incident, when deemed necessary, and names an Incident Response Lead for that incident.
+
+
 * **OSG Security Team** (Shah, Stanfield, Drake, Crenshaw (IU), Teheran (FNL)):
     * Responsibilities:
         * Help as requested by the IR Lead during an incident.
         * Perform post-mortem analysis of incident in conjunction with the IR team and other relevant parties.
         * Maintain readiness for incidents.
         * Own the follow-through on issues discovered during incidents and security exercises.
+
+[^1]: For statements such as this, there is an implied “and backups” for the role under discussion, hence the chain of authority is ISO, backup ISO, IR Lead.
+[^2]: The OSG Service Owner owns this responsibility since they are physically located at a different institution where the ISO is not.
 
 ## 4 Incident Response Stages
 
@@ -103,7 +116,7 @@ The OSG Security team, service owners, Operations and Software teams will mainta
 * A list of IP addresses and their associated network hosts will be maintained and updated at least every 30 days.
 * The OSG Security team, with the help of the service owners, will maintain an up-to-date inventory of all the software packages and dependencies for each individual OSG service.
 * The OSG Security team will monitor notifications/announcements regarding the vulnerabilities and security patches on a regular basis and will check whether any of the vulnerabilities could potentially affect the OSG service(s) or the users based on an existing inventory.
-* The OSG Security team’s web page under GitHub ​https://opensciencegrid.org/security/​ will have directions for OSG users and other outside parties about how they can report a security incident to the OSG. To contact the OSG Security team regarding a suspected incident please email security@opensciencegrid.org​ - you may encrypt your email for privacy using GPG (Key id#7FD42669, fingerprint 6E5F 4DD8 7ABC 9F68 A49B F3CA 15E3 B3AD 7FD4 2669).
+* The OSG Security team’s web page under [GitHub](​https://opensciencegrid.org/security/​) will have directions for OSG users and other outside parties about how they can report a security incident to the OSG. To contact the OSG Security team regarding a suspected incident please email [security@opensciencegrid.org​](mailto:security@opensciencegrid.org) - you may encrypt your email for privacy using GPG (Key id#7FD42669, fingerprint 6E5F 4DD8 7ABC 9F68 A49B F3CA 15E3 B3AD 7FD4 2669).
 * The Security team will regularly audit the above items to ensure they are in place and lead a monthly security exercise to ensure preparedness and increase the maturity of operational security at OSG.
 
 ### 4.2 Incident Initialization
@@ -120,13 +133,16 @@ Notification from the OSG staff, and reports from OSG users and third parties sh
 
 **ACTION by ISO​:** The ISO will make the determination of whether an occurrence is an incident.
 
-**ACTION by ISO​:** If determined to be an incident, the ISO will assign it an identifier based on a template of <year>-<month>-<day>\_<sequential number>, e.g. “2019-03-18_001”.
+**ACTION by ISO​:** If determined to be an incident, the ISO will assign it an identifier based on a template of year-month-day_sequencialnumber, e.g. “2019-03-18_001”[^3].
 
 **ACTION by ISO​:** When an occurrence is identified as an incident, the ISO will set an initial priority of either high or normal:
-* **High priority​** means that the OSG Security team members are expected to handle any request related to the incident in preference to all other work.
-* **Normal priority​** means that the OSG Security team members are expected to prioritize incident handling using their judgement.
+
+* **High** priority means that the OSG Security team members are expected to handle any request related to the incident in preference to all other work.
+* **Normal** priority​ means that the OSG Security team members are expected to prioritize incident handling using their judgement.
 
 Setting priorities is a subjective process, with the level of certainty the incident represents a compromise of the OSG and the impact of the compromise playing significant roles. Prioritization is expected to track classification as defined in Section 5 but will be set before classification has been determined.
+
+[^3]: For an exercise, append “\_EXERCISE” to the name, e.g. “2019-03-18\_001_EXERCISE”
 
 ### 4.3 Formation of Incident Response Team
 
@@ -136,7 +152,7 @@ Setting priorities is a subjective process, with the level of certainty the inci
 
 **ACTION by IR Lead​:** The Incident Response lead should communicate the initiation of an incident by sending an email to ​staff@opensciencegrid.org​ with the priority and make up of the Incident Response team in the body. As with any email about the incident, the incident identifier will be used in the subject of any email message. Do not describe the exact nature of an incident here, as this email traffic is widely distributed in the clear.
 
-**ACTION by IR Lead​:** The IR Lead will create a JIRA issue in the Security project to store data regarding the incident4. Set the Security Level to “Security team” so that the issue will only be viewable by the OSG Security team.
+**ACTION by IR Lead​:** The IR Lead will create a JIRA issue in the Security project to store data regarding the [incident](https://opensciencegrid.atlassian.net/projects/SECURITY/issues/SECURITY-5?filter=allopenissues). Set the Security Level to “Security team” so that the issue will only be viewable by the OSG Security team.
 
 ### 4.4 Analysis and Containment
 
@@ -186,8 +202,8 @@ N.B. Normally, an incident classified as “High” here is high priority per se
 
 Incident classifications are:
 
-* High - An incident is considered High if it involves:
-    * Compromise of confidentiality or integrity of PII5.
+* **High** - An incident is considered High if it involves:
+    * Compromise of confidentiality or integrity of PII[^4].
     * Compromise of confidentiality or integrity of a password database.
     * Compromise of confidentiality or integrity of software vulnerability information.
     * Attention by media outlets or other public dissemination (e.g. via an Internet social media site).
@@ -197,9 +213,9 @@ Incident classifications are:
     * An incident is believed to involve an insider threat.
     * A high-severity vulnerability, including:
         * vulnerabilities that allow an unauthenticated attacker to execute arbitrary code or escalate privileges.
-        * vulnerabilities that allow an attacker to access or exfiltrate data that is not theirs from the core system.
+        * vulnerabilities that allow an attacker to access or exfiltrate data that is not theirs from the core system
 
-* Medium - An incident is considered Medium if it involves:
+* **Medium** - An incident is considered Medium if it involves:
     * Disruption to the OSG’s ability to provide service to multiple users for an extended time (more than 10 minutes).
     * Compromise of multiple users’ accounts by the same party.
     * Any compromise that appears to specifically target OSG personnel.
@@ -208,7 +224,8 @@ Incident classifications are:
         * allows an authenticated remote user to execute arbitrary code somewhere other than their host belonging to their jobs.
         * that lowers the difficulty of denial of service attempts.
 
-* Low - An incident is considered Low if it involves:
+
+* **Low** - An incident is considered Low if it involves:
     * Disruption to a single user’s ability to use the OSG (e.g. a compromised password that results in temporarily disabling their account).
     * A short-term (less than 10 minutes) disruption in OSG’s availability due to a denial of service attack.
     * A long-term disruption to non-critical services or degradation of critical services.
@@ -217,8 +234,11 @@ Incident classifications are:
         * one that has a cosmetic-only or has an inconvenience impact rather than a compromise of confidentiality, integrity, or availability.
     * Vulnerabilities that have high or medium impact but are especially difficult to exploit.
 
-* Undetermined: Impact of the incident is unknown.
+
+* **Undetermined** - Impact of the incident is unknown.
     * Prioritization will be determined by classification level set by the ISO and IR Lead based on the available data.
+
+[^4]: It is the belief of the Security team that the OSG does not hold Sensitive PII as of the date of publication of this document.
 
 ### 5.2 Secure Communication During Incidents
 
@@ -230,7 +250,7 @@ During an incident investigation, members of the IR team may need to share sensi
     * It has been noted that GPG signatures are fragile and often do not validate for benign reasons. Staff should also validate a request using an alternate channel if they have any doubt as to the legitimacy of a message.
     * It has been noted that emails are not predictable in their delivery latency and cannot be relied on for timely communication.
 * Phone (voice & secure message app Signal)
-* In person IU Slashtmp (​https://www.slashtmp.iu.edu/​) - CRITICAL version
+* In person [IU Slashtmp](​https://www.slashtmp.iu.edu/​) - CRITICAL version
     * Transfers must be initiated by IU account holder
 
 When communication of sensitive data using an approved method is not possible (e.g. not all management is familiar with the above methods), OSG personnel must exercise judgment regarding the method, content, and timing of related communications.
@@ -239,11 +259,18 @@ Integrity of communications is also important, particularly when instructions ar
 
 ### 5.3 Incident Handling After Normal Working Hours
 
-OSG staff are not expected to work outside of normal working hours unless special arrangements have been made by the OSG management. Given that the integrity of OSG data6 is more important than its availability, a reasonable response to an incident outside of normal working hours is to take the affected OSG service offline until the next business day. Taking the OSG service offline is done by contacting the Service owner.
+OSG staff are not expected to work outside of normal working hours unless special arrangements have been made by the OSG management. Given that the integrity of OSG data[^5] is more important than its availability, a reasonable response to an incident outside of normal working hours is to take the affected OSG service offline until the next business day. Taking the OSG service offline is done by contacting the Service owner.
+
+[^5]:  For example, source code and configuration data for OSG services
 
 ### 5.4 Communication with User Support
 
-OSG User Support is one of the interfaces to our user community. They might see reports from our users before the rest of the team and respond to those reports. Hence, it is valuable to keep them informed during an incident of factors that may impact our users so that (1) they can best communicate to users who may contact them and (2) alert the IR team if a user reports something that we are not aware of. User Support will forward the advisory or recommendation along with the security patches (if available) for known vulnerabilities to our user community. The IR Lead and/or ISO should keep them informed via email to ​user-support@opensciencegrid.org​ during the incident.
+OSG User Support is one of the interfaces to our user community. They might see reports from our users before the rest of the team and respond to those reports. Hence, it is valuable to keep them informed during an incident of factors that may impact our users so that:
+
+* (1) they can best communicate to users who may contact them and 
+* (2) alert the IR team if a user reports something that we are not aware of. 
+
+User Support will forward the advisory or recommendation along with the security patches (if available) for known vulnerabilities to our user community. The IR Lead and/or ISO should keep them informed via email to ​user-support@opensciencegrid.org during the incident.
 
 ## 6 Interactions with Other Entities
 
@@ -299,7 +326,7 @@ A vulnerability is a coding flaw, glitch or weakness that impacts OSG and/or OSG
 
 **Preparation:​** The Security team monitors relevant vulnerability reports, announcements, and discussions on a regular basis. The Security team maintains an inventory of all the software, tools, and dependencies that have been installed on various OSG services. The Security team also keeps a contact list of important stakeholders ready and updated. We have published our PGP public key on OSG’s website to enable outside parties to easily reach out with vulnerability reports. 
 
-OSG users are encouraged to report all the security issues, including software vulnerabilities, to the Security team at ​security@opensciencegrid.org​. 
+OSG users are encouraged to report all the security issues, including software vulnerabilities, to the Security team at ​[security@opensciencegrid.org​](mailto:security@opensciencegrid.org). 
 
 **Initial Report:​** Whenever the Security team receives a new vulnerability report, announcement, or an alert from OSG users, the Security team compares the name of the software/package to the inventory to check if we are running the affected software/package at the affected version. Upon examination, the Security team creates a private JIRA ticket indicating it is an incident with the sec-low/sec-med/sec-high/sec-critical label. The Security team uses the same JIRA ticket for all the internal discussions regarding the vulnerability to maintain confidentiality. 
 
@@ -318,8 +345,7 @@ If the answer to either of the first two questions is ‘yes’ the security tea
 
 Based on the assessment, risk will be addressed in one of the three ways, i.e. remediate, mitigate, or accept.
 
-    1. Remediate: Apply a patch and resolve the vulnerability
-
+1. Remediate: Apply a patch and resolve the vulnerability
     Vulnerability? -> develop a patch -> apply that patch -> TEST -> release a new version -> ask users to update to the new version 
 
     The Security team also analyzes whether a reported vulnerability is worthy of a security release. The Security team makes that decision based on the severity, for example described in the report of Common Vulnerability Scoring System (CVSS). 
@@ -329,8 +355,10 @@ Based on the assessment, risk will be addressed in one of the three ways, i.e. r
     * They will use a private ticketing system (JIRA) and include only a small group of developers to work on a private (non-published) git branch
     * Software Team (or other software owner) retains control of the software and handles the remediation process with support from the Security Team. It is important that software is never​ left in a state unfamiliar to its owners, e.g. by security team taking over and implementing a fix on their own. 
     * Git commit messages do not include any vulnerability related information, they use something like “address issues outlined in ticket XXXX”
-    2. Mitigate: Find an alternative/temporary solution to minimize the impact or the likelihood
-    3. Accept: Accept the risk without remediation or mitigation
+    
+2. Mitigate: Find an alternative/temporary solution to minimize the impact or the likelihood
+3. Accept: Accept the risk without remediation or mitigation
+
 The Security team also prepares an advisory for the OSG users.
 
 **Disclosure:​** The Security team will coordinate a public release date with the downstream providers and important stakeholders. They will also make sure that critical infrastructure partners update their systems on the same day. 
