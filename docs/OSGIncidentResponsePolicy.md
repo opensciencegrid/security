@@ -53,7 +53,7 @@ The following list includes primary entities involved in incident response and t
         * Ensure that a complete and correct record of the incident is maintained
         * Ensure that a complete and correct IR report is written
     * Authorities:
-        * Act in place of the ISO making cybersecurity risk decisions during an incident if needed when the ISO[^1] is unavailable.
+        * Act in place of the ISO making cybersecurity risk decisions during an incident if needed when the ISO (For statements such as this, there is an implied “and backups” for the role under discussion, hence the chain of authority is ISO, backup ISO, IR Lead) is unavailable.
         * Authorize the suspension or removal of any OSG resource, user, service, job, VO, etc. until the incident has been resolved and related issues remediated.
         * Determine what remediations are appropriate to resolve an incident, and oversee the process of incident response.
         * Enlist OSG staff to assist with incident response or join the Incident Responseteam, ideally in coordination with their management.
@@ -62,7 +62,7 @@ The following list includes primary entities involved in incident response and t
 * **OSG Service Owners**
     * Refer to the ​[OSG Service Catalog​](https://docs.google.com/spreadsheets/d/1cIu0YcNAT8Kiy5u2xBz8ZzG2zImVK3pRX9iFHegIjUk/edit#gid=0) for Point of Contact for various OSG services.
     * Responsibilities:
-        * Leads interactions with their campus security and IT staff[^2].
+        * Leads interactions with their campus security and IT staff(The OSG Service Owner owns this responsibility since they are physically located at a different institution where the ISO is not).
         * Assists the IR team as needed in responding to an incident, for example by retrieving logs from affected systems, or making prescribed changes to remediate vulnerabilities.
     * Authorities:
         * Disconnect the OSG service from the network, ideally in consultation with the OSG ISO and OSG Management.
@@ -99,9 +99,6 @@ The following list includes primary entities involved in incident response and t
         * Maintain readiness for incidents.
         * Own the follow-through on issues discovered during incidents and security exercises.
 
-[^1]: For statements such as this, there is an implied “and backups” for the role under discussion, hence the chain of authority is ISO, backup ISO, IR Lead.
-[^2]: The OSG Service Owner owns this responsibility since they are physically located at a different institution where the ISO is not.
-
 ## 4 Incident Response Stages
 
 The OSG’s incident response strategy is described in this section based on the anticipated stages of an incident.
@@ -133,7 +130,7 @@ Notification from the OSG staff, and reports from OSG users and third parties sh
 
 **ACTION by ISO​:** The ISO will make the determination of whether an occurrence is an incident.
 
-**ACTION by ISO​:** If determined to be an incident, the ISO will assign it an identifier based on a template of year-month-day_sequencialnumber, e.g. “2019-03-18_001”[^3].
+**ACTION by ISO​:** If determined to be an incident, the ISO will assign it an identifier based on a template of year-month-day_sequencialnumber, e.g. “2019-03-18_001”(For an exercise, append “\_EXERCISE” to the name, e.g. “2019-03-18\_001_EXERCISE”).
 
 **ACTION by ISO​:** When an occurrence is identified as an incident, the ISO will set an initial priority of either high or normal:
 
@@ -141,8 +138,6 @@ Notification from the OSG staff, and reports from OSG users and third parties sh
 * **Normal** priority​ means that the OSG Security team members are expected to prioritize incident handling using their judgement.
 
 Setting priorities is a subjective process, with the level of certainty the incident represents a compromise of the OSG and the impact of the compromise playing significant roles. Prioritization is expected to track classification as defined in Section 5 but will be set before classification has been determined.
-
-[^3]: For an exercise, append “\_EXERCISE” to the name, e.g. “2019-03-18\_001_EXERCISE”
 
 ### 4.3 Formation of Incident Response Team
 
@@ -203,7 +198,7 @@ N.B. Normally, an incident classified as “High” here is high priority per se
 Incident classifications are:
 
 * **High** - An incident is considered High if it involves:
-    * Compromise of confidentiality or integrity of PII[^4].
+    * Compromise of confidentiality or integrity of PII(It is the belief of the Security team that the OSG does not hold Sensitive PII as of the date of publication of this document.).
     * Compromise of confidentiality or integrity of a password database.
     * Compromise of confidentiality or integrity of software vulnerability information.
     * Attention by media outlets or other public dissemination (e.g. via an Internet social media site).
@@ -238,8 +233,6 @@ Incident classifications are:
 * **Undetermined** - Impact of the incident is unknown.
     * Prioritization will be determined by classification level set by the ISO and IR Lead based on the available data.
 
-[^4]: It is the belief of the Security team that the OSG does not hold Sensitive PII as of the date of publication of this document.
-
 ### 5.2 Secure Communication During Incidents
 
 During an incident investigation, members of the IR team may need to share sensitive information and discuss suspected vulnerabilities in the OSG. The following methods of communication of sensitive data are approved:
@@ -259,9 +252,7 @@ Integrity of communications is also important, particularly when instructions ar
 
 ### 5.3 Incident Handling After Normal Working Hours
 
-OSG staff are not expected to work outside of normal working hours unless special arrangements have been made by the OSG management. Given that the integrity of OSG data[^5] is more important than its availability, a reasonable response to an incident outside of normal working hours is to take the affected OSG service offline until the next business day. Taking the OSG service offline is done by contacting the Service owner.
-
-[^5]:  For example, source code and configuration data for OSG services
+OSG staff are not expected to work outside of normal working hours unless special arrangements have been made by the OSG management. Given that the integrity of OSG data(For example, source code and configuration data for OSG services) is more important than its availability, a reasonable response to an incident outside of normal working hours is to take the affected OSG service offline until the next business day. Taking the OSG service offline is done by contacting the Service owner.
 
 ### 5.4 Communication with User Support
 
@@ -355,7 +346,7 @@ Based on the assessment, risk will be addressed in one of the three ways, i.e. r
     * They will use a private ticketing system (JIRA) and include only a small group of developers to work on a private (non-published) git branch
     * Software Team (or other software owner) retains control of the software and handles the remediation process with support from the Security Team. It is important that software is never​ left in a state unfamiliar to its owners, e.g. by security team taking over and implementing a fix on their own. 
     * Git commit messages do not include any vulnerability related information, they use something like “address issues outlined in ticket XXXX”
-    
+
 2. Mitigate: Find an alternative/temporary solution to minimize the impact or the likelihood
 3. Accept: Accept the risk without remediation or mitigation
 
