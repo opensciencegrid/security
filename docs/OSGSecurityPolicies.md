@@ -8,7 +8,7 @@ OSG security policies are developed by the OSG security team, when appropriate i
 
 The following policies are approved and in effect in OSG:
 
--   [Master Information Security Policy & Procedures](https://github.com/opensciencegrid/security/blob/master/docs/policy/OSGMasterInformationSecuritPolicy.md)
+-   [Master Information Security Policy & Procedures](https://github.com/opensciencegrid/security/blob/master/docs/policy/OSGMasterInformationSecurityPolicy.md)
     - Status: v1.0 Approved by OSG Executive Director on Dec-1-2019
 -   Grid Site Operations Policy approved by OSG Council on 2007
     - [OSG Doc 676](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=676)
