@@ -2,277 +2,282 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://opensciencegrid.org/security/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/SecurityTeamMembers/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/OSGSecurityAnnouncements/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/OSGSecurityAnnouncements-x86/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2020-05-05-Singularity-and-unprivileged-user-namespaces/</loc>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2020-03-26-Vulnerability-in-xrootd-scitokens-plugin/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2020-02-07-Vulnerabilities-in-frontier-squid/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2019-11-11-Vulnerability-in-Squid-UPDATE/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2019-11-08-Vulnerability-in-Squid/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2019-07-25-Vulnerability-in-Squid/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update-2/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-08-17-Foreshadow/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-05-23-OSG-CA-service-retirement/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-04-25-Including-Lets-Encrypt-in-OSG-CA-bundle/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-04-19-Critical-Vulnerability-in-Singularity-Update/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/OSGCertificateService/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/CILogonOSGFAQ/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/CaDistribution/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/LetsEncryptOSGCAbundle/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/OSGSecurityPolicies/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/SiteVORemovalPolicy/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/OSGSecurityProcedures/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/SiteVORemovalProcedure/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/SecureCommunicationsOSG/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/SoftwareVulnerabilityHandling/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/IncidentDiscoveryReporting/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/fnal-mail-list-join/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/SecurityAwarenessForTheOSG/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/SecurityUserResponsibilities/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://opensciencegrid.org/security/SecuritySiteResponsibilities/</loc>
-     <lastmod>2020-03-30</lastmod>
+     <lastmod>2020-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
