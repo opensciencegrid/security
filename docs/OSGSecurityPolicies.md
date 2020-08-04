@@ -40,3 +40,4 @@ The following policies are approved and in effect in OSG:
         - v1.0 Approved by OSG Executive Director on Dec-1-2019
     - [Incident Discovery/Reporting](IncidentDiscoveryReporting)
     - [OSG Doc 875](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=875)
+-   [OSG Connect Login Server Open Port Policy](https://github.com/opensciencegrid/security/blob/master/docs/policy/OSG_Connect_Login_Server_Open_Port_Policy.md)
