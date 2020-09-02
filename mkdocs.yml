@@ -12,6 +12,7 @@ pages:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
   - Announcement Details:
+    - OSG-SEC-2020-08-31 Vulnerabilities in frontier-squid: 'vulns/OSG-SEC-2020-08-31-Vulnerabilities-in-frontier-squid.md'
     - OSG-SEC-2020-05-05 Singularity and unprivileged user namespaces: 'vulns/OSG-SEC-2020-05-05-Singularity-and-unprivileged-user-namespaces.md'
     - OSG-SEC-2020-03-26 Vulnerability in xrootd-scitokens Plugin: 'vulns/OSG-SEC-2020-03-26-Vulnerability-in-xrootd-scitokens-plugin.md'
     - OSG-SEC-2020-02-07 Vulnerabilities in Frontier Squid: 'vulns/OSG-SEC-2020-02-07-Vulnerabilities-in-frontier-squid.md'
