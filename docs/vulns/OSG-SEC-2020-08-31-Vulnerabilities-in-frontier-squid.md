@@ -1,4 +1,4 @@
-# OSG-SEC-2020-08-28 Vulnerabilities in frontier-squid
+# OSG-SEC-2020-08-31 Vulnerabilities in frontier-squid
 
 Dear OSG Security Contacts,
 
