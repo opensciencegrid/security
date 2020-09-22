@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2020-09-22  | CVE-2020-14386 Memory corruption in kernel on EL8 | [OSG-SEC-2020-09-22](/vulns/OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8.md) |     |
 | 2020-08-31  | Vulnerabilities in frontier-squid | [OSG-SEC-2020-08-31](/vulns/OSG-SEC-2020-08-31-Vulnerabilities-in-frontier-squid.md) |     |
 | 2020-05-05  | Singularity and unprivileged user namespaces | [OSG-SEC-2020-05-05](/vulns/OSG-SEC-2020-05-05-Singularity-and-unprivileged-user-namespaces.md) |     |
 | 2020-03-26  | Vulnerability in xrootd-scitokens Plugin| [OSG-SEC-2020-03-26](/vulns/OSG-SEC-2020-03-26-Vulnerability-in-xrootd-scitokens-plugin.md) |     |
