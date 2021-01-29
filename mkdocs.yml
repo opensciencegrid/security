@@ -5,7 +5,7 @@ theme:
   name: material
   custom_dir: osgthedocs
 
-pages:
+nav:
 - Home: 'index.md'
 - Security Team: 'SecurityTeamMembers.md'
 - Security Announcements:
