@@ -72,5 +72,3 @@ nav:
 
 markdown_extensions:
   - admonition
-  - osg_markdown.colors
-
