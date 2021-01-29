@@ -60,7 +60,7 @@ nav:
 - Certificate Authorities (CA) Distribution: 'CaDistribution.md'
 - OSG Security Policies & Procedures:
   - Including Let’s Encrypt signing certificate in OSG CA bundle: 'LetsEncryptOSGCAbundle.md'
-  - Approved OSG Security Policies: 'OSGSecurityPolicies.md
+  - Approved OSG Security Policies: 'OSGSecurityPolicies.md'
   - Site/VO Removal Policy: 'SiteVORemovalPolicy.md'
   - OSG Security Procedures: 'OSGSecurityProcedures.md'
   - Site/VO Removal Procedure: 'SiteVORemovalProcedure.md'
