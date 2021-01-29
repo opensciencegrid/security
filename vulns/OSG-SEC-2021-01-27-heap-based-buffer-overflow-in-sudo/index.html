@@ -58,6 +58,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#update" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -299,9 +304,71 @@
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        OSG-SEC-2021-01-27 heap-based buffer overflow in sudo
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
       OSG-SEC-2021-01-27 heap-based buffer overflow in sudo
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#update" class="md-nav__link">
+    UPDATE:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correction" class="md-nav__link">
+    CORRECTION:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-links" class="md-nav__link">
+    RELATED LINKS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1056,6 +1123,69 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#update" class="md-nav__link">
+    UPDATE:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correction" class="md-nav__link">
+    CORRECTION:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-links" class="md-nav__link">
+    RELATED LINKS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1068,39 +1198,38 @@
                 
                   <h1>OSG-SEC-2021-01-27 heap-based buffer overflow in sudo</h1>
                 
-                <p>CentOS8 packages now available [6].</p>
-<p>CORRECTION:
-In the previous notice the patched versions were erroneously listed as the impacted versions. The heading has been updated in the message below for clarity.</p>
+                <h2 id="update">UPDATE:</h2>
+<p>CentOS8 packages now available [6].</p>
+<h2 id="correction">CORRECTION:</h2>
+<p>In the previous notice the patched versions were erroneously listed as the impacted versions. The heading has been updated in the message below for clarity.</p>
 <hr />
 <p>Dear OSG Security Contacts,</p>
 <p>A heap-based buffer overflow vulnerability that could lead to privilege escalation described in CVE-2021-3156 [1] has been discovered in 'sudo' [2]. The vulnerable code was introduced in July 2011 and affects all legacy versions of sudo from v1.8.2 to v1.8.31p2, and all stable versions from v1.9.0 to v1.9.5p1, using default configurations. The OSG Security team considers this vulnerability to be of CRITICAL severity.</p>
 <p>Patched Versions:</p>
-<p>RHEL/CentOS7: sudo-1.8.23-10.el7_9.1 [3][4]
-RHEL/CentOS8: sudo-1.8.29-6.el8_3.1 [5]</p>
+<p>RHEL/CentOS7: sudo-1.8.23-10.el7_9.1 [3][4]</p>
+<p>RHEL/CentOS8: sudo-1.8.29-6.el8_3.1 [5]</p>
 <p>Other operating systems and distributions are also likely to be exploitable.</p>
-<p>WHAT ARE THE VULNERABILITIES:
-The vulnerability is exploitable by any local user. The attacker does not need to know the user's password, nor be a part of any sudoers list. Successful exploitation of this vulnerability could lead to privilege escalation.</p>
-<p>WHAT YOU SHOULD DO:
-How to Check: As a non-root user account, run the following:
-sudoedit -s '\' <code>perl -e 'print "A" x 65536'</code>
-A vulnerable system will segfault or show a similar error indicating memory corruption.</p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>The vulnerability is exploitable by any local user. The attacker does not need to know the user's password, nor be a part of any sudoers list. Successful exploitation of this vulnerability could lead to privilege escalation.</p>
+<h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
+<p>How to Check: As a non-root user account, run the following:
+<code>sudoedit -s '\' `perl -e 'print "A" x 65536'`</code></p>
+<p>A vulnerable system will segfault or show a similar error indicating memory corruption.</p>
 <p>If your system has local user accounts, update to the latest version of 'sudo' available for your operating system. After updating, run the command in "How to Check" above to verify the patch. If a patch is not yet available for your system, a mitigation using 'systemtap' has been described in the RedHat announcement for this issue [2]. The OSG Security team recommends updating as soon as possible.</p>
-<p>RELATED LINKS
-https://wiki.egi.eu/wiki/SVG:Advisory-SVG-CVE-2021-3156
-https://ubuntu.com/security/CVE-2021-3156
-https://security-tracker.debian.org/tracker/CVE-2021-3156
-http://mirror.centos.org/centos-8/8/BaseOS/x86_64/os/Packages/?C=M;O=D</p>
-<p>REFERENCES
-[1] https://access.redhat.com/security/cve/CVE-2021-3156
-[2] https://blog.qualys.com/vulnerabilities-research/2021/01/26/cve-2021-3156-heap-based-buffer-overflow-in-sudo-baron-samedit
-[3] https://access.redhat.com/errata/RHSA-2021:0221
-[4] https://lists.centos.org/pipermail/centos-announce/2021-January/048252.html
-[5] https://access.redhat.com/errata/RHSA-2021:0218 (RHEL8)
-[6] http://mirror.centos.org/centos-8/8/BaseOS/x86_64/os/Packages/?C=M;O=D</p>
+<h2 id="related-links">RELATED LINKS</h2>
+<p>https://wiki.egi.eu/wiki/SVG:Advisory-SVG-CVE-2021-3156</p>
+<p>https://ubuntu.com/security/CVE-2021-3156</p>
+<p>https://security-tracker.debian.org/tracker/CVE-2021-3156</p>
+<p>http://mirror.centos.org/centos-8/8/BaseOS/x86_64/os/Packages/?C=M;O=D</p>
+<h2 id="references">REFERENCES</h2>
+<p>[1] https://access.redhat.com/security/cve/CVE-2021-3156</p>
+<p>[2] https://blog.qualys.com/vulnerabilities-research/2021/01/26/cve-2021-3156-heap-based-buffer-overflow-in-sudo-baron-samedit</p>
+<p>[3] https://access.redhat.com/errata/RHSA-2021:0221</p>
+<p>[4] https://lists.centos.org/pipermail/centos-announce/2021-January/048252.html</p>
+<p>[5] https://access.redhat.com/errata/RHSA-2021:0218 (RHEL8)</p>
+<p>[6] http://mirror.centos.org/centos-8/8/BaseOS/x86_64/os/Packages/?C=M;O=D</p>
 <p>Please contact the OSG security team immediately at security at opensciencegrid.org if you have any questions or concerns.</p>
 <p>OSG Security Team</p>
-                
-                  
                 
               
               
