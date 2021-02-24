@@ -1,5 +1,5 @@
 # Security Procedures for Site/VO Removal
-The [Security Policy on Site/VO Removal](SiteVORemovalPolicy) defines the conditions under which the OSG Security Officer will request that a Site or VO be removed from the OSG operational infrastructure. This page describes the associated procedures.
+The [Security Policy on Site/VO Removal](/security/SiteVORemovalPolicy) defines the conditions under which the OSG Security Officer will request that a Site or VO be removed from the OSG operational infrastructure. This page describes the associated procedures.
 
 ## Maintenance of Security Contact Information
 The Security Officer ensures that the GOC periodically confirms that all VOs and Sites have valid security contacts registered in OIM. Each Site/VO representative must confirm that they have verified the accuracy of their contact information in OIM. This confirmation is performed at least once per year.
