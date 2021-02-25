@@ -13,7 +13,7 @@ The following policies are approved and in effect in OSG:
 -   Grid Site Operations Policy approved by OSG Council on 2007
     - [OSG Doc 676](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=676)
 -   OSG-VO Registration Policy and Procedure
-    - [Site/VO Removal ](SiteVORemovalPolicy)
+    - [Site/VO Removal ](/security/SiteVORemovalPolicy) 
     - [OSG Doc 737](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=737)
     -   Status: Approved by OSG Executive Director on Jul-15-2009.
 -   OSG VO Member Acceptable Use Policy
