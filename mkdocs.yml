@@ -12,6 +12,8 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2021-03-17 Vulnerabilities in SQUID: './vulns/OSG-SEC-2021-05-11-Vulnerabilities-in-Squid.md' 
+    - OSG-SEC-2021-03-17 Vulnerabilities in iSCSI: './vulns/OSG-SEC-2021-03-17-Vulnerabilities-in-iSCSI.md' 
     - OSG-SEC-2021-01-28 vulnerabilities in HTCondor: './vulns/OSG-SEC-2021-01-28-vulnerabilities-in-HTCondor.md' 
     - OSG-SEC-2021-01-27 heap-based buffer overflow in sudo: './vulns/OSG-SEC-2021-01-27-heap-based-buffer-overflow-in-sudo.md' 
     - OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8 **UPDATE**: './vulns/OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8-UPDATE.md'
