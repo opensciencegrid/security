@@ -1,6 +1,8 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2021-03-17  | Vulnerabilities in Squid | [OSG-SEC-2021-05-11](./vulns/OSG-SEC-2021-05-11-Vulnerabilities-in-Squid.md) |     | 
+| 2021-03-17  | Vulnerabilities in iSCSI | [OSG-SEC-2021-03-17](./vulns/OSG-SEC-2021-03-17-Vulnerabilities-in-iSCSI.md) |     | 
 | 2021-01-28  | vulnerabilities in HTCondor | [OSG-SEC-2021-01-28](./vulns/OSG-SEC-2021-01-28-vulnerabilities-in-HTCondor.md) |     | 
 | 2021-01-27  | heap-based buffer overflow in sudo | [OSG-SEC-2021-01-27](./vulns/OSG-SEC-2021-01-27-heap-based-buffer-overflow-in-sudo.md) |     |
 | 2020-10-26  | CVE-2020-14386 Memory corruption in kernel on EL8 **UPDATE** | [OSG-SEC-2020-10-26](./vulns/OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8-UPDATE.md) |     | 
