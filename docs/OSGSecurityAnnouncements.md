@@ -2,6 +2,7 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
 | 2021-05-27  | Vulnerability in Singularity | [OSG-SEC-2021-05-27](./vulns/OSG-SEC-2021-05-27-Vulnerability-in-Singularity.md) |     | 
+| 2021-05-18  | Vulnerability in SLURM CVE-2021-31215 | [OSG-SEC-2021-05-18](./vulns/OSG-SEC-2021-05-18-Vulnerability-in-SLURM-CVE-2021-31215.md) |     | 
 | 2021-05-11  | Vulnerabilities in Squid | [OSG-SEC-2021-05-11](./vulns/OSG-SEC-2021-05-11-Vulnerabilities-in-Squid.md) |     | 
 | 2021-03-17  | Vulnerabilities in iSCSI | [OSG-SEC-2021-03-17](./vulns/OSG-SEC-2021-03-17-Vulnerabilities-in-iSCSI.md) |     | 
 | 2021-01-28  | vulnerabilities in HTCondor | [OSG-SEC-2021-01-28](./vulns/OSG-SEC-2021-01-28-vulnerabilities-in-HTCondor.md) |     | 
