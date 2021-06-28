@@ -5,7 +5,7 @@ Version 1.0
 Updated 1 Dec 2019
 
 Authors: Zalak Shah  
-Information Security Officer: Mike Stanfield
+Information Security Officer: Josh Drake
 
 ## 1 Introduction and Scope
 
@@ -79,10 +79,10 @@ The following list includes primary entities involved in incident response and t
         * Request to the OSG ISO or IR Lead to approve the reconnection of the resource center or VO to OSG after issues related to a security incident have been remediated.
 
 
-* **OSG ISO** (Stanfield, IU):
+* **OSG ISO** (Josh Drake, IU):
     * Backups, in order of preference:
         * Zalak Shah, IU
-        * Josh Drake, IU
+        * Adrian Crenshaw, IU
         * Any other active member of OSG Security Team
     * Responsibilities:
         * Ensures regular communication with OSG Management and stakeholders as needed during an incident.
@@ -92,7 +92,7 @@ The following list includes primary entities involved in incident response and t
         * Declares a security incident, when deemed necessary, and names an Incident Response Lead for that incident.
 
 
-* **OSG Security Team** (Shah, Stanfield, Drake, Crenshaw (IU), Teheran (FNL)):
+* **OSG Security Team** (Shah, Drake, Crenshaw, Kiser (IU)):
     * Responsibilities:
         * Help as requested by the IR Lead during an incident.
         * Perform post-mortem analysis of incident in conjunction with the IR team and other relevant parties.
@@ -124,7 +124,7 @@ Notification from the OSG staff, and reports from OSG users and third parties sh
 
 **ACTION by OSG team Member who first becomes aware of the potential incident​:**
  The team member should: 
- 1. Attempt to contact the ISO (Mike Stanfield). 
+ 1. Attempt to contact the ISO. 
  2. Failing that, attempt to contact a Backup ISO from the list in section 3 of this document. The Backup ISO, when contacted, will act in place of the ISO for the purpose of incident-related authority and responsibilities named in section 3 above. 
  3. If no ISO or backup ISO is reachable (rare) contact any member of the OSG Executive Team for further instructions.
 
