@@ -5,7 +5,7 @@ Version 1.0
 Updated 1 Dec 2019
 
 Authors: Zalak Shah, Mike Stanfield  
-Information Security Officer: Mike Stanfield
+Information Security Officer: Josh Drake
 
 # 1 Introduction
 
@@ -19,13 +19,13 @@ The OSG Executive Director accepts risk on behalf of the organization, with advi
 
 ### 2.2 Information Security Officer (ISO)
 
-OSG maintains a position of Information Security Officer (ISO), who reports to the OSG Technical Director, Miron Livny, and the OSG Executive Director. The ISO has responsibility for overseeing and coordinating the information security program. The ISO maintains all security policy and procedure documents for OSG, including this document. All reviews of OSG-wide security policies and procedures are coordinated and archived through this office. The ISO’s office also documents any exceptions made to security policies. The ISO is the first point of contact for any request for clarification of OSG information security policy and procedures. The ISO will coordinate information security incident response, including correspondence between the affected staff and users. As of the date of publication of this document, the Information Security Officer is​ ​Mike Stanfield.
+OSG maintains a position of Information Security Officer (ISO), who reports to the OSG Technical Director, Miron Livny, and the OSG Executive Director. The ISO has responsibility for overseeing and coordinating the information security program. The ISO maintains all security policy and procedure documents for OSG, including this document. All reviews of OSG-wide security policies and procedures are coordinated and archived through this office. The ISO’s office also documents any exceptions made to security policies. The ISO is the first point of contact for any request for clarification of OSG information security policy and procedures. The ISO will coordinate information security incident response, including correspondence between the affected staff and users. As of the date of publication of this document, the Information Security Officer is​ ​Josh Drake.
 
 Contact information for the ISO follows:
 
-ISO: Mike Stanfield  
-Email: [stanfiem@iu.edu](mailto:stanfiem@iu.edu)  
-Office Phone: 812-856-1385  
+ISO: Josh Drake  
+Email: [drakejc@iu.edu](mailto:drakejc@iu.edu)  
+Office Phone: 812-855-9567  
 OSG Security Team: [security@opensciencegrid.org](mailto:security@opensciencegrid.org)
 
 ### 2.3 Project Personnel and Staff
