@@ -49,8 +49,7 @@ The team key is available from the [MIT PGP server](http://pgp.mit.edu:11371/pks
 
 The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.org
 
-- OSG Security Officer: Mike Standfield mstanfiem AT iu.edu
+- OSG Security Officer: Josh Drake drakejc AT iu.edu
 - Zalak Shah: zsshah AT iu.edu
-- Jeny Teheran: jteheran AT fnal.gov
-- Josh Drake: drakejc AT iu.edu
 - Adrian Crenshaw: adrian AT iu.edu
+- Ryan Kiser: rlkiser AT iu.edu
