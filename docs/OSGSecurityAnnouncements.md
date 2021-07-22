@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2021-07-22  | Vulnerability in Linux kernel | [OSG-SEC-2021-07-22](./vulns/OSG-SEC-2021-07-22-Vulnerability-in-Linux-kernel.md) |     | 
 | 2021-05-27  | Vulnerability in Singularity | [OSG-SEC-2021-05-27](./vulns/OSG-SEC-2021-05-27-Vulnerability-in-Singularity.md) |     | 
 | 2021-05-18  | Vulnerability in SLURM CVE-2021-31215 | [OSG-SEC-2021-05-18](./vulns/OSG-SEC-2021-05-18-Vulnerability-in-SLURM-CVE-2021-31215.md) |     | 
 | 2021-05-11  | Vulnerabilities in Squid | [OSG-SEC-2021-05-11](./vulns/OSG-SEC-2021-05-11-Vulnerabilities-in-Squid.md) |     | 
