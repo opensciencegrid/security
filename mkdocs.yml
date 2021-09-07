@@ -13,7 +13,7 @@ nav:
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
     - OSG-SEC-2021-08-25 Vulnerabilities in JupyterLab and Jupyter Notebook: './vulns/OSG-SEC-2021-08-25-Vulnerabilities-in-JupyterLab-and-Jupyter-Notebook.md' 
-    - OSG-SEC-2021-05-27 Vulnerabilities in HTCondor: './vulns/OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor.md' 
+    - OSG-SEC-2021-07-27 Vulnerabilities in HTCondor: './vulns/OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor.md' 
     - OSG-SEC-2021-07-22 Vulnerability in Linux kernel: './vulns/OSG-SEC-2021-07-22-Vulnerability-in-Linux-kernel.md' 
     - OSG-SEC-2021-05-27 Vulnerability in Singularity: './vulns/OSG-SEC-2021-05-27-Vulnerability-in-Singularity.md' 
     - OSG-SEC-2021-05-18 Vulnerability in SLURM CVE-2021-31215: './vulns/OSG-SEC-2021-05-18-Vulnerability-in-SLURM-CVE-2021-31215.md' 
