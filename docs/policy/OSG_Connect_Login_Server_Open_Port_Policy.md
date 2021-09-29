@@ -1,11 +1,11 @@
 **OSG Connect Login Server Open Port Policy**
 ========================================================================
 
-Version 1.0  
-Updated 1 July 2020
+Version 1.1  
+Updated 29 Sept 2021
 
 Authors:  Brian Bockelman, Lincoln Bryant, Jeff Dost, Rob Gardner, Lauren Michael, Pascal Paschos, Mats Rynge, Mike Stanfield
-Information Security Officer: Mike Stanfield
+Information Security Officer: Josh Drake
 
 # 1 Policy Statement
 In order to provide safe and trustworthy services, the OSG Infrastructure team employs host-based firewall rules on all OSG Connect login hosts to block inbound network traffic not explicitly approved by the OSG. By default, users are not permitted to run network services such as file servers from their accounts on these hosts.  
