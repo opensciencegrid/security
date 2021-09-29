@@ -5,7 +5,7 @@ Version 1.0
 Updated 1 Dec 2019
 
 Authors: Mike Stanfield  
-Information Security Officer: Mike Stanfield
+Information Security Officer: Josh Drake
 
 ## 1 Reason for Policy
 
