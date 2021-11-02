@@ -1,8 +1,8 @@
 **Open Science Grid Master Information Security Policy and Procedures**
 ========================================================================
 
-Version 1.0  
-Updated 1 Dec 2019
+Version 1.1 
+Updated 28 June 2021
 
 Authors: Zalak Shah, Mike Stanfield  
 Information Security Officer: Josh Drake
