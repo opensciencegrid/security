@@ -1,6 +1,8 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2021-11-04  | Privilege Escalation Vulnerability in dCache | [OSG-SEC-2021-11-04](./vulns/OSG-SEC-2021-11-04.md) |     | 
+| 2021-11-03  | HIGH severity vulnerability in Apache HTTP mod_proxy | [OSG-SEC-2021-11-03](./vulns/OSG-SEC-2021-11-03.md) |     |
 | 2021-09-10  | Vulnerability in Linux Kernel Traffic Control Subsystem | [OSG-SEC-2021-09-10](./vulns/OSG-SEC-2021-09-10-Vulnerability-in-Linux-Kernel-Traffic-Control-Subsystem.md) |     | 
 | 2021-08-25  | Vulnerabilities in JupyterLab and Jupyter Notebook | [OSG-SEC-2021-08-25](./vulns/OSG-SEC-2021-08-25-Vulnerabilities-in-JupyterLab-and-Jupyter-Notebook.md) |     | 
 | 2021-05-27  | Vulnerabilities in HTCondor | [OSG-SEC-2021-07-27](./vulns/OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor.md) |     | 
