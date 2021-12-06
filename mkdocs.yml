@@ -12,6 +12,8 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2021-11-03 Privilege Escalation Vulnerability in dCache: './vulns/OSG-SEC-2021-11-04.md'
+    - OSG-SEC-2021-11-03 HIGH severity vulnerability in Apache HTTP mod_proxy: './vulns/OSG-SEC-2021-11-03.md'
     - OSG-SEC-2021-09-10 Vulnerability in Linux Kernel Traffic Control Subsystem: './vulns/OSG-SEC-2021-09-10-Vulnerability-in-Linux-Kernel-Traffic-Control-Subsystem.md'
     - OSG-SEC-2021-08-25 Vulnerabilities in JupyterLab and Jupyter Notebook: './vulns/OSG-SEC-2021-08-25-Vulnerabilities-in-JupyterLab-and-Jupyter-Notebook.md' 
     - OSG-SEC-2021-07-27 Vulnerabilities in HTCondor: './vulns/OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor.md' 
