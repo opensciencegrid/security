@@ -1,6 +1,8 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2021-12-13  | CRITICAL Vulnerability in Java Library Log4j | [OSG-SEC-2021-12-13](./vulns/OSG-SEC-2021-12-13.md) |     |
+| 2021-12-02  | RCE Vulnerability in NSS | [OSG-SEC-2021-12-02](./vulns/OSG-SEC-2021-12-02.md) |     |
 | 2021-11-04  | Privilege Escalation Vulnerability in dCache | [OSG-SEC-2021-11-04](./vulns/OSG-SEC-2021-11-04.md) |     | 
 | 2021-11-03  | HIGH severity vulnerability in Apache HTTP mod_proxy | [OSG-SEC-2021-11-03](./vulns/OSG-SEC-2021-11-03.md) |     |
 | 2021-09-10  | Vulnerability in Linux Kernel Traffic Control Subsystem | [OSG-SEC-2021-09-10](./vulns/OSG-SEC-2021-09-10-Vulnerability-in-Linux-Kernel-Traffic-Control-Subsystem.md) |     | 
