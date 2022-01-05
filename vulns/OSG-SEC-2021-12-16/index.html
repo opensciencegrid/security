@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://opensciencegrid.org/security/vulns/OSG-SEC-2020-05-05-Singularity-and-unprivileged-user-namespaces/">
+        <link rel="canonical" href="https://opensciencegrid.org/security/vulns/OSG-SEC-2021-12-16/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2020-05-05 Singularity and unprivileged user namespaces - OSG Security</title>
+        <title>OSG-SEC-2021-12-16 Vulnerability in golang/Singularity - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2020-05-05-singularity-and-unprivileged-user-namespaces" class="md-skip">
+        <a href="#osg-sec-2021-12-16-vulnerability-in-golangsingularity" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2020-05-05 Singularity and unprivileged user namespaces
+              OSG-SEC-2021-12-16 Vulnerability in golang/Singularity
             
           </span>
         </div>
@@ -326,11 +326,70 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2021-12-16/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2021-12-16 Vulnerability in golang/Singularity
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2021-12-16 Vulnerability in golang/Singularity
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -542,70 +601,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2020-05-05 Singularity and unprivileged user namespaces
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2020-05-05-Singularity-and-unprivileged-user-namespaces/" class="md-nav__link">
         OSG-SEC-2020-05-05 Singularity and unprivileged user namespaces
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1385,27 +1385,24 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/vulns/OSG-SEC-2020-05-05-Singularity-and-unprivileged-user-namespaces.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/vulns/OSG-SEC-2021-12-16.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2020-05-05-singularity-and-unprivileged-user-namespaces">OSG-SEC-2020-05-05 Singularity and unprivileged user namespaces</h1>
+                <h1 id="osg-sec-2021-12-16-vulnerability-in-golangsingularity">OSG-SEC-2021-12-16 Vulnerability in golang/Singularity</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>Red Hat Enterprise Linux 7 supports a kernel feature called unprivileged user namespaces that enables singularity to run completely unprivileged.  All OSG VOs (including WLCG VOs) that use singularity are now configured to run singularity unprivileged out of CVMFS when they can.  OSG security believes this to be a significantly lower risk than having singularity installed with setuid root enabled.  We recommend that sites enable unprivileged user namespaces on their RHEL 7 worker nodes if they haven’t, and remove singularity rpms if there is no non-OSG requirement to keep them.</p>
+<p>A security vulnerability in golang has been announced that can potentially lead to a vulnerability in singularity.  The OSG security team considers the risk of this vulnerability to be MODERATE.</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>RHEL 7.6 and later are affected.
-RHEL 8 has unprivileged user namespaces enabled by default.
-RHEL 6 cannot enable unprivileged user namespaces.</p>
+<p>Any version of singularity compiled using golang 1.16.11 or older or using 1.17 through 1.17.4 is impacted. This includes EPEL singularity rpms 3.8.5-1 or earlier.</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>There are no known current exploits with setuid root singularity, but there have been in the past.  Setuid root programs are notoriously difficult to secure, and there are likely to be more exploits discovered in the future.</p>
+<p>Prior to golang 1.16.12 and 1.17.5, the syscall.ForkExec function had a flaw that can result in output for one file descriptor to be redirected to another under conditions of running out of file descriptors [1].  Singularity uses that library call, so it is potentially affected [2].  There is no specific known exploit at this time, but especially for setuid-root installations it is better to ensure that a newly compiled version is installed.</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>On RHEL 7 worker nodes, enable unprivileged user namespaces by following the instructions on the OSG singularity installation page [1].  Then, if you have no requirement to keep the rpm installed for non-OSG purposes, remove singularity rpms from your worker nodes.  If your singularity installation is version 2, instead remove singularity-runtime rpms.  If you have to keep the singularity rpm installed, consider setting the configuration ‘allow setuid = no’.  More information on making that choice is available [2].</p>
-<p>Note that if there were local changes to singularity.conf, VOs will no longer be using them.  Extra local bind paths can be added to jobs through the SINGULARITY_BINDPATH environment variable.</p>
+<p>Upgrade to a version of singularity compiled with the newer golang.  For those using the EPEL rpms, upgrade to version 3.8.5-2 which is currently in epel-testing and should be promoted to epel by the end of next week.</p>
 <h2 id="references">REFERENCES</h2>
-<p>[1]­­­⁣⁣⁣ https://opensciencegrid.org/docs/worker-node/install-singularity/#enabling-unprivileged-singularity
-[2]­­­⁣⁣⁣ https://opensciencegrid.org/docs/worker-node/install-singularity/#choosing-unprivileged-vs-privileged-singularity</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
+<p>[1] https://groups.google.com/g/golang-announce/c/hcmEScgc00k
+[2] https://groups.google.com/u/1/a/lbl.gov/g/singularity/c/JwV-Mt8fyWc</p>
+<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. </p>
 <p>OSG Security Team</p>
                 
               
@@ -1425,7 +1422,7 @@ RHEL 6 cannot enable unprivileged user namespaces.</p>
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2020-08-31-Vulnerabilities-in-frontier-squid/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../OSG-SEC-2021-12-17/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1434,19 +1431,19 @@ RHEL 6 cannot enable unprivileged user namespaces.</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2020-08-31 Vulnerabilities in frontier-squid
+              OSG-SEC-2021-12-17 UPDATE on Log4J Vulnerability
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2020-03-26-Vulnerability-in-xrootd-scitokens-plugin/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2021-12-13/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2020-03-26 Vulnerability in xrootd-scitokens Plugin
+              OSG-SEC-2021-12-13 CRITICAL Vulnerability in Java Library Log4j
             </div>
           </div>
           <div class="md-footer__button md-icon">
