@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2022-01-25  | CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives | [OSG-SEC-2022-01-25](./vulns/OSG-SEC-2022-01-25.md) |     |
 | 2022-01-05  | Additional UPDATE on Log4J Vulnerability | [OSG-SEC-2022-01-05](./vulns/OSG-SEC-2022-01-05.md) |     |
 | 2021-12-17  | UPDATE on Log4J Vulnerability | [OSG-SEC-2021-12-17](./vulns/OSG-SEC-2021-12-17.md) |     |
 | 2021-12-16  | Vulnerability in golang/Singularity | [OSG-SEC-2021-12-16](./vulns/OSG-SEC-2021-12-16.md) |     |
