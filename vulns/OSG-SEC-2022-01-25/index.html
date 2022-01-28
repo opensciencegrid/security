@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://opensciencegrid.org/security/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/">
+        <link rel="canonical" href="https://opensciencegrid.org/security/vulns/OSG-SEC-2022-01-25/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2018-01-10 Meltdown-Spectre Update - OSG Security</title>
+        <title>OSG-SEC-2022-01-25 CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2018-01-04-cpu-hardware-vulnerabilities" class="md-skip">
+        <a href="#osg-sec-2022-01-25-critical-heap-buffer-overflow-vulnerability-in-linux-kernel-for-rhel-8-and-derivatives" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2018-01-10 Meltdown-Spectre Update
+              OSG-SEC-2022-01-25 CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives
             
           </span>
         </div>
@@ -302,11 +302,77 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2022-01-25/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2022-01-25 CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2022-01-25 CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mitigations" class="md-nav__link">
+    MITIGATIONS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -974,70 +1040,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2018-01-10 Meltdown-Spectre Update
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2018-01-10-Meltdown-Spectre-Update/" class="md-nav__link">
         OSG-SEC-2018-01-10 Meltdown-Spectre Update
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#update-2018-01-10" class="md-nav__link">
-    [UPDATE 2018-01-10]
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES:
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1358,8 +1365,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#update-2018-01-10" class="md-nav__link">
-    [UPDATE 2018-01-10]
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
   </a>
   
 </li>
@@ -1372,15 +1386,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS:
+  <a href="#mitigations" class="md-nav__link">
+    MITIGATIONS
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
-    REFERENCES:
+    REFERENCES
   </a>
   
 </li>
@@ -1397,40 +1411,37 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/vulns/OSG-SEC-2022-01-25.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2018-01-04-cpu-hardware-vulnerabilities">OSG-SEC-2018-01-04 CPU hardware vulnerabilities</h1>
-<h2 id="update-2018-01-10">[UPDATE 2018-01-10]</h2>
+                <h1 id="osg-sec-2022-01-25-critical-heap-buffer-overflow-vulnerability-in-linux-kernel-for-rhel-8-and-derivatives">OSG-SEC-2022-01-25 CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>This is an update of the security announcement about the CPU hardware in modern processors that were reported last week and are widely known as Meltdown and Spectre.  There is a new set of patches for those vulnerabilities that are applicable to Virtual Machine hypervisor hosts. </p>
+<p>A heap buffer overflow has been found in the Linux kernel for RHEL 8 and derivative operating systems.  Exploitation of this vulnerability could allow an unprivileged user to elevate privileges on the system [1][2].</p>
+<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
+<p>RHEL 8 systems and derivatives running containers and/or with user namespaces enabled.</p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>A heap-based buffer overflow flaw in the way the legacy_parse_param function in the Filesystem Context functionality of the Linux kernel verified the supplied parameters length which could be used for privilege escalation.</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>RedHat and Scientific Linux have published mitigations for the vulnerabilities in qemu-kvm and libvirt for RHEL6, RHEL7, SL6 and SL7.</p>
-<p>Please, <strong>apply these security updates IMMEDIATELY</strong> on Virtual Machine hypervisor hosts, especially when the hosted Virtual Machines are accessible by many unprivileged users. While some sites may find the performance decreases painful, OSG Security team currently believes the benefits outweigh the costs.</p>
-<p>OSG Security team advises sites to patch all hypervisor hosts, prioritizing those that host CEs, submit hosts, and worker nodes.</p>
-<p>RedHat Linux:
-   - RHEL6
-      - qemu-kvm: https://access.redhat.com/errata/RHSA-2018:0024
-      - libvirt: https://access.redhat.com/errata/RHSA-2018:0030
-   - RHEL7
-      - qemu-kvm: https://access.redhat.com/errata/RHSA-2018:0023
-      - libvirt: https://access.redhat.com/errata/RHSA-2018:0029</p>
-<p>Scientific Linux:
-   - SL6
-      - qemu-kvm: http://scientificlinux.org/category/sl-errata/slsa-20180024-1/
-      - libvirt: http://scientificlinux.org/category/sl-errata/slsa-20180030-1/
-   - SL7
-      - qemu-kvm: http://scientificlinux.org/category/sl-errata/slsa-20180023-1/
-      - libvirt: http://scientificlinux.org/category/sl-errata/slsa-20180029-1/</p>
-<h2 id="related-links">RELATED LINKS:</h2>
-<ul>
-<li>https://ticket.grid.iu.edu/35754</li>
-</ul>
-<h2 id="references">REFERENCES:</h2>
-<p>[1] https://access.redhat.com/articles/3307751</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. </p>
+<p>Update to a fixed kernel version when available for your distribution. [3][4][5]</p>
+<h2 id="mitigations">MITIGATIONS</h2>
+<p>On systems not running containers, you can disable user namespaces by setting user.max_user_namespaces to 0 [1]:
+RHEL 8:
+echo "user.max_user_namespaces=0" \
+    &gt; /etc/sysctl.d/userns.conf
+sysctl -p /etc/sysctl.d/userns.conf</p>
+<p>CentOS 8:
+echo "user.max_user_namespaces = 0" \
+    &gt; /etc/sysctl.d/90-max_user_namespaces.conf
+sysctl -p /etc/sysctl.d/90-max_user_namespaces.conf</p>
+<h2 id="references">REFERENCES</h2>
+<p>[1] https://access.redhat.com/security/cve/CVE-2022-0185
+[2] https://sysdig.com/blog/cve-2022-0185-container-escape/
+[3] https://access.redhat.com/errata/RHSA-2022:0188 
+[4] https://security-tracker.debian.org/tracker/CVE-2022-0185
+[5] https://ubuntu.com/security/CVE-2022-0185</p>
+<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
 <p>OSG Security Team</p>
                 
               
@@ -1450,7 +1461,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2018-01-22-Meltdown-Spectre-Update/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1459,19 +1470,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2018-01-22 Meltdown-Spectre Update
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2018-01-04-Meltdown-Spectre/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2022-01-05/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2018-01-04 Meltdown-Spectre Update
+              OSG-SEC-2022-01-05 Additional UPDATE on Log4J Vulnerability
             </div>
           </div>
           <div class="md-footer__button md-icon">
