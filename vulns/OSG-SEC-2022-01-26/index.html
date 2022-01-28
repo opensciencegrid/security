@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://opensciencegrid.org/security/LetsEncryptOSGCAbundle/">
+        <link rel="canonical" href="https://opensciencegrid.org/security/vulns/OSG-SEC-2022-01-26/">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>Including Let’s Encrypt signing certificate in OSG CA bundle - OSG Security</title>
+        <title>OSG-SEC-2022-01-26 CRITICAL local privilege escalation in polkit's pkexec - OSG Security</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.33e2939f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.33e2939f.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
         
       
     
@@ -53,12 +53,17 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#osg-sec-2022-01-26-critical-local-privilege-escalation-in-polkits-pkexec" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -67,7 +72,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="OSG Security" class="md-header__button md-logo" aria-label="OSG Security" data-md-component="logo">
+    <a href="../.." title="OSG Security" class="md-header__button md-logo" aria-label="OSG Security" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -86,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Including Let’s Encrypt signing certificate in OSG CA bundle
+              OSG-SEC-2022-01-26 CRITICAL local privilege escalation in polkit's pkexec
             
           </span>
         </div>
@@ -160,7 +165,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="OSG Security" class="md-nav__button md-logo" aria-label="OSG Security" data-md-component="logo">
+    <a href="../.." title="OSG Security" class="md-nav__button md-logo" aria-label="OSG Security" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -192,7 +197,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -207,7 +212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SecurityTeamMembers/" class="md-nav__link">
+      <a href="../../SecurityTeamMembers/" class="md-nav__link">
         Security Team
       </a>
     </li>
@@ -243,7 +248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../OSGSecurityAnnouncements/" class="md-nav__link">
+      <a href="../../OSGSecurityAnnouncements/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -255,7 +260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../OSGSecurityAnnouncements-x86/" class="md-nav__link">
+      <a href="../../OSGSecurityAnnouncements-x86/" class="md-nav__link">
         Overview x86 vulnerabilities
       </a>
     </li>
@@ -274,12 +279,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       <label class="md-nav__link" for="__nav_4">
         Announcement Details
@@ -295,11 +302,77 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2022-01-26/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2022-01-26 CRITICAL local privilege escalation in polkit's pkexec
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2022-01-26 CRITICAL local privilege escalation in polkit's pkexec
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mitigations" class="md-nav__link">
+    MITIGATIONS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -309,7 +382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2022-01-25/" class="md-nav__link">
+      <a href="../OSG-SEC-2022-01-25/" class="md-nav__link">
         OSG-SEC-2022-01-25 CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives
       </a>
     </li>
@@ -321,7 +394,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2022-01-05/" class="md-nav__link">
+      <a href="../OSG-SEC-2022-01-05/" class="md-nav__link">
         OSG-SEC-2022-01-05 Additional UPDATE on Log4J Vulnerability
       </a>
     </li>
@@ -333,7 +406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-12-17/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-12-17/" class="md-nav__link">
         OSG-SEC-2021-12-17 UPDATE on Log4J Vulnerability
       </a>
     </li>
@@ -345,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-12-16/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-12-16/" class="md-nav__link">
         OSG-SEC-2021-12-16 Vulnerability in golang/Singularity
       </a>
     </li>
@@ -357,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-12-13/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-12-13/" class="md-nav__link">
         OSG-SEC-2021-12-13 CRITICAL Vulnerability in Java Library Log4j
       </a>
     </li>
@@ -369,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-12-02/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-12-02/" class="md-nav__link">
         OSG-SEC-2021-12-02 RCE Vulnerability in NSS
       </a>
     </li>
@@ -381,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-11-04/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-11-04/" class="md-nav__link">
         OSG-SEC-2021-11-03 Privilege Escalation Vulnerability in dCache
       </a>
     </li>
@@ -393,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-11-03/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-11-03/" class="md-nav__link">
         OSG-SEC-2021-11-03 HIGH severity vulnerability in Apache HTTP mod_proxy
       </a>
     </li>
@@ -405,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-09-10-Vulnerability-in-Linux-Kernel-Traffic-Control-Subsystem/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-09-10-Vulnerability-in-Linux-Kernel-Traffic-Control-Subsystem/" class="md-nav__link">
         OSG-SEC-2021-09-10 Vulnerability in Linux Kernel Traffic Control Subsystem
       </a>
     </li>
@@ -417,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-08-25-Vulnerabilities-in-JupyterLab-and-Jupyter-Notebook/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-08-25-Vulnerabilities-in-JupyterLab-and-Jupyter-Notebook/" class="md-nav__link">
         OSG-SEC-2021-08-25 Vulnerabilities in JupyterLab and Jupyter Notebook
       </a>
     </li>
@@ -429,7 +502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor/" class="md-nav__link">
         OSG-SEC-2021-07-27 Vulnerabilities in HTCondor
       </a>
     </li>
@@ -441,7 +514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-07-22-Vulnerability-in-Linux-kernel/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-07-22-Vulnerability-in-Linux-kernel/" class="md-nav__link">
         OSG-SEC-2021-07-22 Vulnerability in Linux kernel
       </a>
     </li>
@@ -453,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-05-27-Vulnerability-in-Singularity/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-05-27-Vulnerability-in-Singularity/" class="md-nav__link">
         OSG-SEC-2021-05-27 Vulnerability in Singularity
       </a>
     </li>
@@ -465,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-05-18-Vulnerability-in-SLURM-CVE-2021-31215/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-05-18-Vulnerability-in-SLURM-CVE-2021-31215/" class="md-nav__link">
         OSG-SEC-2021-05-18 Vulnerability in SLURM CVE-2021-31215
       </a>
     </li>
@@ -477,7 +550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-05-11-Vulnerabilities-in-Squid/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-05-11-Vulnerabilities-in-Squid/" class="md-nav__link">
         OSG-SEC-2021-03-17 Vulnerabilities in SQUID
       </a>
     </li>
@@ -489,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-03-17-Vulnerabilities-in-iSCSI/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-03-17-Vulnerabilities-in-iSCSI/" class="md-nav__link">
         OSG-SEC-2021-03-17 Vulnerabilities in iSCSI
       </a>
     </li>
@@ -501,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-01-28-vulnerabilities-in-HTCondor/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-01-28-vulnerabilities-in-HTCondor/" class="md-nav__link">
         OSG-SEC-2021-01-28 vulnerabilities in HTCondor
       </a>
     </li>
@@ -513,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2021-01-27-heap-based-buffer-overflow-in-sudo/" class="md-nav__link">
+      <a href="../OSG-SEC-2021-01-27-heap-based-buffer-overflow-in-sudo/" class="md-nav__link">
         OSG-SEC-2021-01-27 heap-based buffer overflow in sudo
       </a>
     </li>
@@ -525,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8-UPDATE/" class="md-nav__link">
+      <a href="../OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8-UPDATE/" class="md-nav__link">
         OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8 **UPDATE**
       </a>
     </li>
@@ -537,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8/" class="md-nav__link">
+      <a href="../OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8/" class="md-nav__link">
         OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8
       </a>
     </li>
@@ -549,7 +622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2020-08-31-Vulnerabilities-in-frontier-squid/" class="md-nav__link">
+      <a href="../OSG-SEC-2020-08-31-Vulnerabilities-in-frontier-squid/" class="md-nav__link">
         OSG-SEC-2020-08-31 Vulnerabilities in frontier-squid
       </a>
     </li>
@@ -561,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2020-05-05-Singularity-and-unprivileged-user-namespaces/" class="md-nav__link">
+      <a href="../OSG-SEC-2020-05-05-Singularity-and-unprivileged-user-namespaces/" class="md-nav__link">
         OSG-SEC-2020-05-05 Singularity and unprivileged user namespaces
       </a>
     </li>
@@ -573,7 +646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2020-03-26-Vulnerability-in-xrootd-scitokens-plugin/" class="md-nav__link">
+      <a href="../OSG-SEC-2020-03-26-Vulnerability-in-xrootd-scitokens-plugin/" class="md-nav__link">
         OSG-SEC-2020-03-26 Vulnerability in xrootd-scitokens Plugin
       </a>
     </li>
@@ -585,7 +658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2020-02-07-Vulnerabilities-in-frontier-squid/" class="md-nav__link">
+      <a href="../OSG-SEC-2020-02-07-Vulnerabilities-in-frontier-squid/" class="md-nav__link">
         OSG-SEC-2020-02-07 Vulnerabilities in Frontier Squid
       </a>
     </li>
@@ -597,7 +670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2/" class="md-nav__link">
+      <a href="../OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2/" class="md-nav__link">
         OSG-SEC-2019-11-15 Vulnerability in Squid UPDATE 2
       </a>
     </li>
@@ -609,7 +682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2019-11-11-Vulnerability-in-Squid-UPDATE/" class="md-nav__link">
+      <a href="../OSG-SEC-2019-11-11-Vulnerability-in-Squid-UPDATE/" class="md-nav__link">
         OSG-SEC-2019-11-11 Vulnerability in Squid UPDATE
       </a>
     </li>
@@ -621,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2019-11-08-Vulnerability-in-Squid/" class="md-nav__link">
+      <a href="../OSG-SEC-2019-11-08-Vulnerability-in-Squid/" class="md-nav__link">
         OSG-SEC-2019-11-08 Vulnerability in Squid
       </a>
     </li>
@@ -633,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2019-07-25-Vulnerability-in-Squid/" class="md-nav__link">
+      <a href="../OSG-SEC-2019-07-25-Vulnerability-in-Squid/" class="md-nav__link">
         OSG-SEC-2019-07-25 Vulnerability in Squid
       </a>
     </li>
@@ -645,7 +718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2019-05-14-Vulnerability-in-Singularity/" class="md-nav__link">
+      <a href="../OSG-SEC-2019-05-14-Vulnerability-in-Singularity/" class="md-nav__link">
         OSG-SEC-2019-05-14 Vulnerability in Singularity
       </a>
     </li>
@@ -657,7 +730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update-2/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update-2/" class="md-nav__link">
         OSG-SEC-2018-12-12 Critical vulnerability in Singularity Update 2
       </a>
     </li>
@@ -669,7 +742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity-Update/" class="md-nav__link">
         OSG-SEC-2018-12-12 Critical vulnerability in Singularity Update
       </a>
     </li>
@@ -681,7 +754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-12-12-Critical-vulnerability-in-Singularity/" class="md-nav__link">
         OSG-SEC-2018-12-12 Critical vulnerability in Singularity
       </a>
     </li>
@@ -693,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-10-18-Vulnerability-in-Linux-kernel-Update/" class="md-nav__link">
         OSG-SEC-2018-10-18 Vulnerability in Linux kernel’s create_elf_tables() function Update
       </a>
     </li>
@@ -705,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-10-04-Vulnerability-in-Red-Hat-Ceph-Storage/" class="md-nav__link">
         OSG-SEC-2018-10-04 Vulnerability in RedHat Ceph Storage
       </a>
     </li>
@@ -717,7 +790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-10-02-Vulnerability-in-Linux-kernel/" class="md-nav__link">
         OSG-SEC-2018-10-02 Vulnerability in Linux kernel’s create_elf_tables() function
       </a>
     </li>
@@ -729,7 +802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-09-20-Vulnerabilities-in-AFS/" class="md-nav__link">
         OSG-SEC-2018-09-20 Vulnerability in AFS
       </a>
     </li>
@@ -741,7 +814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/" class="md-nav__link">
         OSG-SEC-2018-09-06 Vulnerability in Apache Struts
       </a>
     </li>
@@ -753,7 +826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-08-17-Foreshadow/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-08-17-Foreshadow/" class="md-nav__link">
         OSG-SEC-2018-08-17 Foreshadow
       </a>
     </li>
@@ -765,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed/" class="md-nav__link">
         OSG-SEC-2018-08-07 Data channel encryption not guaranteed
       </a>
     </li>
@@ -777,7 +850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-07-05-Singularity-Vulnerabilities/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-07-05-Singularity-Vulnerabilities/" class="md-nav__link">
         OSG-SEC-2018-07-05 Vulnerabilities in Singularity
       </a>
     </li>
@@ -789,7 +862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-07-03-BLAHP-Vulnerability/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-07-03-BLAHP-Vulnerability/" class="md-nav__link">
         OSG-SEC-2018-07-03 BLAHP vulnerability
       </a>
     </li>
@@ -801,7 +874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-05-23-OSG-CA-service-retirement/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-05-23-OSG-CA-service-retirement/" class="md-nav__link">
         OSG-SEC-2018-05-23 CILogon OSG CA service retirement
       </a>
     </li>
@@ -813,7 +886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/" class="md-nav__link">
         OSG-SEC-2018-05-18 Multiple EL7 Linux kernel vulnerabilities
       </a>
     </li>
@@ -825,7 +898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-05-08-Meltdown-Spectre-Update/" class="md-nav__link">
         OSG-SEC-2018-05-08 Meltdown-Spectre Update
       </a>
     </li>
@@ -837,7 +910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/" class="md-nav__link">
         OSG-SEC-2018-05-07 Unprivileged user namespaces in Singularity
       </a>
     </li>
@@ -849,7 +922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-04-30-Multiple-Singularity-Vulnerabilities/" class="md-nav__link">
         OSG-SEC-2018-04-30 Multiple vulnerabilities in Singularity
       </a>
     </li>
@@ -861,7 +934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-04-25-Including-Lets-Encrypt-in-OSG-CA-bundle/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-04-25-Including-Lets-Encrypt-in-OSG-CA-bundle/" class="md-nav__link">
         OSG-SEC-2018-04-25 Including Let’s Encrypt CA in the OSG CA bundle
       </a>
     </li>
@@ -873,7 +946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-04-19-Critical-Vulnerability-in-Singularity-Update/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-04-19-Critical-Vulnerability-in-Singularity-Update/" class="md-nav__link">
         OSG-SEC-2018-04-19 Critical vulnerability in Singularity Update
       </a>
     </li>
@@ -885,7 +958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-04-17-Vulnerability-in-MariaDB-MySQL/" class="md-nav__link">
         OSG-SEC-2018-04-17 Vulnerability in MariaDB MySQL
       </a>
     </li>
@@ -897,7 +970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/" class="md-nav__link">
         OSG-SEC-2018-04-02 Critical vulnerability in Singularity
       </a>
     </li>
@@ -909,7 +982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-03-27-SLURM-Vulnerability/" class="md-nav__link">
         OSG-SEC-2018-03-27 Vulnerability in SLURM
       </a>
     </li>
@@ -921,7 +994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/" class="md-nav__link">
         OSG-SEC-2018-03-13 SAML Vulnerabilities affecting multiple implementations
       </a>
     </li>
@@ -933,7 +1006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-03-08-Limiting-Singularity-image-types/" class="md-nav__link">
         OSG-SEC-2018-03-08 Limiting Singularity image types
       </a>
     </li>
@@ -945,7 +1018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-03-05-Singularity-Vulnerability/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-03-05-Singularity-Vulnerability/" class="md-nav__link">
         OSG-SEC-2018-03-05 Vulnerability in Singularity
       </a>
     </li>
@@ -957,7 +1030,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-02-28-Weak-SSL-ciphers/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-02-28-Weak-SSL-ciphers/" class="md-nav__link">
         OSG-SEC-2018-02-28 Disable weak ciphers in SSL
       </a>
     </li>
@@ -969,7 +1042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-01-22-Meltdown-Spectre-Update/" class="md-nav__link">
         OSG-SEC-2018-01-22 Meltdown-Spectre Update
       </a>
     </li>
@@ -981,7 +1054,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-01-10-Meltdown-Spectre-Update/" class="md-nav__link">
         OSG-SEC-2018-01-10 Meltdown-Spectre Update
       </a>
     </li>
@@ -993,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vulns/OSG-SEC-2018-01-04-Meltdown-Spectre/" class="md-nav__link">
+      <a href="../OSG-SEC-2018-01-04-Meltdown-Spectre/" class="md-nav__link">
         OSG-SEC-2018-01-04 Meltdown-Spectre Update
       </a>
     </li>
@@ -1035,7 +1108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../OSGCertificateService/" class="md-nav__link">
+      <a href="../../OSGCertificateService/" class="md-nav__link">
         CILogon OSG CA
       </a>
     </li>
@@ -1047,7 +1120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../CILogonOSGFAQ/" class="md-nav__link">
+      <a href="../../CILogonOSGFAQ/" class="md-nav__link">
         Frequently Asked Questions (FAQ)
       </a>
     </li>
@@ -1068,7 +1141,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../CaDistribution/" class="md-nav__link">
+      <a href="../../CaDistribution/" class="md-nav__link">
         Certificate Authorities (CA) Distribution
       </a>
     </li>
@@ -1081,14 +1154,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
       <label class="md-nav__link" for="__nav_7">
         OSG Security Policies & Procedures
@@ -1104,18 +1175,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../LetsEncryptOSGCAbundle/" class="md-nav__link">
         Including Let’s Encrypt signing certificate in OSG CA bundle
       </a>
-      
     </li>
   
 
@@ -1125,7 +1189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../OSGSecurityPolicies/" class="md-nav__link">
+      <a href="../../OSGSecurityPolicies/" class="md-nav__link">
         Approved OSG Security Policies
       </a>
     </li>
@@ -1137,7 +1201,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SiteVORemovalPolicy/" class="md-nav__link">
+      <a href="../../SiteVORemovalPolicy/" class="md-nav__link">
         Site/VO Removal Policy
       </a>
     </li>
@@ -1149,7 +1213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../OSGSecurityProcedures/" class="md-nav__link">
+      <a href="../../OSGSecurityProcedures/" class="md-nav__link">
         OSG Security Procedures
       </a>
     </li>
@@ -1161,7 +1225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SiteVORemovalProcedure/" class="md-nav__link">
+      <a href="../../SiteVORemovalProcedure/" class="md-nav__link">
         Site/VO Removal Procedure
       </a>
     </li>
@@ -1173,7 +1237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SecureCommunicationsOSG/" class="md-nav__link">
+      <a href="../../SecureCommunicationsOSG/" class="md-nav__link">
         Secure Communications in OSG
       </a>
     </li>
@@ -1185,7 +1249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SoftwareVulnerabilityHandling/" class="md-nav__link">
+      <a href="../../SoftwareVulnerabilityHandling/" class="md-nav__link">
         Software Vulnerability Handling
       </a>
     </li>
@@ -1197,7 +1261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../IncidentDiscoveryReporting/" class="md-nav__link">
+      <a href="../../IncidentDiscoveryReporting/" class="md-nav__link">
         Incident Discovery Reporting
       </a>
     </li>
@@ -1209,7 +1273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fnal-mail-list-join/" class="md-nav__link">
+      <a href="../../fnal-mail-list-join/" class="md-nav__link">
         Joining Security-SIG mailing list
       </a>
     </li>
@@ -1251,7 +1315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SecurityAwarenessForTheOSG/" class="md-nav__link">
+      <a href="../../SecurityAwarenessForTheOSG/" class="md-nav__link">
         Security Awareness for the OSG
       </a>
     </li>
@@ -1263,7 +1327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SecurityUserResponsibilities/" class="md-nav__link">
+      <a href="../../SecurityUserResponsibilities/" class="md-nav__link">
         Security User Responsibilities
       </a>
     </li>
@@ -1275,7 +1339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SecuritySiteResponsibilities/" class="md-nav__link">
+      <a href="../../SecuritySiteResponsibilities/" class="md-nav__link">
         Security Site Responsibilities
       </a>
     </li>
@@ -1295,26 +1359,110 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mitigations" class="md-nav__link">
+    MITIGATIONS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/LetsEncryptOSGCAbundle.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/opensciencegrid/security/edit/master/docs/vulns/OSG-SEC-2022-01-26.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                  <h1>Including Let’s Encrypt signing certificate in OSG CA bundle</h1>
-                
-                <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This procedure has been added on April 26th, 2018 as part of the OSG Service Migration Plan (see references below)</p>
-</div>
-<p>As a part of the <a href="https://opensciencegrid.org/technology/policy/service-migrations-spring-2018/">Service Migration Plan</a>, we will be adding the Let’s Encrypt root certificate to the OSG CA certificate bundle. The OSG has traditionally included a handful of CAs in addition to the <a href="https://www.igtf.net/ap/classic/">IGTF-Classic</a> Certificate Authorities (CAs) for signing host certificates. These CAs often rely on manual, multi-step processes for signing certificates that add administrative overhead. Many modern operational environments would like to spin up hosts in response to changing user demand but the manual process often proves to be too slow for certificate procurement and revocation. <a href="https://letsencrypt.org/how-it-works/">Let’s Encrypt</a> is an automated CA system that relies on a FQDN’s authoritative DNS records to identify and confirm a host’s identity. Let’s Encrypt also provides short-lived certificates in a secure manner with a minimum of overhead and automated renewal.</p>
-<p>Unlike the IGTF-Classic CAs, certificates from Let’s Encrypt will be recognized by your browser and OS by default.</p>
-<p>Let’s Encrypt, however, does not confirm the organization that is running the host in the same manner as the IGTF-Classic CAs; we believe the additional IGTF checks are redundant with the registration and service discovery steps done on the OSG. OSG has separate registration procedures for services on the OSG that verifies the organizations; no access is given solely based on the possession of a host certificate. For more details please consult the OSG Information Security Officer's <a href="https://opensciencegrid.org/security/OSGISOppLetsEncrypt.pdf">position paper</a> on the Let's Encrypt CA for Host Certificate Signing.</p>
-<p>This is the upcoming change likely to be most relevant to security contacts during the migration. For more details on the migration plan please <a href="https://opensciencegrid.org/technology/policy/service-migrations-spring-2018/">consult the Service Migration Plan document</a>.</p>
+                <h1 id="osg-sec-2022-01-26-critical-local-privilege-escalation-in-polkits-pkexec">OSG-SEC-2022-01-26 CRITICAL local privilege escalation in polkit's pkexec</h1>
+<p>Dear OSG Security Contacts,</p>
+<p>A local privilege escalation in polkit's [1] pkexec has been discovered [2]. Polkit's pkexec is a setuid root program that's installed by default on every major Linux distribution. Exploitation of this vulnerability allows an unprivileged user to elevate their privileges to root on the system [3]. Due to the widespread nature and the ease of exploitability, the OSG security team has categorized this as a CRITICAL severity vulnerability.</p>
+<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
+<p>All major Linux distributions [4][5][6].</p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>Polkit (formerly PolicyKit) is a component for controlling system-wide
+privileges in Unix-like operating systems.</p>
+<ul>
+<li>
+<p>any unprivileged local user can exploit this vulnerability to obtain
+  full root privileges;</p>
+</li>
+<li>
+<p>although this vulnerability is technically a memory corruption, it is
+  exploitable instantly, reliably, in an architecture-independent way;</p>
+</li>
+<li>
+<p>and it is exploitable even if the polkit daemon itself is not running.</p>
+</li>
+</ul>
+<h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
+<p>Update to a patched version of polkit when available for your distribution [4][5][6].</p>
+<h2 id="mitigations">MITIGATIONS</h2>
+<p>If no patches are available for your operating system, you can remove the setuid bit from the pkexec executable as a temporary mitigation with the following command:</p>
+<p>chmod 0755 /usr/bin/pkexec</p>
+<h2 id="references">REFERENCES</h2>
+<p>[1] https://www.freedesktop.org/software/polkit/docs/latest/</p>
+<p>[2] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4034</p>
+<p>[3] https://www.qualys.com/2022/01/25/cve-2021-4034/pwnkit.txt</p>
+<p>[4] https://security-tracker.debian.org/tracker/CVE-2021-4034</p>
+<p>[5] https://ubuntu.com/security/notices/USN-5252-1</p>
+<p>[6] https://access.redhat.com/security/cve/CVE-2021-4034</p>
+<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
+<p>OSG Security Team</p>
                 
               
               
@@ -1333,7 +1481,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../CaDistribution/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1342,19 +1490,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Certificate Authorities (CA) Distribution
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSGSecurityPolicies/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2022-01-25/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Approved OSG Security Policies
+              OSG-SEC-2022-01-25 CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -1383,10 +1531,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.d892486b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d892486b.min.js"></script>
       
     
   </body>
