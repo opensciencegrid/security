@@ -19,7 +19,6 @@ Please include the following information in your report:
 -   Your name, email address, phone number.
 -   A description of the incident, including time(s), systems and user accounts involved, and any related event.
 -   What is your affiliation with the OSG? Which Virtual Organization are you a member of?
--   Did this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have
 -   Do you think your grid identity (certificate and/or proxy) is compromised?
 -   Any additional comments or questions you have
 
