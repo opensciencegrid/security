@@ -22,6 +22,16 @@ Please include the following information in your report:
 -   Do you think your grid identity (certificate and/or proxy) is compromised?
 -   Any additional comments or questions you have
 
+For urgent incidents or security issues, please escalate reports to security team members (below) via direct message in the OSG Slack Server or ask your team lead to contact the Information Security Officer via phone or SMS.
+
+## OSG Security team members
+
+The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.org
+
+- OSG Security Officer: Josh Drake
+- Adrian Crenshaw
+- Brian Chase
+
 ## Mailing Lists
 *The following addresses are open for use by all OSG members, partners, and collaborators:*
 
@@ -43,11 +53,3 @@ Fingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669
 ```
 
 The team key is available from the [MIT PGP server](http://pgp.mit.edu:11371/pks/lookup?search=security%40opensciencegrid.org&op=index). PGP software is available from: [GnuPG](http://www.gnupg.org/)
-
-## OSG Security team members
-
-The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.org
-
-- OSG Security Officer: Josh Drake
-- Adrian Crenshaw
-- Brian Chase
