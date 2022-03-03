@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2022-02-17  | CRITICAL ALERT ACTION REQUIRED xcache image purge notification | [OSG-SEC-2022-02-17](./vulns/OSG-SEC-2022-02-17.md) |     |
 | 2022-01-26  | CRITICAL local privilege escalation in polkit's pkexec | [OSG-SEC-2022-01-26](./vulns/OSG-SEC-2022-01-26.md) |     |
 | 2022-01-25  | CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives | [OSG-SEC-2022-01-25](./vulns/OSG-SEC-2022-01-25.md) |     |
 | 2022-01-05  | Additional UPDATE on Log4J Vulnerability | [OSG-SEC-2022-01-05](./vulns/OSG-SEC-2022-01-05.md) |     |
