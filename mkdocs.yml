@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2022-02-17 CRITICAL ALERT ACTION REQUIRED xcache image purge notification: './vulns/OSG-SEC-2022-02-17.md'
     - OSG-SEC-2022-01-26 CRITICAL local privilege escalation in polkit's pkexec: './vulns/OSG-SEC-2022-01-26.md'
     - OSG-SEC-2022-01-25 CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives: './vulns/OSG-SEC-2022-01-25.md'
     - OSG-SEC-2022-01-05 Additional UPDATE on Log4J Vulnerability: './vulns/OSG-SEC-2022-01-05.md'
