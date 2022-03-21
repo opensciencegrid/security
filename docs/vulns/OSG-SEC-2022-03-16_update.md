@@ -45,6 +45,3 @@ https://www.openssl.org/support/contracts.html. Other users should upgrade to 1.
 Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.
 
 OSG Security Team
-
-
-sudo osg-notify --cert usercred.pem --key usercred.pem --sign --sign-id 7FD42669 --type production --message OSG-SEC-2022-03-16.txt --subject 'OSG-SEC-2022-03-16 HIGH Severity DOS Vulnerability in OpenSSL'  --recipients "security@opensciencegrid.org" --oim-recipients resources --oim-recipients vos --oim-contact-type security --from security --dry-run
