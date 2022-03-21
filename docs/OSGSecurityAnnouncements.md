@@ -1,6 +1,12 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2022-03-18  | CRITICAL OOB memory access flaw in Linux kernel | [OSG-SEC-2022-03-18](./vulns/OSG-SEC-2022-03-18.md) |     |
+| 2022-03-16  | UPDATE on HIGH Severity DOS Vulnerability in OpenSSL | [OSG-SEC-2022-03-16_update](./vulns/OSG-SEC-2022-03-16_update.md) |     |
+| 2022-03-16  | HIGH Severity DOS Vulnerability in OpenSSL | [OSG-SEC-2022-03-16](./vulns/OSG-SEC-2022-03-16.md) |     |
+| 2022-03-15  | HTCondor Security Release 8.8.16, 9.0.10, and 9.6.0 | [OSG-SEC-2022-03-15](./vulns/OSG-SEC-2022-03-15.md) |     |
+| 2022-03-09  | CRITICAL “dirtypipe” vulnerability in Linux Kernel 5.8 and above | [OSG-SEC-2022-03-09](./vulns/OSG-SEC-2022-03-09.md) |     |
+| 2022-02-17  | CRITICAL ALERT ACTION REQUIRED xcache image purge notification | [OSG-SEC-2022-02-17](./vulns/OSG-SEC-2022-02-17.md) |     |
 | 2022-01-26  | CRITICAL local privilege escalation in polkit's pkexec | [OSG-SEC-2022-01-26](./vulns/OSG-SEC-2022-01-26.md) |     |
 | 2022-01-25  | CRITICAL heap buffer overflow vulnerability in Linux kernel for RHEL 8 and derivatives | [OSG-SEC-2022-01-25](./vulns/OSG-SEC-2022-01-25.md) |     |
 | 2022-01-05  | Additional UPDATE on Log4J Vulnerability | [OSG-SEC-2022-01-05](./vulns/OSG-SEC-2022-01-05.md) |     |
