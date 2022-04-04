@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2022-03-31  | CRITICAL Expat XML parser arbitrary code execution vulnerability | [OSG-SEC-2022-03-31](./vulns/OSG-SEC-2022-03-31.md) |     |
 | 2022-03-18  | CRITICAL OOB memory access flaw in Linux kernel | [OSG-SEC-2022-03-18](./vulns/OSG-SEC-2022-03-18.md) |     |
 | 2022-03-16  | UPDATE on HIGH Severity DOS Vulnerability in OpenSSL | [OSG-SEC-2022-03-16_update](./vulns/OSG-SEC-2022-03-16_update.md) |     |
 | 2022-03-16  | HIGH Severity DOS Vulnerability in OpenSSL | [OSG-SEC-2022-03-16](./vulns/OSG-SEC-2022-03-16.md) |     |
